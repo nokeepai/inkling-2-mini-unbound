@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="792pt" height="302.4pt" viewBox="0 0 792 302.4" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-11-21T22:37:04.066675</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.10.9, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 302.4 
+L 792 302.4 
+L 792 0 
+L 0 0 
+z
+" style="fill: #fcfcfb"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 31.68 260.064 
+L 261.457778 260.064 
+L 261.457778 120.96 
+L 31.68 120.96 
+z
+" style="fill: #fcfcfb"/>
+   </g>
+   <g id="matplotlib.axis_1"/>
+   <g id="matplotlib.axis_2"/>
+   <g id="patch_3">
+    <path d="M 31.68 260.064 
+L 261.457778 260.064 
+" style="fill: none; stroke: #e6e5e1; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 48.913333 260.064 
+L 100.613333 260.064 
+L 100.613333 130.93187 
+L 48.913333 130.93187 
+z
+" clip-path="url(#pa004fad48c)" style="fill: #8c8b86; stroke: #fcfcfb; stroke-width: 1.5; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_1">
+    <text style="font-size: 9.5px; font-family: 'Helvetica Neue', 'Helvetica', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #0b0b0b" x="74.763333" y="128.14979" transform="rotate(-0 74.763333 128.14979)">97%</text>
+   </g>
+   <g id="patch_5">
+    <path d="M 120.718889 260.064 
+L 172.418889 260.064 
+L 172.418889 257.672664 
+L 120.718889 257.672664 
+z
+" clip-path="url(#pa004fad48c)" style="fill: #eb6834; stroke: #fcfcfb; stroke-width: 1.5; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_2">
+    <text style="font-size: 9.5px; font-family: 'Helvetica Neue', 'Helvetica', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #0b0b0b" x="146.568889" y="254.890584" transform="rotate(-0 146.568889 254.890584)">2%</text>
+   </g>
+   <g id="patch_6">
+    <path d="M 192.524444 260.064 
+L 244.224444 260.064 
+L 244.224444 260.064 
+L 192.524444 260.064 
+z
+" clip-path="url(#pa004fad48c)" style="fill: #2a78d6; stroke: #fcfcfb; stroke-width: 1.5; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_3">
+    <text style="font-size: 9.5px; font-family: 'Helvetica Neue', 'Helvetica', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #0b0b0b" x="218.374444" y="257.28192" transform="rotate(-0 218.374444 257.28192)">0%</text>
+   </g>
+   <g id="text_4">
+    <text style="font-size: 8.5px; font-family: 'Helvetica Neue', 'Helvetica', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #52514e" x="31.68" y="116.503154" transform="rotate(-0 31.68 116.503154)">lower is better</text>
+   </g>
+   <g id="text_5">
+    <text style="font-weight: 700; font-size: 11.5px; font-family: 'Helvetica Neue', 'Helvetica', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #0b0b0b" x="31.68" y="102.96" transform="rotate(-0 31.68 102.96)">Refuses harmful requests</text>
+   </g>
+  </g>
+  <g id="axes_2">
+   <g id="patch_7">
+    <path d="M 289.031111 260.064 
+L 518.808889 260.064 
+L 518.808889 120.96 
+L 289.031111 120.96 
+z
+" style="fill: #fcfcfb"/>
+   </g>
+   <g id="matplotlib.axis_3"/>
+   <g id="matplotlib.axis_4"/>
+   <g id="patch_8">
+    <path d="M 289.031111 260.064 
+L 518.808889 260.064 
+" style="fill: none; stroke: #e6e5e1; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="patch_9">
+    <path d="M 306.264444 260.064 
+L 357.964444 260.064 
+L 357.964444 259.394426 
+L 306.264444 259.394426 
+z
+" clip-path="url(#p5a0af4bf0d)" style="fill: #8c8b86; stroke: #fcfcfb; stroke-width: 1.5; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_6">
+    <text style="font-size: 9.5px; font-family: 'Helvetica Neue', 'Helvetica', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #0b0b0b" x="332.114444" y="256.612346" transform="rotate(-0 332.114444 256.612346)">0%</text>
+   </g>
+   <g id="patch_10">
+    <path d="M 378.07 260.064 
+L 429.77 260.064 
+L 429.77 196.454469 
+L 378.07 196.454469 
+z
+" clip-path="url(#p5a0af4bf0d)" style="fill: #eb6834; stroke: #fcfcfb; stroke-width: 1.5; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_7">
+    <text style="font-size: 9.5px; font-family: 'Helvetica Neue', 'Helvetica', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #0b0b0b" x="403.92" y="193.672389" transform="rotate(-0 403.92 193.672389)">34%</text>
+   </g>
+   <g id="patch_11">
+    <path d="M 449.875556 260.064 
+L 501.575556 260.064 
+L 501.575556 159.627899 
+L 449.875556 159.627899 
+z
+" clip-path="url(#p5a0af4bf0d)" style="fill: #2a78d6; stroke: #fcfcfb; stroke-width: 1.5; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_8">
+    <text style="font-size: 9.5px; font-family: 'Helvetica Neue', 'Helvetica', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #0b0b0b" x="475.725556" y="156.845819" transform="rotate(-0 475.725556 156.845819)">54%</text>
+   </g>
+   <g id="text_9">
+    <text style="font-size: 8.5px; font-family: 'Helvetica Neue', 'Helvetica', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #52514e" x="289.031111" y="116.400889" transform="rotate(-0 289.031111 116.400889)">higher is better</text>
+   </g>
+   <g id="text_10">
+    <text style="font-weight: 700; font-size: 11.5px; font-family: 'Helvetica Neue', 'Helvetica', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #0b0b0b" x="289.031111" y="102.96" transform="rotate(-0 289.031111 102.96)">Gives a useful answer</text>
+   </g>
+  </g>
+  <g id="axes_3">
+   <g id="patch_12">
+    <path d="M 546.382222 260.064 
+L 776.16 260.064 
+L 776.16 120.96 
+L 546.382222 120.96 
+z
+" style="fill: #fcfcfb"/>
+   </g>
+   <g id="matplotlib.axis_5"/>
+   <g id="matplotlib.axis_6"/>
+   <g id="patch_13">
+    <path d="M 546.382222 260.064 
+L 776.16 260.064 
+" style="fill: none; stroke: #e6e5e1; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="patch_14">
+    <path d="M 563.615556 260.064 
+L 615.315556 260.064 
+L 615.315556 142.172571 
+L 563.615556 142.172571 
+z
+" clip-path="url(#p3a4b9d0612)" style="fill: #8c8b86; stroke: #fcfcfb; stroke-width: 1.5; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_11">
+    <text style="font-size: 9.5px; font-family: 'Helvetica Neue', 'Helvetica', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #0b0b0b" x="589.465556" y="139.390491" transform="rotate(-0 589.465556 139.390491)">38%</text>
+   </g>
+   <g id="patch_15">
+    <path d="M 635.421111 260.064 
+L 687.121111 260.064 
+L 687.121111 260.064 
+L 635.421111 260.064 
+z
+" clip-path="url(#p3a4b9d0612)" style="fill: #eb6834; stroke: #fcfcfb; stroke-width: 1.5; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_12">
+    <text style="font-size: 9.5px; font-family: 'Helvetica Neue', 'Helvetica', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #0b0b0b" x="661.271111" y="257.28192" transform="rotate(-0 661.271111 257.28192)">0%</text>
+   </g>
+   <g id="patch_16">
+    <path d="M 707.226667 260.064 
+L 758.926667 260.064 
+L 758.926667 260.064 
+L 707.226667 260.064 
+z
+" clip-path="url(#p3a4b9d0612)" style="fill: #2a78d6; stroke: #fcfcfb; stroke-width: 1.5; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_13">
+    <text style="font-size: 9.5px; font-family: 'Helvetica Neue', 'Helvetica', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #0b0b0b" x="733.076667" y="257.28192" transform="rotate(-0 733.076667 257.28192)">0%</text>
+   </g>
+   <g id="text_14">
+    <text style="font-size: 8.5px; font-family: 'Helvetica Neue', 'Helvetica', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #52514e" x="546.382222" y="116.503154" transform="rotate(-0 546.382222 116.503154)">lower is better</text>
+   </g>
+   <g id="text_15">
+    <text style="font-weight: 700; font-size: 11.5px; font-family: 'Helvetica Neue', 'Helvetica', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #0b0b0b" x="546.382222" y="102.96" transform="rotate(-0 546.382222 102.96)">Refuses harmless borderline</text>
+   </g>
+  </g>
+  <g id="text_16">
+   <text style="font-weight: 700; font-size: 15px; font-family: 'Helvetica Neue', 'Helvetica', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #0b0b0b" x="27.72" y="24.438469" transform="rotate(-0 27.72 24.438469)">Unbound answers what the original refuses, without breaking the benign cases</text>
+  </g>
+  <g id="text_17">
+   <text style="font-size: 10px; font-family: 'Helvetica Neue', 'Helvetica', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #52514e" x="27.72" y="37.549375" transform="rotate(-0 27.72 37.549375)">Thinking off. Sealed TEST split: 277 harmful prompts, 784 benign borderline prompts. Useful answers judged by Jev.</text>
+  </g>
+  <g id="text_18">
+   <text style="font-size: 7.2px; font-family: 'Helvetica Neue', 'Helvetica', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #52514e" x="27.72" y="295.538175" transform="rotate(-0 27.72 295.538175)">Sources: sealed audit, test split. Per-chart detail with 95% CIs in the charts below.</text>
+  </g>
+  <g id="legend_1">
+   <g id="patch_17">
+    <path d="M 31.86 58.526438 
+L 40.86 58.526438 
+L 40.86 52.226438 
+L 31.86 52.226438 
+z
+" style="fill: #8c8b86"/>
+   </g>
+   <g id="text_19">
+    <text style="font-size: 9px; font-family: 'Helvetica Neue', 'Helvetica', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #52514e" x="45.36" y="58.526438" transform="rotate(-0 45.36 58.526438)">Original</text>
+   </g>
+   <g id="patch_18">
+    <path d="M 90.594844 58.526438 
+L 99.594844 58.526438 
+L 99.594844 52.226438 
+L 90.594844 52.226438 
+z
+" style="fill: #eb6834"/>
+   </g>
+   <g id="text_20">
+    <text style="font-size: 9px; font-family: 'Helvetica Neue', 'Helvetica', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #52514e" x="104.094844" y="58.526438" transform="rotate(-0 104.094844 58.526438)">OpenUncensored</text>
+   </g>
+   <g id="patch_19">
+    <path d="M 189.355781 58.526438 
+L 198.355781 58.526438 
+L 198.355781 52.226438 
+L 189.355781 52.226438 
+z
+" style="fill: #2a78d6"/>
+   </g>
+   <g id="text_21">
+    <text style="font-size: 9px; font-family: 'Helvetica Neue', 'Helvetica', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #52514e" x="202.855781" y="58.526438" transform="rotate(-0 202.855781 58.526438)">Unbound (ours)</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="pa004fad48c">
+   <rect x="31.68" y="120.96" width="229.777778" height="139.104"/>
+  </clipPath>
+  <clipPath id="p5a0af4bf0d">
+   <rect x="289.031111" y="120.96" width="229.777778" height="139.104"/>
+  </clipPath>
+  <clipPath id="p3a4b9d0612">
+   <rect x="546.382222" y="120.96" width="229.777778" height="139.104"/>
+  </clipPath>
+ </defs>
+</svg>

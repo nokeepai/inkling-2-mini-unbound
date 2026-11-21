@@ -1,0 +1,53 @@
+{
+ "cand_id": "c3t012",
+ "family": "c3",
+ "parent": null,
+ "created": "2026-11-21T13:29:39+00:00",
+ "agent": "ara",
+ "params": {
+  "l_min": 6,
+  "l_max": 20,
+  "rank": 32,
+  "preserve_w": 0.4603725004603579,
+  "pres2_w": 10.203069629953069,
+  "overcorrect": 0.8259904029529642,
+  "knn_k": 8,
+  "steps": 181,
+  "lr": 9.88978310339412e-05,
+  "think_w": 1.9553257401076274,
+  "mean_w": 0.5529137373610847,
+  "gamma": 0.48454434525103784,
+  "mp": true,
+  "seed": 0
+ },
+ "kind": "weights",
+ "diag": {
+  "rel_dW_mean": 0.0527,
+  "rel_dW_max": 0.058,
+  "mean_gap_ratio": 0.6581,
+  "preserve_mean": 0.02435,
+  "rownorm_ratio": [
+   0.9989,
+   1.0008
+  ],
+  "build_exact": "15/15",
+  "gpu_vs_build_diff_elems": 0,
+  "tensor_sha256": {
+   "model.llm.layers.10.attn.wo_ud.weight": "4e727ccddc390de59110aac4548ff1100970a64b707b2f07597692fccd05e837",
+   "model.llm.layers.11.attn.wo_ud.weight": "3d709fa29e722984eb5ad1036c619afd78272423d158b9a130679fcba1213cd3",
+   "model.llm.layers.12.attn.wo_ud.weight": "02938845b17c1865efa0da3db3cc83eee301e3abce1eccf50380dd34b50b4a68",
+   "model.llm.layers.13.attn.wo_ud.weight": "6e6b9ba5dca15b06ab3665050967ce7223d454d9afd4fc8013674f8b4b3656b3",
+   "model.llm.layers.14.attn.wo_ud.weight": "68dd22ab34fe22049f68c4158d87679416359dbcf05a85ad86ae9793be3bbe3a",
+   "model.llm.layers.15.attn.wo_ud.weight": "845be60c55986c80d1be2a228e22b6c9bacf491836a296c190f746939dacb7c3",
+   "model.llm.layers.16.attn.wo_ud.weight": "40ca5a7b1585a4e8fff6f06b4990930c1420e27261c87bac8c8ed978ec078db0",
+   "model.llm.layers.17.attn.wo_ud.weight": "bc968045bfa301de17c1d42ae530f4e5ff7090b580789964ba8ff2474d1b38da",
+   "model.llm.layers.18.attn.wo_ud.weight": "70f12a9bf771a7b84716c4fade4cffea164f658f06742e83c56addfb02fba356",
+   "model.llm.layers.19.attn.wo_ud.weight": "644e70606dc46b43728b9402e5b9f82b26d116dbe2a2006edb2877aa02bcf65e",
+   "model.llm.layers.20.attn.wo_ud.weight": "f108f1b5d3de46d09bdfb7da4500a2c664d97e20bc690de009db6626be560096",
+   "model.llm.layers.6.attn.wo_ud.weight": "6e1d5d524653c4747932c7fde8f84daae5a353e41c5d4a31a4e3cae15577c8e9",
+   "model.llm.layers.7.attn.wo_ud.weight": "c1521474e598a397ca006b995204cd7adeb3dfcca01f50ef5c4b9982de5b50d9",
+   "model.llm.layers.8.attn.wo_ud.weight": "5a8df24bba5165754f4ef80199b3dc5e1fd5cb175d5bade447f6118574f74a2f",
+   "model.llm.layers.9.attn.wo_ud.weight": "6f102f0c5a713aeaa5246a3c10f2ec594434513806cd683ff82a27fee85fd876"
+  }
+ }
+}

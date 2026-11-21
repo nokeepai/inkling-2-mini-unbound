@@ -1,0 +1,47 @@
+{
+ "cand_id": "c4cd6k8_c1t002",
+ "family": "experts",
+ "parent": "c1t002",
+ "created": "2026-11-21T14:45:45Z",
+ "agent": "experts",
+ "params": {
+  "router_edit": "cond",
+  "K": 8,
+  "delta": 6.0,
+  "pairs": [
+   [
+    10,
+    32
+   ],
+   [
+    9,
+    39
+   ],
+   [
+    11,
+    53
+   ],
+   [
+    11,
+    18
+   ],
+   [
+    10,
+    19
+   ],
+   [
+    11,
+    14
+   ],
+   [
+    11,
+    22
+   ],
+   [
+    9,
+    94
+   ]
+  ]
+ },
+ "kind": "weights"
+}

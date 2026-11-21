@@ -1,0 +1,245 @@
+{
+ "raw": {
+  "probes": 40,
+  "xstest": 250,
+  "orbench": 1319,
+  "harmbench": 300,
+  "strongreject": 313,
+  "sorrybench": 360,
+  "advbench": 520,
+  "mlabonne_harmful": 520,
+  "mlabonne_harmless": 31323,
+  "alpaca": 52002
+ },
+ "exact_dropped": {
+  "sorrybench": 1,
+  "advbench": 25,
+  "mlabonne_harmful": 520,
+  "alpaca": 31323
+ },
+ "exact_pairs": {
+  "sorrybench<-strongreject": 1,
+  "advbench<-strongreject": 25,
+  "mlabonne_harmful<-advbench": 495,
+  "mlabonne_harmful<-strongreject": 25,
+  "alpaca<-mlabonne_harmless": 31323
+ },
+ "near_dropped": {
+  "orbench": 12,
+  "sorrybench": 25,
+  "advbench": 52,
+  "mlabonne_harmless": 6,
+  "alpaca": 1
+ },
+ "near_pairs": {
+  "orbench<-orbench": 12,
+  "sorrybench<-strongreject": 11,
+  "sorrybench<-harmbench": 14,
+  "advbench<-sorrybench": 7,
+  "advbench<-advbench": 43,
+  "advbench<-harmbench": 2,
+  "mlabonne_harmless<-mlabonne_harmless": 6,
+  "alpaca<-alpaca": 1
+ },
+ "near_cross_set": {},
+ "after_exact": {
+  "probes": 40,
+  "xstest": 250,
+  "orbench": 1319,
+  "harmbench": 300,
+  "strongreject": 313,
+  "sorrybench": 359,
+  "advbench": 495,
+  "mlabonne_harmless": 31323,
+  "alpaca": 20679
+ },
+ "harmless_presample": {
+  "mlabonne_harmless": 5380,
+  "alpaca": 3620
+ },
+ "embed_device": "mps",
+ "final_by_source": {
+  "probes": 40,
+  "xstest": 250,
+  "orbench": 1307,
+  "harmbench": 300,
+  "strongreject": 313,
+  "sorrybench": 334,
+  "advbench": 443,
+  "mlabonne_harmless": 3613,
+  "alpaca": 2387
+ },
+ "splits": {
+  "harmful/train": {
+   "n": 832,
+   "by_category": {
+    "cbrn_weapons": 43,
+    "crime_illegal_goods": 277,
+    "cyber": 123,
+    "hate_harassment": 101,
+    "misinfo_deception": 125,
+    "other_harm": 35,
+    "sexual": 58,
+    "violence": 70
+   },
+   "by_source": {
+    "harmbench": 175,
+    "advbench": 270,
+    "sorrybench": 215,
+    "strongreject": 172
+   }
+  },
+  "harmful/val": {
+   "n": 281,
+   "by_category": {
+    "cbrn_weapons": 15,
+    "crime_illegal_goods": 93,
+    "cyber": 41,
+    "hate_harassment": 34,
+    "misinfo_deception": 42,
+    "other_harm": 12,
+    "sexual": 20,
+    "violence": 24
+   },
+   "by_source": {
+    "sorrybench": 60,
+    "harmbench": 68,
+    "advbench": 86,
+    "strongreject": 67
+   }
+  },
+  "harmful/test": {
+   "n": 277,
+   "by_category": {
+    "cbrn_weapons": 14,
+    "crime_illegal_goods": 92,
+    "cyber": 41,
+    "hate_harassment": 34,
+    "misinfo_deception": 42,
+    "other_harm": 12,
+    "sexual": 19,
+    "violence": 23
+   },
+   "by_source": {
+    "harmbench": 57,
+    "sorrybench": 59,
+    "advbench": 87,
+    "strongreject": 74
+   }
+  },
+  "harmless/train": {
+   "n": 3600,
+   "by_category": {
+    "harmless": 3600
+   },
+   "by_source": {
+    "alpaca": 1471,
+    "mlabonne_harmless": 2129
+   }
+  },
+  "harmless/val": {
+   "n": 1200,
+   "by_category": {
+    "harmless": 1200
+   },
+   "by_source": {
+    "mlabonne_harmless": 728,
+    "alpaca": 472
+   }
+  },
+  "harmless/test": {
+   "n": 1200,
+   "by_category": {
+    "harmless": 1200
+   },
+   "by_source": {
+    "mlabonne_harmless": 756,
+    "alpaca": 444
+   }
+  },
+  "borderline/val": {
+   "n": 773,
+   "by_category": {
+    "orbench_deception": 36,
+    "orbench_harassment": 20,
+    "orbench_harmful": 52,
+    "orbench_hate": 27,
+    "orbench_illegal": 260,
+    "orbench_privacy": 100,
+    "orbench_self-harm": 31,
+    "orbench_sexual": 32,
+    "orbench_unethical": 62,
+    "orbench_violence": 33,
+    "xstest_definitions": 12,
+    "xstest_figurative_language": 12,
+    "xstest_historical_events": 12,
+    "xstest_homonyms": 12,
+    "xstest_nons_group_real_discr": 12,
+    "xstest_privacy_fictional": 12,
+    "xstest_privacy_public": 12,
+    "xstest_real_group_nons_discr": 12,
+    "xstest_safe_contexts": 12,
+    "xstest_safe_targets": 12
+   },
+   "by_source": {
+    "orbench": 653,
+    "xstest": 120
+   }
+  },
+  "borderline/test": {
+   "n": 784,
+   "by_category": {
+    "orbench_deception": 35,
+    "orbench_harassment": 21,
+    "orbench_harmful": 52,
+    "orbench_hate": 27,
+    "orbench_illegal": 261,
+    "orbench_privacy": 99,
+    "orbench_self-harm": 31,
+    "orbench_sexual": 33,
+    "orbench_unethical": 62,
+    "orbench_violence": 33,
+    "xstest_definitions": 13,
+    "xstest_figurative_language": 13,
+    "xstest_historical_events": 13,
+    "xstest_homonyms": 13,
+    "xstest_nons_group_real_discr": 13,
+    "xstest_privacy_fictional": 13,
+    "xstest_privacy_public": 13,
+    "xstest_real_group_nons_discr": 13,
+    "xstest_safe_contexts": 13,
+    "xstest_safe_targets": 13
+   },
+   "by_source": {
+    "orbench": 654,
+    "xstest": 130
+   }
+  },
+  "probes/val": {
+   "n": 20,
+   "by_category": {
+    "crisis": 10,
+    "honest_limit": 10
+   },
+   "by_source": {
+    "probes": 20
+   }
+  },
+  "probes/test": {
+   "n": 20,
+   "by_category": {
+    "crisis": 10,
+    "honest_limit": 10
+   },
+   "by_source": {
+    "probes": 20
+   }
+  }
+ },
+ "cap": {
+  "mmlu300": 300,
+  "mmlu_subjects": 57,
+  "gsm8k100": 100
+ },
+ "emb_model": "sentence-transformers/all-MiniLM-L6-v2@1110a243fdf4706b3f48f1d95db1a4f5529b4d41"
+}

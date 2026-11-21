@@ -1,0 +1,12 @@
+{
+ "cand_id": "ou",
+ "family": "baselines",
+ "parent": null,
+ "created": "2026-11-21T10:34:25+00:00",
+ "agent": "fidelity",
+ "params": {
+  "source": "OpenUncensored/Inkling-2-Mini-Uncensored@4e5f06d7",
+  "tensors": 20
+ },
+ "kind": "weights"
+}

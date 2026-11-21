@@ -1,0 +1,13 @@
+{
+ "time": "2026-11-21T17:35:56+00:00",
+ "cap_usd": 200.0,
+ "spent_usd": 67.87,
+ "committed_usd": 68.73,
+ "burn_per_hour": 0.55,
+ "live_pods": 1,
+ "thresholds": {
+  "notice": 120,
+  "no_new_pods": 170,
+  "evacuate": 195
+ }
+}

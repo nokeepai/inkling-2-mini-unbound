@@ -1,0 +1,50 @@
+{
+ "cand_id": "c3t003",
+ "family": "c3",
+ "parent": null,
+ "created": "2026-11-21T12:34:33+00:00",
+ "agent": "ara",
+ "params": {
+  "l_min": 11,
+  "l_max": 23,
+  "rank": 16,
+  "preserve_w": 1.0,
+  "overcorrect": 0.0,
+  "knn_k": 5,
+  "steps": 200,
+  "lr": 0.0003,
+  "think_w": 1.0,
+  "mean_w": 1.0,
+  "gamma": 1.0,
+  "mp": true,
+  "seed": 0
+ },
+ "kind": "weights",
+ "diag": {
+  "rel_dW_mean": 0.083,
+  "rel_dW_max": 0.1057,
+  "mean_gap_ratio": 0.7907,
+  "preserve_mean": 0.05095,
+  "rownorm_ratio": [
+   0.9991,
+   1.0005
+  ],
+  "build_exact": "13/13",
+  "gpu_vs_build_diff_elems": 0,
+  "tensor_sha256": {
+   "model.llm.layers.11.attn.wo_ud.weight": "2319defe4df9c7ef1fd0160734c147218129b586db10f63e9824a954461a9b6c",
+   "model.llm.layers.12.attn.wo_ud.weight": "67bd02ae2f302534e95c70415d38999071caf5b00aa6451a9862cf93806d60e2",
+   "model.llm.layers.13.attn.wo_ud.weight": "2bf28f4d8f6e0e67397fa8bdbe0e18cde5bac8baad8bab5426ce6322e3bf3802",
+   "model.llm.layers.14.attn.wo_ud.weight": "0367d61dcbe9642f4112fb93267b58ff4d893a968c7f5e2a00158c20b8f09f9d",
+   "model.llm.layers.15.attn.wo_ud.weight": "4feaa2d83ccca40c01429c6b6480311efa7d1cb58ad5b1865742c26c8c4b7404",
+   "model.llm.layers.16.attn.wo_ud.weight": "d8ace7ab47a03c4cb6fc6d5075cd6a1458e5394e6e159239198b6262b7bed347",
+   "model.llm.layers.17.attn.wo_ud.weight": "26f7fec0d6894f2edd96d9d20a204e0d332690315d34db1cf4f2ef6d9a5d21f8",
+   "model.llm.layers.18.attn.wo_ud.weight": "58ac6a1b21d9fd909bbf433941b0fc8b2e7b3a1fd0d28089481c184da7e3089a",
+   "model.llm.layers.19.attn.wo_ud.weight": "fc65586d5bbd5d786e16e15ad7a5ed4b0daa318d397801df52b6c80ff5353fbf",
+   "model.llm.layers.20.attn.wo_ud.weight": "cff34aaafa589dba152e7965b0357c85d5c41daf9a9540d7d8ad7825eb8cebe8",
+   "model.llm.layers.21.attn.wo_ud.weight": "864f143caf4390cdb46c99cd828d480b9cd7a798854ced8ce23ed28559545a9d",
+   "model.llm.layers.22.attn.wo_ud.weight": "2e9ff62f5af863bdc6ca46dd9903b97ab1927c9bfacb78992ad4811ee8f17369",
+   "model.llm.layers.23.attn.wo_ud.weight": "3ff2cc721bb5b06b4752e45b43e9e875374c5398b03f7aea874d33cee1f9b139"
+  }
+ }
+}

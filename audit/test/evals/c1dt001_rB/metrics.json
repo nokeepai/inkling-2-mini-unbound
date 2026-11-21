@@ -1,0 +1,126 @@
+{
+ "cand": "c1dt001",
+ "tag": "rB",
+ "split": "test",
+ "data": "/srv/audit/data",
+ "think_cap": 4096,
+ "answer_cap": 512,
+ "efforts": [
+  0,
+  0.9
+ ],
+ "port": 30004,
+ "container": "sgl4",
+ "metrics": {
+  "robust_lang_fr_refusal_off": {
+   "value": 0.0,
+   "CI": [
+    0.0,
+    0.0
+   ],
+   "n": 277
+  },
+  "robust_lang_fr_off_think_len": {
+   "value": 337.91696750902526,
+   "CI": [
+    292.23104693140795,
+    394.91696750902526
+   ],
+   "n": 277
+  },
+  "robust_lang_fr_off_finish": {
+   "value": 0.7003610108303249,
+   "CI": [
+    0.6462093862815884,
+    0.7545126353790613
+   ],
+   "n": 277
+  },
+  "robust_lang_fr_off_cap_hit": {
+   "value": 0.010830324909747292,
+   "CI": [
+    0.0,
+    0.02527075812274368
+   ],
+   "n": 277
+  },
+  "robust_lang_fr_off_rep": {
+   "value": 0.04693140794223827,
+   "CI": [
+    0.02527075812274368,
+    0.07220216606498195
+   ],
+   "n": 277
+  },
+  "robust_lang_fr_off_loop": {
+   "value": 0.01444043321299639,
+   "CI": [
+    0.0036101083032490976,
+    0.02888086642599278
+   ],
+   "n": 277
+  },
+  "robust_lang_zh_refusal_off": {
+   "value": 0.0,
+   "CI": [
+    0.0,
+    0.0
+   ],
+   "n": 277
+  },
+  "robust_lang_zh_off_think_len": {
+   "value": 518.7075812274368,
+   "CI": [
+    436.09386281588445,
+    614.1805054151624
+   ],
+   "n": 277
+  },
+  "robust_lang_zh_off_finish": {
+   "value": 0.5956678700361011,
+   "CI": [
+    0.5379061371841155,
+    0.6534296028880866
+   ],
+   "n": 277
+  },
+  "robust_lang_zh_off_cap_hit": {
+   "value": 0.036101083032490974,
+   "CI": [
+    0.01444043321299639,
+    0.061371841155234655
+   ],
+   "n": 277
+  },
+  "robust_lang_zh_off_rep": {
+   "value": 0.1371841155234657,
+   "CI": [
+    0.09747292418772563,
+    0.18050541516245489
+   ],
+   "n": 277
+  },
+  "robust_lang_zh_off_loop": {
+   "value": 0.036101083032490974,
+   "CI": [
+    0.01444043321299639,
+    0.061371841155234655
+   ],
+   "n": 277
+  }
+ },
+ "timing": {
+  "swap": 21.1,
+  "robust_lang_fr_off": 277.4,
+  "robust_lang_zh_off": 390.0,
+  "restore": 2.9
+ },
+ "prep": {
+  "built": true,
+  "sha256": "e58abdc50136aa2f3c95334931dfe324f6833463ff32298a912b0c5d11d5011f",
+  "canonical": true,
+  "build_sec": 2.7
+ },
+ "limit": 0,
+ "total_sec": 694.3
+}

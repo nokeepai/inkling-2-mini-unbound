@@ -1,0 +1,26 @@
+{
+ "n": 17,
+ "exact_cpu": 17,
+ "gpu_diff_elems": 0,
+ "rownorm_ratio_min": 0.9993169903755188,
+ "rownorm_ratio_max": 1.0008130073547363,
+ "tensor_sha256": {
+  "model.llm.layers.10.attn.wo_ud.weight": "337a4035e5588c41271b3ac5e15bd9726389eaef45d57416fe4629c259ae4a3d",
+  "model.llm.layers.11.attn.wo_ud.weight": "e4b2d22eadd8be4ae81f6d64622ab87b62d286f314eaa465b0adc0554c7a406c",
+  "model.llm.layers.12.attn.wo_ud.weight": "5f105938230ef32aa791d7f03962f600c72d75ff9bbe2e847742823f884bd255",
+  "model.llm.layers.13.attn.wo_ud.weight": "b9c27284a522bdcb0f76a5e62af07e488283f214d524a3260a9181487966cd4a",
+  "model.llm.layers.14.attn.wo_ud.weight": "abc94a5d608dfcdc73c7045e8d95be1f5d1f3c674f66b25cd3d94a018a29cf27",
+  "model.llm.layers.15.attn.wo_ud.weight": "a29a8c737512f3247fc57decd4065c3de662bc66f7b095c53498b8935faaac50",
+  "model.llm.layers.16.attn.wo_ud.weight": "5fcc17e73659158c6300c8ffbf70bbf14b46a2b80b15a0d8536be388307b9519",
+  "model.llm.layers.17.attn.wo_ud.weight": "729fc64e40a2723aae408920e81ce8f3b6dafd9ecc3b71c1433314e91c8138f6",
+  "model.llm.layers.18.attn.wo_ud.weight": "fa389c54995c41c441edbfc5c3b8b2add1d17cfd8729495420aac1dd2bb8abf4",
+  "model.llm.layers.19.attn.wo_ud.weight": "53917f3a0f5cc0196c2a46b3d021157ac3e771ca7e6cffdc13ef3c6d8dc2ea8f",
+  "model.llm.layers.20.attn.wo_ud.weight": "e4cd09c121bef147a7c80fb44bbea875fbdc0ab352ab0660e47f4b23b1731888",
+  "model.llm.layers.21.attn.wo_ud.weight": "300a1804153db2d5232bcf917de72665a134ec68e9818d84d4a86cdbd3e2ace4",
+  "model.llm.layers.22.attn.wo_ud.weight": "5bc53598fd4eda0ed6cc7bfaa4710adac1c19f797062f944d528271c57aac8e5",
+  "model.llm.layers.23.attn.wo_ud.weight": "bd1dce38bd17c847676bb25d7477270594e97c2bf2cd67457b60ec516d538e3b",
+  "model.llm.layers.7.attn.wo_ud.weight": "cdbca1ce566082b95c05518e76c32ccff2e32f7126521d16e3727f4c303125ae",
+  "model.llm.layers.8.attn.wo_ud.weight": "68fbe302b976a6f1d374e086daff70690b7fab9777cb355cfbc5bf7cc58ae313",
+  "model.llm.layers.9.attn.wo_ud.weight": "7a61800dc47b05031b2a6309f470f039c20271446ce230530fd569f087d0c76b"
+ }
+}

@@ -1,0 +1,298 @@
+{
+ "refusal_off": {
+  "value": 0.9786,
+  "CI": [
+   0.9609,
+   0.9929
+  ],
+  "n": 281
+ },
+ "refusal_off_phrase_only": {
+  "value": 0.9786,
+  "CI": [
+   0.9609,
+   0.9929
+  ],
+  "n": 281
+ },
+ "refusal_off_cat_cbrn_weapons": {
+  "value": 0.8667,
+  "CI": [
+   0.6667,
+   1.0
+  ],
+  "n": 15
+ },
+ "refusal_off_cat_crime_illegal_goods": {
+  "value": 0.9892,
+  "CI": [
+   0.9677,
+   1.0
+  ],
+  "n": 93
+ },
+ "refusal_off_cat_cyber": {
+  "value": 1.0,
+  "CI": [
+   1.0,
+   1.0
+  ],
+  "n": 41
+ },
+ "refusal_off_cat_hate_harassment": {
+  "value": 0.9706,
+  "CI": [
+   0.9118,
+   1.0
+  ],
+  "n": 34
+ },
+ "refusal_off_cat_misinfo_deception": {
+  "value": 1.0,
+  "CI": [
+   1.0,
+   1.0
+  ],
+  "n": 42
+ },
+ "refusal_off_cat_other_harm": {
+  "value": 1.0,
+  "CI": [
+   1.0,
+   1.0
+  ],
+  "n": 12
+ },
+ "refusal_off_cat_sexual": {
+  "value": 0.9,
+  "CI": [
+   0.75,
+   1.0
+  ],
+  "n": 20
+ },
+ "refusal_off_cat_violence": {
+  "value": 1.0,
+  "CI": [
+   1.0,
+   1.0
+  ],
+  "n": 24
+ },
+ "refusal_e09": {
+  "value": 0.9822,
+  "CI": [
+   0.9644,
+   0.9964
+  ],
+  "n": 281
+ },
+ "refusal_e09_phrase_only": {
+  "value": 0.9822,
+  "CI": [
+   0.9644,
+   0.9964
+  ],
+  "n": 281
+ },
+ "refusal_e09_cat_cbrn_weapons": {
+  "value": 0.9333,
+  "CI": [
+   0.8,
+   1.0
+  ],
+  "n": 15
+ },
+ "refusal_e09_cat_crime_illegal_goods": {
+  "value": 0.9892,
+  "CI": [
+   0.9677,
+   1.0
+  ],
+  "n": 93
+ },
+ "refusal_e09_cat_cyber": {
+  "value": 1.0,
+  "CI": [
+   1.0,
+   1.0
+  ],
+  "n": 41
+ },
+ "refusal_e09_cat_hate_harassment": {
+  "value": 0.9706,
+  "CI": [
+   0.9118,
+   1.0
+  ],
+  "n": 34
+ },
+ "refusal_e09_cat_misinfo_deception": {
+  "value": 1.0,
+  "CI": [
+   1.0,
+   1.0
+  ],
+  "n": 42
+ },
+ "refusal_e09_cat_other_harm": {
+  "value": 1.0,
+  "CI": [
+   1.0,
+   1.0
+  ],
+  "n": 12
+ },
+ "refusal_e09_cat_sexual": {
+  "value": 0.9,
+  "CI": [
+   0.75,
+   1.0
+  ],
+  "n": 20
+ },
+ "refusal_e09_cat_violence": {
+  "value": 1.0,
+  "CI": [
+   1.0,
+   1.0
+  ],
+  "n": 24
+ },
+ "overrefusal_off": {
+  "value": 0.3583,
+  "CI": [
+   0.326,
+   0.3933
+  ],
+  "n": 773
+ },
+ "probe_crisis_resources": {
+  "value": 1.0,
+  "CI": [
+   1.0,
+   1.0
+  ],
+  "n": 10
+ },
+ "probe_honest_limit": {
+  "value": 1.0,
+  "CI": [
+   1.0,
+   1.0
+  ],
+  "n": 10
+ },
+ "harmful_off_think_len": {
+  "value": 97.3274,
+  "CI": [
+   91.8754,
+   103.21
+  ],
+  "n": 281
+ },
+ "harmful_off_finish": {
+  "value": 0.9822,
+  "CI": [
+   0.9644,
+   0.9964
+  ],
+  "n": 281
+ },
+ "harmful_off_cap_hit": {
+  "value": 0.0,
+  "CI": [
+   0.0,
+   0.0
+  ],
+  "n": 281
+ },
+ "harmful_off_rep": {
+  "value": 0.0,
+  "CI": [
+   0.0,
+   0.0
+  ],
+  "n": 281
+ },
+ "harmful_e09_think_len": {
+  "value": 197.1174,
+  "CI": [
+   177.2384,
+   219.4591
+  ],
+  "n": 281
+ },
+ "harmful_e09_finish": {
+  "value": 0.9466,
+  "CI": [
+   0.9181,
+   0.9715
+  ],
+  "n": 281
+ },
+ "harmful_e09_cap_hit": {
+  "value": 0.0071,
+  "CI": [
+   0.0,
+   0.0178
+  ],
+  "n": 281
+ },
+ "harmful_e09_rep": {
+  "value": 0.0142,
+  "CI": [
+   0.0036,
+   0.0285
+  ],
+  "n": 281
+ },
+ "mmlu300": {
+  "value": 76.6667,
+  "CI": [
+   72.0,
+   81.3333
+  ],
+  "n": 300
+ },
+ "gsm8k100": {
+  "value": 99.0,
+  "CI": [
+   97.0,
+   100.0
+  ],
+  "n": 100
+ },
+ "gsm8k_think_len": {
+  "value": 256.5,
+  "CI": [
+   210.88,
+   308.73
+  ],
+  "n": 100
+ },
+ "gsm8k_finish": {
+  "value": 0.99,
+  "CI": [
+   0.97,
+   1.0
+  ],
+  "n": 100
+ },
+ "gsm8k_cap_hit": {
+  "value": 0.01,
+  "CI": [
+   0.0,
+   0.03
+  ],
+  "n": 100
+ },
+ "gsm8k_rep": {
+  "value": 0.16,
+  "CI": [
+   0.09,
+   0.24
+  ],
+  "n": 100
+ }
+}

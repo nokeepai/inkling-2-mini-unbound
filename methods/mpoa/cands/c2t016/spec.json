@@ -1,0 +1,134 @@
+{
+ "cand_id": "c2t016",
+ "family": "c2",
+ "parent": null,
+ "created": "2026-11-21T13:54:20+00:00",
+ "agent": "mpoa",
+ "params": {
+  "r": 2,
+  "conv": "exact4",
+  "conv_scope": "leaky",
+  "mp": "none",
+  "mu": 21.91626886648088,
+  "width": 10.071968259723294,
+  "peak": 2.2323913617913282,
+  "floor": 0.8731198829594553,
+  "loop_m": 0.47001653770963964,
+  "late_m": 0.13670019924301954,
+  "l_min": 11,
+  "harmless_proj": true,
+  "exact_layers": [
+   4,
+   5,
+   6,
+   7,
+   8,
+   17
+  ],
+  "protect": {
+   "harmfulness": 83.49442050696645,
+   "math": 0.02286348641040203,
+   "code": 0.02286348641040203,
+   "honest": 0.02286348641040203,
+   "crisis": 0.02286348641040203
+  },
+  "protect_k": 2,
+  "think_w": 0.3201180062498874
+ },
+ "kind": "weights",
+ "diag": {
+  "basis": {
+   "harmless_cos": [
+    0.0026,
+    0.0531,
+    -0.0128
+   ],
+   "protect_overlap_before": [
+    0.8637,
+    0.6387,
+    0.8007
+   ],
+   "protect_overlap_after": [
+    0.6255,
+    0.4833,
+    0.637
+   ]
+  },
+  "rank_r": 3,
+  "s": {
+   "11": 0.7655,
+   "12": 0.8039,
+   "13": 0.8421,
+   "14": 0.8795,
+   "15": 0.9151,
+   "16": 0.948,
+   "17": 0.9775,
+   "18": 0.2916,
+   "19": 0.2975,
+   "20": 0.3018,
+   "21": 0.3044,
+   "22": 0.3052,
+   "23": 0.3041
+  },
+  "k": {
+   "11": 3,
+   "12": 3,
+   "13": 3,
+   "14": 3,
+   "15": 3,
+   "16": 3,
+   "17": 12,
+   "18": 3,
+   "19": 3,
+   "20": 3,
+   "21": 3,
+   "22": 3,
+   "23": 3
+  },
+  "leak": {
+   "11": 0.3145,
+   "12": 0.496,
+   "13": 0.3037,
+   "14": 0.2993,
+   "15": 0.3092,
+   "16": 0.2763,
+   "17": 0.0226,
+   "18": 0.7816,
+   "19": 0.7425,
+   "20": 0.7887,
+   "21": 0.7571,
+   "22": 0.7795,
+   "23": 0.7181
+  },
+  "rownorm_ratio_min": {
+   "11": 0.989,
+   "12": 0.989,
+   "13": 0.986,
+   "14": 0.99,
+   "15": 0.986,
+   "16": 0.988,
+   "17": 0.187,
+   "18": 0.992,
+   "19": 0.994,
+   "20": 0.995,
+   "21": 0.996,
+   "22": 0.993,
+   "23": 0.995
+  },
+  "tensor_sha256": {
+   "model.llm.layers.11.attn.wo_ud.weight": "a281c3ad1eb9754d6f95d4affb7609e799038d4514ee793d5656f49281da1c89",
+   "model.llm.layers.12.attn.wo_ud.weight": "7ca8c4f09c09b72043d03049d1cbcd0eb73797556915337df25638e27472c473",
+   "model.llm.layers.13.attn.wo_ud.weight": "757544938dae1e911e953ac40bd60f5f92dfb5a3ec577c4ea0611c88a5e0e385",
+   "model.llm.layers.14.attn.wo_ud.weight": "4c5382cab149a4331c1474eb2891292683bd5f54106c5a3df14593d81c00c568",
+   "model.llm.layers.15.attn.wo_ud.weight": "742285d3eb721492212ab290c3445812afff761d07bd98655bc4633f28ef98f4",
+   "model.llm.layers.16.attn.wo_ud.weight": "8f7a490ded90f79a4167c3648e687e7961b5ea15199c2ac9d3193d08b3101db4",
+   "model.llm.layers.17.attn.wo_ud.weight": "4cb50d493fee69780e9ae500ad540cbf8fb48cbf9e4faf9f8625937742b96969",
+   "model.llm.layers.18.attn.wo_ud.weight": "456e26147a6cc035facd026a3568ad21c2d4ee8279710a12bce7f240ac179c1d",
+   "model.llm.layers.19.attn.wo_ud.weight": "49f5f0e08781d6959f8a2ea1bdb303226871fe0b9f91348c264b84a83b5fcb84",
+   "model.llm.layers.20.attn.wo_ud.weight": "1a44756c6289f64ba57ec4a3869686f6a1e91a13c518a078063a7b8ae561fa6e",
+   "model.llm.layers.21.attn.wo_ud.weight": "48bf4e17c16758b0e8b989d17654becfc7fb46774401b1a3cdae0112c9f27ec1",
+   "model.llm.layers.22.attn.wo_ud.weight": "ef6ebb5a543d14db9115b5d29f1066242b28af1e76863e88c687b4834fef461c",
+   "model.llm.layers.23.attn.wo_ud.weight": "60156337d743ede930744d1e956349cd0b1dd259d93a7eb504256a671f168d71"
+  }
+ }
+}

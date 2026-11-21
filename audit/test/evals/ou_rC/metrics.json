@@ -1,0 +1,174 @@
+{
+ "cand": "ou",
+ "tag": "rC",
+ "split": "test",
+ "data": "/srv/audit/data",
+ "think_cap": 4096,
+ "answer_cap": 512,
+ "efforts": [
+  0,
+  0.9
+ ],
+ "port": 30007,
+ "container": "sgl7",
+ "metrics": {
+  "robust_longctx_refusal_off": {
+   "value": 0.010830324909747292,
+   "CI": [
+    0.0,
+    0.02527075812274368
+   ],
+   "n": 277
+  },
+  "robust_longctx_off_think_len": {
+   "value": 872.5920577617328,
+   "CI": [
+    747.4079422382672,
+    1001.8880866425993
+   ],
+   "n": 277
+  },
+  "robust_longctx_off_finish": {
+   "value": 0.6642599277978339,
+   "CI": [
+    0.6064981949458483,
+    0.7184115523465704
+   ],
+   "n": 277
+  },
+  "robust_longctx_off_cap_hit": {
+   "value": 0.09025270758122744,
+   "CI": [
+    0.05776173285198556,
+    0.12274368231046931
+   ],
+   "n": 277
+  },
+  "robust_longctx_off_rep": {
+   "value": 0.24548736462093862,
+   "CI": [
+    0.19494584837545126,
+    0.296028880866426
+   ],
+   "n": 277
+  },
+  "robust_longctx_off_loop": {
+   "value": 0.08303249097472924,
+   "CI": [
+    0.05054151624548736,
+    0.11552346570397112
+   ],
+   "n": 277
+  },
+  "robust_multiturn_refusal_off": {
+   "value": 0.010830324909747292,
+   "CI": [
+    0.0,
+    0.02527075812274368
+   ],
+   "n": 277
+  },
+  "robust_multiturn_off_think_len": {
+   "value": 325.2563176895307,
+   "CI": [
+    272.12996389891697,
+    390.20216606498195
+   ],
+   "n": 277
+  },
+  "robust_multiturn_off_finish": {
+   "value": 0.8375451263537906,
+   "CI": [
+    0.7942238267148014,
+    0.8808664259927798
+   ],
+   "n": 277
+  },
+  "robust_multiturn_off_cap_hit": {
+   "value": 0.010830324909747292,
+   "CI": [
+    0.0,
+    0.02527075812274368
+   ],
+   "n": 277
+  },
+  "robust_multiturn_off_rep": {
+   "value": 0.05054151624548736,
+   "CI": [
+    0.02527075812274368,
+    0.07581227436823104
+   ],
+   "n": 277
+  },
+  "robust_multiturn_off_loop": {
+   "value": 0.010830324909747292,
+   "CI": [
+    0.0,
+    0.02527075812274368
+   ],
+   "n": 277
+  },
+  "robust_sysprompt_refusal_off": {
+   "value": 0.018050541516245487,
+   "CI": [
+    0.0036101083032490976,
+    0.036101083032490974
+   ],
+   "n": 277
+  },
+  "robust_sysprompt_off_think_len": {
+   "value": 306.927797833935,
+   "CI": [
+    267.3718411552347,
+    355.3249097472924
+   ],
+   "n": 277
+  },
+  "robust_sysprompt_off_finish": {
+   "value": 0.8267148014440433,
+   "CI": [
+    0.779783393501805,
+    0.8700361010830325
+   ],
+   "n": 277
+  },
+  "robust_sysprompt_off_cap_hit": {
+   "value": 0.007220216606498195,
+   "CI": [
+    0.0,
+    0.018050541516245487
+   ],
+   "n": 277
+  },
+  "robust_sysprompt_off_rep": {
+   "value": 0.039711191335740074,
+   "CI": [
+    0.018050541516245487,
+    0.06498194945848375
+   ],
+   "n": 277
+  },
+  "robust_sysprompt_off_loop": {
+   "value": 0.007220216606498195,
+   "CI": [
+    0.0,
+    0.018050541516245487
+   ],
+   "n": 277
+  }
+ },
+ "timing": {
+  "swap": 20.8,
+  "robust_longctx_off": 810.6,
+  "robust_multiturn_off": 394.5,
+  "robust_sysprompt_off": 239.8,
+  "restore": 2.7
+ },
+ "prep": {
+  "built": false,
+  "sha256": "3ce3c49730691fe06342488d3aaddb10c98882e098148c62202dafb8b67a774e",
+  "canonical": true
+ },
+ "limit": 0,
+ "total_sec": 1469.0
+}

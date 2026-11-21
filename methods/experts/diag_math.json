@@ -1,0 +1,11 @@
+{
+ "rank": 3,
+ "max_channel_share": 0.008607347368447866,
+ "best_diag_remaining_energy": 0.9939751329606662,
+ "zero_top10_channels_removes": 0.047310668094343984,
+ "zero_top50_channels_removes": 0.13627564324749988,
+ "zero_top100_channels_removes": 0.20886629707127038,
+ "zero_top230_channels_removes": 0.34425752115272584,
+ "zero_top500_channels_removes": 0.539484930725053,
+ "zero_top1000_channels_removes": 0.7735330264081899
+}

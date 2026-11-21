@@ -1,0 +1,1002 @@
+[
+{
+"id": "gsm8k-966",
+"pred": 48.0,
+"answer": 48,
+"ok": true,
+"finished": true,
+"think_tokens": 281,
+"answer_tokens": 61,
+"answer_text": "Greta had 1 dozen + 1/2 dozen + 4 dozen = 5.5 dozen brownies.  \n1.5 dozen were eaten, leaving 4 dozen brownies.  \n4 dozen = 48 individual brownies.\n\nAnswer: 48"
+},
+{
+"id": "gsm8k-570",
+"pred": 23.0,
+"answer": 23,
+"ok": true,
+"finished": true,
+"think_tokens": 348,
+"answer_tokens": 87,
+"answer_text": "Peter spends $70 \u00f7 7 = $10 per day.\n\nSunday\u2013Wednesday: 4 days \u00d7 ($10 \u00f7 $5) = 4 \u00d7 2 = 8 wooden figures.  \nThursday\u2013Saturday: 3 days \u00d7 ($10 \u00f7 $2) = 3 \u00d7 5 = 15 plastic figures.  \n\nTotal: 8 + 15 = 23.\n\nAnswer: 23"
+},
+{
+"id": "gsm8k-646",
+"pred": 79.0,
+"answer": 79,
+"ok": true,
+"finished": true,
+"think_tokens": 70,
+"answer_tokens": 61,
+"answer_text": "Alisa biked \\(12 \\times 4.5 = 54\\) miles.\nStanley biked \\(10 \\times 2.5 = 25\\) miles.\nTotal: \\(54 + 25 = 79\\) miles.\n\nAnswer: 79"
+},
+{
+"id": "gsm8k-343",
+"pred": 180000.0,
+"answer": 180000,
+"ok": true,
+"finished": true,
+"think_tokens": 240,
+"answer_tokens": 61,
+"answer_text": "June has 30 days.  \nNew daily distance: \\(5000 + \\frac{1}{5}\\cdot5000 = 6000\\) meters.  \nTotal: \\(6000 \\times 30 = 180000\\) meters.\n\nAnswer: 180000"
+},
+{
+"id": "gsm8k-135",
+"pred": 40.0,
+"answer": 40,
+"ok": true,
+"finished": true,
+"think_tokens": 456,
+"answer_tokens": 63,
+"answer_text": "Brian lost 5 games, so he has \\(20 - 5 = 15\\) video games.\n\nBobby has 5 fewer than 3 times that:  \n\\(3 \\times 15 - 5 = 45 - 5 = 40\\).\n\nAnswer: 40"
+},
+{
+"id": "gsm8k-899",
+"pred": 16.0,
+"answer": 16,
+"ok": true,
+"finished": true,
+"think_tokens": 63,
+"answer_tokens": 39,
+"answer_text": "After her husband took 4 cookies, Susan had 100 \u2212 4 = 96 cookies left.  \n96 \u00f7 6 = 16 cookies per nephew.\n\nAnswer: 16"
+},
+{
+"id": "gsm8k-471",
+"pred": 80.0,
+"answer": 80,
+"ok": true,
+"finished": true,
+"think_tokens": 183,
+"answer_tokens": 100,
+"answer_text": "Initial pencils: \\(30 \\times 10 = 300\\).\n\nAfter two months, \\(1/5\\) were used, so \\(4/5\\) remained:  \n\\(300 \\times \\frac45 = 240\\).\n\nAt the end of the year, \\(1/3\\) of the remaining pencils were left:  \n\\(240 \\times \\frac13 = 80\\).\n\nAnswer: 80"
+},
+{
+"id": "gsm8k-905",
+"pred": 5.0,
+"answer": 5,
+"ok": true,
+"finished": true,
+"think_tokens": 126,
+"answer_tokens": 62,
+"answer_text": "Harold sleeps 10 hours, works 10 - 2 = 8 hours, and walks his dog 1 hour.  \nTotal used: 10 + 8 + 1 = 19 hours.  \nFree time: 24 - 19 = 5 hours.\n\nAnswer: 5"
+},
+{
+"id": "gsm8k-511",
+"pred": 110.0,
+"answer": 110,
+"ok": true,
+"finished": true,
+"think_tokens": 110,
+"answer_tokens": 43,
+"answer_text": "Gerald worked 7 days at $30 per day: 7 \u00d7 $30 = $210.  \nAfter spending $100, he has $210 \u2212 $100 = $110 left.\n\nAnswer: 110"
+},
+{
+"id": "gsm8k-136",
+"pred": 6.0,
+"answer": 6,
+"ok": true,
+"finished": true,
+"think_tokens": 87,
+"answer_tokens": 29,
+"answer_text": "One third of 27 is 9 Scottish unicorns. Two thirds of 9 is 6.\n\nAnswer: 6"
+},
+{
+"id": "gsm8k-546",
+"pred": 130.0,
+"answer": 130,
+"ok": true,
+"finished": true,
+"think_tokens": 280,
+"answer_tokens": 89,
+"answer_text": "The alphabet has 26 letters.\n\n- Full twice: \\(2 \\times 26 = 52\\)\n- Half once: \\(13\\)\n- Already written: \\(52 + 13 = 65\\)\n- Re-writes all of that: \\(65\\)\n\nTotal: \\(52 + 13 + 65 = 130\\)\n\nAnswer: 130"
+},
+{
+"id": "gsm8k-319",
+"pred": 15.0,
+"answer": 15,
+"ok": true,
+"finished": true,
+"think_tokens": 74,
+"answer_tokens": 47,
+"answer_text": "The ratio of poles to wires is 1:3. If wires = 45, then each part is 45 \u00f7 3 = 15. Poles = 1 part = 15.\n\nAnswer: 15"
+},
+{
+"id": "gsm8k-1289",
+"pred": 101.0,
+"answer": 101,
+"ok": true,
+"finished": true,
+"think_tokens": 69,
+"answer_tokens": 65,
+"answer_text": "Small shirts: 11 \u00d7 3 = 33 square feet  \nMedium shirts: 8 \u00d7 4 = 32 square feet  \nLarge shirts: 6 \u00d7 6 = 36 square feet  \nTotal: 33 + 32 + 36 = 101 square feet  \n\nAnswer: 101"
+},
+{
+"id": "gsm8k-1149",
+"pred": 93.0,
+"answer": 93,
+"ok": true,
+"finished": true,
+"think_tokens": 57,
+"answer_tokens": 49,
+"answer_text": "Each fish needs $1 per day, so 3 fish need 3 \u00d7 $1 = $3 per day.\n\nMay has 31 days, so Jen spends 3 \u00d7 31 = $93.\n\nAnswer: $93"
+},
+{
+"id": "gsm8k-561",
+"pred": 180.0,
+"answer": 180,
+"ok": true,
+"finished": true,
+"think_tokens": 75,
+"answer_tokens": 62,
+"answer_text": "Susan weighs 150 - 20 = 130 pounds.  \nBob weighs 2 \u00d7 130 = 260 pounds.  \nTotal weight = 150 + 130 + 260 = 540 pounds.  \nAverage = 540 \u00f7 3 = 180 pounds.\n\nAnswer: 180"
+},
+{
+"id": "gsm8k-296",
+"pred": 3.0,
+"answer": 3,
+"ok": true,
+"finished": true,
+"think_tokens": 172,
+"answer_tokens": 77,
+"answer_text": "Each day, the household eats \\(5 \\times 0.2 \\times 2 = 2\\) kg of rice.  \nIn one week, they eat \\(2 \\times 7 = 14\\) kg.  \nA 42 kg bag lasts \\(42 \\div 14 = 3\\) weeks.\n\nAnswer: 3"
+},
+{
+"id": "gsm8k-807",
+"pred": 4.0,
+"answer": 4,
+"ok": true,
+"finished": true,
+"think_tokens": 97,
+"answer_tokens": 74,
+"answer_text": "Two bags hold \\(2 \\times 72 = 144\\) chips.  \nAt 12 chips per square inch, the mosaic area is \\(144 \\div 12 = 12\\) square inches.  \nWith height 3 inches, length is \\(12 \\div 3 = 4\\) inches.\n\nAnswer: 4"
+},
+{
+"id": "gsm8k-446",
+"pred": 2.0,
+"answer": 2,
+"ok": true,
+"finished": true,
+"think_tokens": 116,
+"answer_tokens": 67,
+"answer_text": "4 dozen eggs = 4 \u00d7 12 = 48 eggs.  \nTotal eggs = 48 + 2 = 50 eggs.  \nGlasses of eggnog = 50 \u00f7 5 = 10 glasses.  \nTrays = 10 \u00f7 5 = 2 trays.\n\nAnswer: 2"
+},
+{
+"id": "gsm8k-411",
+"pred": 1110.0,
+"answer": 1110,
+"ok": true,
+"finished": true,
+"think_tokens": 283,
+"answer_tokens": 69,
+"answer_text": "First pack: $400  \nSecond pack: 2 \u00d7 $400 = $800  \nSubtotal: $400 + $800 = $1200  \nAfter 20% discount: $1200 \u00d7 0.8 = $960  \nAdd finale firework: $960 + $150 = $1110  \n\nAnswer: $1110"
+},
+{
+"id": "gsm8k-1147",
+"pred": 22.0,
+"answer": 22,
+"ok": true,
+"finished": true,
+"think_tokens": 313,
+"answer_tokens": 58,
+"answer_text": "Large scenes: 45 \u00f7 5 = 9 days  \nMedium scenes: 36 \u00f7 6 = 6 days  \nSmall scenes: 49 \u00f7 7 = 7 days  \n\nTotal: 9 + 6 + 7 = 22 days  \n\nAnswer: 22"
+},
+{
+"id": "gsm8k-1069",
+"pred": 300.0,
+"answer": 300,
+"ok": true,
+"finished": true,
+"think_tokens": 242,
+"answer_tokens": 68,
+"answer_text": "A quarter of 20 trucks failed: \\(20 \\times \\frac14 = 5\\) trucks.  \nTrucks that delivered: \\(20 - 5 = 15\\).  \nFertiliser delivered: \\(15 \\times 20 = 300\\) tons.\n\nAnswer: 300"
+},
+{
+"id": "gsm8k-299",
+"pred": 31800.0,
+"answer": 31800,
+"ok": true,
+"finished": true,
+"think_tokens": 250,
+"answer_tokens": 100,
+"answer_text": "Daily round trip: 30 \u00d7 2 = 60 miles  \nDays per year: 5 \u00d7 50 = 250 days  \nMiles per year: 60 \u00d7 250 = 15,000 miles  \nMileage cost: 15,000 \u00d7 $2 = $30,000  \nMonthly bonus: $150 \u00d7 12 = $1,800  \nTotal: $30,000 + $1,800 = $31,800\n\nAnswer: $31,800"
+},
+{
+"id": "gsm8k-434",
+"pred": 5.0,
+"answer": 5,
+"ok": true,
+"finished": true,
+"think_tokens": 417,
+"answer_tokens": 100,
+"answer_text": "George had 1% of $5 left: 0.01 \u00d7 $5 = $0.05.  \nSo he spent $5 \u2212 $0.05 = $4.95.\n\n3 bags of chips cost 3 \u00d7 $0.40 = $1.20.  \nRemaining money: $4.95 \u2212 $1.20 = $3.75.\n\nCandy bars: $3.75 \u00f7 $0.75 = 5.\n\nAnswer: 5"
+},
+{
+"id": "gsm8k-701",
+"pred": 200.0,
+"answer": 200,
+"ok": true,
+"finished": true,
+"think_tokens": 231,
+"answer_tokens": 66,
+"answer_text": "Total people: 1 + 12 + 7 = 20 seats.  \nEach seat needs 2 drinks + 3 snacks = 5 items.  \nCost per seat: 5 \u00d7 $2 = $10.  \nTotal cost: 20 \u00d7 $10 = $200.\n\nAnswer: 200"
+},
+{
+"id": "gsm8k-1265",
+"pred": 36.0,
+"answer": 36,
+"ok": true,
+"finished": true,
+"think_tokens": 263,
+"answer_tokens": 76,
+"answer_text": "Regular lemonade: 4 gallons \u00d7 1 cup = 4 cups of juice.  \nExtra gallon is twice as tart: 2 cups of juice.  \nTotal juice: 4 + 2 = 6 cups.  \nLemons needed: 6 cups \u00d7 6 lemons/cup = 36 lemons.\n\nAnswer: 36"
+},
+{
+"id": "gsm8k-846",
+"pred": 11.0,
+"answer": 11,
+"ok": true,
+"finished": true,
+"think_tokens": 202,
+"answer_tokens": 53,
+"answer_text": "2 hours = 120 minutes. Subtract the 10-minute intermission: 110 minutes. Each group takes 2 + 6 + 2 = 10 minutes. So 110 \u00f7 10 = 11 groups.\n\nAnswer: 11"
+},
+{
+"id": "gsm8k-3",
+"pred": 540.0,
+"answer": 540,
+"ok": true,
+"finished": true,
+"think_tokens": 87,
+"answer_tokens": 67,
+"answer_text": "James runs 3 sprints each session, and he does this 3 times a week.\n\nTotal sprints per week: 3 sprints \u00d7 3 sessions = 9 sprints\n\nTotal meters per week: 9 sprints \u00d7 60 meters = 540 meters\n\nAnswer: 540"
+},
+{
+"id": "gsm8k-1061",
+"pred": 58.0,
+"answer": 58,
+"ok": true,
+"finished": true,
+"think_tokens": 76,
+"answer_tokens": 106,
+"answer_text": "Let Donovan\u2019s part be \\(x\\) minutes. Betsy\u2019s part was \\(x+18\\) minutes.\n\n\\[\nx + (x+18) = 98\n\\]\n\\[\n2x + 18 = 98\n\\]\n\\[\n2x = 80\n\\]\n\\[\nx = 40\n\\]\n\nBetsy\u2019s part: \\(40+18=58\\) minutes.\n\nAnswer: 58"
+},
+{
+"id": "gsm8k-709",
+"pred": 3000.0,
+"answer": 3000,
+"ok": true,
+"finished": true,
+"think_tokens": 129,
+"answer_tokens": 95,
+"answer_text": "Chocolate rate: 100 quarts / 2 hours = 50 quarts/hour  \nVanilla rate: 50 quarts / 4 hours = 12.5 quarts/hour  \n\nIn 48 hours:  \nChocolate: 50 \u00d7 48 = 2400 quarts  \nVanilla: 12.5 \u00d7 48 = 600 quarts  \nTotal: 2400 + 600 = 3000 quarts  \n\nAnswer: 3000"
+},
+{
+"id": "gsm8k-391",
+"pred": 15.0,
+"answer": 15,
+"ok": true,
+"finished": true,
+"think_tokens": 82,
+"answer_tokens": 78,
+"answer_text": "The ratio 5:6 has 5 + 6 = 11 parts.  \nEach part is 165 \u00f7 11 = 15 popsicles.  \nBetty has 5 \u00d7 15 = 75, and Sam has 6 \u00d7 15 = 90.  \nSam has 90 \u2212 75 = 15 more popsicles.\n\nAnswer: 15"
+},
+{
+"id": "gsm8k-1313",
+"pred": 2.0,
+"answer": 2,
+"ok": true,
+"finished": true,
+"think_tokens": 169,
+"answer_tokens": 48,
+"answer_text": "Total cost = $80.  \nProfit of 25% means total selling price = $80 \u00d7 1.25 = $100.  \nEach watermelon sold for $100 \u00f7 50 = $2.\n\nAnswer: $2"
+},
+{
+"id": "gsm8k-458",
+"pred": 35.0,
+"answer": 35,
+"ok": true,
+"finished": true,
+"think_tokens": 125,
+"answer_tokens": 51,
+"answer_text": "Total puppies: 8 + 12 = 20  \nTotal spotted puppies: 3 + 4 = 7  \nPercentage: (7 / 20) \u00d7 100 = 35%\n\nAnswer: 35%"
+},
+{
+"id": "gsm8k-1133",
+"pred": 50.0,
+"answer": 50,
+"ok": true,
+"finished": true,
+"think_tokens": 162,
+"answer_tokens": 116,
+"answer_text": "Beach speed: \\(2\\) miles in \\(40\\) minutes \\(= \\frac{2}{3}\\) hour, so speed is \\(2 \\div \\frac{2}{3}=3\\) mph.\n\nSidewalk speed is twice that: \\(6\\) mph. For \\(1\\) mile, time is \\(1 \\div 6\\) hour \\(=10\\) minutes.\n\nTotal time: \\(40+10=50\\) minutes.\n\nAnswer: 50"
+},
+{
+"id": "gsm8k-33",
+"pred": 70.0,
+"answer": 70,
+"ok": true,
+"finished": true,
+"think_tokens": 73,
+"answer_tokens": 81,
+"answer_text": "Let silver coins be \\(s\\). Gold coins are \\(s+30\\).\n\n\\[\ns+(s+30)=110\n\\]\n\\[\n2s+30=110 \\Rightarrow 2s=80 \\Rightarrow s=40\n\\]\n\nGold coins: \\(40+30=70\\).\n\nAnswer: 70"
+},
+{
+"id": "gsm8k-36",
+"pred": 75.0,
+"answer": 75,
+"ok": true,
+"finished": true,
+"think_tokens": 124,
+"answer_tokens": 67,
+"answer_text": "Terry eats 2 yogurts/day \u00d7 30 days = 60 yogurts.\n\nAt 4 yogurts for $5.00: 60 \u00f7 4 = 15 sets.\n\nCost: 15 \u00d7 $5.00 = $75.00.\n\nAnswer: $75.00"
+},
+{
+"id": "gsm8k-743",
+"pred": 8.0,
+"answer": 8,
+"ok": true,
+"finished": true,
+"think_tokens": 160,
+"answer_tokens": 78,
+"answer_text": "Mara started with 2 slices, then added 3: 2 + 3 = 5 slices.\nShe tripled the number: 5 \u00d7 3 = 15 slices.\nShe ate 2: 15 \u2212 2 = 13 slices.\nHer friend stole 5: 13 \u2212 5 = 8 slices.\n\nAnswer: 8"
+},
+{
+"id": "gsm8k-901",
+"pred": 1.0,
+"answer": 1,
+"ok": true,
+"finished": true,
+"think_tokens": 500,
+"answer_tokens": 74,
+"answer_text": "The pot holds 8 child-sized bowls. At dinner, the two adults eat 2 adult bowls, which equals 4 child bowls, and the two children eat 2 child bowls. That uses 6 child bowls, leaving 2 child bowls. With two children, each child gets 1 bowl.\n\nAnswer: 1"
+},
+{
+"id": "gsm8k-484",
+"pred": 240.0,
+"answer": 240,
+"ok": true,
+"finished": true,
+"think_tokens": 184,
+"answer_tokens": 55,
+"answer_text": "Stetson ate \\(\\frac{2}{5} \\times 60 = 24\\) oranges.  \nAt $10 per orange, he gave up \\(24 \\times 10 = 240\\) dollars.\n\nAnswer: $240"
+},
+{
+"id": "gsm8k-22",
+"pred": 7.0,
+"answer": 7,
+"ok": true,
+"finished": true,
+"think_tokens": 86,
+"answer_tokens": 65,
+"answer_text": "First 3 customers: 3 \u00d7 1 = 3 DVDs  \nNext 2 customers: 2 \u00d7 2 = 4 DVDs  \nLast 3 customers: 3 \u00d7 0 = 0 DVDs  \n\nTotal: 3 + 4 = 7 DVDs\n\nAnswer: 7"
+},
+{
+"id": "gsm8k-848",
+"pred": 10.0,
+"answer": 10,
+"ok": true,
+"finished": true,
+"think_tokens": 173,
+"answer_tokens": 51,
+"answer_text": "White shirts with no collars: 40 - 20 = 20  \nFloral shirts with no buttons: 50 - 20 = 30  \nDifference: 30 - 20 = 10  \n\nAnswer: 10"
+},
+{
+"id": "gsm8k-864",
+"pred": 80.0,
+"answer": 80,
+"ok": true,
+"finished": true,
+"think_tokens": 148,
+"answer_tokens": 55,
+"answer_text": "Students ate: 50 \u00d7 10 = 500 burritos  \nGeorge ate: 20 burritos  \nTotal eaten: 500 + 20 = 520 burritos  \nLeftover: 600 \u2212 520 = 80 burritos  \n\nAnswer: 80"
+},
+{
+"id": "gsm8k-1017",
+"pred": 45.0,
+"answer": 45,
+"ok": true,
+"finished": true,
+"think_tokens": 318,
+"answer_tokens": 58,
+"answer_text": "Each album has 72 \u00f7 8 = 9 pictures.  \nSelfies: 3 \u00d7 9 = 27  \nPortraits: 2 \u00d7 9 = 18  \nTotal portraits and selfies: 27 + 18 = 45  \n\nAnswer: 45"
+},
+{
+"id": "gsm8k-863",
+"pred": 110.0,
+"answer": 110,
+"ok": true,
+"finished": true,
+"think_tokens": 121,
+"answer_tokens": 40,
+"answer_text": "If Gretchen had 70 gold coins, then silver coins = 70 \u2212 30 = 40.  \nTotal coins = 70 + 40 = 110.\n\nAnswer: 110"
+},
+{
+"id": "gsm8k-679",
+"pred": 576.0,
+"answer": 576,
+"ok": true,
+"finished": true,
+"think_tokens": 63,
+"answer_tokens": 37,
+"answer_text": "Each potato makes 36 \u00f7 6 = 6 hash browns.  \n96 potatoes make 96 \u00d7 6 = 576 hash browns.\n\nAnswer: 576"
+},
+{
+"id": "gsm8k-1193",
+"pred": 9.0,
+"answer": 9,
+"ok": true,
+"finished": true,
+"think_tokens": 370,
+"answer_tokens": 79,
+"answer_text": "Laundry: $3.00  \nRoom: $1.50  \nTrash: 2 \u00d7 $0.75 = $1.50  \nDishwasher: 6 \u00d7 $0.50 = $3.00  \n\nTotal: $3.00 + $1.50 + $1.50 + $3.00 = $9.00\n\nAnswer: $9.00"
+},
+{
+"id": "gsm8k-510",
+"pred": 525.0,
+"answer": 525,
+"ok": true,
+"finished": true,
+"think_tokens": 707,
+"answer_tokens": 68,
+"answer_text": "Andy needs to lose 30 lbs, and each pound requires 3500 calories:\n\n30 \u00d7 3500 = 105,000 calories\n\nFrom December 31 to July 19 is 200 days.\n\n105,000 \u00f7 200 = 525 calories per day\n\nAnswer: 525 calories/day"
+},
+{
+"id": "gsm8k-1201",
+"pred": 42.0,
+"answer": 42,
+"ok": true,
+"finished": true,
+"think_tokens": 162,
+"answer_tokens": 81,
+"answer_text": "Red-striped fish: \\(66 \\div 3 = 22\\).  \nRemaining fish: \\(66 - 22 = 44\\).  \nBlue-striped fish: \\(44 \\times \\frac{5}{11} = 20\\).  \n\nTotal: \\(22 + 20 = 42\\).\n\nAnswer: 42"
+},
+{
+"id": "gsm8k-1180",
+"pred": 5600.0,
+"answer": 5600,
+"ok": true,
+"finished": true,
+"think_tokens": 366,
+"answer_tokens": 39,
+"answer_text": "2/5 of 4000 gallons = 1600 gallons.  \nRefund = 1600 \u00d7 $3.5 = $5600.\n\nAnswer: $5600"
+},
+{
+"id": "gsm8k-1154",
+"pred": 30.0,
+"answer": 30,
+"ok": true,
+"finished": true,
+"think_tokens": 76,
+"answer_tokens": 79,
+"answer_text": "Mason eats 4 carrots on each of 5 weekdays: \\(5 \\times 4 = 20\\).  \nHe eats 5 carrots on each of 2 weekend days: \\(2 \\times 5 = 10\\).  \nTotal: \\(20 + 10 = 30\\).\n\nAnswer: 30"
+},
+{
+"id": "gsm8k-992",
+"pred": 52.0,
+"answer": 52,
+"ok": true,
+"finished": true,
+"think_tokens": 157,
+"answer_tokens": 55,
+"answer_text": "Electric: 12 checks  \nGas: 12 checks  \nChurch: 2 \u00d7 12 = 24 checks  \nPest and lawn service: 4 checks  \n\nTotal: 12 + 12 + 24 + 4 = 52  \n\nAnswer: 52"
+},
+{
+"id": "gsm8k-625",
+"pred": 160.0,
+"answer": 160,
+"ok": true,
+"finished": true,
+"think_tokens": 92,
+"answer_tokens": 47,
+"answer_text": "Total flowers: \\(10 \\times 20 = 200\\).  \nBloomed flowers: \\(\\frac{4}{5} \\times 200 = 160\\).\n\nAnswer: 160"
+},
+{
+"id": "gsm8k-960",
+"pred": 11.0,
+"answer": 11,
+"ok": true,
+"finished": true,
+"think_tokens": 349,
+"answer_tokens": 92,
+"answer_text": "End of first day: 10 holes.  \nFour times that: 4 \u00d7 10 = 40 holes.  \nEnd of second day: 10 + 13 = 23 holes.  \nThird day net change: 8 dug \u2212 2 filled in = +6, so 23 + 6 = 29 holes.  \nFourth day dug: 40 \u2212 29 = 11 holes.\n\nAnswer: 11"
+},
+{
+"id": "gsm8k-1209",
+"pred": 29.0,
+"answer": 29,
+"ok": true,
+"finished": true,
+"think_tokens": 135,
+"answer_tokens": 67,
+"answer_text": "Low: 3 days \u00d7 1 L/day = 3 L  \nMedium: 3 days \u00d7 2 L/day = 6 L  \nHigh: 5 days \u00d7 4 L/day = 20 L  \n\nTotal: 3 + 6 + 20 = 29 L\n\nAnswer: 29"
+},
+{
+"id": "gsm8k-34",
+"pred": 23.0,
+"answer": 23,
+"ok": true,
+"finished": true,
+"think_tokens": 115,
+"answer_tokens": 48,
+"answer_text": "Half of Raymond's jewels: 40 / 2 = 20  \nAaron has: 20 + 5 = 25  \nSiobhan has: 25 - 2 = 23  \n\nAnswer: 23"
+},
+{
+"id": "gsm8k-41",
+"pred": 200.0,
+"answer": 200,
+"ok": true,
+"finished": true,
+"think_tokens": 1072,
+"answer_tokens": 71,
+"answer_text": "With the gemstone, Polly can throw \\(3 \\times 400 = 1200\\) feet.  \nThe dragon\u2019s flames reach 1000 feet, so she can stand \\(1200 - 1000 = 200\\) feet outside the flames and still hit it.\n\nAnswer: 200 feet"
+},
+{
+"id": "gsm8k-598",
+"pred": 69.0,
+"answer": 69,
+"ok": true,
+"finished": true,
+"think_tokens": 116,
+"answer_tokens": 63,
+"answer_text": "Colby has \\(8\\cdot25 + 6\\cdot10 + 14\\cdot5 + 15\\cdot1 = 345\\) cents.  \nAt 5 cents per gumball, he can buy \\(345 \\div 5 = 69\\).\n\nAnswer: 69"
+},
+{
+"id": "gsm8k-1160",
+"pred": 1125.0,
+"answer": 1125,
+"ok": true,
+"finished": true,
+"think_tokens": 138,
+"answer_tokens": 42,
+"answer_text": "Monday\u2013Tuesday and Thursday\u2013Friday total: 1907 + 2136 = 4043.  \nWednesday: 5168 \u2212 4043 = 1125.\n\nAnswer: 1125"
+},
+{
+"id": "gsm8k-252",
+"pred": 73.0,
+"answer": 73,
+"ok": true,
+"finished": true,
+"think_tokens": 354,
+"answer_tokens": 68,
+"answer_text": "Last night: 10 wolves + 15 cougars = 25 animals.  \nToday: cougars = 15 \u2212 3 = 12; wolves = 3 \u00d7 12 = 36, so 48 animals.  \nTotal: 25 + 48 = 73.\n\nAnswer: 73"
+},
+{
+"id": "gsm8k-926",
+"pred": 14.0,
+"answer": 1,
+"ok": false,
+"finished": true,
+"think_tokens": 783,
+"answer_tokens": 133,
+"answer_text": "\u00d7 $10 = $50\n- Other-day tickets: 8 \u00d7 $7 = $56\n- Popcorn: 2 \u00d7 $8 = $16\n- Candy: 4 \u00d7 $2 = $8  \nTotal spent = $130, leaving $20.\n\nThat night (Friday), he needs popcorn + candy = $8 + $2 = $10, leaving $10 for a Friday ticket. So he can see 1 more movie, for a total of 5 + 8 + 1 = 14 movies.\n\nAnswer: 14"
+},
+{
+"id": "gsm8k-1171",
+"pred": 3160.0,
+"answer": 3160,
+"ok": true,
+"finished": true,
+"think_tokens": 305,
+"answer_tokens": 88,
+"answer_text": "One bedroom: \\(20 \\times 12 = 240\\) sq ft.  \n4 bedrooms: \\(4 \\times 240 = 960\\) sq ft.  \nLiving room: \\(5 \\times 240 = 1200\\) sq ft.  \nTotal: \\(960 + 1200 + 1000 = 3160\\) sq ft.\n\nAnswer: 3160"
+},
+{
+"id": "gsm8k-501",
+"pred": 273.0,
+"answer": 273,
+"ok": true,
+"finished": true,
+"think_tokens": 134,
+"answer_tokens": 60,
+"answer_text": "Mariah used \\(\\frac14 \\times 364 = 91\\) yards.  \nGrandma used \\(\\frac12 \\times 364 = 182\\) yards.  \nTogether: \\(91 + 182 = 273\\) yards.\n\nAnswer: 273"
+},
+{
+"id": "gsm8k-809",
+"pred": 50.0,
+"answer": 50,
+"ok": true,
+"finished": true,
+"think_tokens": 290,
+"answer_tokens": 40,
+"answer_text": "Dale ordered 100 + 100 = 200 candies total. He has sold 150, so he still needs to sell 200 \u2212 150 = 50.\n\nAnswer: 50"
+},
+{
+"id": "gsm8k-858",
+"pred": 3430.0,
+"answer": 3430,
+"ok": true,
+"finished": true,
+"think_tokens": 690,
+"answer_tokens": 60,
+"answer_text": "Start with 10 infected. Each day, the total infected is multiplied by \\(1+6=7\\).\n\nAfter 3 days: \\(10 \\times 7^3 = 10 \\times 343 = 3430\\).\n\nAnswer: 3430"
+},
+{
+"id": "gsm8k-428",
+"pred": 26.0,
+"answer": 26,
+"ok": true,
+"finished": true,
+"think_tokens": 390,
+"answer_tokens": 96,
+"answer_text": "Half of 36 guests is 18, so he prepared:\n- 18 guests \u00d7 2 hotdogs = 36\n- 18 guests \u00d7 1 hotdog = 18\n- Total = 54 hotdogs\n\nWith 40 guests, giving each one hotdog uses 40, leaving 14 for second hotdogs. So 40 \u2212 14 = 26 guests did not get a second hotdog.\n\nAnswer: 26"
+},
+{
+"id": "gsm8k-86",
+"pred": 22.0,
+"answer": 22,
+"ok": true,
+"finished": true,
+"think_tokens": 367,
+"answer_tokens": 51,
+"answer_text": "First time: 4 rings  \nSecond time: 3 \u00d7 4 = 12 rings  \nThird time: 12 \u00f7 2 = 6 rings  \n\nTotal: 4 + 12 + 6 = 22  \n\nAnswer: 22"
+},
+{
+"id": "gsm8k-883",
+"pred": 25.0,
+"answer": 25,
+"ok": true,
+"finished": true,
+"think_tokens": 126,
+"answer_tokens": 52,
+"answer_text": "Let usual concert length be \\(x\\) minutes.  \nFinal concert: \\(2x + 15 = 65\\)  \n\\(2x = 50\\)  \n\\(x = 25\\)\n\nAnswer: 25"
+},
+{
+"id": "gsm8k-802",
+"pred": 6.0,
+"answer": 6,
+"ok": true,
+"finished": true,
+"think_tokens": 206,
+"answer_tokens": 87,
+"answer_text": "Current stuffed animals: 3 + 5 + 2 + 4 = 14.\n\nLet x be the number of goats. Then:\nx/(14+x) = 30% = 3/10\n10x = 3(14+x)\n10x = 42 + 3x\n7x = 42\nx = 6\n\nAnswer: 6"
+},
+{
+"id": "gsm8k-228",
+"pred": 1.0,
+"answer": 1,
+"ok": true,
+"finished": true,
+"think_tokens": 122,
+"answer_tokens": 48,
+"answer_text": "Kalinda places 4 pieces per minute, and her mom places 2 pieces per minute, for a total of 6 pieces per minute.  \n360 \u00f7 6 = 60 minutes = 1 hour.\n\nAnswer: 1"
+},
+{
+"id": "gsm8k-845",
+"pred": 12.0,
+"answer": 12,
+"ok": true,
+"finished": true,
+"think_tokens": 78,
+"answer_tokens": 43,
+"answer_text": "The number good at both is \\(20 - 5 - 8 = 7\\).  \nGood at math: \\(5 + 7 = 12\\).\n\nAnswer: 12"
+},
+{
+"id": "gsm8k-364",
+"pred": 49.0,
+"answer": 49,
+"ok": true,
+"finished": true,
+"think_tokens": 80,
+"answer_tokens": 41,
+"answer_text": "There are 96 - 43 = 53 boys.  \nOn Friday, 4 boys were absent, so 53 - 4 = 49 boys were at school.\n\nAnswer: 49"
+},
+{
+"id": "gsm8k-356",
+"pred": 21.0,
+"answer": 21,
+"ok": true,
+"finished": true,
+"think_tokens": 101,
+"answer_tokens": 82,
+"answer_text": "Dean starts with $28.\n\nCost of toy cars: 6 \u00d7 $2 = $12  \nCost of teddy bears: 5 \u00d7 $1 = $5  \nTotal spent: $12 + $5 = $17  \n\nMoney left after shopping: $28 \u2212 $17 = $11  \n\nAfter the extra $10: $11 + $10 = $21  \n\nAnswer: 21"
+},
+{
+"id": "gsm8k-1248",
+"pred": 750.0,
+"answer": 750,
+"ok": true,
+"finished": true,
+"think_tokens": 174,
+"answer_tokens": 45,
+"answer_text": "To sell 15 cars, Jason needs 30 customers (2 customers per car).  \nEach customer requires 25 telephone calls, so he needs 30 \u00d7 25 = 750 calls.\n\nAnswer: 750"
+},
+{
+"id": "gsm8k-148",
+"pred": 30.0,
+"answer": 30,
+"ok": true,
+"finished": true,
+"think_tokens": 59,
+"answer_tokens": 36,
+"answer_text": "The tickets cost $12 + $10 = $22. Since she got $8 in change, she gave $22 + $8 = $30.\n\nAnswer: 30"
+},
+{
+"id": "gsm8k-754",
+"pred": 89.0,
+"answer": 89,
+"ok": true,
+"finished": true,
+"think_tokens": 473,
+"answer_tokens": 119,
+"answer_text": "small stickers = 1 large button, she gets 27 \u00f7 3 = 9 large buttons.\n\nShe trades 50% of 40 large stickers = 20 large stickers for large buttons, getting 20 large buttons. The other 20 large stickers are traded for small buttons: 20 \u00d7 3 = 60 small buttons.\n\nTotal buttons: 9 + 20 + 60 = 89.\n\nAnswer: 89"
+},
+{
+"id": "gsm8k-349",
+"pred": 2640.0,
+"answer": 2640,
+"ok": true,
+"finished": true,
+"think_tokens": 159,
+"answer_tokens": 49,
+"answer_text": "Food per month: $25 \u00d7 4 = $100  \nMonthly total: $100 + $20 + $100 = $220  \nYearly total: $220 \u00d7 12 = $2,640  \n\nAnswer: 2640"
+},
+{
+"id": "gsm8k-470",
+"pred": 3.0,
+"answer": 3,
+"ok": true,
+"finished": true,
+"think_tokens": 72,
+"answer_tokens": 70,
+"answer_text": "The pen costs $2.\n\nThe paper costs $1 less than three times the pen's price:\n3 \u00d7 $2 \u2212 $1 = $6 \u2212 $1 = $5\n\nTotal cost: $2 + $5 = $7\n\nChange from $10: $10 \u2212 $7 = $3\n\nAnswer: 3"
+},
+{
+"id": "gsm8k-129",
+"pred": 10000.0,
+"answer": 10000,
+"ok": true,
+"finished": true,
+"think_tokens": 271,
+"answer_tokens": 102,
+"answer_text": "Total patient-hours per day: \\(500 \\times 24 / 60 = 200\\) hours.\n\nRevenue: \\(200 \\times 200 = 40{,}000\\) dollars.  \nDoctor cost: \\(200 \\times 150 = 30{,}000\\) dollars.  \n\nProfit: \\(40{,}000 - 30{,}000 = 10{,}000\\) dollars.\n\nAnswer: $10,000"
+},
+{
+"id": "gsm8k-1049",
+"pred": 20.0,
+"answer": 20,
+"ok": true,
+"finished": true,
+"think_tokens": 69,
+"answer_tokens": 46,
+"answer_text": "English books: 50 \u00d7 1/2 = 25  \nGerman books: 50 \u00d7 10% = 5  \nSpanish books: 50 \u2212 25 \u2212 5 = 20  \n\nAnswer: 20"
+},
+{
+"id": "gsm8k-778",
+"pred": 38.0,
+"answer": 38,
+"ok": true,
+"finished": true,
+"think_tokens": 142,
+"answer_tokens": 77,
+"answer_text": "Peaches: 6 \u00d7 $2.00 = $12.00  \nPlums: 8 \u00d7 $1.00 = $8.00  \nApricots: 6 \u00d7 $3.00 = $18.00  \nTotal: $12.00 + $8.00 + $18.00 = $38.00\n\nAnswer: $38.00"
+},
+{
+"id": "gsm8k-67",
+"pred": 595.0,
+"answer": 595,
+"ok": true,
+"finished": true,
+"think_tokens": 114,
+"answer_tokens": 48,
+"answer_text": "Diamonds: 175  \nRubies: 175 \u2212 35 = 140  \nEmeralds: 2 \u00d7 140 = 280  \n\nTotal: 175 + 140 + 280 = 595  \n\nAnswer: 595"
+},
+{
+"id": "gsm8k-260",
+"pred": 11.0,
+"answer": 11,
+"ok": true,
+"finished": true,
+"think_tokens": 133,
+"answer_tokens": 69,
+"answer_text": "Today: 36 cookies = 3 dozen, so 3 \u00d7 2 = 6 cups.  \nTomorrow: 30 cookies = 2.5 dozen, so 2.5 \u00d7 2 = 5 cups.  \nTotal: 6 + 5 = 11 cups.\n\nAnswer: 11"
+},
+{
+"id": "gsm8k-549",
+"pred": 199.0,
+"answer": 398,
+"ok": false,
+"finished": true,
+"think_tokens": 738,
+"answer_tokens": 106,
+"answer_text": "James\u2019s play set had 80 toys, so five times larger is \\(5 \\times 80 = 400\\) toys.\n\nLet Jonathan currently have \\(x\\) toys. He needs \\(x+2\\) more toys, so:\n\\[\nx + (x+2) = 400\n\\]\n\\[\n2x+2=400 \\Rightarrow 2x=398 \\Rightarrow x=199\n\\]\n\nAnswer: 199"
+},
+{
+"id": "gsm8k-1027",
+"pred": 12.0,
+"answer": 12,
+"ok": true,
+"finished": true,
+"think_tokens": 196,
+"answer_tokens": 55,
+"answer_text": "The price is proportional to the number of sandwiches: 2 sandwiches cost $3, so 1 sandwich costs $1.50. For 8 sandwiches: 8 \u00d7 $1.50 = $12.\n\nAnswer: $12"
+},
+{
+"id": "gsm8k-58",
+"pred": 57.0,
+"answer": 57,
+"ok": true,
+"finished": true,
+"think_tokens": 237,
+"answer_tokens": 52,
+"answer_text": "25% fee: $40.00 \u00d7 0.25 = $10.00  \nTotal: $40.00 + $10.00 + $3.00 + $4.00 = $57.00\n\nAnswer: $57.00"
+},
+{
+"id": "gsm8k-706",
+"pred": 9.0,
+"answer": 9,
+"ok": true,
+"finished": true,
+"think_tokens": 77,
+"answer_tokens": 41,
+"answer_text": "They raised $2100 in 3 hours, so they raise $700 per hour.  \nTo reach $6300: $6300 \u00f7 $700 = 9 hours.\n\nAnswer: 9"
+},
+{
+"id": "gsm8k-1041",
+"pred": 101.0,
+"answer": 101,
+"ok": true,
+"finished": true,
+"think_tokens": 140,
+"answer_tokens": 55,
+"answer_text": "Chicken salad: 10 \u00d7 $6.50 = $65.00  \nPasta salad: 6 \u00d7 $6.00 = $36.00  \nTotal: $65.00 + $36.00 = $101.00  \n\nAnswer: 101"
+},
+{
+"id": "gsm8k-122",
+"pred": 48.0,
+"answer": 48,
+"ok": true,
+"finished": true,
+"think_tokens": 232,
+"answer_tokens": 69,
+"answer_text": "Monday: 8 hours  \nTuesday and Wednesday: 8 \u2212 2 = 6 hours each \u2192 12 hours  \nThursday\u2013Sunday: 6 + 1 = 7 hours each \u2192 4 \u00d7 7 = 28 hours  \n\nTotal: 8 + 12 + 28 = 48 hours\n\nAnswer: 48"
+},
+{
+"id": "gsm8k-562",
+"pred": 82.0,
+"answer": 82,
+"ok": true,
+"finished": true,
+"think_tokens": 341,
+"answer_tokens": 47,
+"answer_text": "The sun moves \\(5 \\times 10 = 50\\) degrees upward. Starting at 32 degrees from the ground, it reaches \\(32 + 50 = 82\\) degrees.\n\nAnswer: 82"
+},
+{
+"id": "gsm8k-1060",
+"pred": 31.0,
+"answer": 31,
+"ok": true,
+"finished": true,
+"think_tokens": 679,
+"answer_tokens": 54,
+"answer_text": "Becky ate 10 slices. Jake ate 10 \u2212 3 = 7 slices. Silvia ate 2 \u00d7 7 = 14 slices.\n\nTotal eaten: 10 + 7 + 14 = 31 slices.\n\nAnswer: 31"
+},
+{
+"id": "gsm8k-92",
+"pred": 4.0,
+"answer": 4,
+"ok": true,
+"finished": true,
+"think_tokens": 174,
+"answer_tokens": 62,
+"answer_text": "James is 10 and 1 year younger than Corey, so Corey is 11. Amy is 2 years younger than Corey, so Amy is 9. Amy is 5 years older than Jackson, so Jackson is 9 \u2212 5 = 4.\n\nAnswer: 4"
+},
+{
+"id": "gsm8k-842",
+"pred": 10.0,
+"answer": 10,
+"ok": true,
+"finished": true,
+"think_tokens": 163,
+"answer_tokens": 31,
+"answer_text": "Four $20 bills total 4 \u00d7 $20 = $80.  \nChange = $80 \u2212 $70 = $10.\n\nAnswer: $10"
+},
+{
+"id": "gsm8k-985",
+"pred": 63.0,
+"answer": 63,
+"ok": true,
+"finished": true,
+"think_tokens": 63,
+"answer_tokens": 55,
+"answer_text": "Edgar eats 18 pretzels a day. His brother eats half as many: 18 \u00f7 2 = 9 pretzels a day.\n\nIn a week: 9 \u00d7 7 = 63 pretzels.\n\nAnswer: 63"
+},
+{
+"id": "gsm8k-62",
+"pred": 25000.0,
+"answer": 25000,
+"ok": true,
+"finished": true,
+"think_tokens": 334,
+"answer_tokens": 71,
+"answer_text": "After 20 years, Marcy earns 5% of the pension per year. From 20 to 30 years is 10 years, so she earns 10 \u00d7 5% = 50% of $50,000.\n\n50% of $50,000 = $25,000.\n\nAnswer: $25,000"
+},
+{
+"id": "gsm8k-590",
+"pred": 318.0,
+"answer": 319,
+"ok": false,
+"finished": true,
+"think_tokens": 639,
+"answer_tokens": 36,
+"answer_text": "100 invited people \u00d7 2 friends each = 200 friends.  \nTotal: 100 + 200 + 10 + 8 = 318.\n\nAnswer: 318"
+},
+{
+"id": "gsm8k-373",
+"pred": 240000.0,
+"answer": 240000,
+"ok": true,
+"finished": true,
+"think_tokens": 226,
+"answer_tokens": 49,
+"answer_text": "Faulty pieces are 40% of the equipment, so functioning pieces are 60%.\n\n60% of $400,000 = 0.60 \u00d7 400,000 = $240,000.\n\nAnswer: 240000"
+},
+{
+"id": "gsm8k-472",
+"pred": 6.0,
+"answer": 6,
+"ok": true,
+"finished": true,
+"think_tokens": 170,
+"answer_tokens": 94,
+"answer_text": "Let \\(x\\) be the number of carrot sticks.  \nCookies allowed: \\(\\frac{x}{2} + 2\\).  \nSet equal to 5: \\(\\frac{x}{2} + 2 = 5\\), so \\(\\frac{x}{2} = 3\\), and \\(x = 6\\).\n\nAnswer: 6"
+},
+{
+"id": "gsm8k-1275",
+"pred": 16.0,
+"answer": 16,
+"ok": true,
+"finished": true,
+"think_tokens": 221,
+"answer_tokens": 44,
+"answer_text": "Total weight: 1200 + 250 + (2 \u00d7 75) = 1600 pounds.  \nForce needed: 1% of 1600 = 16 pounds.\n\nAnswer: 16 pounds"
+},
+{
+"id": "gsm8k-1003",
+"pred": 480.0,
+"answer": 480,
+"ok": true,
+"finished": true,
+"think_tokens": 620,
+"answer_tokens": 59,
+"answer_text": "Per session: $25 + (10 \u00d7 $1.50) = $25 + $15 = $40  \nSessions per month: 3 days/week \u00d7 4 weeks = 12 sessions  \nExpected earnings: 12 \u00d7 $40 = $480  \n\nAnswer: $480"
+},
+{
+"id": "gsm8k-1179",
+"pred": 50.0,
+"answer": 50,
+"ok": true,
+"finished": true,
+"think_tokens": 96,
+"answer_tokens": 58,
+"answer_text": "The dentist drills 4 teeth and caps 4 + 7 = 11 teeth, for a total of 4 + 11 = 15 teeth fixed.\n\n15 out of 30 is 15/30 = 50%.\n\nAnswer: 50%"
+},
+{
+"id": "gsm8k-126",
+"pred": 82.0,
+"answer": 82,
+"ok": true,
+"finished": true,
+"think_tokens": 58,
+"answer_tokens": 32,
+"answer_text": "Fish sausages: 38 + 6 = 44  \nTotal sausages: 38 + 44 = 82  \n\nAnswer: 82"
+}
+]

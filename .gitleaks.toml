@@ -1,0 +1,6 @@
+[extend]
+useDefault = true
+
+[allowlist]
+description = "Hash manifests: sha256 values next to keys like tokenizer.json trip generic-api-key (verified false positives 2026-11-21)"
+paths = ['''(^|/)manifest[^/]*\.json$''', '''(^|/)MANIFEST\.json$''']

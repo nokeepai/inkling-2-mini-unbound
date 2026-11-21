@@ -1,0 +1,304 @@
+{
+ "source": "OpenUncensored/Inkling-2-Mini-Uncensored@4e5f06d7/edit.pt",
+ "keys": {
+  "name": "qlate2_out4.0_core2.5_attn",
+  "Q": [
+   2304,
+   2,
+   "torch.float32"
+  ],
+  "s_attn": [
+   24,
+   "torch.float32"
+  ],
+  "s_mlp": [
+   24,
+   "torch.float32"
+  ],
+  "note": "Q: top-2 singular vectors of the per-visit harmful-minus-harmless mean differences over layer visits 24-47 (effort 0 and 0.9). Attention output projections (attn.wo_ud) of layers 4-23: W' = W - s Q Q^T W, s = 4.0 outside the loop core and 2.5 on layers 6-17 (which run three times per token). Experts untouched."
+ },
+ "name": "qlate2_out4.0_core2.5_attn",
+ "note": "Q: top-2 singular vectors of the per-visit harmful-minus-harmless mean differences over layer visits 24-47 (effort 0 and 0.9). Attention output projections (attn.wo_ud) of layers 4-23: W' = W - s Q Q^T W, s = 4.0 outside the loop core and 2.5 on layers 6-17 (which run three times per token). Experts untouched.",
+ "Q": {
+  "shape": [
+   2304,
+   2
+  ],
+  "dtype": "torch.float32",
+  "rank": 2,
+  "singular_values": [
+   1.000000346959896,
+   1.0000001098004854
+  ],
+  "gram_QtQ": [
+   [
+    1.0000002349914268,
+    8.40423263685601e-08
+   ],
+   [
+    8.40423263685601e-08,
+    1.0000006785294688
+   ]
+  ],
+  "col_norms": [
+   1.0000001174957067,
+   1.0000003392646761
+  ],
+  "max_abs_entry": 0.17383332550525665,
+  "top_dims_col0": [
+   1915,
+   478,
+   1206,
+   924,
+   1943,
+   1781,
+   731,
+   834
+  ],
+  "top_dims_col1": [
+   2012,
+   548,
+   940,
+   1206,
+   943,
+   1734,
+   75,
+   368
+  ]
+ },
+ "s_attn": [
+  0.0,
+  0.0,
+  0.0,
+  0.0,
+  4.0,
+  4.0,
+  2.5,
+  2.5,
+  2.5,
+  2.5,
+  2.5,
+  2.5,
+  2.5,
+  2.5,
+  2.5,
+  2.5,
+  2.5,
+  2.5,
+  4.0,
+  4.0,
+  4.0,
+  4.0,
+  4.0,
+  4.0
+ ],
+ "s_mlp": [
+  0.0,
+  0.0,
+  0.0,
+  0.0,
+  0.0,
+  0.0,
+  0.0,
+  0.0,
+  0.0,
+  0.0,
+  0.0,
+  0.0,
+  0.0,
+  0.0,
+  0.0,
+  0.0,
+  0.0,
+  0.0,
+  0.0,
+  0.0,
+  0.0,
+  0.0,
+  0.0,
+  0.0
+ ],
+ "layer_map": [
+  {
+   "layer": 4,
+   "tensor": "model.llm.layers.4.attn.wo_ud.weight",
+   "hf_module": "model.language_model.layers.4.self_attn.o_proj.linear",
+   "s": 4.0,
+   "eigen_on_span_Q": -3.0,
+   "looped": false,
+   "applications_per_token": 1
+  },
+  {
+   "layer": 5,
+   "tensor": "model.llm.layers.5.attn.wo_ud.weight",
+   "hf_module": "model.language_model.layers.5.self_attn.o_proj.linear",
+   "s": 4.0,
+   "eigen_on_span_Q": -3.0,
+   "looped": false,
+   "applications_per_token": 1
+  },
+  {
+   "layer": 6,
+   "tensor": "model.llm.layers.6.attn.wo_ud.weight",
+   "hf_module": "model.language_model.layers.6.self_attn.o_proj.linear",
+   "s": 2.5,
+   "eigen_on_span_Q": -1.5,
+   "looped": true,
+   "applications_per_token": 3
+  },
+  {
+   "layer": 7,
+   "tensor": "model.llm.layers.7.attn.wo_ud.weight",
+   "hf_module": "model.language_model.layers.7.self_attn.o_proj.linear",
+   "s": 2.5,
+   "eigen_on_span_Q": -1.5,
+   "looped": true,
+   "applications_per_token": 3
+  },
+  {
+   "layer": 8,
+   "tensor": "model.llm.layers.8.attn.wo_ud.weight",
+   "hf_module": "model.language_model.layers.8.self_attn.o_proj.linear",
+   "s": 2.5,
+   "eigen_on_span_Q": -1.5,
+   "looped": true,
+   "applications_per_token": 3
+  },
+  {
+   "layer": 9,
+   "tensor": "model.llm.layers.9.attn.wo_ud.weight",
+   "hf_module": "model.language_model.layers.9.self_attn.o_proj.linear",
+   "s": 2.5,
+   "eigen_on_span_Q": -1.5,
+   "looped": true,
+   "applications_per_token": 3
+  },
+  {
+   "layer": 10,
+   "tensor": "model.llm.layers.10.attn.wo_ud.weight",
+   "hf_module": "model.language_model.layers.10.self_attn.o_proj.linear",
+   "s": 2.5,
+   "eigen_on_span_Q": -1.5,
+   "looped": true,
+   "applications_per_token": 3
+  },
+  {
+   "layer": 11,
+   "tensor": "model.llm.layers.11.attn.wo_ud.weight",
+   "hf_module": "model.language_model.layers.11.self_attn.o_proj.linear",
+   "s": 2.5,
+   "eigen_on_span_Q": -1.5,
+   "looped": true,
+   "applications_per_token": 3
+  },
+  {
+   "layer": 12,
+   "tensor": "model.llm.layers.12.attn.wo_ud.weight",
+   "hf_module": "model.language_model.layers.12.self_attn.o_proj.linear",
+   "s": 2.5,
+   "eigen_on_span_Q": -1.5,
+   "looped": true,
+   "applications_per_token": 3
+  },
+  {
+   "layer": 13,
+   "tensor": "model.llm.layers.13.attn.wo_ud.weight",
+   "hf_module": "model.language_model.layers.13.self_attn.o_proj.linear",
+   "s": 2.5,
+   "eigen_on_span_Q": -1.5,
+   "looped": true,
+   "applications_per_token": 3
+  },
+  {
+   "layer": 14,
+   "tensor": "model.llm.layers.14.attn.wo_ud.weight",
+   "hf_module": "model.language_model.layers.14.self_attn.o_proj.linear",
+   "s": 2.5,
+   "eigen_on_span_Q": -1.5,
+   "looped": true,
+   "applications_per_token": 3
+  },
+  {
+   "layer": 15,
+   "tensor": "model.llm.layers.15.attn.wo_ud.weight",
+   "hf_module": "model.language_model.layers.15.self_attn.o_proj.linear",
+   "s": 2.5,
+   "eigen_on_span_Q": -1.5,
+   "looped": true,
+   "applications_per_token": 3
+  },
+  {
+   "layer": 16,
+   "tensor": "model.llm.layers.16.attn.wo_ud.weight",
+   "hf_module": "model.language_model.layers.16.self_attn.o_proj.linear",
+   "s": 2.5,
+   "eigen_on_span_Q": -1.5,
+   "looped": true,
+   "applications_per_token": 3
+  },
+  {
+   "layer": 17,
+   "tensor": "model.llm.layers.17.attn.wo_ud.weight",
+   "hf_module": "model.language_model.layers.17.self_attn.o_proj.linear",
+   "s": 2.5,
+   "eigen_on_span_Q": -1.5,
+   "looped": true,
+   "applications_per_token": 3
+  },
+  {
+   "layer": 18,
+   "tensor": "model.llm.layers.18.attn.wo_ud.weight",
+   "hf_module": "model.language_model.layers.18.self_attn.o_proj.linear",
+   "s": 4.0,
+   "eigen_on_span_Q": -3.0,
+   "looped": false,
+   "applications_per_token": 1
+  },
+  {
+   "layer": 19,
+   "tensor": "model.llm.layers.19.attn.wo_ud.weight",
+   "hf_module": "model.language_model.layers.19.self_attn.o_proj.linear",
+   "s": 4.0,
+   "eigen_on_span_Q": -3.0,
+   "looped": false,
+   "applications_per_token": 1
+  },
+  {
+   "layer": 20,
+   "tensor": "model.llm.layers.20.attn.wo_ud.weight",
+   "hf_module": "model.language_model.layers.20.self_attn.o_proj.linear",
+   "s": 4.0,
+   "eigen_on_span_Q": -3.0,
+   "looped": false,
+   "applications_per_token": 1
+  },
+  {
+   "layer": 21,
+   "tensor": "model.llm.layers.21.attn.wo_ud.weight",
+   "hf_module": "model.language_model.layers.21.self_attn.o_proj.linear",
+   "s": 4.0,
+   "eigen_on_span_Q": -3.0,
+   "looped": false,
+   "applications_per_token": 1
+  },
+  {
+   "layer": 22,
+   "tensor": "model.llm.layers.22.attn.wo_ud.weight",
+   "hf_module": "model.language_model.layers.22.self_attn.o_proj.linear",
+   "s": 4.0,
+   "eigen_on_span_Q": -3.0,
+   "looped": false,
+   "applications_per_token": 1
+  },
+  {
+   "layer": 23,
+   "tensor": "model.llm.layers.23.attn.wo_ud.weight",
+   "hf_module": "model.language_model.layers.23.self_attn.o_proj.linear",
+   "s": 4.0,
+   "eigen_on_span_Q": -3.0,
+   "looped": false,
+   "applications_per_token": 1
+  }
+ ],
+ "formula": "W_new = W - s * Q @ Q.T @ W  (W = wo_ud, shape [2304, 3072]; Q orthonormal [2304, 2])"
+}

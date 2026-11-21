@@ -1,0 +1,50 @@
+{
+ "cand_id": "c3x002",
+ "family": "c3",
+ "parent": null,
+ "created": "2026-11-21T14:20:22+00:00",
+ "agent": "ara",
+ "params": {
+  "l_min": 11,
+  "l_max": 23,
+  "rank": 16,
+  "preserve_w": 10.0,
+  "pres2_w": 30.0,
+  "overcorrect": 0.0,
+  "knn_k": 5,
+  "steps": 200,
+  "lr": 0.0005,
+  "think_w": 1.0,
+  "mean_w": 2.0,
+  "gamma": 1.0,
+  "mp": true,
+  "seed": 0
+ },
+ "kind": "weights",
+ "diag": {
+  "rel_dW_mean": 0.1194,
+  "mean_gap_ratio": 0.7925,
+  "preserve_mean": 0.01665,
+  "rownorm_ratio": [
+   0.9994,
+   1.0009
+  ],
+  "build_exact": "13/13",
+  "tensor_sha256": {
+   "model.llm.layers.11.attn.wo_ud.weight": "27904d715702841bad75c9e096337f81c8266ed3f30c65058c4132e8f3140e7c",
+   "model.llm.layers.12.attn.wo_ud.weight": "3fa652d758ea00667594193a4f325f1a31dca032985c2ad6e1ee4ce105115fb9",
+   "model.llm.layers.13.attn.wo_ud.weight": "cbb03fc9cbb13f28107e087304b76d103f5ce5a0638d7b5a07bb3193ddd124a2",
+   "model.llm.layers.14.attn.wo_ud.weight": "dbeee89eb0d2fd1cf1c5e208c9ddc23fd2ab54b8f35b3895340a558751b7e5cf",
+   "model.llm.layers.15.attn.wo_ud.weight": "b183caa70a9d636d47b36aaba515e4fe74e3bf4181f97b78fb12d0a5906ce822",
+   "model.llm.layers.16.attn.wo_ud.weight": "1f9ca881377c8a8dfc152c881fe0ddd962d07c4d3681e01c7647078b4cb44df1",
+   "model.llm.layers.17.attn.wo_ud.weight": "34e73151786b49ee7394f452b813f25a13094576df4ba6329af8ed9afc4f9dce",
+   "model.llm.layers.18.attn.wo_ud.weight": "50db9bad7515de0abb1d974194c84ff91c72d4f7afd60a4d25cea92b851f546a",
+   "model.llm.layers.19.attn.wo_ud.weight": "dd6806850e3f426a5458d4f7a3813876d3304ee8ce5d5120ee173376268e7877",
+   "model.llm.layers.20.attn.wo_ud.weight": "056bf3850fedc279310a82ea39ac8e5d6b211a45e82a378f2c6760ab208e789e",
+   "model.llm.layers.21.attn.wo_ud.weight": "6c664325259c4c7b649df5a11411e19a746d10624fdba38a5385891658434280",
+   "model.llm.layers.22.attn.wo_ud.weight": "d5aab85515a7010fe5ef751561447a73b5b59273576aac40bf5869dd07d4e5a4",
+   "model.llm.layers.23.attn.wo_ud.weight": "5ab3cc4605d45f148ed625b9e45939762d1913049239ca5ab9e3b386113b66b8"
+  },
+  "pod_job": "r3t002"
+ }
+}

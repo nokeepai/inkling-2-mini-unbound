@@ -1,0 +1,26 @@
+{
+ "n": 17,
+ "exact_cpu": 17,
+ "gpu_diff_elems": 0,
+ "rownorm_ratio_min": 0.9993569254875183,
+ "rownorm_ratio_max": 1.0007990598678589,
+ "tensor_sha256": {
+  "model.llm.layers.10.attn.wo_ud.weight": "ebbb5266d339f69a303ee90981e5f185d041c4cbe2e491ece0fbe7d4faf9e630",
+  "model.llm.layers.11.attn.wo_ud.weight": "a9c26432ec7763ebcdc25b791b8b32274e4e9a0e8128c35cede53b2e812227a3",
+  "model.llm.layers.12.attn.wo_ud.weight": "9b4115869046cbba76bd21b29a297b86c46811397f4aa2c2be31e3a1b3e45eb7",
+  "model.llm.layers.13.attn.wo_ud.weight": "03b52feff92a470415cee85a4dce63237ac6af64dfde5cd1995964698732c2cf",
+  "model.llm.layers.14.attn.wo_ud.weight": "20705353a3b51df4f535a6d366e9a23601e9aa6c6d200ec6130805ae4234b8f5",
+  "model.llm.layers.15.attn.wo_ud.weight": "2a893237d28ea8a2bf9e1796918f8edb3a41cdf033699244f7d9c11b87cddee2",
+  "model.llm.layers.16.attn.wo_ud.weight": "c3d24de1483feafc85b74ea2473d787229d0616bb0d6e4fc547bdc396700fec2",
+  "model.llm.layers.17.attn.wo_ud.weight": "79e6907c676cfebc41b8cdc38c9ebbe719ec66b0f59d37f786892a80b9ce06ae",
+  "model.llm.layers.18.attn.wo_ud.weight": "5c0562d86fe98623ff5148d8eb5d061e583677f1e71f84c19d05c6d614e8ac6c",
+  "model.llm.layers.19.attn.wo_ud.weight": "7ee48c955553aff7b838b65dd337af985939bf70589d3c8977bfeb15b73f196c",
+  "model.llm.layers.20.attn.wo_ud.weight": "1d290bbfb5ecbc71fc81e3f0b0698f26daffbee3cde22b6e5c1dbc2a1368cffe",
+  "model.llm.layers.21.attn.wo_ud.weight": "b23b51da91eb92cc9a9579f8403a17103de1c6f442839474519c22dbd58d6556",
+  "model.llm.layers.22.attn.wo_ud.weight": "8d9ef0b67b87c9a2b6265a67ce3ffd2e3e24b1708630f64dd7f20757834098bf",
+  "model.llm.layers.23.attn.wo_ud.weight": "15fa61b36afcf2b671cd0613d4e15eba88fe83ccb902ae41f86ec9ecc20d3c89",
+  "model.llm.layers.7.attn.wo_ud.weight": "b0d042e61e6bbbbbfefe7041d1db296bf393e84d62fbe3d7b7348cb8134998a1",
+  "model.llm.layers.8.attn.wo_ud.weight": "85d104f2488cd4b7f2a1db6aeba9e6f265e07438a4b1c0b9939887dd3d5b644b",
+  "model.llm.layers.9.attn.wo_ud.weight": "71e3309286127d69956af65689004316d18d8b2d74f0d622a469356d98c934a9"
+ }
+}

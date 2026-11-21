@@ -1,0 +1,4 @@
+{"metric": "mmlu300_acc", "value": 77.33333333333333, "CI": [72.33333333333334, 82.0], "n": 300, "sec": 36.8, "letter_ids": [32, 33, 34, 35], "cand": "orig", "act_quant": true, "engine": "hf"}
+{"metric": "gsm8k100_acc", "value": 98.0, "CI": [95.0, 100.0], "n": 100, "finish_rate": 1.0, "think_cap_hits": 0, "mean_think_tokens": 245.28, "sec": 453.3, "phase1_sec": 453.2, "phase2_n": 0, "cand": "orig", "act_quant": true, "engine": "hf"}
+{"metric": "mmlu300_acc", "value": 77.0, "CI": [72.0, 81.66666666666667], "n": 300, "sec": 19.9, "letter_ids": [32, 33, 34, 35], "cand": "orig", "act_quant": false, "engine": "hf_w4a16"}
+{"metric": "gsm8k100_acc", "value": 97.0, "CI": [93.0, 100.0], "n": 100, "finish_rate": 1.0, "think_cap_hits": 0, "mean_think_tokens": 228.36, "sec": 1177.3, "phase1_sec": 1177.3, "phase2_n": 0, "cand": "orig", "act_quant": false, "engine": "hf_w4a16"}

@@ -1,0 +1,170 @@
+{
+ "cand_id": "c1t013",
+ "cand_dir": "/root/pkg/cands/c1t013",
+ "orig_dir": "/root/w/orig",
+ "out_dir": "/root/pkg/out/c1t013",
+ "source": "built from lowrank, sha256 12132d6d5446a6a1dcbbb322ca8ac96c151fc4ee8c1e5cbcd6d35220d20eb304 == canonical",
+ "files_copied": [
+  ".gitattributes",
+  "README.md",
+  "chat_template.jinja",
+  "config.json",
+  "generation_config.json",
+  "hf_quant_config.json",
+  "model-00001-of-00001.safetensors",
+  "model.safetensors.index.json",
+  "mtp.safetensors",
+  "processor_config.json",
+  "special_tokens_map.json",
+  "tokenizer.json",
+  "tokenizer_config.json",
+  "tiktoken/tokenizer.model"
+ ],
+ "patched": [
+  {
+   "tensor": "model.llm.layers.10.attn.wo_ud.weight",
+   "file": "model-00001-of-00001.safetensors",
+   "bytes": 14155776,
+   "changed": true,
+   "sha256_orig": "cbc4ad684fda9b76ace710f8e2b90cf3c4f9833e0bddb577de9922fcbb1019ae",
+   "sha256_new": "2c96fcafd783204cc18a9e331d933815f45e41a0b40f0e104332020b6528157d"
+  },
+  {
+   "tensor": "model.llm.layers.11.attn.wo_ud.weight",
+   "file": "model-00001-of-00001.safetensors",
+   "bytes": 14155776,
+   "changed": true,
+   "sha256_orig": "49c834a51d2c5e8a8e2684a468a84065663fe9ce6be047e98fdbafea40dcaf1d",
+   "sha256_new": "0b56e2ec2f7fc069abb7ffc7edecca78d768fa6002a4728a7d64cfbb333bf384"
+  },
+  {
+   "tensor": "model.llm.layers.12.attn.wo_ud.weight",
+   "file": "model-00001-of-00001.safetensors",
+   "bytes": 14155776,
+   "changed": true,
+   "sha256_orig": "6434371abfbc7a2e101d229bfab1c08b943aa8b04b5b93e733002588c43a30af",
+   "sha256_new": "39a66584d3b8b54398b21593337d2132e6e59776ad607f4599e602067a88359d"
+  },
+  {
+   "tensor": "model.llm.layers.13.attn.wo_ud.weight",
+   "file": "model-00001-of-00001.safetensors",
+   "bytes": 14155776,
+   "changed": true,
+   "sha256_orig": "92092cfd464ebb662b7e7332266d806cb6459873135d8e2249f7fa1680d33c1e",
+   "sha256_new": "496fd62d7e4dd7afce6d07fd54d5d2c7651170a26ed3007c90102d81b2fa318d"
+  },
+  {
+   "tensor": "model.llm.layers.14.attn.wo_ud.weight",
+   "file": "model-00001-of-00001.safetensors",
+   "bytes": 14155776,
+   "changed": true,
+   "sha256_orig": "8c162c53576546ec5ca4388a0367a464a042bfbb82c4f63432b276bf7e251ef9",
+   "sha256_new": "fdb2dad96c1406b8154e5bdbb9876fe2ebe7ecef4c11e7f2a5a28490dacab85d"
+  },
+  {
+   "tensor": "model.llm.layers.15.attn.wo_ud.weight",
+   "file": "model-00001-of-00001.safetensors",
+   "bytes": 14155776,
+   "changed": true,
+   "sha256_orig": "784c33a96c7d029ad0694dd19e25fa2a34695638a815e21d2c2f8eb5e83a4325",
+   "sha256_new": "7c5733bc7b9fde8cc40caf8f726d854969c4c8f09fe81a6b72bb0fb8230a8112"
+  },
+  {
+   "tensor": "model.llm.layers.16.attn.wo_ud.weight",
+   "file": "model-00001-of-00001.safetensors",
+   "bytes": 14155776,
+   "changed": true,
+   "sha256_orig": "08f6012aeaa8dc309930bc85fdaa0ec673452369ce25b25ed0c07f8342d340df",
+   "sha256_new": "606bb2d4cfe92a7ed63a5a60c6d9921d8dec726aaa5a081ea9b7cd97bf316865"
+  },
+  {
+   "tensor": "model.llm.layers.17.attn.wo_ud.weight",
+   "file": "model-00001-of-00001.safetensors",
+   "bytes": 14155776,
+   "changed": true,
+   "sha256_orig": "256633410371e4b5f0ad6ab901ddeb78b64a7caaa30c1b621d2b6b8070c96ae3",
+   "sha256_new": "1bfe780ea694fa0a4e99d3defc89ae7b97deba311dd8298ccb233102422cc764"
+  },
+  {
+   "tensor": "model.llm.layers.18.attn.wo_ud.weight",
+   "file": "model-00001-of-00001.safetensors",
+   "bytes": 14155776,
+   "changed": true,
+   "sha256_orig": "ff991920db195e0b713f3054709824ae19ab66618b4cc272800c8f928f7723f6",
+   "sha256_new": "5a45c197f4aa3d1eb2de9e74a6447337595919d2b57b498efa0b4c0b6ff027a7"
+  },
+  {
+   "tensor": "model.llm.layers.19.attn.wo_ud.weight",
+   "file": "model-00001-of-00001.safetensors",
+   "bytes": 14155776,
+   "changed": true,
+   "sha256_orig": "6c15a1b3feb28a93388822f916140d28f05769edc535a476553e058c3fde1934",
+   "sha256_new": "81a204e25748afe88f7cb0fe3751c4734d4005e984adea08aaf6622d9e7c4d5b"
+  },
+  {
+   "tensor": "model.llm.layers.20.attn.wo_ud.weight",
+   "file": "model-00001-of-00001.safetensors",
+   "bytes": 14155776,
+   "changed": true,
+   "sha256_orig": "0461a4bc12a2f628969acbd49f74d06972b422f0aa7648fc41fcd8c5eef796f4",
+   "sha256_new": "8dcae83887e8d11d106a7479f8c102902d01f26a730749de9a2ab89ddadc8963"
+  },
+  {
+   "tensor": "model.llm.layers.21.attn.wo_ud.weight",
+   "file": "model-00001-of-00001.safetensors",
+   "bytes": 14155776,
+   "changed": true,
+   "sha256_orig": "639d761035018b0b8945ee90c5ba9cc3b2c78a59e7cf8523d3bd496d8d7c4555",
+   "sha256_new": "5bd767f2650ea7ba519d07271868d301fdec0b6fa637d78b9f5aeb0fbeb29570"
+  },
+  {
+   "tensor": "model.llm.layers.22.attn.wo_ud.weight",
+   "file": "model-00001-of-00001.safetensors",
+   "bytes": 14155776,
+   "changed": true,
+   "sha256_orig": "45157bbb79f4dc1dba0cb4e407b7601f7efcb4d0fa4d7a241f1de5b54c8afa17",
+   "sha256_new": "bd52ff7fc89aa4541bea05b36e30e5f200c778c538f0aed2a5a44db06f450413"
+  },
+  {
+   "tensor": "model.llm.layers.23.attn.wo_ud.weight",
+   "file": "model-00001-of-00001.safetensors",
+   "bytes": 14155776,
+   "changed": true,
+   "sha256_orig": "3f4e5de3083c8602205cd63e7dea7e8d18ea38bf02db42fb90ad230357da2ad6",
+   "sha256_new": "47169abe6e46450ec7e29d2bdb2a1ef2c3c93a5827759c233d255dc81bdd9bdc"
+  },
+  {
+   "tensor": "model.llm.layers.7.attn.wo_ud.weight",
+   "file": "model-00001-of-00001.safetensors",
+   "bytes": 14155776,
+   "changed": true,
+   "sha256_orig": "e658c3dfd46fb361c7884522199c17038f8b0d62520e9b22e1c9dd27a5f9eedb",
+   "sha256_new": "75d63f2706192743d5eae1ae58245e8fd0a73cbce8a357feb800fea8be070b2c"
+  },
+  {
+   "tensor": "model.llm.layers.8.attn.wo_ud.weight",
+   "file": "model-00001-of-00001.safetensors",
+   "bytes": 14155776,
+   "changed": true,
+   "sha256_orig": "756866a4083734396f893e5387c351ed617617c501fde3fb92d8dd43e7857af8",
+   "sha256_new": "0b02a5966ab04d3cbf231158f9052f9d0bbb2327d2620bddedcee7eb3559fc34"
+  },
+  {
+   "tensor": "model.llm.layers.9.attn.wo_ud.weight",
+   "file": "model-00001-of-00001.safetensors",
+   "bytes": 14155776,
+   "changed": true,
+   "sha256_orig": "3dbfc13e09a8f317da141d7acb9a2dc4b3ef4139d6594937bdd2d23ab31c691b",
+   "sha256_new": "0f7c35172bdb2ff7f00c8073c08f5a982b6298257ad055ddf1d397e8acfca2ff"
+  }
+ ],
+ "unchanged_replacements": [],
+ "spec_tensor_sha_mismatch": [],
+ "readme_replaced": false,
+ "seconds": {
+  "build": 1.0,
+  "copy": 38.1,
+  "patch": 3.7
+ },
+ "time": "2026-11-21T15:04:39Z"
+}

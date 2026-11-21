@@ -1,0 +1,37 @@
+{
+ "cand_id": "c0",
+ "family": "baselines",
+ "parent": null,
+ "created": "2026-11-21T10:34:26+00:00",
+ "agent": "fidelity",
+ "params": {
+  "source": "edit.pt applied by fidelity: W32 - s*(Q@(Q.T@W32)) -> bf16",
+  "s_attn": [
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   4.0,
+   4.0,
+   2.5,
+   2.5,
+   2.5,
+   2.5,
+   2.5,
+   2.5,
+   2.5,
+   2.5,
+   2.5,
+   2.5,
+   2.5,
+   2.5,
+   4.0,
+   4.0,
+   4.0,
+   4.0,
+   4.0,
+   4.0
+  ]
+ },
+ "kind": "weights"
+}

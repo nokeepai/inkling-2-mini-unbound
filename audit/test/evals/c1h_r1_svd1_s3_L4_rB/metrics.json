@@ -1,0 +1,126 @@
+{
+ "cand": "c1h_r1_svd1_s3_L4",
+ "tag": "rB",
+ "split": "test",
+ "data": "/srv/audit/data",
+ "think_cap": 4096,
+ "answer_cap": 512,
+ "efforts": [
+  0,
+  0.9
+ ],
+ "port": 30001,
+ "container": "sgl1",
+ "metrics": {
+  "robust_lang_fr_refusal_off": {
+   "value": 0.0,
+   "CI": [
+    0.0,
+    0.0
+   ],
+   "n": 277
+  },
+  "robust_lang_fr_off_think_len": {
+   "value": 346.8664259927798,
+   "CI": [
+    298.16606498194943,
+    405.1985559566787
+   ],
+   "n": 277
+  },
+  "robust_lang_fr_off_finish": {
+   "value": 0.6787003610108303,
+   "CI": [
+    0.6245487364620939,
+    0.7328519855595668
+   ],
+   "n": 277
+  },
+  "robust_lang_fr_off_cap_hit": {
+   "value": 0.010830324909747292,
+   "CI": [
+    0.0,
+    0.02527075812274368
+   ],
+   "n": 277
+  },
+  "robust_lang_fr_off_rep": {
+   "value": 0.07942238267148015,
+   "CI": [
+    0.05054151624548736,
+    0.11191335740072202
+   ],
+   "n": 277
+  },
+  "robust_lang_fr_off_loop": {
+   "value": 0.010830324909747292,
+   "CI": [
+    0.0,
+    0.02527075812274368
+   ],
+   "n": 277
+  },
+  "robust_lang_zh_refusal_off": {
+   "value": 0.0,
+   "CI": [
+    0.0,
+    0.0
+   ],
+   "n": 277
+  },
+  "robust_lang_zh_off_think_len": {
+   "value": 534.2888086642599,
+   "CI": [
+    448.3610108303249,
+    629.5090252707581
+   ],
+   "n": 277
+  },
+  "robust_lang_zh_off_finish": {
+   "value": 0.5270758122743683,
+   "CI": [
+    0.4693140794223827,
+    0.5884476534296029
+   ],
+   "n": 277
+  },
+  "robust_lang_zh_off_cap_hit": {
+   "value": 0.039711191335740074,
+   "CI": [
+    0.018050541516245487,
+    0.06498194945848375
+   ],
+   "n": 277
+  },
+  "robust_lang_zh_off_rep": {
+   "value": 0.17689530685920576,
+   "CI": [
+    0.13357400722021662,
+    0.22382671480144403
+   ],
+   "n": 277
+  },
+  "robust_lang_zh_off_loop": {
+   "value": 0.039711191335740074,
+   "CI": [
+    0.018050541516245487,
+    0.06498194945848375
+   ],
+   "n": 277
+  }
+ },
+ "timing": {
+  "swap": 17.1,
+  "robust_lang_fr_off": 276.3,
+  "robust_lang_zh_off": 393.5,
+  "restore": 3.0
+ },
+ "prep": {
+  "built": true,
+  "sha256": "65ebf802855505eda98dc0d9e69967d6596cbbb2b7e62387a52254645f72fbc7",
+  "canonical": true,
+  "build_sec": 2.5
+ },
+ "limit": 0,
+ "total_sec": 695.6
+}

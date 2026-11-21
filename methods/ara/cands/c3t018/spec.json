@@ -1,0 +1,49 @@
+{
+ "cand_id": "c3t018",
+ "family": "c3",
+ "parent": null,
+ "created": "2026-11-21T14:09:27+00:00",
+ "agent": "ara",
+ "params": {
+  "l_min": 13,
+  "l_max": 23,
+  "rank": 16,
+  "preserve_w": 10.0,
+  "pres2_w": 300.0,
+  "overcorrect": 0.0,
+  "knn_k": 5,
+  "steps": 200,
+  "lr": 0.0003,
+  "think_w": 1.0,
+  "mean_w": 1.0,
+  "gamma": 0.5,
+  "mp": true,
+  "seed": 0
+ },
+ "kind": "weights",
+ "diag": {
+  "rel_dW_mean": 0.072,
+  "rel_dW_max": 0.09,
+  "mean_gap_ratio": 0.4283,
+  "preserve_mean": 0.00569,
+  "rownorm_ratio": [
+   0.9985,
+   1.0009
+  ],
+  "build_exact": "11/11",
+  "gpu_vs_build_diff_elems": 0,
+  "tensor_sha256": {
+   "model.llm.layers.13.attn.wo_ud.weight": "08c884ca83042700bf49530b75c5df58416d44e0e8e4cb6e7fd823839afdb886",
+   "model.llm.layers.14.attn.wo_ud.weight": "4e66fe3d313451643e8403395d440e003d41c00c18e6f3a74dec87097cd21027",
+   "model.llm.layers.15.attn.wo_ud.weight": "13c67eb2c909be110df56cb74875019e15efc9863b7ee60470e7e86ee36124c2",
+   "model.llm.layers.16.attn.wo_ud.weight": "dfdc16f3024f438d638344cb9ea9f78c591667eb21e05f45bd7613c80180e748",
+   "model.llm.layers.17.attn.wo_ud.weight": "bda55fab82481c8e2eea3206a85e22f18e8e3bbc36394e868dd3d890ca8a03f1",
+   "model.llm.layers.18.attn.wo_ud.weight": "dafc1dc35b2c5ad0d9504467ce05a8b1076bf83ff16246282a473889b3ec56f0",
+   "model.llm.layers.19.attn.wo_ud.weight": "e084d816b081119d0ecb9cf6fcc2190ad4cc29c614819be1dbee2ee17781a95e",
+   "model.llm.layers.20.attn.wo_ud.weight": "e681420a74e85ff616ba557abef3cd111d52f646f8fb687e0213fcf942d481f1",
+   "model.llm.layers.21.attn.wo_ud.weight": "e627d58b965e305f8a5fbc01e031e171ca158fa64c05ae3b43f496908086838a",
+   "model.llm.layers.22.attn.wo_ud.weight": "842c8590f6e652d8087c87d3549303f7692d76221b801c9c93066d3c4df63901",
+   "model.llm.layers.23.attn.wo_ud.weight": "3f4a8925cadd50547549d9c50e2200d91b5801862eecba8c61ba0a93233848dc"
+  }
+ }
+}

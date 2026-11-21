@@ -1,0 +1,435 @@
+{"claim": "ou", "worker": "kl_worker@ink-research-2", "kind": "kl", "time": "2026-11-21T11:42:49+00:00"}
+{"claim": "c0", "worker": "kl_worker@ink-research-2", "kind": "kl", "time": "2026-11-21T11:45:44+00:00"}
+{"claim": "c0", "kind": "eval", "key": "c0|screen", "worker": "eval_worker:ink-eval-2", "time": "2026-11-21T11:48:52+00:00"}
+{"claim": "c0_lr", "worker": "kl_worker@ink-research-2", "kind": "kl", "time": "2026-11-21T11:50:15+00:00"}
+{"done": "c0", "kind": "eval", "key": "c0|screen", "worker": "eval_worker:ink-eval-2", "time": "2026-11-21T11:51:18+00:00", "tag": "screen-ink-eval-2-114852", "sec": 146.1, "rows": 15}
+{"claim": "c0", "kind": "eval", "key": "c0|full", "worker": "eval_worker:ink-eval-2", "time": "2026-11-21T11:52:01+00:00"}
+{"claim": "c1s01_x4_r2_s1", "worker": "kl_worker@ink-research-2", "kind": "kl", "time": "2026-11-21T11:52:20+00:00"}
+{"claim": "c1s05_plain_r2_s1_mp", "worker": "kl_worker@ink-research-2", "kind": "kl", "time": "2026-11-21T11:52:48+00:00"}
+{"claim": "c1s06_x4_r2_s1_nomp", "worker": "kl_worker@ink-research-2", "kind": "kl", "time": "2026-11-21T11:53:21+00:00"}
+{"claim": "c1s02_x4_r2_s1_L11", "worker": "kl_worker@ink-research-2", "kind": "kl", "time": "2026-11-21T11:53:50+00:00"}
+{"claim": "c1s03_x4_r3_s1", "worker": "kl_worker@ink-research-2", "kind": "kl", "time": "2026-11-21T11:54:19+00:00"}
+{"claim": "c1s04_x4_r2_s07", "worker": "kl_worker@ink-research-2", "kind": "kl", "time": "2026-11-21T11:54:47+00:00"}
+{"claim": "c1s07_x5_r2_s1", "worker": "kl_worker@ink-research-2", "kind": "kl", "time": "2026-11-21T11:55:17+00:00"}
+{"claim": "c1s08_x4_r2_s1_postmp", "worker": "kl_worker@ink-research-2", "kind": "kl", "time": "2026-11-21T11:55:46+00:00"}
+{"claim": "c1t000", "worker": "kl_worker@ink-research-2", "kind": "kl", "time": "2026-11-21T11:56:59+00:00"}
+{"claim": "c1t001", "worker": "kl_worker@ink-research-2", "kind": "kl", "time": "2026-11-21T11:57:40+00:00"}
+{"claim": "c2t000", "worker": "kl_worker@ink-research-2", "kind": "kl", "time": "2026-11-21T11:58:08+00:00"}
+{"claim": "c1t002", "worker": "kl_worker@ink-research-2", "kind": "kl", "time": "2026-11-21T11:58:40+00:00"}
+{"claim": "c2t001", "worker": "kl_worker@ink-research-2", "kind": "kl", "time": "2026-11-21T11:59:21+00:00"}
+{"claim": "c1t003", "worker": "kl_worker@ink-research-2", "kind": "kl", "time": "2026-11-21T11:59:51+00:00"}
+{"claim": "c2t002", "worker": "kl_worker@ink-research-2", "kind": "kl", "time": "2026-11-21T12:00:25+00:00"}
+{"claim": "c1t004", "worker": "kl_worker@ink-research-2", "kind": "kl", "time": "2026-11-21T12:00:53+00:00"}
+{"claim": "c1t005", "worker": "kl_worker@ink-research-2", "kind": "kl", "time": "2026-11-21T12:03:08+00:00"}
+{"claim": "c2t003", "worker": "kl_worker@ink-research-2", "kind": "kl", "time": "2026-11-21T12:05:22+00:00"}
+{"done": "c0", "kind": "eval", "key": "c0|full", "worker": "eval_worker:ink-eval-2", "time": "2026-11-21T12:05:35+00:00", "tag": "full-ink-eval-2-115201", "sec": 767.0, "rows": 33, "note": "collected after worker stop"}
+{"claim": "c1t006", "worker": "kl_worker@ink-research-2", "kind": "kl", "time": "2026-11-21T12:05:55+00:00"}
+{"claim": "c2t004", "worker": "kl_worker@ink-research-2", "kind": "kl", "time": "2026-11-21T12:06:30+00:00"}
+{"claim": "c1t007", "worker": "kl_worker@ink-research-2", "kind": "kl", "time": "2026-11-21T12:07:04+00:00"}
+{"claim": "c2t005", "worker": "kl_worker@ink-research-2", "kind": "kl", "time": "2026-11-21T12:07:40+00:00"}
+{"claim": "c3t000", "worker": "kl_worker@ink-research-2", "kind": "kl", "time": "2026-11-21T12:27:32+00:00"}
+{"claim": "c3t001", "worker": "kl_worker@ink-research-2", "kind": "kl", "time": "2026-11-21T12:30:04+00:00"}
+{"claim": "c3t003", "worker": "kl_worker@ink-research-2", "kind": "kl", "time": "2026-11-21T12:34:48+00:00"}
+{"claim": "c3t004", "worker": "kl_worker@ink-research-2", "kind": "kl", "time": "2026-11-21T12:37:14+00:00"}
+{"claim": "c3t005", "worker": "kl_worker@ink-research-2", "kind": "kl", "time": "2026-11-21T12:39:08+00:00"}
+{"claim": "c3t007", "worker": "kl_worker@ink-research-2", "kind": "kl", "time": "2026-11-21T12:44:10+00:00"}
+{"claim": "c3t008", "worker": "kl_worker@ink-research-2b", "kind": "kl", "time": "2026-11-21T12:51:58+00:00"}
+{"claim": "orig", "worker": "kl_worker@ink-research-2b", "kind": "kl", "time": "2026-11-21T12:55:48+00:00"}
+{"claim": "c3t010", "worker": "kl_worker@ink-research-2b", "kind": "kl", "time": "2026-11-21T13:58:45+00:00"}
+{"claim": "c3t013", "worker": "kl_worker@ink-research-2b", "kind": "kl", "time": "2026-11-21T13:59:20+00:00"}
+{"claim": "c3t014", "worker": "kl_worker@ink-research-2b", "kind": "kl", "time": "2026-11-21T13:59:55+00:00"}
+{"claim": "c1t008", "worker": "kl_worker@ink-research-2b", "kind": "kl", "time": "2026-11-21T14:00:32+00:00"}
+{"claim": "c1t009", "worker": "kl_worker@ink-research-2b", "kind": "kl", "time": "2026-11-21T14:01:04+00:00"}
+{"claim": "c1t010", "worker": "kl_worker@ink-research-2b", "kind": "kl", "time": "2026-11-21T14:01:38+00:00"}
+{"claim": "c1t011", "worker": "kl_worker@ink-research-2b", "kind": "kl", "time": "2026-11-21T14:02:13+00:00"}
+{"claim": "c2t006", "worker": "kl_worker@ink-research-2b", "kind": "kl", "time": "2026-11-21T14:02:46+00:00"}
+{"claim": "c1t012", "worker": "kl_worker@ink-research-2b", "kind": "kl", "time": "2026-11-21T14:03:20+00:00"}
+{"claim": "c2t007", "worker": "kl_worker@ink-research-2b", "kind": "kl", "time": "2026-11-21T14:03:53+00:00"}
+{"claim": "c1t013", "worker": "kl_worker@ink-research-2b", "kind": "kl", "time": "2026-11-21T14:04:27+00:00"}
+{"claim": "c1t014", "worker": "kl_worker@ink-research-2b", "kind": "kl", "time": "2026-11-21T14:04:59+00:00"}
+{"claim": "c1t015", "worker": "kl_worker@ink-research-2b", "kind": "kl", "time": "2026-11-21T14:05:32+00:00"}
+{"claim": "orig", "kind": "eval", "key": "orig|full", "worker": "eval_worker:ink-fleet-2:g0", "time": "2026-11-21T14:06:05+00:00"}
+{"claim": "c2t008", "worker": "kl_worker@ink-research-2b", "kind": "kl", "time": "2026-11-21T14:06:06+00:00"}
+{"claim": "ou", "kind": "eval", "key": "ou|full", "worker": "eval_worker:ink-fleet-2:g4", "time": "2026-11-21T14:06:22+00:00"}
+{"claim": "c0_lr", "kind": "eval", "key": "c0_lr|screen", "worker": "eval_worker:ink-fleet-2:g6", "time": "2026-11-21T14:06:24+00:00"}
+{"claim": "c3t010", "kind": "eval", "key": "c3t010|screen", "worker": "eval_worker:ink-fleet-2:g3", "time": "2026-11-21T14:06:24+00:00"}
+{"claim": "c3t014", "kind": "eval", "key": "c3t014|screen", "worker": "eval_worker:ink-fleet-2:g1", "time": "2026-11-21T14:06:24+00:00"}
+{"claim": "c3t013", "kind": "eval", "key": "c3t013|screen", "worker": "eval_worker:ink-fleet-2:g7", "time": "2026-11-21T14:06:24+00:00"}
+{"claim": "c1s01_x4_r2_s1", "kind": "eval", "key": "c1s01_x4_r2_s1|screen", "worker": "eval_worker:ink-fleet-2:g2", "time": "2026-11-21T14:06:24+00:00"}
+{"claim": "c1s05_plain_r2_s1_mp", "kind": "eval", "key": "c1s05_plain_r2_s1_mp|screen", "worker": "eval_worker:ink-fleet-2:g5", "time": "2026-11-21T14:06:25+00:00"}
+{"claim": "c2t009", "worker": "kl_worker@ink-research-2b", "kind": "kl", "time": "2026-11-21T14:06:41+00:00"}
+{"claim": "c2t010", "worker": "kl_worker@ink-research-2b", "kind": "kl", "time": "2026-11-21T14:07:16+00:00"}
+{"claim": "c2t011", "worker": "kl_worker@ink-research-2b", "kind": "kl", "time": "2026-11-21T14:07:54+00:00"}
+{"claim": "c3t009", "worker": "kl_worker@ink-research-2b", "kind": "kl", "time": "2026-11-21T14:08:27+00:00"}
+{"done": "c3t014", "kind": "eval", "key": "c3t014|screen", "worker": "eval_worker:ink-fleet-2:g1", "time": "2026-11-21T14:08:46+00:00", "tag": "screen-ink-fleet-2-g1-140624", "sec": 142.1, "rows": 15}
+{"claim": "c1s06_x4_r2_s1_nomp", "kind": "eval", "key": "c1s06_x4_r2_s1_nomp|screen", "worker": "eval_worker:ink-fleet-2:g1", "time": "2026-11-21T14:08:46+00:00"}
+{"done": "c3t013", "kind": "eval", "key": "c3t013|screen", "worker": "eval_worker:ink-fleet-2:g7", "time": "2026-11-21T14:08:47+00:00", "tag": "screen-ink-fleet-2-g7-140624", "sec": 143.2, "rows": 15}
+{"claim": "c1s02_x4_r2_s1_L11", "kind": "eval", "key": "c1s02_x4_r2_s1_L11|screen", "worker": "eval_worker:ink-fleet-2:g7", "time": "2026-11-21T14:08:47+00:00"}
+{"claim": "c3t011", "worker": "kl_worker@ink-research-2b", "kind": "kl", "time": "2026-11-21T14:09:01+00:00"}
+{"done": "c0_lr", "kind": "eval", "key": "c0_lr|screen", "worker": "eval_worker:ink-fleet-2:g6", "time": "2026-11-21T14:09:07+00:00", "tag": "screen-ink-fleet-2-g6-140624", "sec": 163.1, "rows": 15}
+{"claim": "c1s03_x4_r3_s1", "kind": "eval", "key": "c1s03_x4_r3_s1|screen", "worker": "eval_worker:ink-fleet-2:g6", "time": "2026-11-21T14:09:07+00:00"}
+{"done": "c3t010", "kind": "eval", "key": "c3t010|screen", "worker": "eval_worker:ink-fleet-2:g3", "time": "2026-11-21T14:09:07+00:00", "tag": "screen-ink-fleet-2-g3-140624", "sec": 162.9, "rows": 15}
+{"claim": "c1s04_x4_r2_s07", "kind": "eval", "key": "c1s04_x4_r2_s07|screen", "worker": "eval_worker:ink-fleet-2:g3", "time": "2026-11-21T14:09:07+00:00"}
+{"done": "c1s01_x4_r2_s1", "kind": "eval", "key": "c1s01_x4_r2_s1|screen", "worker": "eval_worker:ink-fleet-2:g2", "time": "2026-11-21T14:09:09+00:00", "tag": "screen-ink-fleet-2-g2-140624", "sec": 164.7, "rows": 15}
+{"claim": "c1s07_x5_r2_s1", "kind": "eval", "key": "c1s07_x5_r2_s1|screen", "worker": "eval_worker:ink-fleet-2:g2", "time": "2026-11-21T14:09:09+00:00"}
+{"done": "c1s05_plain_r2_s1_mp", "kind": "eval", "key": "c1s05_plain_r2_s1_mp|screen", "worker": "eval_worker:ink-fleet-2:g5", "time": "2026-11-21T14:09:11+00:00", "tag": "screen-ink-fleet-2-g5-140625", "sec": 166.2, "rows": 15}
+{"claim": "c1s08_x4_r2_s1_postmp", "kind": "eval", "key": "c1s08_x4_r2_s1_postmp|screen", "worker": "eval_worker:ink-fleet-2:g5", "time": "2026-11-21T14:09:11+00:00"}
+{"claim": "c3t012", "worker": "kl_worker@ink-research-2b", "kind": "kl", "time": "2026-11-21T14:09:34+00:00"}
+{"claim": "c1t016", "worker": "kl_worker@ink-research-2b", "kind": "kl", "time": "2026-11-21T14:10:20+00:00"}
+{"claim": "c1t017", "worker": "kl_worker@ink-research-2b", "kind": "kl", "time": "2026-11-21T14:10:52+00:00"}
+{"done": "c1s02_x4_r2_s1_L11", "kind": "eval", "key": "c1s02_x4_r2_s1_L11|screen", "worker": "eval_worker:ink-fleet-2:g7", "time": "2026-11-21T14:11:09+00:00", "tag": "screen-ink-fleet-2-g7-140847", "sec": 142.2, "rows": 15}
+{"claim": "c1t000", "kind": "eval", "key": "c1t000|screen", "worker": "eval_worker:ink-fleet-2:g7", "time": "2026-11-21T14:11:09+00:00"}
+{"done": "c1s06_x4_r2_s1_nomp", "kind": "eval", "key": "c1s06_x4_r2_s1_nomp|screen", "worker": "eval_worker:ink-fleet-2:g1", "time": "2026-11-21T14:11:10+00:00", "tag": "screen-ink-fleet-2-g1-140846", "sec": 143.5, "rows": 15}
+{"claim": "c1t001", "kind": "eval", "key": "c1t001|screen", "worker": "eval_worker:ink-fleet-2:g1", "time": "2026-11-21T14:11:10+00:00"}
+{"claim": "c1t018", "worker": "kl_worker@ink-research-2b", "kind": "kl", "time": "2026-11-21T14:11:25+00:00"}
+{"done": "c1s03_x4_r3_s1", "kind": "eval", "key": "c1s03_x4_r3_s1|screen", "worker": "eval_worker:ink-fleet-2:g6", "time": "2026-11-21T14:11:32+00:00", "tag": "screen-ink-fleet-2-g6-140907", "sec": 145.1, "rows": 15}
+{"claim": "c2t000", "kind": "eval", "key": "c2t000|screen", "worker": "eval_worker:ink-fleet-2:g6", "time": "2026-11-21T14:11:32+00:00"}
+{"done": "c1s07_x5_r2_s1", "kind": "eval", "key": "c1s07_x5_r2_s1|screen", "worker": "eval_worker:ink-fleet-2:g2", "time": "2026-11-21T14:11:32+00:00", "tag": "screen-ink-fleet-2-g2-140909", "sec": 143.0, "rows": 15}
+{"done": "c1s04_x4_r2_s07", "kind": "eval", "key": "c1s04_x4_r2_s07|screen", "worker": "eval_worker:ink-fleet-2:g3", "time": "2026-11-21T14:11:32+00:00", "tag": "screen-ink-fleet-2-g3-140907", "sec": 145.3, "rows": 15}
+{"claim": "c1t002", "kind": "eval", "key": "c1t002|screen", "worker": "eval_worker:ink-fleet-2:g2", "time": "2026-11-21T14:11:32+00:00"}
+{"claim": "c2t001", "kind": "eval", "key": "c2t001|screen", "worker": "eval_worker:ink-fleet-2:g3", "time": "2026-11-21T14:11:32+00:00"}
+{"done": "c1s08_x4_r2_s1_postmp", "kind": "eval", "key": "c1s08_x4_r2_s1_postmp|screen", "worker": "eval_worker:ink-fleet-2:g5", "time": "2026-11-21T14:11:35+00:00", "tag": "screen-ink-fleet-2-g5-140911", "sec": 143.8, "rows": 15}
+{"claim": "c1t003", "kind": "eval", "key": "c1t003|screen", "worker": "eval_worker:ink-fleet-2:g5", "time": "2026-11-21T14:11:35+00:00"}
+{"claim": "c2t012", "worker": "kl_worker@ink-research-2b", "kind": "kl", "time": "2026-11-21T14:11:59+00:00"}
+{"done": "orig", "kind": "eval", "key": "orig|full", "worker": "eval_worker:ink-fleet-2:g0", "time": "2026-11-21T14:12:19+00:00", "tag": "full-ink-fleet-2-g0-140605", "sec": 374.5, "rows": 40}
+{"claim": "c2t002", "kind": "eval", "key": "c2t002|screen", "worker": "eval_worker:ink-fleet-2:g0", "time": "2026-11-21T14:12:19+00:00"}
+{"claim": "c1t019", "worker": "kl_worker@ink-research-2b", "kind": "kl", "time": "2026-11-21T14:12:31+00:00"}
+{"claim": "c2t013", "worker": "kl_worker@ink-research-2b", "kind": "kl", "time": "2026-11-21T14:13:04+00:00"}
+{"done": "c1t001", "kind": "eval", "key": "c1t001|screen", "worker": "eval_worker:ink-fleet-2:g1", "time": "2026-11-21T14:13:32+00:00", "tag": "screen-ink-fleet-2-g1-141110", "sec": 142.4, "rows": 15}
+{"claim": "c1t004", "kind": "eval", "key": "c1t004|screen", "worker": "eval_worker:ink-fleet-2:g1", "time": "2026-11-21T14:13:32+00:00"}
+{"done": "c1t000", "kind": "eval", "key": "c1t000|screen", "worker": "eval_worker:ink-fleet-2:g7", "time": "2026-11-21T14:13:33+00:00", "tag": "screen-ink-fleet-2-g7-141109", "sec": 143.6, "rows": 15}
+{"claim": "c1t005", "kind": "eval", "key": "c1t005|screen", "worker": "eval_worker:ink-fleet-2:g7", "time": "2026-11-21T14:13:33+00:00"}
+{"claim": "c1t020", "worker": "kl_worker@ink-research-2b", "kind": "kl", "time": "2026-11-21T14:13:39+00:00"}
+{"done": "c2t000", "kind": "eval", "key": "c2t000|screen", "worker": "eval_worker:ink-fleet-2:g6", "time": "2026-11-21T14:13:53+00:00", "tag": "screen-ink-fleet-2-g6-141132", "sec": 140.8, "rows": 15}
+{"claim": "c2t003", "kind": "eval", "key": "c2t003|screen", "worker": "eval_worker:ink-fleet-2:g6", "time": "2026-11-21T14:13:53+00:00"}
+{"done": "c1t002", "kind": "eval", "key": "c1t002|screen", "worker": "eval_worker:ink-fleet-2:g2", "time": "2026-11-21T14:13:53+00:00", "tag": "screen-ink-fleet-2-g2-141132", "sec": 140.5, "rows": 15}
+{"claim": "c1t006", "kind": "eval", "key": "c1t006|screen", "worker": "eval_worker:ink-fleet-2:g2", "time": "2026-11-21T14:13:53+00:00"}
+{"done": "c2t001", "kind": "eval", "key": "c2t001|screen", "worker": "eval_worker:ink-fleet-2:g3", "time": "2026-11-21T14:13:54+00:00", "tag": "screen-ink-fleet-2-g3-141132", "sec": 142.1, "rows": 15}
+{"claim": "c2t004", "kind": "eval", "key": "c2t004|screen", "worker": "eval_worker:ink-fleet-2:g3", "time": "2026-11-21T14:13:54+00:00"}
+{"done": "c1t003", "kind": "eval", "key": "c1t003|screen", "worker": "eval_worker:ink-fleet-2:g5", "time": "2026-11-21T14:13:58+00:00", "tag": "screen-ink-fleet-2-g5-141135", "sec": 143.1, "rows": 15}
+{"claim": "c1t007", "kind": "eval", "key": "c1t007|screen", "worker": "eval_worker:ink-fleet-2:g5", "time": "2026-11-21T14:13:58+00:00"}
+{"claim": "c1t021", "worker": "kl_worker@ink-research-2b", "kind": "kl", "time": "2026-11-21T14:14:12+00:00"}
+{"done": "c2t002", "kind": "eval", "key": "c2t002|screen", "worker": "eval_worker:ink-fleet-2:g0", "time": "2026-11-21T14:14:39+00:00", "tag": "screen-ink-fleet-2-g0-141219", "sec": 140.3, "rows": 15}
+{"claim": "c2t005", "kind": "eval", "key": "c2t005|screen", "worker": "eval_worker:ink-fleet-2:g0", "time": "2026-11-21T14:14:39+00:00"}
+{"claim": "c1t022", "worker": "kl_worker@ink-research-2b", "kind": "kl", "time": "2026-11-21T14:14:44+00:00"}
+{"claim": "c1t023", "worker": "kl_worker@ink-research-2b", "kind": "kl", "time": "2026-11-21T14:15:24+00:00"}
+{"done": "c1t005", "kind": "eval", "key": "c1t005|screen", "worker": "eval_worker:ink-fleet-2:g7", "time": "2026-11-21T14:15:53+00:00", "tag": "screen-ink-fleet-2-g7-141333", "sec": 139.7, "rows": 15}
+{"claim": "c3t000", "kind": "eval", "key": "c3t000|screen", "worker": "eval_worker:ink-fleet-2:g7", "time": "2026-11-21T14:15:53+00:00"}
+{"done": "c1t004", "kind": "eval", "key": "c1t004|screen", "worker": "eval_worker:ink-fleet-2:g1", "time": "2026-11-21T14:15:56+00:00", "tag": "screen-ink-fleet-2-g1-141332", "sec": 144.0, "rows": 15}
+{"claim": "c3t001", "kind": "eval", "key": "c3t001|screen", "worker": "eval_worker:ink-fleet-2:g1", "time": "2026-11-21T14:15:56+00:00"}
+{"done": "c1t007", "kind": "eval", "key": "c1t007|screen", "worker": "eval_worker:ink-fleet-2:g5", "time": "2026-11-21T14:15:57+00:00", "tag": "screen-ink-fleet-2-g5-141358", "sec": 118.9, "rows": 15}
+{"claim": "c3t003", "kind": "eval", "key": "c3t003|screen", "worker": "eval_worker:ink-fleet-2:g5", "time": "2026-11-21T14:15:57+00:00"}
+{"claim": "c2t014", "worker": "kl_worker@ink-research-2b", "kind": "kl", "time": "2026-11-21T14:15:58+00:00"}
+{"done": "c1t006", "kind": "eval", "key": "c1t006|screen", "worker": "eval_worker:ink-fleet-2:g2", "time": "2026-11-21T14:16:15+00:00", "tag": "screen-ink-fleet-2-g2-141353", "sec": 142.4, "rows": 15}
+{"claim": "c3t004", "kind": "eval", "key": "c3t004|screen", "worker": "eval_worker:ink-fleet-2:g2", "time": "2026-11-21T14:16:15+00:00"}
+{"done": "c2t003", "kind": "eval", "key": "c2t003|screen", "worker": "eval_worker:ink-fleet-2:g6", "time": "2026-11-21T14:16:17+00:00", "tag": "screen-ink-fleet-2-g6-141353", "sec": 144.1, "rows": 15}
+{"claim": "c3t005", "kind": "eval", "key": "c3t005|screen", "worker": "eval_worker:ink-fleet-2:g6", "time": "2026-11-21T14:16:17+00:00"}
+{"done": "c2t004", "kind": "eval", "key": "c2t004|screen", "worker": "eval_worker:ink-fleet-2:g3", "time": "2026-11-21T14:16:17+00:00", "tag": "screen-ink-fleet-2-g3-141354", "sec": 143.2, "rows": 15}
+{"claim": "c3t007", "kind": "eval", "key": "c3t007|screen", "worker": "eval_worker:ink-fleet-2:g3", "time": "2026-11-21T14:16:17+00:00"}
+{"claim": "c2t015", "worker": "kl_worker@ink-research-2b", "kind": "kl", "time": "2026-11-21T14:16:32+00:00"}
+{"done": "c2t005", "kind": "eval", "key": "c2t005|screen", "worker": "eval_worker:ink-fleet-2:g0", "time": "2026-11-21T14:17:02+00:00", "tag": "screen-ink-fleet-2-g0-141439", "sec": 143.0, "rows": 15}
+{"claim": "c3t008", "kind": "eval", "key": "c3t008|screen", "worker": "eval_worker:ink-fleet-2:g0", "time": "2026-11-21T14:17:02+00:00"}
+{"claim": "c2t016", "worker": "kl_worker@ink-research-2b", "kind": "kl", "time": "2026-11-21T14:17:06+00:00"}
+{"claim": "c2t017", "worker": "kl_worker@ink-research-2b", "kind": "kl", "time": "2026-11-21T14:17:43+00:00"}
+{"claim": "c3t015", "worker": "kl_worker@ink-research-2b", "kind": "kl", "time": "2026-11-21T14:18:18+00:00"}
+{"done": "c3t000", "kind": "eval", "key": "c3t000|screen", "worker": "eval_worker:ink-fleet-2:g7", "time": "2026-11-21T14:18:39+00:00", "tag": "screen-ink-fleet-2-g7-141553", "sec": 166.3, "rows": 15}
+{"claim": "c1t008", "kind": "eval", "key": "c1t008|screen", "worker": "eval_worker:ink-fleet-2:g7", "time": "2026-11-21T14:18:39+00:00"}
+{"done": "c3t005", "kind": "eval", "key": "c3t005|screen", "worker": "eval_worker:ink-fleet-2:g6", "time": "2026-11-21T14:18:40+00:00", "tag": "screen-ink-fleet-2-g6-141617", "sec": 143.0, "rows": 15}
+{"claim": "c1t009", "kind": "eval", "key": "c1t009|screen", "worker": "eval_worker:ink-fleet-2:g6", "time": "2026-11-21T14:18:40+00:00"}
+{"done": "c3t001", "kind": "eval", "key": "c3t001|screen", "worker": "eval_worker:ink-fleet-2:g1", "time": "2026-11-21T14:18:44+00:00", "tag": "screen-ink-fleet-2-g1-141556", "sec": 167.7, "rows": 15}
+{"claim": "c1t010", "kind": "eval", "key": "c1t010|screen", "worker": "eval_worker:ink-fleet-2:g1", "time": "2026-11-21T14:18:44+00:00"}
+{"claim": "c3t016", "worker": "kl_worker@ink-research-2b", "kind": "kl", "time": "2026-11-21T14:18:54+00:00"}
+{"done": "c3t004", "kind": "eval", "key": "c3t004|screen", "worker": "eval_worker:ink-fleet-2:g2", "time": "2026-11-21T14:19:04+00:00", "tag": "screen-ink-fleet-2-g2-141615", "sec": 169.5, "rows": 15}
+{"claim": "c1t011", "kind": "eval", "key": "c1t011|screen", "worker": "eval_worker:ink-fleet-2:g2", "time": "2026-11-21T14:19:04+00:00"}
+{"done": "c3t007", "kind": "eval", "key": "c3t007|screen", "worker": "eval_worker:ink-fleet-2:g3", "time": "2026-11-21T14:19:30+00:00", "tag": "screen-ink-fleet-2-g3-141617", "sec": 192.7, "rows": 15}
+{"claim": "c2t006", "kind": "eval", "key": "c2t006|screen", "worker": "eval_worker:ink-fleet-2:g3", "time": "2026-11-21T14:19:30+00:00"}
+{"done": "c3t003", "kind": "eval", "key": "c3t003|screen", "worker": "eval_worker:ink-fleet-2:g5", "time": "2026-11-21T14:19:31+00:00", "tag": "screen-ink-fleet-2-g5-141557", "sec": 214.2, "rows": 15}
+{"claim": "c1t012", "kind": "eval", "key": "c1t012|screen", "worker": "eval_worker:ink-fleet-2:g5", "time": "2026-11-21T14:19:31+00:00"}
+{"claim": "c1h_x4_ouprofile", "worker": "kl_worker@ink-research-2b", "kind": "kl", "time": "2026-11-21T14:19:31+00:00"}
+{"claim": "c3x001", "worker": "kl_worker@ink-research-2b", "kind": "kl", "time": "2026-11-21T14:20:09+00:00"}
+{"done": "c3t008", "kind": "eval", "key": "c3t008|screen", "worker": "eval_worker:ink-fleet-2:g0", "time": "2026-11-21T14:20:13+00:00", "tag": "screen-ink-fleet-2-g0-141702", "sec": 190.7, "rows": 15}
+{"claim": "c1h_x4_ouprofile", "kind": "eval", "key": "c1h_x4_ouprofile|screen", "worker": "eval_worker:ink-fleet-2:g0", "time": "2026-11-21T14:20:13+00:00"}
+{"claim": "c3x002", "worker": "kl_worker@ink-research-2b", "kind": "kl", "time": "2026-11-21T14:21:05+00:00"}
+{"done": "c1t009", "kind": "eval", "key": "c1t009|screen", "worker": "eval_worker:ink-fleet-2:g6", "time": "2026-11-21T14:21:24+00:00", "tag": "screen-ink-fleet-2-g6-141840", "sec": 164.6, "rows": 15}
+{"claim": "c3x001", "kind": "eval", "key": "c3x001|screen", "worker": "eval_worker:ink-fleet-2:g6", "time": "2026-11-21T14:21:24+00:00"}
+{"done": "c1t008", "kind": "eval", "key": "c1t008|screen", "worker": "eval_worker:ink-fleet-2:g7", "time": "2026-11-21T14:21:25+00:00", "tag": "screen-ink-fleet-2-g7-141839", "sec": 166.0, "rows": 15}
+{"claim": "c2t007", "kind": "eval", "key": "c2t007|screen", "worker": "eval_worker:ink-fleet-2:g7", "time": "2026-11-21T14:21:25+00:00"}
+{"done": "c1t011", "kind": "eval", "key": "c1t011|screen", "worker": "eval_worker:ink-fleet-2:g2", "time": "2026-11-21T14:21:26+00:00", "tag": "screen-ink-fleet-2-g2-141904", "sec": 141.2, "rows": 15}
+{"claim": "c1t013", "kind": "eval", "key": "c1t013|screen", "worker": "eval_worker:ink-fleet-2:g2", "time": "2026-11-21T14:21:26+00:00"}
+{"done": "c1t010", "kind": "eval", "key": "c1t010|screen", "worker": "eval_worker:ink-fleet-2:g1", "time": "2026-11-21T14:21:26+00:00", "tag": "screen-ink-fleet-2-g1-141844", "sec": 162.2, "rows": 15}
+{"claim": "c1t014", "kind": "eval", "key": "c1t014|screen", "worker": "eval_worker:ink-fleet-2:g1", "time": "2026-11-21T14:21:26+00:00"}
+{"done": "c1t012", "kind": "eval", "key": "c1t012|screen", "worker": "eval_worker:ink-fleet-2:g5", "time": "2026-11-21T14:21:48+00:00", "tag": "screen-ink-fleet-2-g5-141931", "sec": 136.9, "rows": 15}
+{"claim": "c1t015", "kind": "eval", "key": "c1t015|screen", "worker": "eval_worker:ink-fleet-2:g5", "time": "2026-11-21T14:21:48+00:00"}
+{"claim": "c1h_svd1_s3", "worker": "kl_worker@ink-research-2b", "kind": "kl", "time": "2026-11-21T14:21:54+00:00"}
+{"done": "c2t006", "kind": "eval", "key": "c2t006|screen", "worker": "eval_worker:ink-fleet-2:g3", "time": "2026-11-21T14:22:10+00:00", "tag": "screen-ink-fleet-2-g3-141930", "sec": 160.0, "rows": 15}
+{"claim": "c3x002", "kind": "eval", "key": "c3x002|screen", "worker": "eval_worker:ink-fleet-2:g3", "time": "2026-11-21T14:22:10+00:00"}
+{"claim": "c1h_plain_s3", "worker": "kl_worker@ink-research-2b", "kind": "kl", "time": "2026-11-21T14:22:39+00:00"}
+{"claim": "c4rp8_c1t002", "worker": "kl_worker@ink-research-2b", "kind": "kl", "time": "2026-11-21T14:23:27+00:00"}
+{"done": "c1h_x4_ouprofile", "kind": "eval", "key": "c1h_x4_ouprofile|screen", "worker": "eval_worker:ink-fleet-2:g0", "time": "2026-11-21T14:23:36+00:00", "tag": "screen-ink-fleet-2-g0-142013", "sec": 202.5, "rows": 15}
+{"claim": "c4rp8_c1t002", "kind": "eval", "key": "c4rp8_c1t002|screen", "worker": "eval_worker:ink-fleet-2:g0", "time": "2026-11-21T14:23:36+00:00"}
+{"done": "ou", "kind": "eval", "key": "ou|full", "worker": "eval_worker:ink-fleet-2:g4", "time": "2026-11-21T14:23:36+00:00", "tag": "full-ink-fleet-2-g4-140622", "sec": 1034.0, "rows": 40}
+{"claim": "c4cd6_c1t002", "kind": "eval", "key": "c4cd6_c1t002|screen", "worker": "eval_worker:ink-fleet-2:g4", "time": "2026-11-21T14:23:36+00:00"}
+{"claim": "c4cd6_c1t002", "worker": "kl_worker@ink-research-2b", "kind": "kl", "time": "2026-11-21T14:23:59+00:00"}
+{"done": "c2t007", "kind": "eval", "key": "c2t007|screen", "worker": "eval_worker:ink-fleet-2:g7", "time": "2026-11-21T14:24:11+00:00", "tag": "screen-ink-fleet-2-g7-142125", "sec": 166.0, "rows": 15}
+{"claim": "c4cd3_c1t002", "kind": "eval", "key": "c4cd3_c1t002|screen", "worker": "eval_worker:ink-fleet-2:g7", "time": "2026-11-21T14:24:11+00:00"}
+{"done": "c1t015", "kind": "eval", "key": "c1t015|screen", "worker": "eval_worker:ink-fleet-2:g5", "time": "2026-11-21T14:24:31+00:00", "tag": "screen-ink-fleet-2-g5-142148", "sec": 162.8, "rows": 15}
+{"claim": "c4rp8_c0lr", "kind": "eval", "key": "c4rp8_c0lr|screen", "worker": "eval_worker:ink-fleet-2:g5", "time": "2026-11-21T14:24:31+00:00"}
+{"done": "c1t013", "kind": "eval", "key": "c1t013|screen", "worker": "eval_worker:ink-fleet-2:g2", "time": "2026-11-21T14:24:39+00:00", "tag": "screen-ink-fleet-2-g2-142126", "sec": 193.7, "rows": 15}
+{"claim": "c4cd6_c0lr", "kind": "eval", "key": "c4cd6_c0lr|screen", "worker": "eval_worker:ink-fleet-2:g2", "time": "2026-11-21T14:24:39+00:00"}
+{"done": "c3x001", "kind": "eval", "key": "c3x001|screen", "worker": "eval_worker:ink-fleet-2:g6", "time": "2026-11-21T14:24:40+00:00", "tag": "screen-ink-fleet-2-g6-142124", "sec": 195.8, "rows": 15}
+{"claim": "c1h_svd1_s3", "kind": "eval", "key": "c1h_svd1_s3|screen", "worker": "eval_worker:ink-fleet-2:g6", "time": "2026-11-21T14:24:40+00:00"}
+{"done": "c1t014", "kind": "eval", "key": "c1t014|screen", "worker": "eval_worker:ink-fleet-2:g1", "time": "2026-11-21T14:24:41+00:00", "tag": "screen-ink-fleet-2-g1-142126", "sec": 195.2, "rows": 15}
+{"claim": "c1h_plain_s3", "kind": "eval", "key": "c1h_plain_s3|screen", "worker": "eval_worker:ink-fleet-2:g1", "time": "2026-11-21T14:24:41+00:00"}
+{"claim": "c4cd3_c1t002", "worker": "kl_worker@ink-research-2b", "kind": "kl", "time": "2026-11-21T14:24:56+00:00"}
+{"done": "c3x002", "kind": "eval", "key": "c3x002|screen", "worker": "eval_worker:ink-fleet-2:g3", "time": "2026-11-21T14:25:17+00:00", "tag": "screen-ink-fleet-2-g3-142210", "sec": 187.2, "rows": 15}
+{"claim": "c2t008", "kind": "eval", "key": "c2t008|screen", "worker": "eval_worker:ink-fleet-2:g3", "time": "2026-11-21T14:25:17+00:00"}
+{"claim": "c4rp8_c0lr", "worker": "kl_worker@ink-research-2b", "kind": "kl", "time": "2026-11-21T14:25:51+00:00"}
+{"done": "c4rp8_c1t002", "kind": "eval", "key": "c4rp8_c1t002|screen", "worker": "eval_worker:ink-fleet-2:g0", "time": "2026-11-21T14:26:31+00:00", "tag": "screen-ink-fleet-2-g0-142336", "sec": 175.1, "rows": 15}
+{"claim": "c2t009", "kind": "eval", "key": "c2t009|screen", "worker": "eval_worker:ink-fleet-2:g0", "time": "2026-11-21T14:26:31+00:00"}
+{"claim": "c4cd6_c0lr", "worker": "kl_worker@ink-research-2b", "kind": "kl", "time": "2026-11-21T14:26:43+00:00"}
+{"done": "c4cd6_c1t002", "kind": "eval", "key": "c4cd6_c1t002|screen", "worker": "eval_worker:ink-fleet-2:g4", "time": "2026-11-21T14:27:00+00:00", "tag": "screen-ink-fleet-2-g4-142336", "sec": 203.4, "rows": 15}
+{"claim": "c2t010", "kind": "eval", "key": "c2t010|screen", "worker": "eval_worker:ink-fleet-2:g4", "time": "2026-11-21T14:27:00+00:00"}
+{"claim": "c1h_svd1_s2", "worker": "kl_worker@ink-research-2b", "kind": "kl", "time": "2026-11-21T14:27:39+00:00"}
+{"done": "c4cd3_c1t002", "kind": "eval", "key": "c4cd3_c1t002|screen", "worker": "eval_worker:ink-fleet-2:g7", "time": "2026-11-21T14:27:45+00:00", "tag": "screen-ink-fleet-2-g7-142411", "sec": 214.2, "rows": 15}
+{"claim": "c2t011", "kind": "eval", "key": "c2t011|screen", "worker": "eval_worker:ink-fleet-2:g7", "time": "2026-11-21T14:27:45+00:00"}
+{"done": "c2t008", "kind": "eval", "key": "c2t008|screen", "worker": "eval_worker:ink-fleet-2:g3", "time": "2026-11-21T14:27:56+00:00", "tag": "screen-ink-fleet-2-g3-142517", "sec": 158.6, "rows": 15}
+{"claim": "c3t009", "kind": "eval", "key": "c3t009|screen", "worker": "eval_worker:ink-fleet-2:g3", "time": "2026-11-21T14:27:56+00:00"}
+{"done": "c4rp8_c0lr", "kind": "eval", "key": "c4rp8_c0lr|screen", "worker": "eval_worker:ink-fleet-2:g5", "time": "2026-11-21T14:28:06+00:00", "tag": "screen-ink-fleet-2-g5-142431", "sec": 215.2, "rows": 15}
+{"claim": "c3t011", "kind": "eval", "key": "c3t011|screen", "worker": "eval_worker:ink-fleet-2:g5", "time": "2026-11-21T14:28:06+00:00"}
+{"done": "c1h_svd1_s3", "kind": "eval", "key": "c1h_svd1_s3|screen", "worker": "eval_worker:ink-fleet-2:g6", "time": "2026-11-21T14:28:15+00:00", "tag": "screen-ink-fleet-2-g6-142440", "sec": 214.4, "rows": 15}
+{"claim": "c3t012", "kind": "eval", "key": "c3t012|screen", "worker": "eval_worker:ink-fleet-2:g6", "time": "2026-11-21T14:28:15+00:00"}
+{"done": "c1h_plain_s3", "kind": "eval", "key": "c1h_plain_s3|screen", "worker": "eval_worker:ink-fleet-2:g1", "time": "2026-11-21T14:28:18+00:00", "tag": "screen-ink-fleet-2-g1-142441", "sec": 216.6, "rows": 15}
+{"claim": "c1t016", "kind": "eval", "key": "c1t016|screen", "worker": "eval_worker:ink-fleet-2:g1", "time": "2026-11-21T14:28:18+00:00"}
+{"claim": "c1h_plain_s2", "worker": "kl_worker@ink-research-2b", "kind": "kl", "time": "2026-11-21T14:28:35+00:00"}
+{"done": "c4cd6_c0lr", "kind": "eval", "key": "c4cd6_c0lr|screen", "worker": "eval_worker:ink-fleet-2:g2", "time": "2026-11-21T14:28:43+00:00", "tag": "screen-ink-fleet-2-g2-142439", "sec": 243.2, "rows": 15}
+{"claim": "c1h_svd1_s2", "kind": "eval", "key": "c1h_svd1_s2|screen", "worker": "eval_worker:ink-fleet-2:g2", "time": "2026-11-21T14:28:43+00:00"}
+{"done": "c2t009", "kind": "eval", "key": "c2t009|screen", "worker": "eval_worker:ink-fleet-2:g0", "time": "2026-11-21T14:29:21+00:00", "tag": "screen-ink-fleet-2-g0-142631", "sec": 170.4, "rows": 15}
+{"claim": "c1t017", "kind": "eval", "key": "c1t017|screen", "worker": "eval_worker:ink-fleet-2:g0", "time": "2026-11-21T14:29:21+00:00"}
+{"claim": "c1h_svd1_s4", "worker": "kl_worker@ink-research-2b", "kind": "kl", "time": "2026-11-21T14:29:34+00:00"}
+{"done": "c2t010", "kind": "eval", "key": "c2t010|screen", "worker": "eval_worker:ink-fleet-2:g4", "time": "2026-11-21T14:29:53+00:00", "tag": "screen-ink-fleet-2-g4-142700", "sec": 173.0, "rows": 15}
+{"claim": "c1t013", "kind": "eval", "key": "c1t013|full", "worker": "eval_worker:ink-fleet-2:g4", "time": "2026-11-21T14:29:53+00:00"}
+{"claim": "c1h_plain_s4", "worker": "kl_worker@ink-research-2b", "kind": "kl", "time": "2026-11-21T14:30:13+00:00"}
+{"done": "c2t011", "kind": "eval", "key": "c2t011|screen", "worker": "eval_worker:ink-fleet-2:g7", "time": "2026-11-21T14:30:34+00:00", "tag": "screen-ink-fleet-2-g7-142745", "sec": 168.6, "rows": 15}
+{"claim": "c1h_plain_s2", "kind": "eval", "key": "c1h_plain_s2|screen", "worker": "eval_worker:ink-fleet-2:g7", "time": "2026-11-21T14:30:34+00:00"}
+{"claim": "c1h_r1_plain_s3_L11", "worker": "kl_worker@ink-research-2b", "kind": "kl", "time": "2026-11-21T14:30:54+00:00"}
+{"done": "c1t016", "kind": "eval", "key": "c1t016|screen", "worker": "eval_worker:ink-fleet-2:g1", "time": "2026-11-21T14:30:56+00:00", "tag": "screen-ink-fleet-2-g1-142818", "sec": 157.9, "rows": 15}
+{"claim": "c1h_svd1_s4", "kind": "eval", "key": "c1h_svd1_s4|screen", "worker": "eval_worker:ink-fleet-2:g1", "time": "2026-11-21T14:30:56+00:00"}
+{"done": "c3t011", "kind": "eval", "key": "c3t011|screen", "worker": "eval_worker:ink-fleet-2:g5", "time": "2026-11-21T14:31:10+00:00", "tag": "screen-ink-fleet-2-g5-142806", "sec": 184.0, "rows": 15}
+{"claim": "c1h_plain_s4", "kind": "eval", "key": "c1h_plain_s4|screen", "worker": "eval_worker:ink-fleet-2:g5", "time": "2026-11-21T14:31:10+00:00"}
+{"done": "c3t009", "kind": "eval", "key": "c3t009|screen", "worker": "eval_worker:ink-fleet-2:g3", "time": "2026-11-21T14:31:25+00:00", "tag": "screen-ink-fleet-2-g3-142756", "sec": 209.0, "rows": 15}
+{"claim": "c3x001", "kind": "eval", "key": "c3x001|full", "worker": "eval_worker:ink-fleet-2:g3", "time": "2026-11-21T14:31:25+00:00"}
+{"claim": "c1h_r1_svd1_s3_L11", "worker": "kl_worker@ink-research-2b", "kind": "kl", "time": "2026-11-21T14:31:30+00:00"}
+{"done": "c1h_svd1_s2", "kind": "eval", "key": "c1h_svd1_s2|screen", "worker": "eval_worker:ink-fleet-2:g2", "time": "2026-11-21T14:31:33+00:00", "tag": "screen-ink-fleet-2-g2-142843", "sec": 170.3, "rows": 15}
+{"claim": "c1h_r1_plain_s3_L11", "kind": "eval", "key": "c1h_r1_plain_s3_L11|screen", "worker": "eval_worker:ink-fleet-2:g2", "time": "2026-11-21T14:31:33+00:00"}
+{"done": "c3t012", "kind": "eval", "key": "c3t012|screen", "worker": "eval_worker:ink-fleet-2:g6", "time": "2026-11-21T14:31:41+00:00", "tag": "screen-ink-fleet-2-g6-142815", "sec": 206.1, "rows": 15}
+{"claim": "c3t009", "kind": "eval", "key": "c3t009|full", "worker": "eval_worker:ink-fleet-2:g6", "time": "2026-11-21T14:31:41+00:00"}
+{"done": "c1t017", "kind": "eval", "key": "c1t017|screen", "worker": "eval_worker:ink-fleet-2:g0", "time": "2026-11-21T14:32:02+00:00", "tag": "screen-ink-fleet-2-g0-142921", "sec": 161.2, "rows": 15}
+{"claim": "c1h_svd1_s2", "kind": "eval", "key": "c1h_svd1_s2|full", "worker": "eval_worker:ink-fleet-2:g0", "time": "2026-11-21T14:32:02+00:00"}
+{"claim": "c1h_r1_svd1_s3_L4", "worker": "kl_worker@ink-research-2b", "kind": "kl", "time": "2026-11-21T14:32:05+00:00"}
+{"claim": "c1h_r1_svd1_s4_L11", "worker": "kl_worker@ink-research-2b", "kind": "kl", "time": "2026-11-21T14:32:38+00:00"}
+{"claim": "c1h_r1_plain_s4_L11", "worker": "kl_worker@ink-research-2b", "kind": "kl", "time": "2026-11-21T14:33:11+00:00"}
+{"done": "c1h_plain_s2", "kind": "eval", "key": "c1h_plain_s2|screen", "worker": "eval_worker:ink-fleet-2:g7", "time": "2026-11-21T14:33:25+00:00", "tag": "screen-ink-fleet-2-g7-143034", "sec": 170.8, "rows": 15}
+{"claim": "c1t017", "kind": "eval", "key": "c1t017|full", "worker": "eval_worker:ink-fleet-2:g7", "time": "2026-11-21T14:33:25+00:00"}
+{"done": "c1h_svd1_s4", "kind": "eval", "key": "c1h_svd1_s4|screen", "worker": "eval_worker:ink-fleet-2:g1", "time": "2026-11-21T14:33:42+00:00", "tag": "screen-ink-fleet-2-g1-143056", "sec": 166.4, "rows": 15}
+{"claim": "c1h_plain_s2", "kind": "eval", "key": "c1h_plain_s2|full", "worker": "eval_worker:ink-fleet-2:g1", "time": "2026-11-21T14:33:42+00:00"}
+{"claim": "c1bt000", "worker": "kl_worker@ink-research-2b", "kind": "kl", "time": "2026-11-21T14:33:47+00:00"}
+{"done": "c1h_r1_plain_s3_L11", "kind": "eval", "key": "c1h_r1_plain_s3_L11|screen", "worker": "eval_worker:ink-fleet-2:g2", "time": "2026-11-21T14:33:58+00:00", "tag": "screen-ink-fleet-2-g2-143133", "sec": 145.5, "rows": 15}
+{"claim": "c1h_r1_svd1_s3_L11", "kind": "eval", "key": "c1h_r1_svd1_s3_L11|screen", "worker": "eval_worker:ink-fleet-2:g2", "time": "2026-11-21T14:33:58+00:00"}
+{"done": "c1h_plain_s4", "kind": "eval", "key": "c1h_plain_s4|screen", "worker": "eval_worker:ink-fleet-2:g5", "time": "2026-11-21T14:33:59+00:00", "tag": "screen-ink-fleet-2-g5-143110", "sec": 169.4, "rows": 15}
+{"claim": "c1h_r1_plain_s3_L11", "kind": "eval", "key": "c1h_r1_plain_s3_L11|full", "worker": "eval_worker:ink-fleet-2:g5", "time": "2026-11-21T14:33:59+00:00"}
+{"claim": "c2bt000", "worker": "kl_worker@ink-research-2b", "kind": "kl", "time": "2026-11-21T14:34:22+00:00"}
+{"claim": "c1bt001", "worker": "kl_worker@ink-research-2b", "kind": "kl", "time": "2026-11-21T14:34:55+00:00"}
+{"claim": "c2bt001", "worker": "kl_worker@ink-research-2b", "kind": "kl", "time": "2026-11-21T14:35:27+00:00"}
+{"claim": "c1bt002", "worker": "kl_worker@ink-research-2b", "kind": "kl", "time": "2026-11-21T14:36:01+00:00"}
+{"done": "c1h_r1_svd1_s3_L11", "kind": "eval", "key": "c1h_r1_svd1_s3_L11|screen", "worker": "eval_worker:ink-fleet-2:g2", "time": "2026-11-21T14:36:18+00:00", "tag": "screen-ink-fleet-2-g2-143358", "sec": 139.7, "rows": 15}
+{"claim": "c1h_r1_svd1_s3_L4", "kind": "eval", "key": "c1h_r1_svd1_s3_L4|screen", "worker": "eval_worker:ink-fleet-2:g2", "time": "2026-11-21T14:36:18+00:00"}
+{"claim": "c2bt002", "worker": "kl_worker@ink-research-2b", "kind": "kl", "time": "2026-11-21T14:36:35+00:00"}
+{"claim": "c1bt004", "worker": "kl_worker@ink-research-2b", "kind": "kl", "time": "2026-11-21T14:37:07+00:00"}
+{"claim": "c1bt005", "worker": "kl_worker@ink-research-2b", "kind": "kl", "time": "2026-11-21T14:37:41+00:00"}
+{"claim": "c1bt006", "worker": "kl_worker@ink-research-2b", "kind": "kl", "time": "2026-11-21T14:38:16+00:00"}
+{"claim": "c3t017", "worker": "kl_worker@ink-research-2b", "kind": "kl", "time": "2026-11-21T14:38:47+00:00"}
+{"done": "c1h_r1_svd1_s3_L4", "kind": "eval", "key": "c1h_r1_svd1_s3_L4|screen", "worker": "eval_worker:ink-fleet-2:g2", "time": "2026-11-21T14:39:02+00:00", "tag": "screen-ink-fleet-2-g2-143618", "sec": 164.0, "rows": 15}
+{"claim": "c1h_r1_svd1_s3_L11", "kind": "eval", "key": "c1h_r1_svd1_s3_L11|full", "worker": "eval_worker:ink-fleet-2:g2", "time": "2026-11-21T14:39:02+00:00"}
+{"claim": "c3t018", "worker": "kl_worker@ink-research-2b", "kind": "kl", "time": "2026-11-21T14:39:24+00:00"}
+{"claim": "c3t019", "worker": "kl_worker@ink-research-2b", "kind": "kl", "time": "2026-11-21T14:39:58+00:00"}
+{"claim": "c3t020", "worker": "kl_worker@ink-research-2b", "kind": "kl", "time": "2026-11-21T14:40:32+00:00"}
+{"claim": "c3t021", "worker": "kl_worker@ink-research-2b", "kind": "kl", "time": "2026-11-21T14:41:06+00:00"}
+{"done": "c1t018", "kind": "eval", "key": "c1t018|screen", "worker": "skip", "skipped": true, "reason": "stale low-strength row, superseded by mpoa strong-edit round (lead 14:3xZ)", "time": "2026-11-21T14:44:37+00:00"}
+{"done": "c2t012", "kind": "eval", "key": "c2t012|screen", "worker": "skip", "skipped": true, "reason": "stale low-strength row, superseded by mpoa strong-edit round (lead 14:3xZ)", "time": "2026-11-21T14:44:37+00:00"}
+{"done": "c1t019", "kind": "eval", "key": "c1t019|screen", "worker": "skip", "skipped": true, "reason": "stale low-strength row, superseded by mpoa strong-edit round (lead 14:3xZ)", "time": "2026-11-21T14:44:37+00:00"}
+{"done": "c2t013", "kind": "eval", "key": "c2t013|screen", "worker": "skip", "skipped": true, "reason": "stale low-strength row, superseded by mpoa strong-edit round (lead 14:3xZ)", "time": "2026-11-21T14:44:37+00:00"}
+{"done": "c1t020", "kind": "eval", "key": "c1t020|screen", "worker": "skip", "skipped": true, "reason": "stale low-strength row, superseded by mpoa strong-edit round (lead 14:3xZ)", "time": "2026-11-21T14:44:37+00:00"}
+{"done": "c1t021", "kind": "eval", "key": "c1t021|screen", "worker": "skip", "skipped": true, "reason": "stale low-strength row, superseded by mpoa strong-edit round (lead 14:3xZ)", "time": "2026-11-21T14:44:37+00:00"}
+{"done": "c1t022", "kind": "eval", "key": "c1t022|screen", "worker": "skip", "skipped": true, "reason": "stale low-strength row, superseded by mpoa strong-edit round (lead 14:3xZ)", "time": "2026-11-21T14:44:37+00:00"}
+{"done": "c1t023", "kind": "eval", "key": "c1t023|screen", "worker": "skip", "skipped": true, "reason": "stale low-strength row, superseded by mpoa strong-edit round (lead 14:3xZ)", "time": "2026-11-21T14:44:37+00:00"}
+{"done": "c2t014", "kind": "eval", "key": "c2t014|screen", "worker": "skip", "skipped": true, "reason": "stale low-strength row, superseded by mpoa strong-edit round (lead 14:3xZ)", "time": "2026-11-21T14:44:37+00:00"}
+{"done": "c2t015", "kind": "eval", "key": "c2t015|screen", "worker": "skip", "skipped": true, "reason": "stale low-strength row, superseded by mpoa strong-edit round (lead 14:3xZ)", "time": "2026-11-21T14:44:37+00:00"}
+{"done": "c2t016", "kind": "eval", "key": "c2t016|screen", "worker": "skip", "skipped": true, "reason": "stale low-strength row, superseded by mpoa strong-edit round (lead 14:3xZ)", "time": "2026-11-21T14:44:37+00:00"}
+{"done": "c2t017", "kind": "eval", "key": "c2t017|screen", "worker": "skip", "skipped": true, "reason": "stale low-strength row, superseded by mpoa strong-edit round (lead 14:3xZ)", "time": "2026-11-21T14:44:37+00:00"}
+{"done": "c1t013", "kind": "eval", "key": "c1t013|full", "worker": "eval_worker:ink-fleet-2:g4", "time": "2026-11-21T14:44:42+00:00", "tag": "full-ink-fleet-2-g4-142953", "sec": 888.8, "rows": 40}
+{"claim": "c1h_r1_svd1_s3_L4", "kind": "eval", "key": "c1h_r1_svd1_s3_L4|full", "worker": "eval_worker:ink-fleet-2:g4", "time": "2026-11-21T14:44:42+00:00"}
+{"claim": "c4cd6_oupx4", "worker": "kl_worker@ink-research-2b", "kind": "kl", "time": "2026-11-21T14:45:56+00:00"}
+{"done": "c3t009", "kind": "eval", "key": "c3t009|full", "worker": "eval_worker:ink-fleet-2:g6", "time": "2026-11-21T14:46:24+00:00", "tag": "full-ink-fleet-2-g6-143141", "sec": 883.6, "rows": 40}
+{"claim": "c1h_x4_ouprofile", "kind": "eval", "key": "c1h_x4_ouprofile|full", "worker": "eval_worker:ink-fleet-2:g6", "time": "2026-11-21T14:46:24+00:00"}
+{"claim": "c4cd3_oupx4", "worker": "kl_worker@ink-research-2b", "kind": "kl", "time": "2026-11-21T14:46:32+00:00"}
+{"done": "c1h_svd1_s2", "kind": "eval", "key": "c1h_svd1_s2|full", "worker": "eval_worker:ink-fleet-2:g0", "time": "2026-11-21T14:47:03+00:00", "tag": "full-ink-fleet-2-g0-143202", "sec": 900.2, "rows": 40}
+{"claim": "c4cd6_c1t002", "kind": "eval", "key": "c4cd6_c1t002|full", "worker": "eval_worker:ink-fleet-2:g0", "time": "2026-11-21T14:47:03+00:00"}
+{"claim": "c1ct000", "worker": "kl_worker@ink-research-2b", "kind": "kl", "time": "2026-11-21T14:47:07+00:00"}
+{"claim": "c1ct001", "worker": "kl_worker@ink-research-2b", "kind": "kl", "time": "2026-11-21T14:47:45+00:00"}
+{"done": "c3x001", "kind": "eval", "key": "c3x001|full", "worker": "eval_worker:ink-fleet-2:g3", "time": "2026-11-21T14:48:16+00:00", "tag": "full-ink-fleet-2-g3-143125", "sec": 1011.1, "rows": 40}
+{"claim": "c4cd3_c1t002", "kind": "eval", "key": "c4cd3_c1t002|full", "worker": "eval_worker:ink-fleet-2:g3", "time": "2026-11-21T14:48:16+00:00"}
+{"claim": "c1ct002", "worker": "kl_worker@ink-research-2b", "kind": "kl", "time": "2026-11-21T14:48:20+00:00"}
+{"done": "c1h_plain_s2", "kind": "eval", "key": "c1h_plain_s2|full", "worker": "eval_worker:ink-fleet-2:g1", "time": "2026-11-21T14:48:42+00:00", "tag": "full-ink-fleet-2-g1-143342", "sec": 899.6, "rows": 40}
+{"claim": "c4rp8_c1t002", "kind": "eval", "key": "c4rp8_c1t002|full", "worker": "eval_worker:ink-fleet-2:g1", "time": "2026-11-21T14:48:42+00:00"}
+{"claim": "c1ct003", "worker": "kl_worker@ink-research-2b", "kind": "kl", "time": "2026-11-21T14:48:55+00:00"}
+{"done": "c0_lr", "kind": "eval", "key": "c0_lr|full", "worker": "skip", "skipped": true, "reason": "old c0_lr full row, not needed (lead)", "time": "2026-11-21T14:48:55+00:00"}
+{"done": "c1t017", "kind": "eval", "key": "c1t017|full", "worker": "eval_worker:ink-fleet-2:g7", "time": "2026-11-21T14:48:56+00:00", "tag": "full-ink-fleet-2-g7-143325", "sec": 878.9, "rows": 40, "note": "collected after worker stop"}
+{"done": "c1h_r1_plain_s3_L11", "kind": "eval", "key": "c1h_r1_plain_s3_L11|full", "worker": "eval_worker:ink-fleet-2:g5", "time": "2026-11-21T14:48:59+00:00", "tag": "full-ink-fleet-2-g5-143359", "sec": 899.6, "rows": 40}
+{"claim": "c3x002", "kind": "eval", "key": "c3x002|full", "worker": "eval_worker:ink-fleet-2:g5", "time": "2026-11-21T14:48:59+00:00"}
+{"claim": "c1ct004", "worker": "kl_worker@ink-research-2b", "kind": "kl", "time": "2026-11-21T14:49:29+00:00"}
+{"claim": "c1ct005", "worker": "kl_worker@ink-research-2b", "kind": "kl", "time": "2026-11-21T14:50:01+00:00"}
+{"claim": "c1h_r1_svd1_s4_L11", "kind": "eval", "key": "c1h_r1_svd1_s4_L11|full", "worker": "eval_worker:ink-fleet-2:g7", "time": "2026-11-21T14:50:13+00:00"}
+{"claim": "c1ct006", "worker": "kl_worker@ink-research-2b", "kind": "kl", "time": "2026-11-21T14:50:33+00:00"}
+{"claim": "c1ct007", "worker": "kl_worker@ink-research-2b", "kind": "kl", "time": "2026-11-21T14:51:08+00:00"}
+{"claim": "c4rp8_oupx4", "worker": "kl_worker@ink-research-2b", "kind": "kl", "time": "2026-11-21T14:51:45+00:00"}
+{"claim": "c4cd6k8_c1t002", "worker": "kl_worker@ink-research-2b", "kind": "kl", "time": "2026-11-21T14:52:20+00:00"}
+{"claim": "c4cd6k16_c1t002", "worker": "kl_worker@ink-research-2b", "kind": "kl", "time": "2026-11-21T14:52:52+00:00"}
+{"done": "c1h_r1_svd1_s3_L11", "kind": "eval", "key": "c1h_r1_svd1_s3_L11|full", "worker": "eval_worker:ink-fleet-2:g2", "time": "2026-11-21T14:54:13+00:00", "tag": "full-ink-fleet-2-g2-143902", "sec": 910.4, "rows": 40}
+{"claim": "c1h_r1_plain_s4_L11", "kind": "eval", "key": "c1h_r1_plain_s4_L11|full", "worker": "eval_worker:ink-fleet-2:g2", "time": "2026-11-21T14:54:13+00:00"}
+{"done": "c1h_r1_svd1_s3_L4", "kind": "eval", "key": "c1h_r1_svd1_s3_L4|full", "worker": "eval_worker:ink-fleet-2:g4", "time": "2026-11-21T15:00:25+00:00", "tag": "full-ink-fleet-2-g4-144442", "sec": 943.9, "rows": 40}
+{"claim": "c1ct000", "kind": "eval", "key": "c1ct000|screen", "worker": "eval_worker:ink-fleet-2:g4", "time": "2026-11-21T15:00:25+00:00"}
+{"done": "c4rp8_c1t002", "kind": "eval", "key": "c4rp8_c1t002|full", "worker": "eval_worker:ink-fleet-2:g1", "time": "2026-11-21T15:02:10+00:00", "tag": "full-ink-fleet-2-g1-144842", "sec": 808.7, "rows": 40}
+{"claim": "c1ct001", "kind": "eval", "key": "c1ct001|screen", "worker": "eval_worker:ink-fleet-2:g1", "time": "2026-11-21T15:02:10+00:00"}
+{"done": "c1ct000", "kind": "eval", "key": "c1ct000|screen", "worker": "eval_worker:ink-fleet-2:g4", "time": "2026-11-21T15:02:50+00:00", "tag": "screen-ink-fleet-2-g4-150025", "sec": 144.2, "rows": 15}
+{"claim": "c1ct002", "kind": "eval", "key": "c1ct002|screen", "worker": "eval_worker:ink-fleet-2:g4", "time": "2026-11-21T15:02:50+00:00"}
+{"done": "c1h_x4_ouprofile", "kind": "eval", "key": "c1h_x4_ouprofile|full", "worker": "eval_worker:ink-fleet-2:g6", "time": "2026-11-21T15:02:52+00:00", "tag": "full-ink-fleet-2-g6-144624", "sec": 987.5, "rows": 40}
+{"claim": "c1ct003", "kind": "eval", "key": "c1ct003|screen", "worker": "eval_worker:ink-fleet-2:g6", "time": "2026-11-21T15:02:52+00:00"}
+{"done": "c3x002", "kind": "eval", "key": "c3x002|full", "worker": "eval_worker:ink-fleet-2:g5", "time": "2026-11-21T15:03:17+00:00", "tag": "full-ink-fleet-2-g5-144859", "sec": 858.1, "rows": 40}
+{"claim": "c1ct004", "kind": "eval", "key": "c1ct004|screen", "worker": "eval_worker:ink-fleet-2:g5", "time": "2026-11-21T15:03:17+00:00"}
+{"claim": "c1ct008", "worker": "kl_worker@ink-research-2b", "kind": "kl", "time": "2026-11-21T15:03:25+00:00"}
+{"done": "c4cd3_c1t002", "kind": "eval", "key": "c4cd3_c1t002|full", "worker": "eval_worker:ink-fleet-2:g3", "time": "2026-11-21T15:03:40+00:00", "tag": "full-ink-fleet-2-g3-144816", "sec": 924.5, "rows": 40}
+{"claim": "c1ct005", "kind": "eval", "key": "c1ct005|screen", "worker": "eval_worker:ink-fleet-2:g3", "time": "2026-11-21T15:03:40+00:00"}
+{"done": "c4cd6_c1t002", "kind": "eval", "key": "c4cd6_c1t002|full", "worker": "eval_worker:ink-fleet-2:g0", "time": "2026-11-21T15:04:17+00:00", "tag": "full-ink-fleet-2-g0-144703", "sec": 1033.9, "rows": 40}
+{"claim": "c1ct006", "kind": "eval", "key": "c1ct006|screen", "worker": "eval_worker:ink-fleet-2:g0", "time": "2026-11-21T15:04:17+00:00"}
+{"release": "c1ct006", "kind": "eval", "key": "c1ct006|screen", "worker": "eval_worker:ink-fleet-2:g0", "time": "2026-11-21T15:04:29+00:00", "note": "rolling restart before launch (claimed 2026-11-21T15:04:17+00:00)"}
+{"claim": "c1ct006", "kind": "eval", "key": "c1ct006|screen", "worker": "eval_worker:ink-fleet-2:g0", "time": "2026-11-21T15:04:41+00:00"}
+{"done": "c1ct002", "kind": "eval", "key": "c1ct002|screen", "worker": "eval_worker:ink-fleet-2:g4", "time": "2026-11-21T15:05:12+00:00", "tag": "screen-ink-fleet-2-g4-150250", "sec": 66.7, "rows": 15, "note": "collected after worker stop"}
+{"done": "c1ct001", "kind": "eval", "key": "c1ct001|screen", "worker": "eval_worker:ink-fleet-2:g1", "time": "2026-11-21T15:05:12+00:00", "tag": "screen-ink-fleet-2-g1-150210", "sec": 92.8, "rows": 15, "note": "collected after worker stop"}
+{"done": "c1ct003", "kind": "eval", "key": "c1ct003|screen", "worker": "eval_worker:ink-fleet-2:g6", "time": "2026-11-21T15:05:14+00:00", "tag": "screen-ink-fleet-2-g6-150252", "sec": 88.9, "rows": 15, "note": "collected after worker stop"}
+{"claim": "c1ct007", "kind": "eval", "key": "c1ct007|screen", "worker": "eval_worker:ink-fleet-2:g1", "time": "2026-11-21T15:05:19+00:00"}
+{"claim": "c1ct008", "kind": "eval", "key": "c1ct008|screen", "worker": "eval_worker:ink-fleet-2:g4", "time": "2026-11-21T15:05:19+00:00"}
+{"claim": "c4cd6_oupx4", "kind": "eval", "key": "c4cd6_oupx4|screen", "worker": "eval_worker:ink-fleet-2:g6", "time": "2026-11-21T15:05:20+00:00"}
+{"claim": "c1t013_cr03", "worker": "kl_worker@ink-research-2b", "kind": "kl", "time": "2026-11-21T15:05:32+00:00"}
+{"done": "c1ct004", "kind": "eval", "key": "c1ct004|screen", "worker": "eval_worker:ink-fleet-2:g5", "time": "2026-11-21T15:06:04+00:00", "tag": "screen-ink-fleet-2-g5-150317", "sec": 101.7, "rows": 15, "note": "collected after worker stop"}
+{"claim": "c4cd3_oupx4", "kind": "eval", "key": "c4cd3_oupx4|screen", "worker": "eval_worker:ink-fleet-2:g5", "time": "2026-11-21T15:06:10+00:00"}
+{"claim": "c1t013_cr1", "worker": "kl_worker@ink-research-2b", "kind": "kl", "time": "2026-11-21T15:06:20+00:00"}
+{"done": "c1ct005", "kind": "eval", "key": "c1ct005|screen", "worker": "eval_worker:ink-fleet-2:g3", "time": "2026-11-21T15:06:24+00:00", "tag": "screen-ink-fleet-2-g3-150340", "sec": 101.6, "rows": 16, "note": "collected after worker stop"}
+{"done": "c1h_r1_svd1_s4_L11", "kind": "eval", "key": "c1h_r1_svd1_s4_L11|full", "worker": "eval_worker:ink-fleet-2:g7", "time": "2026-11-21T15:06:28+00:00", "tag": "full-ink-fleet-2-g7-145013", "sec": 914.6, "rows": 40, "note": "collected after worker stop"}
+{"claim": "c1t013_cr03", "kind": "eval", "key": "c1t013_cr03|full|cap4096", "worker": "eval_worker:ink-fleet-2:g3", "time": "2026-11-21T15:06:32+00:00"}
+{"claim": "c4rp8_oupx4", "kind": "eval", "key": "c4rp8_oupx4|screen", "worker": "eval_worker:ink-fleet-2:g7", "time": "2026-11-21T15:06:36+00:00"}
+{"done": "c1ct006", "kind": "eval", "key": "c1ct006|screen", "worker": "eval_worker:ink-fleet-2:g0", "time": "2026-11-21T15:06:49+00:00", "tag": "screen-ink-fleet-2-g0-150441", "sec": 127.5, "rows": 16}
+{"claim": "c4cd6k8_c1t002", "kind": "eval", "key": "c4cd6k8_c1t002|screen", "worker": "eval_worker:ink-fleet-2:g0", "time": "2026-11-21T15:06:49+00:00"}
+{"claim": "c1h_svd1_s2_cr03", "worker": "kl_worker@ink-research-2b", "kind": "kl", "time": "2026-11-21T15:06:59+00:00"}
+{"done": "c1t013_cr1", "kind": "eval", "key": "c1t013_cr1|full|cap4096", "worker": "skip", "skipped": true, "reason": "crisis variants dropped (owner via lead/mpoa)", "time": "2026-11-21T15:07:30+00:00"}
+{"done": "c1h_svd1_s2_cr03", "kind": "eval", "key": "c1h_svd1_s2_cr03|full|cap4096", "worker": "skip", "skipped": true, "reason": "crisis variants dropped (owner via lead/mpoa)", "time": "2026-11-21T15:07:30+00:00"}
+{"done": "c1h_svd1_s2_cr1", "kind": "eval", "key": "c1h_svd1_s2_cr1|full|cap4096", "worker": "skip", "skipped": true, "reason": "crisis variants dropped (owner via lead/mpoa)", "time": "2026-11-21T15:07:30+00:00"}
+{"claim": "c1h_svd1_s2_cr1", "worker": "kl_worker@ink-research-2b", "kind": "kl", "time": "2026-11-21T15:07:38+00:00"}
+{"done": "c1ct008", "kind": "eval", "key": "c1ct008|screen", "worker": "eval_worker:ink-fleet-2:g4", "time": "2026-11-21T15:07:42+00:00", "tag": "screen-ink-fleet-2-g4-150519", "sec": 142.6, "rows": 16}
+{"claim": "c4cd6k16_c1t002", "kind": "eval", "key": "c4cd6k16_c1t002|screen", "worker": "eval_worker:ink-fleet-2:g4", "time": "2026-11-21T15:07:42+00:00"}
+{"release": "c1t013_cr03", "kind": "eval", "key": "c1t013_cr03|full|cap4096", "worker": "eval_worker:ink-fleet-2:g3", "time": "2026-11-21T15:08:02+00:00", "note": "aborted: crisis variant dropped (owner)"}
+{"done": "c1t013_cr03", "kind": "eval", "key": "c1t013_cr03|full|cap4096", "worker": "skip", "skipped": true, "reason": "crisis variants dropped (owner via lead/mpoa); aborted mid-run on g3", "time": "2026-11-21T15:08:02+00:00"}
+{"done": "c1ct007", "kind": "eval", "key": "c1ct007|screen", "worker": "eval_worker:ink-fleet-2:g1", "time": "2026-11-21T15:08:03+00:00", "tag": "screen-ink-fleet-2-g1-150519", "sec": 163.7, "rows": 16}
+{"claim": "c1h_r1_svd1_s4_L11", "kind": "eval", "key": "c1h_r1_svd1_s4_L11|screen", "worker": "eval_worker:ink-fleet-2:g1", "time": "2026-11-21T15:08:03+00:00"}
+{"claim": "c1h_r1_plain_s4_L11", "kind": "eval", "key": "c1h_r1_plain_s4_L11|screen", "worker": "eval_worker:ink-fleet-2:g3", "time": "2026-11-21T15:08:07+00:00"}
+{"claim": "c1ct009", "worker": "kl_worker@ink-research-2b", "kind": "kl", "time": "2026-11-21T15:08:20+00:00"}
+{"done": "c4cd6_oupx4", "kind": "eval", "key": "c4cd6_oupx4|screen", "worker": "eval_worker:ink-fleet-2:g6", "time": "2026-11-21T15:08:26+00:00", "tag": "screen-ink-fleet-2-g6-150520", "sec": 186.4, "rows": 16}
+{"claim": "c1bt000", "kind": "eval", "key": "c1bt000|screen", "worker": "eval_worker:ink-fleet-2:g6", "time": "2026-11-21T15:08:26+00:00"}
+{"claim": "c1ct010", "worker": "kl_worker@ink-research-2b", "kind": "kl", "time": "2026-11-21T15:08:53+00:00"}
+{"done": "c4cd3_oupx4", "kind": "eval", "key": "c4cd3_oupx4|screen", "worker": "eval_worker:ink-fleet-2:g5", "time": "2026-11-21T15:09:03+00:00", "tag": "screen-ink-fleet-2-g5-150610", "sec": 173.1, "rows": 16}
+{"claim": "c1ct009", "kind": "eval", "key": "c1ct009|screen", "worker": "eval_worker:ink-fleet-2:g5", "time": "2026-11-21T15:09:03+00:00"}
+{"done": "c4cd6k8_c1t002", "kind": "eval", "key": "c4cd6k8_c1t002|screen", "worker": "eval_worker:ink-fleet-2:g0", "time": "2026-11-21T15:09:13+00:00", "tag": "screen-ink-fleet-2-g0-150649", "sec": 144.3, "rows": 16}
+{"claim": "c2bt000", "kind": "eval", "key": "c2bt000|screen", "worker": "eval_worker:ink-fleet-2:g0", "time": "2026-11-21T15:09:13+00:00"}
+{"done": "c4rp8_oupx4", "kind": "eval", "key": "c4rp8_oupx4|screen", "worker": "eval_worker:ink-fleet-2:g7", "time": "2026-11-21T15:09:25+00:00", "tag": "screen-ink-fleet-2-g7-150636", "sec": 169.2, "rows": 16}
+{"claim": "c1bt001", "kind": "eval", "key": "c1bt001|screen", "worker": "eval_worker:ink-fleet-2:g7", "time": "2026-11-21T15:09:25+00:00"}
+{"claim": "c1ct011", "worker": "kl_worker@ink-research-2b", "kind": "kl", "time": "2026-11-21T15:09:30+00:00"}
+{"done": "c1h_r1_plain_s4_L11", "kind": "eval", "key": "c1h_r1_plain_s4_L11|full", "worker": "eval_worker:ink-fleet-2:g2", "time": "2026-11-21T15:09:44+00:00", "tag": "full-ink-fleet-2-g2-145413", "sec": 880.6, "rows": 40, "note": "collected after worker stop"}
+{"claim": "c1ct010", "kind": "eval", "key": "c1ct010|screen", "worker": "eval_worker:ink-fleet-2:g2", "time": "2026-11-21T15:09:49+00:00"}
+{"claim": "c1dt000", "worker": "kl_worker@ink-research-2b", "kind": "kl", "time": "2026-11-21T15:10:17+00:00"}
+{"done": "c1h_r1_svd1_s4_L11", "kind": "eval", "key": "c1h_r1_svd1_s4_L11|screen", "worker": "eval_worker:ink-fleet-2:g1", "time": "2026-11-21T15:10:30+00:00", "tag": "screen-ink-fleet-2-g1-150803", "sec": 147.1, "rows": 16}
+{"claim": "c1ct011", "kind": "eval", "key": "c1ct011|screen", "worker": "eval_worker:ink-fleet-2:g1", "time": "2026-11-21T15:10:30+00:00"}
+{"done": "c4cd6k16_c1t002", "kind": "eval", "key": "c4cd6k16_c1t002|screen", "worker": "eval_worker:ink-fleet-2:g4", "time": "2026-11-21T15:10:34+00:00", "tag": "screen-ink-fleet-2-g4-150742", "sec": 171.8, "rows": 16}
+{"claim": "c2bt001", "kind": "eval", "key": "c2bt001|screen", "worker": "eval_worker:ink-fleet-2:g4", "time": "2026-11-21T15:10:34+00:00"}
+{"done": "c1h_r1_plain_s4_L11", "kind": "eval", "key": "c1h_r1_plain_s4_L11|screen", "worker": "eval_worker:ink-fleet-2:g3", "time": "2026-11-21T15:10:42+00:00", "tag": "screen-ink-fleet-2-g3-150807", "sec": 154.9, "rows": 16}
+{"claim": "c1bt002", "kind": "eval", "key": "c1bt002|screen", "worker": "eval_worker:ink-fleet-2:g3", "time": "2026-11-21T15:10:42+00:00"}
+{"done": "c1bt000", "kind": "eval", "key": "c1bt000|screen", "worker": "eval_worker:ink-fleet-2:g6", "time": "2026-11-21T15:11:00+00:00", "tag": "screen-ink-fleet-2-g6-150826", "sec": 153.4, "rows": 16}
+{"claim": "c2bt002", "kind": "eval", "key": "c2bt002|screen", "worker": "eval_worker:ink-fleet-2:g6", "time": "2026-11-21T15:11:00+00:00"}
+{"claim": "c1dt001", "worker": "kl_worker@ink-research-2b", "kind": "kl", "time": "2026-11-21T15:11:06+00:00"}
+{"done": "c1ct009", "kind": "eval", "key": "c1ct009|screen", "worker": "eval_worker:ink-fleet-2:g5", "time": "2026-11-21T15:11:38+00:00", "tag": "screen-ink-fleet-2-g5-150903", "sec": 154.4, "rows": 16}
+{"claim": "c1dt000", "kind": "eval", "key": "c1dt000|screen", "worker": "eval_worker:ink-fleet-2:g5", "time": "2026-11-21T15:11:38+00:00"}
+{"claim": "c1dt002", "worker": "kl_worker@ink-research-2b", "kind": "kl", "time": "2026-11-21T15:11:48+00:00"}
+{"done": "c1bt001", "kind": "eval", "key": "c1bt001|screen", "worker": "eval_worker:ink-fleet-2:g7", "time": "2026-11-21T15:11:58+00:00", "tag": "screen-ink-fleet-2-g7-150925", "sec": 152.9, "rows": 16}
+{"claim": "c1dt001", "kind": "eval", "key": "c1dt001|screen", "worker": "eval_worker:ink-fleet-2:g7", "time": "2026-11-21T15:11:58+00:00"}
+{"done": "c2bt000", "kind": "eval", "key": "c2bt000|screen", "worker": "eval_worker:ink-fleet-2:g0", "time": "2026-11-21T15:12:05+00:00", "tag": "screen-ink-fleet-2-g0-150913", "sec": 172.2, "rows": 16}
+{"claim": "c1bt004", "kind": "eval", "key": "c1bt004|screen", "worker": "eval_worker:ink-fleet-2:g0", "time": "2026-11-21T15:12:05+00:00"}
+{"claim": "c1dt003", "worker": "kl_worker@ink-research-2b", "kind": "kl", "time": "2026-11-21T15:12:19+00:00"}
+{"done": "c1ct010", "kind": "eval", "key": "c1ct010|screen", "worker": "eval_worker:ink-fleet-2:g2", "time": "2026-11-21T15:12:25+00:00", "tag": "screen-ink-fleet-2-g2-150949", "sec": 156.1, "rows": 16}
+{"claim": "c1dt002", "kind": "eval", "key": "c1dt002|screen", "worker": "eval_worker:ink-fleet-2:g2", "time": "2026-11-21T15:12:25+00:00"}
+{"claim": "c1dt004", "worker": "kl_worker@ink-research-2b", "kind": "kl", "time": "2026-11-21T15:12:59+00:00"}
+{"done": "c1ct011", "kind": "eval", "key": "c1ct011|screen", "worker": "eval_worker:ink-fleet-2:g1", "time": "2026-11-21T15:13:09+00:00", "tag": "screen-ink-fleet-2-g1-151030", "sec": 159.2, "rows": 16}
+{"claim": "c1dt003", "kind": "eval", "key": "c1dt003|screen", "worker": "eval_worker:ink-fleet-2:g1", "time": "2026-11-21T15:13:09+00:00"}
+{"done": "c1bt002", "kind": "eval", "key": "c1bt002|screen", "worker": "eval_worker:ink-fleet-2:g3", "time": "2026-11-21T15:13:18+00:00", "tag": "screen-ink-fleet-2-g3-151042", "sec": 155.7, "rows": 16}
+{"claim": "c1bt005", "kind": "eval", "key": "c1bt005|screen", "worker": "eval_worker:ink-fleet-2:g3", "time": "2026-11-21T15:13:18+00:00"}
+{"claim": "c1dt005", "worker": "kl_worker@ink-research-2b", "kind": "kl", "time": "2026-11-21T15:13:33+00:00"}
+{"done": "c2bt001", "kind": "eval", "key": "c2bt001|screen", "worker": "eval_worker:ink-fleet-2:g4", "time": "2026-11-21T15:13:55+00:00", "tag": "screen-ink-fleet-2-g4-151034", "sec": 201.5, "rows": 16}
+{"claim": "c1dt004", "kind": "eval", "key": "c1dt004|screen", "worker": "eval_worker:ink-fleet-2:g4", "time": "2026-11-21T15:13:55+00:00"}
+{"done": "c1dt000", "kind": "eval", "key": "c1dt000|screen", "worker": "eval_worker:ink-fleet-2:g5", "time": "2026-11-21T15:14:04+00:00", "tag": "screen-ink-fleet-2-g5-151138", "sec": 146.2, "rows": 16}
+{"claim": "c1bt006", "kind": "eval", "key": "c1bt006|screen", "worker": "eval_worker:ink-fleet-2:g5", "time": "2026-11-21T15:14:04+00:00"}
+{"claim": "c1dt006", "worker": "kl_worker@ink-research-2b", "kind": "kl", "time": "2026-11-21T15:14:07+00:00"}
+{"done": "c1dt001", "kind": "eval", "key": "c1dt001|screen", "worker": "eval_worker:ink-fleet-2:g7", "time": "2026-11-21T15:14:19+00:00", "tag": "screen-ink-fleet-2-g7-151158", "sec": 141.2, "rows": 16}
+{"claim": "c1dt000", "kind": "eval", "key": "c1dt000|full", "worker": "eval_worker:ink-fleet-2:g7", "time": "2026-11-21T15:14:19+00:00"}
+{"done": "c1bt004", "kind": "eval", "key": "c1bt004|screen", "worker": "eval_worker:ink-fleet-2:g0", "time": "2026-11-21T15:14:25+00:00", "tag": "screen-ink-fleet-2-g0-151205", "sec": 140.3, "rows": 16}
+{"claim": "c1dt005", "kind": "eval", "key": "c1dt005|screen", "worker": "eval_worker:ink-fleet-2:g0", "time": "2026-11-21T15:14:25+00:00"}
+{"release": "c1dt000", "kind": "eval", "key": "c1dt000|full", "worker": "eval_worker:ink-fleet-2:g7", "time": "2026-11-21T15:14:33+00:00", "note": "rolling restart before launch (claimed 2026-11-21T15:14:19+00:00)"}
+{"release": "c1bt006", "kind": "eval", "key": "c1bt006|screen", "worker": "eval_worker:ink-fleet-2:g5", "time": "2026-11-21T15:14:33+00:00", "note": "rolling restart before launch (claimed 2026-11-21T15:14:04+00:00)"}
+{"claim": "c1dt007", "worker": "kl_worker@ink-research-2b", "kind": "kl", "time": "2026-11-21T15:14:39+00:00"}
+{"done": "c2bt002", "kind": "eval", "key": "c2bt002|screen", "worker": "eval_worker:ink-fleet-2:g6", "time": "2026-11-21T15:15:04+00:00", "tag": "screen-ink-fleet-2-g6-151100", "sec": 175.6, "rows": 16, "note": "collected after worker stop"}
+{"done": "c1dt002", "kind": "eval", "key": "c1dt002|screen", "worker": "eval_worker:ink-fleet-2:g2", "time": "2026-11-21T15:15:05+00:00", "tag": "screen-ink-fleet-2-g2-151225", "sec": 159.9, "rows": 16}
+{"claim": "c1dt000", "kind": "eval", "key": "c1dt000|full", "worker": "eval_worker:ink-fleet-2:g2", "time": "2026-11-21T15:15:05+00:00"}
+{"claim": "c1ct012", "worker": "kl_worker@ink-research-2b", "kind": "kl", "time": "2026-11-21T15:15:13+00:00"}
+{"done": "c1dt003", "kind": "eval", "key": "c1dt003|screen", "worker": "eval_worker:ink-fleet-2:g1", "time": "2026-11-21T15:15:31+00:00", "tag": "screen-ink-fleet-2-g1-151309", "sec": 142.2, "rows": 16}
+{"claim": "c1dt001", "kind": "eval", "key": "c1dt001|full", "worker": "eval_worker:ink-fleet-2:g1", "time": "2026-11-21T15:15:31+00:00"}
+{"done": "c1bt005", "kind": "eval", "key": "c1bt005|screen", "worker": "eval_worker:ink-fleet-2:g3", "time": "2026-11-21T15:15:59+00:00", "tag": "screen-ink-fleet-2-g3-151318", "sec": 161.4, "rows": 16}
+{"claim": "c1dt002", "kind": "eval", "key": "c1dt002|full", "worker": "eval_worker:ink-fleet-2:g3", "time": "2026-11-21T15:15:59+00:00"}
+{"claim": "c1dt008", "worker": "kl_worker@ink-research-2b", "kind": "kl", "time": "2026-11-21T15:16:02+00:00"}
+{"done": "c1dt004", "kind": "eval", "key": "c1dt004|screen", "worker": "eval_worker:ink-fleet-2:g4", "time": "2026-11-21T15:16:32+00:00", "tag": "screen-ink-fleet-2-g4-151355", "sec": 104.0, "rows": 16, "note": "collected after worker stop"}
+{"done": "c1dt005", "kind": "eval", "key": "c1dt005|screen", "worker": "eval_worker:ink-fleet-2:g0", "time": "2026-11-21T15:16:46+00:00", "tag": "screen-ink-fleet-2-g0-151425", "sec": 140.3, "rows": 16}
+{"claim": "c1dt006", "kind": "eval", "key": "c1dt006|screen", "worker": "eval_worker:ink-fleet-2:g0", "time": "2026-11-21T15:16:46+00:00"}
+{"claim": "c1dt009", "worker": "kl_worker@ink-research-2b", "kind": "kl", "time": "2026-11-21T15:16:51+00:00"}
+{"claim": "c1dt010", "worker": "kl_worker@ink-research-2b", "kind": "kl", "time": "2026-11-21T15:17:26+00:00"}
+{"done": "c1dt006", "kind": "eval", "key": "c1dt006|screen", "worker": "eval_worker:ink-fleet-2:g0", "time": "2026-11-21T15:19:10+00:00", "tag": "screen-ink-fleet-2-g0-151646", "sec": 144.2, "rows": 16}
+{"claim": "c1dt007", "kind": "eval", "key": "c1dt007|screen", "worker": "eval_worker:ink-fleet-2:g0", "time": "2026-11-21T15:19:10+00:00"}
+{"done": "c1dt007", "kind": "eval", "key": "c1dt007|screen", "worker": "eval_worker:ink-fleet-2:g0", "time": "2026-11-21T15:21:32+00:00", "tag": "screen-ink-fleet-2-g0-151910", "sec": 142.5, "rows": 16}
+{"claim": "c1dt006", "kind": "eval", "key": "c1dt006|full", "worker": "eval_worker:ink-fleet-2:g0", "time": "2026-11-21T15:21:32+00:00"}
+{"done": "c1dt000", "kind": "eval", "key": "c1dt000|full", "worker": "eval_worker:ink-fleet-2:g2", "time": "2026-11-21T15:29:49+00:00", "tag": "full-ink-fleet-2-g2-151505", "sec": 884.2, "rows": 48}
+{"claim": "c1dt007", "kind": "eval", "key": "c1dt007|full", "worker": "eval_worker:ink-fleet-2:g2", "time": "2026-11-21T15:29:49+00:00"}
+{"claim": "c1dt011", "worker": "kl_worker@ink-research-2b", "kind": "kl", "time": "2026-11-21T15:30:17+00:00"}
+{"done": "c1dt001", "kind": "eval", "key": "c1dt001|full", "worker": "eval_worker:ink-fleet-2:g1", "time": "2026-11-21T15:31:08+00:00", "tag": "full-ink-fleet-2-g1-151531", "sec": 936.5, "rows": 48}
+{"claim": "c1dt008", "kind": "eval", "key": "c1dt008|screen", "worker": "eval_worker:ink-fleet-2:g1", "time": "2026-11-21T15:31:08+00:00"}
+{"claim": "c1dt012", "worker": "kl_worker@ink-research-2b", "kind": "kl", "time": "2026-11-21T15:31:26+00:00"}
+{"done": "c1dt002", "kind": "eval", "key": "c1dt002|full", "worker": "eval_worker:ink-fleet-2:g3", "time": "2026-11-21T15:31:29+00:00", "tag": "full-ink-fleet-2-g3-151559", "sec": 930.2, "rows": 48}
+{"claim": "c1dt009", "kind": "eval", "key": "c1dt009|screen", "worker": "eval_worker:ink-fleet-2:g3", "time": "2026-11-21T15:31:29+00:00"}
+{"claim": "c1dt013", "worker": "kl_worker@ink-research-2b", "kind": "kl", "time": "2026-11-21T15:31:59+00:00"}
+{"done": "c1dt009", "kind": "eval", "key": "c1dt009|screen", "worker": "eval_worker:ink-fleet-2:g3", "time": "2026-11-21T15:33:52+00:00", "tag": "screen-ink-fleet-2-g3-153129", "sec": 142.7, "rows": 16}
+{"claim": "c1dt010", "kind": "eval", "key": "c1dt010|screen", "worker": "eval_worker:ink-fleet-2:g3", "time": "2026-11-21T15:33:52+00:00"}
+{"done": "c1dt008", "kind": "eval", "key": "c1dt008|screen", "worker": "eval_worker:ink-fleet-2:g1", "time": "2026-11-21T15:33:55+00:00", "tag": "screen-ink-fleet-2-g1-153108", "sec": 166.9, "rows": 16}
+{"claim": "c1dt011", "kind": "eval", "key": "c1dt011|screen", "worker": "eval_worker:ink-fleet-2:g1", "time": "2026-11-21T15:33:55+00:00"}
+{"claim": "c1dt014", "worker": "kl_worker@ink-research-2b", "kind": "kl", "time": "2026-11-21T15:34:31+00:00"}
+{"claim": "c1dt015", "worker": "kl_worker@ink-research-2b", "kind": "kl", "time": "2026-11-21T15:35:04+00:00"}
+{"done": "c1dt006", "kind": "eval", "key": "c1dt006|full", "worker": "eval_worker:ink-fleet-2:g0", "time": "2026-11-21T15:35:48+00:00", "tag": "full-ink-fleet-2-g0-152132", "sec": 855.1, "rows": 48}
+{"claim": "c1dt012", "kind": "eval", "key": "c1dt012|screen", "worker": "eval_worker:ink-fleet-2:g0", "time": "2026-11-21T15:35:48+00:00"}
+{"done": "c1dt010", "kind": "eval", "key": "c1dt010|screen", "worker": "eval_worker:ink-fleet-2:g3", "time": "2026-11-21T15:36:15+00:00", "tag": "screen-ink-fleet-2-g3-153352", "sec": 143.1, "rows": 16}
+{"claim": "c1dt013", "kind": "eval", "key": "c1dt013|screen", "worker": "eval_worker:ink-fleet-2:g3", "time": "2026-11-21T15:36:15+00:00"}
+{"release": "c1dt013", "kind": "eval", "key": "c1dt013|screen", "worker": "eval_worker:ink-fleet-2:g3", "time": "2026-11-21T15:36:21+00:00", "note": "rolling restart before launch (claimed 2026-11-21T15:36:15+00:00)"}
+{"done": "c1dt012", "kind": "eval", "key": "c1dt012|screen", "worker": "eval_worker:ink-fleet-2:g0", "time": "2026-11-21T15:38:21+00:00", "tag": "screen-ink-fleet-2-g0-153548", "sec": 100.9, "rows": 16, "note": "collected after worker stop"}
+{"done": "c1dt007", "kind": "eval", "key": "c1dt007|full", "worker": "eval_worker:ink-fleet-2:g2", "time": "2026-11-21T15:44:30+00:00", "tag": "full-ink-fleet-2-g2-152949", "sec": 824.5, "rows": 48, "note": "collected after worker stop"}
+{"release": "c1dt011", "kind": "eval", "key": "c1dt011|screen", "worker": "eval_worker:ink-fleet-2:g1", "time": "2026-11-21T17:10:21+00:00", "note": "ink-fleet-2 removed before collection; result lost"}

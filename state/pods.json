@@ -1,0 +1,13 @@
+[
+ {
+  "name": "ink-play-1",
+  "huid": "zesty-eagle-57",
+  "gpu_type": "RTX5090",
+  "price_per_hour": 0.55,
+  "spent_usd": 0.24,
+  "status": "RUNNING",
+  "removal_scheduled_at": "2026-11-21T19:09:22.107033",
+  "ip": "108.231.238.250",
+  "ssh_port": 40100
+ }
+]

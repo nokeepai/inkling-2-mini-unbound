@@ -1,0 +1,43 @@
+{
+ "gate0": {
+  "status": "PASSED",
+  "time": "2026-11-21T11:40Z",
+  "criteria": "owner-approved recalibration (state/approvals.md 10:28Z)",
+  "numbers": {
+   "hf_vs_sgl_top1_pro6000": 0.956,
+   "hf_vs_sgl_top1_5090": 0.96,
+   "loop_pass_cos_L17": [
+    0.9975,
+    0.9963,
+    0.987
+   ],
+   "pass_boundary_jump": false,
+   "mmlu300_hf": 77.0,
+   "mmlu300_sgl": 76.67,
+   "gsm8k100_hf": 97.0,
+   "gsm8k100_sgl": 99.0
+  }
+ },
+ "gate1": {
+  "status": "PENDING_SEAL",
+  "notes": "harness re-seal after loop detector validation (owner condition)"
+ },
+ "gate2": {
+  "status": "PASSED",
+  "time": "2026-11-21T12:20Z",
+  "notes": "directions, leak, attribution (MoE share 0.55-0.93), controllers shared"
+ },
+ "gate3": {
+  "status": "PROVISIONAL",
+  "time": "2026-11-21T15:28Z",
+  "finalists": [
+   "c1h_svd1_s2",
+   "c1t013"
+  ],
+  "notes": "slot B open to a lower-KL c1c point until 15:50Z (owner: best model)",
+  "report": "reports/gate3_finalists.md"
+ },
+ "gate4": {
+  "status": "pending"
+ }
+}

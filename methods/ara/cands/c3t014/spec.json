@@ -1,0 +1,51 @@
+{
+ "cand_id": "c3t014",
+ "family": "c3",
+ "parent": null,
+ "created": "2026-11-21T13:47:08+00:00",
+ "agent": "ara",
+ "params": {
+  "l_min": 11,
+  "l_max": 23,
+  "rank": 16,
+  "preserve_w": 10.0,
+  "pres2_w": 300.0,
+  "overcorrect": 0.0,
+  "knn_k": 5,
+  "steps": 200,
+  "lr": 0.0003,
+  "think_w": 1.0,
+  "mean_w": 0.5,
+  "gamma": 0.3,
+  "mp": true,
+  "seed": 0
+ },
+ "kind": "weights",
+ "diag": {
+  "rel_dW_mean": 0.0554,
+  "rel_dW_max": 0.0709,
+  "mean_gap_ratio": 0.4687,
+  "preserve_mean": 0.00252,
+  "rownorm_ratio": [
+   0.999,
+   1.001
+  ],
+  "build_exact": "13/13",
+  "gpu_vs_build_diff_elems": 0,
+  "tensor_sha256": {
+   "model.llm.layers.11.attn.wo_ud.weight": "901b1c6607acf5e74b0f85974e2cba1a59f7079302ab3cd50c3c967f45c5387a",
+   "model.llm.layers.12.attn.wo_ud.weight": "ac175363e0def6b1e1abf601164a6f0d09930295655f242f01eac549dc4a56c8",
+   "model.llm.layers.13.attn.wo_ud.weight": "471cd358bf612a81f023f63b45675e74e66a1b2e0d721044355460b1cfd4164b",
+   "model.llm.layers.14.attn.wo_ud.weight": "ed4dae5318a760993e71e1b94753ae257bd851ae55170c507aa44ed3d318938c",
+   "model.llm.layers.15.attn.wo_ud.weight": "c371c2c8ca4a3bfc64ce0e7e91106ebf33574404ab4c602200a7b8b7043b0cb3",
+   "model.llm.layers.16.attn.wo_ud.weight": "85c1fa16d171c89bb6264e82c58177d566c42c841813e733325cff58043219c8",
+   "model.llm.layers.17.attn.wo_ud.weight": "2fcbb563dcca2e520fbe0d083737c973c3264111ddbf8dc7dd23072d41f34646",
+   "model.llm.layers.18.attn.wo_ud.weight": "e6df16d0f46333603b77f3835d29fe7a280d943b69d09f9969ec5a12faeed89a",
+   "model.llm.layers.19.attn.wo_ud.weight": "0053cac54cb40274f708a69a050f2dc04666c762a3f6fcc4ae9e198473d93d40",
+   "model.llm.layers.20.attn.wo_ud.weight": "e270fd3f28ec363be9296a370ba6ce9f2e50eb1fffee20ca1a84310a12173eff",
+   "model.llm.layers.21.attn.wo_ud.weight": "b35fc6c74e3b8910c5240cbdbc2fdd22a0ab289471104097a42585ac287bd4d6",
+   "model.llm.layers.22.attn.wo_ud.weight": "e39084d90e2f1cd91c672219c2ec72802f744d1d1ab15742626c74db2332731e",
+   "model.llm.layers.23.attn.wo_ud.weight": "c1bc03e5997ba0d7a4a60905fc35c88227a57fb61733e7db0e51441d72957768"
+  }
+ }
+}

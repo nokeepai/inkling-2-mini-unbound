@@ -1,0 +1,24 @@
+{
+ "n": 15,
+ "exact_cpu": 15,
+ "gpu_diff_elems": 0,
+ "rownorm_ratio_min": 0.9989932775497437,
+ "rownorm_ratio_max": 1.0006977319717407,
+ "tensor_sha256": {
+  "model.llm.layers.10.attn.wo_ud.weight": "f202f873c070b64bc050a9036c8fbfb7993d9052cb56d756f73131d3769240f6",
+  "model.llm.layers.11.attn.wo_ud.weight": "73c935dbaf5f20dcee2f61a3e9b92ab68cbf9b1d4d772914a78efaaa9dfd5549",
+  "model.llm.layers.12.attn.wo_ud.weight": "3fa19677bf92c480576f8683d7032d47bd299142db0c2f36837990c89b565c19",
+  "model.llm.layers.13.attn.wo_ud.weight": "d20fdc96c089e7126fe78a1827d90929dab7e0f9983849da50afd44be18162f1",
+  "model.llm.layers.14.attn.wo_ud.weight": "1679df4541be12eea457ececc69ac5be5444e5a6373180c39914b6a9ccee8d46",
+  "model.llm.layers.15.attn.wo_ud.weight": "9fb7e8dd21fc9409ca34e67521255862268297bbbdbbaf9970e272a3d336d80c",
+  "model.llm.layers.16.attn.wo_ud.weight": "10b8dee45fbbcddf57e94d1c5704757567febf32c86cbe43496b8f05b2dfa889",
+  "model.llm.layers.17.attn.wo_ud.weight": "6d1636c04ba2e9dc4779e29350550bf9b9005a1d3df9503061213b1491afb0c7",
+  "model.llm.layers.18.attn.wo_ud.weight": "78e7411a09bb93eb115df0aa99f5ce3d69e1bb3244e16a0bcdb97b1448ba8dff",
+  "model.llm.layers.19.attn.wo_ud.weight": "bb584be4a16a6ec28f6ff60d48cb86ce3804b7ed7acd6e68a831c254120b2439",
+  "model.llm.layers.20.attn.wo_ud.weight": "8a1e20333255e287e959a880d465d3008939f98a1e06ed51dea4e08684300bfc",
+  "model.llm.layers.21.attn.wo_ud.weight": "b7c99e1d54e1475a319400499d1b55489867fe0ba9c45006c69eeee81b414721",
+  "model.llm.layers.22.attn.wo_ud.weight": "18c77d229ed19917eab13f77049e85ed17d1b032975d8161561a6aabcdfbef54",
+  "model.llm.layers.23.attn.wo_ud.weight": "2b227c7624f71d6e74d504029d08cfbd1af5dd83ad49977f7f269d53097c8dda",
+  "model.llm.layers.9.attn.wo_ud.weight": "67a27c8737f7ba4b37b4fb554b0d335cbae464aaff6fcc1bd2841946bdeb1a70"
+ }
+}

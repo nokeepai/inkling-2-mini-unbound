@@ -1,0 +1,13 @@
+{
+ "transformers_pr": 51050,
+ "transformers_commit": "a10ebc3c1c44b01d0ee825d48b8d0de3253e4539",
+ "transformers_install": "pip install 'git+https://github.com/huggingface/transformers@a10ebc3c1c44b01d0ee825d48b8d0de3253e4539'",
+ "orig_repo": "thinkingmachines/Inkling-2-Mini",
+ "orig_rev": "ed40e7da625f594fc9c4990f5f66be24873c22d7",
+ "ou_repo": "OpenUncensored/Inkling-2-Mini-Uncensored",
+ "ou_rev": "4e5f06d72b5a70c9dcd5e8046aea576eb3ee8487",
+ "sglang_image": "lmsysorg/sglang:inkling-2-mini",
+ "sglang_digest_amd64": "sha256:421aed3ac11741381eac350bf7b1db28a0cafb6ae49b57ae78fba86a16a32306",
+ "lium_template": "bb50bd64-e363-4adc-8111-1d44c8e36807",
+ "seed": 1234
+}
