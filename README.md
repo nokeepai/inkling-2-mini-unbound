@@ -8,6 +8,7 @@ Built by [nokeep](https://nokeep.ai/?ref=github), who also sponsored the compute
 
 - Weights (safetensors, Transformers / SGLang): https://huggingface.co/nokeepai/Inkling-2-Mini-Unbound
 - GGUF (llama.cpp, LM Studio, Ollama), Q8_0 down to IQ2_M: https://huggingface.co/nokeepai/Inkling-2-Mini-Unbound-GGUF
+- Basalt (NVIDIA Blackwell GPUs), one 19.7 GB .basalt file for Basalt 0.5.5+: https://huggingface.co/nokeepai/Inkling-2-Mini-Unbound-Basalt
 - LoRA adapters (7 MB, rank 16): `Inkling-2-Mini-Unbound-LoRA-r16.gguf` in the GGUF repo for llama.cpp `--lora`, and a PEFT copy in the main repo's `lora/` for vLLM / SGLang / PEFT
 - Exact reproduction: `out/final/edit.pt` + `out/final/apply_edit.py` rebuild the edited tensors bit-exactly from the original checkpoint. `out/final/MANIFEST.md` proves every other tensor is byte-identical.
 - Full results: `out/final/REPORT.md` · charts: `package/charts/`
