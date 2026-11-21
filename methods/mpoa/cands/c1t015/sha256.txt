@@ -1,0 +1,1 @@
+27785d13c2b3b3d872d4ed640961b7eb13dc5024f8d1e32548c53a1ae33a31ff  tensors.safetensors (canonical, built on ink-research-2)

@@ -1,0 +1,67 @@
+15:34:42 ERROR c1h_svd1_s2|gpqa_diamond|0/2: Invalid header value b'Bearer 4MBlEWIMMoBzksrX32totkkxnDBz1s\n5'
+15:34:42 ERROR c1h_svd1_s2|gpqa_diamond|1/2: Invalid header value b'Bearer 4MBlEWIMMoBzksrX32totkkxnDBz1s\n5'
+15:34:42 ERROR c1t013|gpqa_diamond|0/2: Invalid header value b'Bearer 4MBlEWIMMoBzksrX32totkkxnDBz1s\n5'
+15:34:42 ERROR c1t013|gpqa_diamond|1/2: Invalid header value b'Bearer 4MBlEWIMMoBzksrX32totkkxnDBz1s\n5'
+15:34:42 ERROR orig|gpqa_diamond|0/2: Invalid header value b'Bearer 4MBlEWIMMoBzksrX32totkkxnDBz1s\n5'
+15:34:42 ERROR orig|gpqa_diamond|1/2: Invalid header value b'Bearer 4MBlEWIMMoBzksrX32totkkxnDBz1s\n5'
+15:34:45 ERROR c1h_svd1_s2|math500|0/2: Invalid header value b'Bearer 4MBlEWIMMoBzksrX32totkkxnDBz1s\n5'
+15:34:45 ERROR c1h_svd1_s2|math500|1/2: Invalid header value b'Bearer 4MBlEWIMMoBzksrX32totkkxnDBz1s\n5'
+15:34:45 ERROR c1t013|math500|0/2: Invalid header value b'Bearer 4MBlEWIMMoBzksrX32totkkxnDBz1s\n5'
+15:34:45 ERROR c1t013|math500|1/2: Invalid header value b'Bearer 4MBlEWIMMoBzksrX32totkkxnDBz1s\n5'
+15:42:35 restart s2 on /w/merged_c1t013 (unusable admin key)
+15:42:50 restart s6 on /w/merged_c1t013 (unusable admin key)
+15:42:59 already generated orig|gsm8k|0/2
+15:42:59 done orig|gsm8k|0/2 0s
+15:43:14 done orig|gsm8k|1/2 15s
+15:43:14 done orig|math500|1/2 15s
+15:43:22 score orig|gsm8k rc=0 {"gsm8k": 96.6, "gsm8k_think_len": 395.6, "gsm8k_finish_rate": 98.2, "gsm8k_cap_hit_rate": 1.8, "gsm8k_repetition_rate": 18.2, "gsm8k_loop_rate": 0.0}
+15:43:24 ERROR c1t013|mmlu_pro|0/1: [Errno 104] Connection reset by peer
+15:43:49 ERROR orig|gpqa_diamond|1/2: s
+15:44:13 ERROR c1t013|math500|0/2: .py", line 1373, in http_open
+15:44:37 ERROR c1t013|math500|1/2: .py", line 1373, in http_open
+15:45:02 ERROR c1t013|gpqa_diamond|0/2: s
+15:45:26 ERROR c1t013|gpqa_diamond|1/2: s
+15:45:44 done orig|math500|0/2 165s
+15:45:44 restart s0 on /w/merged_c1h_r1_svd1_s3_L4 (unusable admin key)
+15:45:49 already generated ou|math500|1/2
+15:45:49 done ou|math500|1/2 0s
+15:45:49 restart s1 on /w/merged_c1h_r1_svd1_s3_L4 (unusable admin key)
+15:45:49 score orig|math500 rc=0 {"math500": 96.5, "math500_think_len": 1040.01, "math500_finish_rate": 89.5, "math500_cap_hit_rate": 10.5, "math500_repetition_rate": 33.0, "math500_loop_rate": 1.0}
+15:46:15 restart s5 on /w/orig (unusable admin key)
+15:51:57 already generated ou|gpqa_diamond|0/2#1
+15:51:57 already generated ou|gpqa_diamond|1/2#1
+15:51:57 done ou|gpqa_diamond|0/2#1 0s
+15:51:57 done ou|gpqa_diamond|1/2#1 0s
+15:51:57 restart s7 on /w/merged_c1dt001 (unusable admin key)
+15:52:00 already generated ou|math500|0/2#1
+15:52:00 done ou|math500|0/2#1 0s
+15:52:00 score ou|gpqa_diamond rc=0 {"gpqa_diamond": 75.253, "gpqa_diamond_think_len": 3230.444, "gpqa_diamond_finish_rate": 35.354, "gpqa_diamond_cap_hit_rate": 64.646, "gpqa_diamond_repetition_rate": 86.869, "gpqa_diamond_loop_rate": 3.535}
+15:52:05 restart s4 on /w/merged_c1h_r1_svd1_s3_L4 (unusable admin key)
+15:52:05 score ou|math500 rc=0 {"math500": 96.5, "math500_think_len": 1051.965, "math500_finish_rate": 89.0, "math500_cap_hit_rate": 11.0, "math500_repetition_rate": 36.0, "math500_loop_rate": 0.5}
+15:52:22 done c1h_r1_svd1_s3_L4|mmlu_pro|0/1#1 25s
+15:52:27 done orig|mmlu_pro|0/1#1 30s
+15:52:27 score c1h_r1_svd1_s3_L4|mmlu_pro rc=0 r_science": 58.621, "mmlu_pro_economics": 64.935, "mmlu_pro_engineering": 48.718, "mmlu_pro_health": 65.079, "mmlu_pro_history": 51.613, "mmlu_pro_law": 48.81, "mmlu_pro_math": 37.391, "mmlu_pro_other": 53.333, "mmlu_pro_philosophy": 66.667, "mmlu_pro_physics": 46.094, "mmlu_pro_psychology": 73.214}
+15:52:28 done ou|mmlu_pro|0/1#1 31s
+15:52:33 score orig|mmlu_pro rc=0 _science": 58.621, "mmlu_pro_economics": 64.935, "mmlu_pro_engineering": 46.154, "mmlu_pro_health": 65.079, "mmlu_pro_history": 70.968, "mmlu_pro_law": 54.762, "mmlu_pro_math": 37.391, "mmlu_pro_other": 54.444, "mmlu_pro_philosophy": 57.778, "mmlu_pro_physics": 48.438, "mmlu_pro_psychology": 76.786}
+15:52:33 score ou|mmlu_pro rc=0 er_science": 65.517, "mmlu_pro_economics": 71.429, "mmlu_pro_engineering": 50.0, "mmlu_pro_health": 65.079, "mmlu_pro_history": 54.839, "mmlu_pro_law": 45.238, "mmlu_pro_math": 36.522, "mmlu_pro_other": 53.333, "mmlu_pro_philosophy": 68.889, "mmlu_pro_physics": 47.656, "mmlu_pro_psychology": 82.143}
+15:56:09 done c1h_r1_svd1_s3_L4|math500|0/2#1 251s
+15:56:13 done orig|gpqa_diamond|0/2#1 255s
+15:57:02 done c1dt001|math500|0/2 269s
+15:58:05 done c1dt001|mmlu_pro|0/1 367s
+15:58:10 score c1dt001|mmlu_pro rc=0 r_science": 62.069, "mmlu_pro_economics": 62.338, "mmlu_pro_engineering": 56.41, "mmlu_pro_health": 65.079, "mmlu_pro_history": 51.613, "mmlu_pro_law": 53.571, "mmlu_pro_math": 34.783, "mmlu_pro_other": 54.444, "mmlu_pro_philosophy": 66.667, "mmlu_pro_physics": 47.656, "mmlu_pro_psychology": 78.571}
+15:59:33 done c1dt001|math500|1/2 205s
+15:59:38 score c1dt001|math500 rc=0 {"math500": 95.5, "math500_think_len": 1045.58, "math500_finish_rate": 90.5, "math500_cap_hit_rate": 9.5, "math500_repetition_rate": 33.0, "math500_loop_rate": 1.0}
+16:00:41 done c1dt001|gsm8k|0/2 151s
+16:00:46 done c1h_r1_svd1_s3_L4|math500|1/2 521s
+16:00:51 score c1h_r1_svd1_s3_L4|math500 rc=0 {"math500": 96.0, "math500_think_len": 1001.095, "math500_finish_rate": 91.0, "math500_cap_hit_rate": 9.0, "math500_repetition_rate": 31.5, "math500_loop_rate": 0.5}
+16:02:54 done c1dt001|gsm8k|1/2 196s
+16:03:02 score c1dt001|gsm8k rc=0 {"gsm8k": 96.6, "gsm8k_think_len": 416.6, "gsm8k_finish_rate": 98.6, "gsm8k_cap_hit_rate": 1.4, "gsm8k_repetition_rate": 19.6, "gsm8k_loop_rate": 0.2}
+16:03:42 done c1h_r1_svd1_s3_L4|gsm8k|0/2 180s
+16:04:06 done c1h_r1_svd1_s3_L4|gsm8k|1/2 195s
+16:04:14 score c1h_r1_svd1_s3_L4|gsm8k rc=0 {"gsm8k": 96.4, "gsm8k_think_len": 434.936, "gsm8k_finish_rate": 98.2, "gsm8k_cap_hit_rate": 1.8, "gsm8k_repetition_rate": 22.4, "gsm8k_loop_rate": 0.0}
+16:05:11 done c1h_r1_svd1_s3_L4|gpqa_diamond|1/2 758s
+16:05:35 done ou|gsm8k|0/2 153s
+16:06:29 done c1h_r1_svd1_s3_L4|gpqa_diamond|0/2 841s
+16:06:32 score c1h_r1_svd1_s3_L4|gpqa_diamond rc=0 {"gpqa_diamond": 74.242, "gpqa_diamond_think_len": 3189.571, "gpqa_diamond_finish_rate": 37.374, "gpqa_diamond_cap_hit_rate": 62.626, "gpqa_diamond_repetition_rate": 89.899, "gpqa_diamond_loop_rate": 5.556}
+16:07:15 done ou|gsm8k|1/2 213s
+16:07:22 score ou|gsm8k rc=0 {"gsm8k": 97.4, "gsm8k_think_len": 421.76, "gsm8k_finish_rate": 98.4, "gsm8k_cap_hit_rate": 1.6, "gsm8k_repetition_rate": 21.4, "gsm8k_loop_rate": 0.0}

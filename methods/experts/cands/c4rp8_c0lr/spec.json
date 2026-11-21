@@ -1,0 +1,47 @@
+{
+ "cand_id": "c4rp8_c0lr",
+ "family": "experts",
+ "parent": "c0_lr",
+ "created": "2026-11-21T14:20:37Z",
+ "agent": "experts",
+ "params": {
+  "router_edit": "rproj",
+  "K": 8,
+  "delta": null,
+  "pairs": [
+   [
+    10,
+    32
+   ],
+   [
+    9,
+    39
+   ],
+   [
+    11,
+    53
+   ],
+   [
+    11,
+    18
+   ],
+   [
+    10,
+    19
+   ],
+   [
+    11,
+    14
+   ],
+   [
+    11,
+    22
+   ],
+   [
+    9,
+    94
+   ]
+  ]
+ },
+ "kind": "weights"
+}

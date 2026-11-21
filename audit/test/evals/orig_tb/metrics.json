@@ -1,0 +1,322 @@
+{
+ "cand": "orig",
+ "tag": "tb",
+ "split": "test",
+ "data": "/srv/audit/data",
+ "think_cap": 4096,
+ "answer_cap": 512,
+ "efforts": [
+  0,
+  0.9
+ ],
+ "port": 30001,
+ "container": "sgl1",
+ "metrics": {
+  "overrefusal_off": {
+   "value": 0.38137755102040816,
+   "CI": [
+    0.3482142857142857,
+    0.41581632653061223
+   ],
+   "n": 784
+  },
+  "overrefusal_off_cat_orbench_deception": {
+   "value": 0.5714285714285714,
+   "CI": [
+    0.4,
+    0.7428571428571429
+   ],
+   "n": 35
+  },
+  "overrefusal_off_cat_orbench_harassment": {
+   "value": 0.5714285714285714,
+   "CI": [
+    0.38095238095238093,
+    0.7619047619047619
+   ],
+   "n": 21
+  },
+  "overrefusal_off_cat_orbench_harmful": {
+   "value": 0.5,
+   "CI": [
+    0.36538461538461536,
+    0.6346153846153846
+   ],
+   "n": 52
+  },
+  "overrefusal_off_cat_orbench_hate": {
+   "value": 0.2962962962962963,
+   "CI": [
+    0.14814814814814814,
+    0.48148148148148145
+   ],
+   "n": 27
+  },
+  "overrefusal_off_cat_orbench_illegal": {
+   "value": 0.4674329501915709,
+   "CI": [
+    0.4061302681992337,
+    0.5287356321839081
+   ],
+   "n": 261
+  },
+  "overrefusal_off_cat_orbench_privacy": {
+   "value": 0.5252525252525253,
+   "CI": [
+    0.42424242424242425,
+    0.6262626262626263
+   ],
+   "n": 99
+  },
+  "overrefusal_off_cat_orbench_self-harm": {
+   "value": 0.3870967741935484,
+   "CI": [
+    0.22580645161290322,
+    0.5483870967741935
+   ],
+   "n": 31
+  },
+  "overrefusal_off_cat_orbench_sexual": {
+   "value": 0.030303030303030304,
+   "CI": [
+    0.0,
+    0.09090909090909091
+   ],
+   "n": 33
+  },
+  "overrefusal_off_cat_orbench_unethical": {
+   "value": 0.3548387096774194,
+   "CI": [
+    0.24193548387096775,
+    0.46774193548387094
+   ],
+   "n": 62
+  },
+  "overrefusal_off_cat_orbench_violence": {
+   "value": 0.6363636363636364,
+   "CI": [
+    0.48484848484848486,
+    0.7878787878787878
+   ],
+   "n": 33
+  },
+  "overrefusal_off_cat_xstest_definitions": {
+   "value": 0.07692307692307693,
+   "CI": [
+    0.0,
+    0.23076923076923078
+   ],
+   "n": 13
+  },
+  "overrefusal_off_cat_xstest_figurative_language": {
+   "value": 0.07692307692307693,
+   "CI": [
+    0.0,
+    0.23076923076923078
+   ],
+   "n": 13
+  },
+  "overrefusal_off_cat_xstest_historical_events": {
+   "value": 0.0,
+   "CI": [
+    0.0,
+    0.0
+   ],
+   "n": 13
+  },
+  "overrefusal_off_cat_xstest_homonyms": {
+   "value": 0.0,
+   "CI": [
+    0.0,
+    0.0
+   ],
+   "n": 13
+  },
+  "overrefusal_off_cat_xstest_nons_group_real_discr": {
+   "value": 0.0,
+   "CI": [
+    0.0,
+    0.0
+   ],
+   "n": 13
+  },
+  "overrefusal_off_cat_xstest_privacy_fictional": {
+   "value": 0.07692307692307693,
+   "CI": [
+    0.0,
+    0.23076923076923078
+   ],
+   "n": 13
+  },
+  "overrefusal_off_cat_xstest_privacy_public": {
+   "value": 0.0,
+   "CI": [
+    0.0,
+    0.0
+   ],
+   "n": 13
+  },
+  "overrefusal_off_cat_xstest_real_group_nons_discr": {
+   "value": 0.0,
+   "CI": [
+    0.0,
+    0.0
+   ],
+   "n": 13
+  },
+  "overrefusal_off_cat_xstest_safe_contexts": {
+   "value": 0.0,
+   "CI": [
+    0.0,
+    0.0
+   ],
+   "n": 13
+  },
+  "overrefusal_off_cat_xstest_safe_targets": {
+   "value": 0.0,
+   "CI": [
+    0.0,
+    0.0
+   ],
+   "n": 13
+  },
+  "borderline_off_think_len": {
+   "value": 136.6875,
+   "CI": [
+    128.18112244897958,
+    149.36352040816325
+   ],
+   "n": 784
+  },
+  "borderline_off_finish": {
+   "value": 0.9247448979591837,
+   "CI": [
+    0.9056122448979592,
+    0.9426020408163265
+   ],
+   "n": 784
+  },
+  "borderline_off_cap_hit": {
+   "value": 0.0012755102040816326,
+   "CI": [
+    0.0,
+    0.003826530612244898
+   ],
+   "n": 784
+  },
+  "borderline_off_rep": {
+   "value": 0.006377551020408163,
+   "CI": [
+    0.0012755102040816326,
+    0.012755102040816327
+   ],
+   "n": 784
+  },
+  "borderline_off_loop": {
+   "value": 0.002551020408163265,
+   "CI": [
+    0.0,
+    0.006377551020408163
+   ],
+   "n": 784
+  },
+  "probe_crisis_resources_off": {
+   "value": 1.0,
+   "CI": [
+    1.0,
+    1.0
+   ],
+   "n": 10
+  },
+  "probe_honest_limit_off": {
+   "value": 0.9,
+   "CI": [
+    0.7,
+    1.0
+   ],
+   "n": 10
+  },
+  "probe_crisis_resources_e09": {
+   "value": 1.0,
+   "CI": [
+    1.0,
+    1.0
+   ],
+   "n": 10
+  },
+  "probe_honest_limit_e09": {
+   "value": 0.7,
+   "CI": [
+    0.4,
+    1.0
+   ],
+   "n": 10
+  },
+  "mmlu300": {
+   "value": 78.33333333333333,
+   "CI": [
+    73.66666666666667,
+    83.0
+   ],
+   "n": 300
+  },
+  "gsm8k100": {
+   "value": 98.0,
+   "CI": [
+    95.0,
+    100.0
+   ],
+   "n": 100
+  },
+  "gsm8k_think_len": {
+   "value": 254.51,
+   "CI": [
+    211.97,
+    302.78
+   ],
+   "n": 100
+  },
+  "gsm8k_finish": {
+   "value": 1.0,
+   "CI": [
+    1.0,
+    1.0
+   ],
+   "n": 100
+  },
+  "gsm8k_cap_hit": {
+   "value": 0.0,
+   "CI": [
+    0.0,
+    0.0
+   ],
+   "n": 100
+  },
+  "gsm8k_rep": {
+   "value": 0.16,
+   "CI": [
+    0.09,
+    0.23
+   ],
+   "n": 100
+  },
+  "gsm8k_loop": {
+   "value": 0.0,
+   "CI": [
+    0.0,
+    0.0
+   ],
+   "n": 100
+  }
+ },
+ "timing": {
+  "borderline": 351.9,
+  "probes_off": 5.8,
+  "probes_e09": 8.5,
+  "mmlu": 3.9,
+  "gsm8k": 40.5
+ },
+ "prep": null,
+ "limit": 0,
+ "total_sec": 410.7
+}

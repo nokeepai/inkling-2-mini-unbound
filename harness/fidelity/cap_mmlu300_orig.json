@@ -1,0 +1,1502 @@
+[
+{
+"id": "mmlu-9409",
+"pred": 1,
+"answer": 1
+},
+{
+"id": "mmlu-354",
+"pred": 3,
+"answer": 3
+},
+{
+"id": "mmlu-11982",
+"pred": 2,
+"answer": 2
+},
+{
+"id": "mmlu-2503",
+"pred": 0,
+"answer": 2
+},
+{
+"id": "mmlu-1825",
+"pred": 1,
+"answer": 1
+},
+{
+"id": "mmlu-6443",
+"pred": 1,
+"answer": 1
+},
+{
+"id": "mmlu-13091",
+"pred": 2,
+"answer": 1
+},
+{
+"id": "mmlu-9492",
+"pred": 3,
+"answer": 3
+},
+{
+"id": "mmlu-13648",
+"pred": 3,
+"answer": 3
+},
+{
+"id": "mmlu-103",
+"pred": 2,
+"answer": 2
+},
+{
+"id": "mmlu-123",
+"pred": 2,
+"answer": 1
+},
+{
+"id": "mmlu-6450",
+"pred": 2,
+"answer": 2
+},
+{
+"id": "mmlu-3857",
+"pred": 1,
+"answer": 1
+},
+{
+"id": "mmlu-218",
+"pred": 1,
+"answer": 1
+},
+{
+"id": "mmlu-10435",
+"pred": 2,
+"answer": 0
+},
+{
+"id": "mmlu-4754",
+"pred": 0,
+"answer": 0
+},
+{
+"id": "mmlu-7922",
+"pred": 0,
+"answer": 0
+},
+{
+"id": "mmlu-7027",
+"pred": 2,
+"answer": 2
+},
+{
+"id": "mmlu-13787",
+"pred": 2,
+"answer": 2
+},
+{
+"id": "mmlu-1338",
+"pred": 0,
+"answer": 0
+},
+{
+"id": "mmlu-1529",
+"pred": 1,
+"answer": 1
+},
+{
+"id": "mmlu-11567",
+"pred": 2,
+"answer": 2
+},
+{
+"id": "mmlu-510",
+"pred": 1,
+"answer": 1
+},
+{
+"id": "mmlu-820",
+"pred": 3,
+"answer": 3
+},
+{
+"id": "mmlu-9916",
+"pred": 1,
+"answer": 1
+},
+{
+"id": "mmlu-1510",
+"pred": 2,
+"answer": 2
+},
+{
+"id": "mmlu-3249",
+"pred": 1,
+"answer": 2
+},
+{
+"id": "mmlu-1102",
+"pred": 2,
+"answer": 2
+},
+{
+"id": "mmlu-3665",
+"pred": 1,
+"answer": 1
+},
+{
+"id": "mmlu-896",
+"pred": 3,
+"answer": 3
+},
+{
+"id": "mmlu-10454",
+"pred": 2,
+"answer": 2
+},
+{
+"id": "mmlu-3947",
+"pred": 2,
+"answer": 2
+},
+{
+"id": "mmlu-3244",
+"pred": 1,
+"answer": 1
+},
+{
+"id": "mmlu-13136",
+"pred": 3,
+"answer": 3
+},
+{
+"id": "mmlu-3829",
+"pred": 3,
+"answer": 3
+},
+{
+"id": "mmlu-13822",
+"pred": 2,
+"answer": 3
+},
+{
+"id": "mmlu-2038",
+"pred": 2,
+"answer": 2
+},
+{
+"id": "mmlu-7381",
+"pred": 2,
+"answer": 3
+},
+{
+"id": "mmlu-2820",
+"pred": 0,
+"answer": 0
+},
+{
+"id": "mmlu-13039",
+"pred": 2,
+"answer": 2
+},
+{
+"id": "mmlu-2590",
+"pred": 2,
+"answer": 0
+},
+{
+"id": "mmlu-842",
+"pred": 3,
+"answer": 3
+},
+{
+"id": "mmlu-4615",
+"pred": 3,
+"answer": 3
+},
+{
+"id": "mmlu-4845",
+"pred": 3,
+"answer": 2
+},
+{
+"id": "mmlu-13402",
+"pred": 3,
+"answer": 0
+},
+{
+"id": "mmlu-13631",
+"pred": 0,
+"answer": 0
+},
+{
+"id": "mmlu-3230",
+"pred": 1,
+"answer": 1
+},
+{
+"id": "mmlu-10346",
+"pred": 0,
+"answer": 0
+},
+{
+"id": "mmlu-3486",
+"pred": 3,
+"answer": 3
+},
+{
+"id": "mmlu-14020",
+"pred": 3,
+"answer": 3
+},
+{
+"id": "mmlu-6524",
+"pred": 1,
+"answer": 1
+},
+{
+"id": "mmlu-13475",
+"pred": 0,
+"answer": 0
+},
+{
+"id": "mmlu-4717",
+"pred": 2,
+"answer": 1
+},
+{
+"id": "mmlu-8964",
+"pred": 1,
+"answer": 0
+},
+{
+"id": "mmlu-6354",
+"pred": 0,
+"answer": 0
+},
+{
+"id": "mmlu-4787",
+"pred": 1,
+"answer": 1
+},
+{
+"id": "mmlu-6528",
+"pred": 1,
+"answer": 3
+},
+{
+"id": "mmlu-251",
+"pred": 2,
+"answer": 2
+},
+{
+"id": "mmlu-2668",
+"pred": 0,
+"answer": 3
+},
+{
+"id": "mmlu-2318",
+"pred": 1,
+"answer": 1
+},
+{
+"id": "mmlu-13303",
+"pred": 1,
+"answer": 1
+},
+{
+"id": "mmlu-12408",
+"pred": 0,
+"answer": 3
+},
+{
+"id": "mmlu-373",
+"pred": 3,
+"answer": 3
+},
+{
+"id": "mmlu-2064",
+"pred": 1,
+"answer": 0
+},
+{
+"id": "mmlu-5992",
+"pred": 2,
+"answer": 2
+},
+{
+"id": "mmlu-7500",
+"pred": 2,
+"answer": 2
+},
+{
+"id": "mmlu-3862",
+"pred": 1,
+"answer": 1
+},
+{
+"id": "mmlu-1476",
+"pred": 1,
+"answer": 1
+},
+{
+"id": "mmlu-1251",
+"pred": 1,
+"answer": 1
+},
+{
+"id": "mmlu-3370",
+"pred": 2,
+"answer": 2
+},
+{
+"id": "mmlu-1467",
+"pred": 2,
+"answer": 0
+},
+{
+"id": "mmlu-4837",
+"pred": 2,
+"answer": 2
+},
+{
+"id": "mmlu-7319",
+"pred": 0,
+"answer": 0
+},
+{
+"id": "mmlu-803",
+"pred": 2,
+"answer": 2
+},
+{
+"id": "mmlu-6124",
+"pred": 3,
+"answer": 1
+},
+{
+"id": "mmlu-8307",
+"pred": 2,
+"answer": 2
+},
+{
+"id": "mmlu-12352",
+"pred": 1,
+"answer": 1
+},
+{
+"id": "mmlu-2",
+"pred": 3,
+"answer": 3
+},
+{
+"id": "mmlu-7264",
+"pred": 0,
+"answer": 0
+},
+{
+"id": "mmlu-13422",
+"pred": 2,
+"answer": 0
+},
+{
+"id": "mmlu-398",
+"pred": 2,
+"answer": 2
+},
+{
+"id": "mmlu-6575",
+"pred": 3,
+"answer": 3
+},
+{
+"id": "mmlu-6349",
+"pred": 3,
+"answer": 3
+},
+{
+"id": "mmlu-14021",
+"pred": 2,
+"answer": 2
+},
+{
+"id": "mmlu-938",
+"pred": 1,
+"answer": 1
+},
+{
+"id": "mmlu-5663",
+"pred": 2,
+"answer": 2
+},
+{
+"id": "mmlu-1086",
+"pred": 2,
+"answer": 2
+},
+{
+"id": "mmlu-7295",
+"pred": 0,
+"answer": 0
+},
+{
+"id": "mmlu-2893",
+"pred": 2,
+"answer": 2
+},
+{
+"id": "mmlu-3487",
+"pred": 0,
+"answer": 0
+},
+{
+"id": "mmlu-8359",
+"pred": 1,
+"answer": 1
+},
+{
+"id": "mmlu-61",
+"pred": 0,
+"answer": 3
+},
+{
+"id": "mmlu-9809",
+"pred": 1,
+"answer": 1
+},
+{
+"id": "mmlu-3090",
+"pred": 1,
+"answer": 0
+},
+{
+"id": "mmlu-5738",
+"pred": 1,
+"answer": 1
+},
+{
+"id": "mmlu-12794",
+"pred": 3,
+"answer": 1
+},
+{
+"id": "mmlu-9602",
+"pred": 3,
+"answer": 3
+},
+{
+"id": "mmlu-82",
+"pred": 0,
+"answer": 0
+},
+{
+"id": "mmlu-4487",
+"pred": 0,
+"answer": 0
+},
+{
+"id": "mmlu-3197",
+"pred": 0,
+"answer": 0
+},
+{
+"id": "mmlu-10169",
+"pred": 1,
+"answer": 1
+},
+{
+"id": "mmlu-13087",
+"pred": 0,
+"answer": 0
+},
+{
+"id": "mmlu-1171",
+"pred": 0,
+"answer": 3
+},
+{
+"id": "mmlu-7793",
+"pred": 3,
+"answer": 3
+},
+{
+"id": "mmlu-13208",
+"pred": 1,
+"answer": 1
+},
+{
+"id": "mmlu-8566",
+"pred": 1,
+"answer": 1
+},
+{
+"id": "mmlu-13123",
+"pred": 3,
+"answer": 3
+},
+{
+"id": "mmlu-519",
+"pred": 0,
+"answer": 0
+},
+{
+"id": "mmlu-10230",
+"pred": 3,
+"answer": 3
+},
+{
+"id": "mmlu-129",
+"pred": 1,
+"answer": 1
+},
+{
+"id": "mmlu-13401",
+"pred": 2,
+"answer": 3
+},
+{
+"id": "mmlu-3026",
+"pred": 1,
+"answer": 3
+},
+{
+"id": "mmlu-7088",
+"pred": 1,
+"answer": 1
+},
+{
+"id": "mmlu-9959",
+"pred": 1,
+"answer": 1
+},
+{
+"id": "mmlu-1740",
+"pred": 2,
+"answer": 2
+},
+{
+"id": "mmlu-1413",
+"pred": 1,
+"answer": 1
+},
+{
+"id": "mmlu-1014",
+"pred": 0,
+"answer": 0
+},
+{
+"id": "mmlu-6661",
+"pred": 1,
+"answer": 1
+},
+{
+"id": "mmlu-6174",
+"pred": 1,
+"answer": 1
+},
+{
+"id": "mmlu-6940",
+"pred": 1,
+"answer": 1
+},
+{
+"id": "mmlu-2088",
+"pred": 2,
+"answer": 2
+},
+{
+"id": "mmlu-1387",
+"pred": 1,
+"answer": 1
+},
+{
+"id": "mmlu-1930",
+"pred": 1,
+"answer": 1
+},
+{
+"id": "mmlu-4563",
+"pred": 0,
+"answer": 0
+},
+{
+"id": "mmlu-8751",
+"pred": 0,
+"answer": 0
+},
+{
+"id": "mmlu-14011",
+"pred": 2,
+"answer": 2
+},
+{
+"id": "mmlu-1215",
+"pred": 1,
+"answer": 1
+},
+{
+"id": "mmlu-5256",
+"pred": 3,
+"answer": 3
+},
+{
+"id": "mmlu-9659",
+"pred": 1,
+"answer": 2
+},
+{
+"id": "mmlu-2809",
+"pred": 0,
+"answer": 0
+},
+{
+"id": "mmlu-2308",
+"pred": 1,
+"answer": 1
+},
+{
+"id": "mmlu-11794",
+"pred": 0,
+"answer": 0
+},
+{
+"id": "mmlu-5476",
+"pred": 0,
+"answer": 0
+},
+{
+"id": "mmlu-6903",
+"pred": 0,
+"answer": 0
+},
+{
+"id": "mmlu-13647",
+"pred": 1,
+"answer": 1
+},
+{
+"id": "mmlu-625",
+"pred": 2,
+"answer": 2
+},
+{
+"id": "mmlu-5086",
+"pred": 2,
+"answer": 2
+},
+{
+"id": "mmlu-3515",
+"pred": 2,
+"answer": 2
+},
+{
+"id": "mmlu-733",
+"pred": 2,
+"answer": 2
+},
+{
+"id": "mmlu-868",
+"pred": 2,
+"answer": 2
+},
+{
+"id": "mmlu-3178",
+"pred": 1,
+"answer": 1
+},
+{
+"id": "mmlu-13670",
+"pred": 2,
+"answer": 2
+},
+{
+"id": "mmlu-641",
+"pred": 1,
+"answer": 1
+},
+{
+"id": "mmlu-6946",
+"pred": 2,
+"answer": 2
+},
+{
+"id": "mmlu-5611",
+"pred": 2,
+"answer": 2
+},
+{
+"id": "mmlu-13933",
+"pred": 1,
+"answer": 1
+},
+{
+"id": "mmlu-3631",
+"pred": 0,
+"answer": 0
+},
+{
+"id": "mmlu-3727",
+"pred": 3,
+"answer": 3
+},
+{
+"id": "mmlu-8870",
+"pred": 3,
+"answer": 3
+},
+{
+"id": "mmlu-4272",
+"pred": 1,
+"answer": 2
+},
+{
+"id": "mmlu-9565",
+"pred": 2,
+"answer": 2
+},
+{
+"id": "mmlu-9866",
+"pred": 2,
+"answer": 2
+},
+{
+"id": "mmlu-2554",
+"pred": 1,
+"answer": 1
+},
+{
+"id": "mmlu-7336",
+"pred": 3,
+"answer": 3
+},
+{
+"id": "mmlu-5979",
+"pred": 2,
+"answer": 0
+},
+{
+"id": "mmlu-3446",
+"pred": 1,
+"answer": 2
+},
+{
+"id": "mmlu-1159",
+"pred": 2,
+"answer": 3
+},
+{
+"id": "mmlu-8319",
+"pred": 1,
+"answer": 2
+},
+{
+"id": "mmlu-7034",
+"pred": 2,
+"answer": 3
+},
+{
+"id": "mmlu-13595",
+"pred": 3,
+"answer": 3
+},
+{
+"id": "mmlu-3",
+"pred": 3,
+"answer": 1
+},
+{
+"id": "mmlu-1080",
+"pred": 3,
+"answer": 3
+},
+{
+"id": "mmlu-3309",
+"pred": 0,
+"answer": 0
+},
+{
+"id": "mmlu-1017",
+"pred": 1,
+"answer": 1
+},
+{
+"id": "mmlu-5891",
+"pred": 3,
+"answer": 3
+},
+{
+"id": "mmlu-1581",
+"pred": 1,
+"answer": 1
+},
+{
+"id": "mmlu-8370",
+"pred": 0,
+"answer": 0
+},
+{
+"id": "mmlu-13086",
+"pred": 1,
+"answer": 1
+},
+{
+"id": "mmlu-2239",
+"pred": 0,
+"answer": 0
+},
+{
+"id": "mmlu-1105",
+"pred": 2,
+"answer": 0
+},
+{
+"id": "mmlu-4384",
+"pred": 1,
+"answer": 3
+},
+{
+"id": "mmlu-6772",
+"pred": 1,
+"answer": 1
+},
+{
+"id": "mmlu-7667",
+"pred": 0,
+"answer": 0
+},
+{
+"id": "mmlu-4761",
+"pred": 2,
+"answer": 3
+},
+{
+"id": "mmlu-4390",
+"pred": 3,
+"answer": 3
+},
+{
+"id": "mmlu-1202",
+"pred": 0,
+"answer": 0
+},
+{
+"id": "mmlu-13234",
+"pred": 2,
+"answer": 2
+},
+{
+"id": "mmlu-6755",
+"pred": 1,
+"answer": 3
+},
+{
+"id": "mmlu-4514",
+"pred": 2,
+"answer": 2
+},
+{
+"id": "mmlu-815",
+"pred": 1,
+"answer": 2
+},
+{
+"id": "mmlu-1777",
+"pred": 1,
+"answer": 1
+},
+{
+"id": "mmlu-5357",
+"pred": 3,
+"answer": 3
+},
+{
+"id": "mmlu-10614",
+"pred": 0,
+"answer": 0
+},
+{
+"id": "mmlu-44",
+"pred": 2,
+"answer": 2
+},
+{
+"id": "mmlu-6682",
+"pred": 3,
+"answer": 3
+},
+{
+"id": "mmlu-1436",
+"pred": 1,
+"answer": 0
+},
+{
+"id": "mmlu-2625",
+"pred": 2,
+"answer": 3
+},
+{
+"id": "mmlu-3085",
+"pred": 2,
+"answer": 2
+},
+{
+"id": "mmlu-2732",
+"pred": 1,
+"answer": 2
+},
+{
+"id": "mmlu-1844",
+"pred": 3,
+"answer": 2
+},
+{
+"id": "mmlu-7962",
+"pred": 3,
+"answer": 3
+},
+{
+"id": "mmlu-6665",
+"pred": 3,
+"answer": 3
+},
+{
+"id": "mmlu-6921",
+"pred": 0,
+"answer": 0
+},
+{
+"id": "mmlu-2645",
+"pred": 2,
+"answer": 2
+},
+{
+"id": "mmlu-3595",
+"pred": 2,
+"answer": 2
+},
+{
+"id": "mmlu-5097",
+"pred": 3,
+"answer": 3
+},
+{
+"id": "mmlu-363",
+"pred": 3,
+"answer": 3
+},
+{
+"id": "mmlu-12776",
+"pred": 1,
+"answer": 1
+},
+{
+"id": "mmlu-8467",
+"pred": 3,
+"answer": 0
+},
+{
+"id": "mmlu-1524",
+"pred": 2,
+"answer": 1
+},
+{
+"id": "mmlu-6122",
+"pred": 0,
+"answer": 0
+},
+{
+"id": "mmlu-887",
+"pred": 0,
+"answer": 0
+},
+{
+"id": "mmlu-4040",
+"pred": 3,
+"answer": 3
+},
+{
+"id": "mmlu-961",
+"pred": 3,
+"answer": 3
+},
+{
+"id": "mmlu-6582",
+"pred": 3,
+"answer": 3
+},
+{
+"id": "mmlu-4647",
+"pred": 1,
+"answer": 3
+},
+{
+"id": "mmlu-5581",
+"pred": 3,
+"answer": 3
+},
+{
+"id": "mmlu-11999",
+"pred": 1,
+"answer": 1
+},
+{
+"id": "mmlu-10538",
+"pred": 2,
+"answer": 0
+},
+{
+"id": "mmlu-6870",
+"pred": 3,
+"answer": 3
+},
+{
+"id": "mmlu-1232",
+"pred": 3,
+"answer": 3
+},
+{
+"id": "mmlu-79",
+"pred": 2,
+"answer": 2
+},
+{
+"id": "mmlu-5784",
+"pred": 1,
+"answer": 1
+},
+{
+"id": "mmlu-13839",
+"pred": 0,
+"answer": 0
+},
+{
+"id": "mmlu-1044",
+"pred": 2,
+"answer": 0
+},
+{
+"id": "mmlu-13773",
+"pred": 0,
+"answer": 1
+},
+{
+"id": "mmlu-2662",
+"pred": 1,
+"answer": 1
+},
+{
+"id": "mmlu-5128",
+"pred": 2,
+"answer": 3
+},
+{
+"id": "mmlu-2547",
+"pred": 1,
+"answer": 3
+},
+{
+"id": "mmlu-12179",
+"pred": 2,
+"answer": 2
+},
+{
+"id": "mmlu-9445",
+"pred": 1,
+"answer": 1
+},
+{
+"id": "mmlu-6987",
+"pred": 1,
+"answer": 1
+},
+{
+"id": "mmlu-6395",
+"pred": 1,
+"answer": 1
+},
+{
+"id": "mmlu-1556",
+"pred": 0,
+"answer": 0
+},
+{
+"id": "mmlu-6084",
+"pred": 3,
+"answer": 3
+},
+{
+"id": "mmlu-6725",
+"pred": 0,
+"answer": 0
+},
+{
+"id": "mmlu-6101",
+"pred": 2,
+"answer": 1
+},
+{
+"id": "mmlu-13145",
+"pred": 1,
+"answer": 0
+},
+{
+"id": "mmlu-905",
+"pred": 2,
+"answer": 3
+},
+{
+"id": "mmlu-2543",
+"pred": 2,
+"answer": 3
+},
+{
+"id": "mmlu-3195",
+"pred": 1,
+"answer": 1
+},
+{
+"id": "mmlu-1905",
+"pred": 3,
+"answer": 3
+},
+{
+"id": "mmlu-7317",
+"pred": 1,
+"answer": 1
+},
+{
+"id": "mmlu-12178",
+"pred": 3,
+"answer": 3
+},
+{
+"id": "mmlu-7266",
+"pred": 1,
+"answer": 1
+},
+{
+"id": "mmlu-3331",
+"pred": 2,
+"answer": 0
+},
+{
+"id": "mmlu-138",
+"pred": 3,
+"answer": 3
+},
+{
+"id": "mmlu-359",
+"pred": 3,
+"answer": 3
+},
+{
+"id": "mmlu-3663",
+"pred": 2,
+"answer": 2
+},
+{
+"id": "mmlu-5399",
+"pred": 3,
+"answer": 3
+},
+{
+"id": "mmlu-2934",
+"pred": 1,
+"answer": 1
+},
+{
+"id": "mmlu-6883",
+"pred": 3,
+"answer": 3
+},
+{
+"id": "mmlu-6329",
+"pred": 3,
+"answer": 0
+},
+{
+"id": "mmlu-13540",
+"pred": 3,
+"answer": 3
+},
+{
+"id": "mmlu-10105",
+"pred": 2,
+"answer": 2
+},
+{
+"id": "mmlu-9933",
+"pred": 3,
+"answer": 3
+},
+{
+"id": "mmlu-2562",
+"pred": 0,
+"answer": 0
+},
+{
+"id": "mmlu-1116",
+"pred": 3,
+"answer": 3
+},
+{
+"id": "mmlu-7197",
+"pred": 1,
+"answer": 1
+},
+{
+"id": "mmlu-5700",
+"pred": 0,
+"answer": 0
+},
+{
+"id": "mmlu-1383",
+"pred": 0,
+"answer": 0
+},
+{
+"id": "mmlu-2009",
+"pred": 2,
+"answer": 2
+},
+{
+"id": "mmlu-395",
+"pred": 0,
+"answer": 1
+},
+{
+"id": "mmlu-13581",
+"pred": 1,
+"answer": 1
+},
+{
+"id": "mmlu-5563",
+"pred": 2,
+"answer": 1
+},
+{
+"id": "mmlu-13726",
+"pred": 0,
+"answer": 0
+},
+{
+"id": "mmlu-7186",
+"pred": 1,
+"answer": 0
+},
+{
+"id": "mmlu-6591",
+"pred": 3,
+"answer": 3
+},
+{
+"id": "mmlu-13682",
+"pred": 2,
+"answer": 2
+},
+{
+"id": "mmlu-13901",
+"pred": 2,
+"answer": 1
+},
+{
+"id": "mmlu-473",
+"pred": 0,
+"answer": 2
+},
+{
+"id": "mmlu-9367",
+"pred": 2,
+"answer": 0
+},
+{
+"id": "mmlu-1641",
+"pred": 0,
+"answer": 0
+},
+{
+"id": "mmlu-6049",
+"pred": 1,
+"answer": 1
+},
+{
+"id": "mmlu-6985",
+"pred": 2,
+"answer": 2
+},
+{
+"id": "mmlu-13289",
+"pred": 3,
+"answer": 1
+},
+{
+"id": "mmlu-12218",
+"pred": 3,
+"answer": 3
+},
+{
+"id": "mmlu-2304",
+"pred": 3,
+"answer": 3
+},
+{
+"id": "mmlu-3759",
+"pred": 3,
+"answer": 3
+},
+{
+"id": "mmlu-1914",
+"pred": 3,
+"answer": 3
+},
+{
+"id": "mmlu-981",
+"pred": 2,
+"answer": 3
+},
+{
+"id": "mmlu-1840",
+"pred": 0,
+"answer": 0
+},
+{
+"id": "mmlu-11602",
+"pred": 2,
+"answer": 2
+},
+{
+"id": "mmlu-10269",
+"pred": 3,
+"answer": 3
+},
+{
+"id": "mmlu-2363",
+"pred": 1,
+"answer": 1
+},
+{
+"id": "mmlu-3626",
+"pred": 2,
+"answer": 2
+},
+{
+"id": "mmlu-6209",
+"pred": 1,
+"answer": 1
+},
+{
+"id": "mmlu-146",
+"pred": 1,
+"answer": 1
+},
+{
+"id": "mmlu-1056",
+"pred": 1,
+"answer": 3
+},
+{
+"id": "mmlu-12404",
+"pred": 3,
+"answer": 3
+},
+{
+"id": "mmlu-6355",
+"pred": 2,
+"answer": 2
+},
+{
+"id": "mmlu-3347",
+"pred": 2,
+"answer": 2
+},
+{
+"id": "mmlu-10526",
+"pred": 2,
+"answer": 3
+},
+{
+"id": "mmlu-4340",
+"pred": 1,
+"answer": 0
+},
+{
+"id": "mmlu-5539",
+"pred": 2,
+"answer": 2
+},
+{
+"id": "mmlu-898",
+"pred": 2,
+"answer": 3
+},
+{
+"id": "mmlu-12503",
+"pred": 0,
+"answer": 0
+},
+{
+"id": "mmlu-8276",
+"pred": 1,
+"answer": 1
+},
+{
+"id": "mmlu-6529",
+"pred": 0,
+"answer": 1
+},
+{
+"id": "mmlu-12580",
+"pred": 0,
+"answer": 0
+},
+{
+"id": "mmlu-5725",
+"pred": 3,
+"answer": 3
+},
+{
+"id": "mmlu-2018",
+"pred": 3,
+"answer": 3
+},
+{
+"id": "mmlu-3175",
+"pred": 2,
+"answer": 2
+},
+{
+"id": "mmlu-452",
+"pred": 0,
+"answer": 0
+},
+{
+"id": "mmlu-463",
+"pred": 0,
+"answer": 0
+},
+{
+"id": "mmlu-7001",
+"pred": 3,
+"answer": 3
+},
+{
+"id": "mmlu-298",
+"pred": 0,
+"answer": 0
+},
+{
+"id": "mmlu-1616",
+"pred": 0,
+"answer": 0
+},
+{
+"id": "mmlu-6782",
+"pred": 3,
+"answer": 3
+},
+{
+"id": "mmlu-3984",
+"pred": 3,
+"answer": 3
+}
+]

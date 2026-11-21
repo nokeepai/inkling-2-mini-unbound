@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="576pt" height="288pt" viewBox="0 0 576 288" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-11-21T22:37:04.432281</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.10.9, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 288 
+L 576 288 
+L 576 0 
+L 0 0 
+z
+" style="fill: #fcfcfb"/>
+  </g>
+  <g id="patch_2">
+   <path d="M 27.648 233.28 
+L 162.432 233.28 
+Q 167.04 233.28 167.04 230.976 
+L 167.04 230.4 
+Q 167.04 228.096 162.432 228.096 
+L 27.648 228.096 
+Q 23.04 228.096 23.04 230.4 
+L 23.04 230.976 
+Q 23.04 233.28 27.648 233.28 
+z
+" style="fill: #efeeea"/>
+  </g>
+  <g id="patch_3">
+   <path d="M 27.648 243.072 
+L 162.432 243.072 
+Q 167.04 243.072 167.04 240.768 
+L 167.04 240.192 
+Q 167.04 237.888 162.432 237.888 
+L 27.648 237.888 
+Q 23.04 237.888 23.04 240.192 
+L 23.04 240.768 
+Q 23.04 243.072 27.648 243.072 
+z
+" style="fill: #efeeea"/>
+  </g>
+  <g id="patch_4">
+   <path d="M 27.648 243.072 
+L 158.793011 243.072 
+Q 163.401011 243.072 163.401011 240.768 
+L 163.401011 240.192 
+Q 163.401011 237.888 158.793011 237.888 
+L 27.648 237.888 
+Q 23.04 237.888 23.04 240.192 
+L 23.04 240.768 
+Q 23.04 243.072 27.648 243.072 
+z
+" style="fill: #8c8b86"/>
+  </g>
+  <g id="patch_5">
+   <path d="M 217.728 233.28 
+L 352.512 233.28 
+Q 357.12 233.28 357.12 230.976 
+L 357.12 230.4 
+Q 357.12 228.096 352.512 228.096 
+L 217.728 228.096 
+Q 213.12 228.096 213.12 230.4 
+L 213.12 230.976 
+Q 213.12 233.28 217.728 233.28 
+z
+" style="fill: #efeeea"/>
+  </g>
+  <g id="patch_6">
+   <path d="M 217.728 233.28 
+L 286.490339 233.28 
+Q 291.098339 233.28 291.098339 230.976 
+L 291.098339 230.4 
+Q 291.098339 228.096 286.490339 228.096 
+L 217.728 228.096 
+Q 213.12 228.096 213.12 230.4 
+L 213.12 230.976 
+Q 213.12 233.28 217.728 233.28 
+z
+" style="fill: #2a78d6"/>
+  </g>
+  <g id="patch_7">
+   <path d="M 217.728 243.072 
+L 352.512 243.072 
+Q 357.12 243.072 357.12 240.768 
+L 357.12 240.192 
+Q 357.12 237.888 352.512 237.888 
+L 217.728 237.888 
+Q 213.12 237.888 213.12 240.192 
+L 213.12 240.768 
+Q 213.12 243.072 217.728 243.072 
+z
+" style="fill: #efeeea"/>
+  </g>
+  <g id="patch_8">
+   <path d="M 217.728 243.072 
+L 211.968 243.072 
+Q 216.576 243.072 216.576 240.768 
+L 216.576 240.192 
+Q 216.576 237.888 211.968 237.888 
+L 217.728 237.888 
+Q 213.12 237.888 213.12 240.192 
+L 213.12 240.768 
+Q 213.12 243.072 217.728 243.072 
+z
+" style="fill: #8c8b86"/>
+  </g>
+  <g id="patch_9">
+   <path d="M 410.112 245.088 
+C 411.334056 245.088 412.506224 244.602472 413.370348 243.738348 
+C 414.234472 242.874224 414.72 241.702056 414.72 240.48 
+C 414.72 239.257944 414.234472 238.085776 413.370348 237.221652 
+C 412.506224 236.357528 411.334056 235.872 410.112 235.872 
+C 408.889944 235.872 407.717776 236.357528 406.853652 237.221652 
+C 405.989528 238.085776 405.504 239.257944 405.504 240.48 
+C 405.504 241.702056 405.989528 242.874224 406.853652 243.738348 
+C 407.717776 244.602472 408.889944 245.088 410.112 245.088 
+z
+" style="fill: #2a78d6"/>
+  </g>
+  <g id="patch_10">
+   <path d="M 432 245.088 
+C 433.222056 245.088 434.394224 244.602472 435.258348 243.738348 
+C 436.122472 242.874224 436.608 241.702056 436.608 240.48 
+C 436.608 239.257944 436.122472 238.085776 435.258348 237.221652 
+C 434.394224 236.357528 433.222056 235.872 432 235.872 
+C 430.777944 235.872 429.605776 236.357528 428.741652 237.221652 
+C 427.877528 238.085776 427.392 239.257944 427.392 240.48 
+C 427.392 241.702056 427.877528 242.874224 428.741652 243.738348 
+C 429.605776 244.602472 430.777944 245.088 432 245.088 
+z
+" style="fill: #2a78d6"/>
+  </g>
+  <g id="patch_11">
+   <path d="M 453.888 245.088 
+C 455.110056 245.088 456.282224 244.602472 457.146348 243.738348 
+C 458.010472 242.874224 458.496 241.702056 458.496 240.48 
+C 458.496 239.257944 458.010472 238.085776 457.146348 237.221652 
+C 456.282224 236.357528 455.110056 235.872 453.888 235.872 
+C 452.665944 235.872 451.493776 236.357528 450.629652 237.221652 
+C 449.765528 238.085776 449.28 239.257944 449.28 240.48 
+C 449.28 241.702056 449.765528 242.874224 450.629652 243.738348 
+C 451.493776 244.602472 452.665944 245.088 453.888 245.088 
+z
+" style="fill: #2a78d6"/>
+  </g>
+  <g id="patch_12">
+   <path d="M 475.776 245.088 
+C 476.998056 245.088 478.170224 244.602472 479.034348 243.738348 
+C 479.898472 242.874224 480.384 241.702056 480.384 240.48 
+C 480.384 239.257944 479.898472 238.085776 479.034348 237.221652 
+C 478.170224 236.357528 476.998056 235.872 475.776 235.872 
+C 474.553944 235.872 473.381776 236.357528 472.517652 237.221652 
+C 471.653528 238.085776 471.168 239.257944 471.168 240.48 
+C 471.168 241.702056 471.653528 242.874224 472.517652 243.738348 
+C 473.381776 244.602472 474.553944 245.088 475.776 245.088 
+z
+" style="fill: #2a78d6"/>
+  </g>
+  <g id="patch_13">
+   <path d="M 497.664 245.088 
+C 498.886056 245.088 500.058224 244.602472 500.922348 243.738348 
+C 501.786472 242.874224 502.272 241.702056 502.272 240.48 
+C 502.272 239.257944 501.786472 238.085776 500.922348 237.221652 
+C 500.058224 236.357528 498.886056 235.872 497.664 235.872 
+C 496.441944 235.872 495.269776 236.357528 494.405652 237.221652 
+C 493.541528 238.085776 493.056 239.257944 493.056 240.48 
+C 493.056 241.702056 493.541528 242.874224 494.405652 243.738348 
+C 495.269776 244.602472 496.441944 245.088 497.664 245.088 
+z
+" style="fill: #2a78d6"/>
+  </g>
+  <g id="patch_14">
+   <path d="M 519.552 245.088 
+C 520.774056 245.088 521.946224 244.602472 522.810348 243.738348 
+C 523.674472 242.874224 524.16 241.702056 524.16 240.48 
+C 524.16 239.257944 523.674472 238.085776 522.810348 237.221652 
+C 521.946224 236.357528 520.774056 235.872 519.552 235.872 
+C 518.329944 235.872 517.157776 236.357528 516.293652 237.221652 
+C 515.429528 238.085776 514.944 239.257944 514.944 240.48 
+C 514.944 241.702056 515.429528 242.874224 516.293652 243.738348 
+C 517.157776 244.602472 518.329944 245.088 519.552 245.088 
+z
+" style="fill: #2a78d6"/>
+  </g>
+  <g id="line2d_1">
+   <path d="M 23.04 86.4 
+L 552.96 86.4 
+" style="fill: none; stroke: #e6e5e1; stroke-linecap: square"/>
+  </g>
+  <g id="line2d_2">
+   <path d="M 198.72 247.68 
+L 198.72 92.16 
+" style="fill: none; stroke: #e6e5e1; stroke-linecap: square"/>
+  </g>
+  <g id="line2d_3">
+   <path d="M 388.8 247.68 
+L 388.8 92.16 
+" style="fill: none; stroke: #e6e5e1; stroke-linecap: square"/>
+  </g>
+  <g id="line2d_4">
+   <path d="M 23.04 254.88 
+L 552.96 254.88 
+" style="fill: none; stroke: #e6e5e1; stroke-linecap: square"/>
+  </g>
+  <g id="text_1">
+   <text style="font-size: 27px; font-family: 'Helvetica Neue', 'Helvetica', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #0b0b0b" x="23.04" y="39.439687" transform="rotate(-0 23.04 39.439687)">Inkling-2-Mini-Unbound</text>
+  </g>
+  <g id="text_2">
+   <text style="font-size: 14.5px; font-family: 'Helvetica Neue', 'Helvetica', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #52514e" x="23.04" y="68.198594" transform="rotate(-0 23.04 68.198594)">Refusal removed. Capability kept.</text>
+  </g>
+  <g id="text_3">
+   <text style="font-size: 10px; font-family: 'Helvetica Neue', 'Helvetica', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #52514e" x="23.04" y="106.029687" transform="rotate(-0 23.04 106.029687)">HARMFUL REFUSAL</text>
+  </g>
+  <g id="text_4">
+   <text style="font-size: 50px; font-family: 'Helvetica Neue', 'Helvetica', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #2a78d6" x="23.04" y="154.308437" transform="rotate(-0 23.04 154.308437)">0%</text>
+  </g>
+  <g id="text_5">
+   <text style="font-size: 9.5px; font-family: 'Helvetica Neue', 'Helvetica', 'Arial', 'DejaVu Sans', sans-serif; fill: #52514e" transform="translate(23.04 172.459297)">of 277 harmful test requests</text>
+   <text style="font-size: 9.5px; font-family: 'Helvetica Neue', 'Helvetica', 'Arial', 'DejaVu Sans', sans-serif; fill: #52514e" transform="translate(23.04 182.219285)">refused, thinking on or off</text>
+  </g>
+  <g id="text_6">
+   <text style="font-size: 9px; font-family: 'Helvetica Neue', 'Helvetica', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #8c8b86" x="23.04" y="205.366641" transform="rotate(-0 23.04 205.366641)">●</text>
+  </g>
+  <g id="text_7">
+   <text style="font-size: 10.5px; font-family: 'Helvetica Neue', 'Helvetica', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #0b0b0b" x="34.56" y="205.733086" transform="rotate(-0 34.56 205.733086)">original model: 97.5%</text>
+  </g>
+  <g id="text_8">
+   <text style="font-size: 10px; font-family: 'Helvetica Neue', 'Helvetica', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #52514e" x="213.12" y="106.029687" transform="rotate(-0 213.12 106.029687)">USEFUL ANSWERS</text>
+  </g>
+  <g id="text_9">
+   <text style="font-size: 50px; font-family: 'Helvetica Neue', 'Helvetica', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #2a78d6" x="213.12" y="154.308437" transform="rotate(-0 213.12 154.308437)">54%</text>
+  </g>
+  <g id="text_10">
+   <text style="font-size: 9.5px; font-family: 'Helvetica Neue', 'Helvetica', 'Arial', 'DejaVu Sans', sans-serif; fill: #52514e" transform="translate(213.12 172.459297)">of harmful requests answered usefully</text>
+   <text style="font-size: 9.5px; font-family: 'Helvetica Neue', 'Helvetica', 'Arial', 'DejaVu Sans', sans-serif; fill: #52514e" transform="translate(213.12 182.411586)">(63% with thinking)</text>
+  </g>
+  <g id="text_11">
+   <text style="font-size: 9px; font-family: 'Helvetica Neue', 'Helvetica', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #8c8b86" x="213.12" y="205.366641" transform="rotate(-0 213.12 205.366641)">●</text>
+  </g>
+  <g id="text_12">
+   <text style="font-size: 10.5px; font-family: 'Helvetica Neue', 'Helvetica', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #0b0b0b" x="224.64" y="205.733086" transform="rotate(-0 224.64 205.733086)">original model: 0.4%</text>
+  </g>
+  <g id="text_13">
+   <text style="font-size: 10px; font-family: 'Helvetica Neue', 'Helvetica', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #52514e" x="403.2" y="106.029687" transform="rotate(-0 403.2 106.029687)">CAPABILITY KEPT</text>
+  </g>
+  <g id="text_14">
+   <text style="font-size: 50px; font-family: 'Helvetica Neue', 'Helvetica', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #2a78d6" x="403.2" y="154.308437" transform="rotate(-0 403.2 154.308437)">6 / 6</text>
+  </g>
+  <g id="text_15">
+   <text style="font-size: 9.5px; font-family: 'Helvetica Neue', 'Helvetica', 'Arial', 'DejaVu Sans', sans-serif; fill: #52514e" transform="translate(403.2 172.383594)">benchmarks within the original's</text>
+   <text style="font-size: 9.5px; font-family: 'Helvetica Neue', 'Helvetica', 'Arial', 'DejaVu Sans', sans-serif; fill: #52514e" transform="translate(403.2 182.17082)">95% CI</text>
+  </g>
+  <g id="text_16">
+   <text style="font-size: 9px; font-family: 'Helvetica Neue', 'Helvetica', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #8c8b86" x="403.2" y="205.366641" transform="rotate(-0 403.2 205.366641)">●</text>
+  </g>
+  <g id="text_17">
+   <text style="font-size: 8.8px; font-family: 'Helvetica Neue', 'Helvetica', 'Arial', 'DejaVu Sans', sans-serif; fill: #0b0b0b" transform="translate(414.72 200.834844)">MMLU-Pro, GSM8K, MATH,</text>
+   <text style="font-size: 8.8px; font-family: 'Helvetica Neue', 'Helvetica', 'Arial', 'DejaVu Sans', sans-serif; fill: #0b0b0b" transform="translate(414.72 209.795031)">GPQA, IFEval, HumanEval+</text>
+  </g>
+  <g id="text_18">
+   <text style="font-size: 10.5px; font-family: 'Helvetica Neue', 'Helvetica', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #52514e" x="23.04" y="269.925914" transform="rotate(-0 23.04 269.925914)">Drop-in checkpoint  ·  only 20 BF16 attention-output tensors edited  ·  bit-exact reproducible</text>
+  </g>
+  <g id="text_19">
+   <text style="font-size: 8.5px; font-family: 'Helvetica Neue', 'Helvetica', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #52514e" x="23.04" y="282.205102" transform="rotate(-0 23.04 282.205102)">vs OpenUncensored: more useful answers (54% vs 34%), less drift (KL 0.055 vs 0.063)</text>
+  </g>
+ </g>
+</svg>

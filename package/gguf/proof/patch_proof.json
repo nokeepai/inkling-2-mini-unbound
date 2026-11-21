@@ -1,0 +1,53 @@
+{
+ "n_tensors": 704,
+ "n_differ": 20,
+ "differ": [
+  "blk.10.attn_output.weight",
+  "blk.11.attn_output.weight",
+  "blk.12.attn_output.weight",
+  "blk.13.attn_output.weight",
+  "blk.14.attn_output.weight",
+  "blk.15.attn_output.weight",
+  "blk.16.attn_output.weight",
+  "blk.17.attn_output.weight",
+  "blk.18.attn_output.weight",
+  "blk.19.attn_output.weight",
+  "blk.20.attn_output.weight",
+  "blk.21.attn_output.weight",
+  "blk.22.attn_output.weight",
+  "blk.23.attn_output.weight",
+  "blk.4.attn_output.weight",
+  "blk.5.attn_output.weight",
+  "blk.6.attn_output.weight",
+  "blk.7.attn_output.weight",
+  "blk.8.attn_output.weight",
+  "blk.9.attn_output.weight"
+ ],
+ "differ_equals_mapped_set": true,
+ "patched_equals_built_edit": true,
+ "kv_keys_differ": [
+  "general.name"
+ ],
+ "name_map": {
+  "model.llm.layers.10.attn.wo_ud.weight": "blk.10.attn_output.weight",
+  "model.llm.layers.11.attn.wo_ud.weight": "blk.11.attn_output.weight",
+  "model.llm.layers.12.attn.wo_ud.weight": "blk.12.attn_output.weight",
+  "model.llm.layers.13.attn.wo_ud.weight": "blk.13.attn_output.weight",
+  "model.llm.layers.14.attn.wo_ud.weight": "blk.14.attn_output.weight",
+  "model.llm.layers.15.attn.wo_ud.weight": "blk.15.attn_output.weight",
+  "model.llm.layers.16.attn.wo_ud.weight": "blk.16.attn_output.weight",
+  "model.llm.layers.17.attn.wo_ud.weight": "blk.17.attn_output.weight",
+  "model.llm.layers.18.attn.wo_ud.weight": "blk.18.attn_output.weight",
+  "model.llm.layers.19.attn.wo_ud.weight": "blk.19.attn_output.weight",
+  "model.llm.layers.20.attn.wo_ud.weight": "blk.20.attn_output.weight",
+  "model.llm.layers.21.attn.wo_ud.weight": "blk.21.attn_output.weight",
+  "model.llm.layers.22.attn.wo_ud.weight": "blk.22.attn_output.weight",
+  "model.llm.layers.23.attn.wo_ud.weight": "blk.23.attn_output.weight",
+  "model.llm.layers.4.attn.wo_ud.weight": "blk.4.attn_output.weight",
+  "model.llm.layers.5.attn.wo_ud.weight": "blk.5.attn_output.weight",
+  "model.llm.layers.6.attn.wo_ud.weight": "blk.6.attn_output.weight",
+  "model.llm.layers.7.attn.wo_ud.weight": "blk.7.attn_output.weight",
+  "model.llm.layers.8.attn.wo_ud.weight": "blk.8.attn_output.weight",
+  "model.llm.layers.9.attn.wo_ud.weight": "blk.9.attn_output.weight"
+ }
+}

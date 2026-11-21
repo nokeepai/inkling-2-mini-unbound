@@ -1,0 +1,23 @@
+# weights and big binaries (models live on Hugging Face; edit.pt is the exception below)
+*.safetensors
+*.pt
+!out/final/edit.pt
+*.parquet
+# sealed test data and anything decrypted from it
+sealed/
+sealed.tar.enc
+audit/**/plain*/
+# raw model generations (contain harmful completions; aggregates are kept in runs.jsonl and reports)
+results/outputs/
+# third-party data and vendored code (re-downloadable, pinned in SOURCES.md / pins.json)
+suite/data/
+suite/ruler/data/
+vendor/
+# envs, caches, logs, runtime state
+__pycache__/
+.venv/
+*.log
+state/*.err
+state/up_*.json
+state/hf_upload.out
+state/optuna/*.db-journal

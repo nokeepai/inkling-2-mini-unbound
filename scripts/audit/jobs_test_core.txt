@@ -1,0 +1,9 @@
+# gpu cand blocks tag   (sealed test, core)
+0 orig harm th
+1 orig border,probes,cap tb
+2 ou harm th
+3 ou border,probes,cap tb
+4 c1h_r1_svd1_s3_L4 harm th
+5 c1h_r1_svd1_s3_L4 border,probes,cap tb
+6 c1dt001 harm th
+7 c1dt001 border,probes,cap tb

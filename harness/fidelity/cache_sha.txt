@@ -1,0 +1,1 @@
+894ba2e64a44985369adbe678a5ef914a8d3ee9fbcc2b7b0c0530fd03190684d  /srv/fid/orig_lp.f16 (W4A16; identical on ink-research-2 and ink-research-2b)

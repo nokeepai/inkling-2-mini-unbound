@@ -1,0 +1,4 @@
+[
+ {"name": "c1h_r1_svd1_s3_L4", "cand_dir": "methods/mpoa/cands/c1h_r1_svd1_s3_L4", "role": "U: most useful answers"},
+ {"name": "c1dt001", "cand_dir": "methods/mpoa/cands/c1dt001", "role": "F: most faithful (KL 0.0349, 0% refusal)"}
+]

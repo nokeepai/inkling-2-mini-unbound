@@ -1,0 +1,2 @@
+{"time": "2026-11-21T12:17:07+00:00", "cand_id": "c0_lr", "worker": "eval_worker:ink-eval-2", "msg": "sha_mismatch: built 0bffeecda8dc586d9c3038a894746df60936afa1256b71c929c92523447a39bb != canonical 3ce3c49730691fe06342488d3aaddb10c98882e098148c62202dafb8b67a774e"}
+{"time": "2026-11-21T12:18:00+00:00", "cand_id": "c0_lr", "worker": "fleet", "msg": "NOTE: the 12:17:07 row above was a deliberate fallback test with a fake sha256.txt, not a real mismatch"}

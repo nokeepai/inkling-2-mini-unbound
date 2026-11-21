@@ -1,0 +1,11 @@
+[
+ {"name": "orig", "label": "Original (ggml-org)", "precision": "Q8_0", "setup": "ggml-org/Inkling-2-Mini-GGUF Inkling-2-Mini-Q8_0.gguf"},
+ {"name": "unbound_q8", "label": "Ours (Unbound)", "precision": "Q8_0", "setup": "ggml-org BF16 + 20 patched wo_ud tensors (gguf agent), llama-quantize Q8_0"},
+ {"name": "atomic_lora_q8", "label": "AtomicChat (LoRA)", "precision": "Q8_0 + LoRA", "setup": "ggml-org Q8_0 + --lora Inkling-2-Mini-Uncensored-LoRA.gguf (scale 1)"},
+ {"name": "ou_q8", "label": "OpenUncensored", "precision": "Q8_0", "setup": "ggml-org BF16 + OU's 20 wo_ud tensors (same patch script), llama-quantize Q8_0"},
+ {"name": "atomic_adq4", "label": "AtomicChat (baked AD-Q4_K)", "precision": "AD-Q4_K (16.5 GB) - not Q8", "setup": "their baked release file"},
+ {"name": "xq", "label": "IndrasMirror XQ", "precision": "XQ .gguf (13.9 GB) - not Q8", "setup": "their only text GGUF"},
+ {"name": "orig_iq4nl", "label": "ref: Original ggml-org IQ4_NL (KLD only)", "precision": "IQ4_NL (17.6 GB)", "setup": "4-bit quant-noise reference, no edit"},
+ {"name": "unbound_q4km", "label": "ref: Ours Q4_K_M (KLD only)", "precision": "Q4_K_M (17.6 GB)", "setup": "gguf's imatrix Q4_K_M, attn_output kept q8_0"},
+ {"name": "heretic_q4kxl", "label": "JoaoZaokk Heretic", "precision": "UD-Q4_K_XL (17.6 GB) - not Q8 (no Q8_0 published)", "setup": "closest to Q8 they publish"}
+]

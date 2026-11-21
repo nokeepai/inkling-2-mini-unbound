@@ -1,0 +1,1 @@
+{"l_min": 4, "l_max": 23, "rank": 16, "preserve_w": 10.0, "overcorrect": 0.0, "knn_k": 5, "steps": 200, "lr": 0.0003, "think_w": 1.0, "mean_w": 0.5, "gamma": 0.3, "mp": true, "seed": 0}

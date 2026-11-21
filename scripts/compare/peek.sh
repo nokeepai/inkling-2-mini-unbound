@@ -1,0 +1,2 @@
+#!/bin/bash
+bash /Users/nikshepsvn/Code/inkling-abl/scripts/ink_lium.sh exec ink-gguf-1 "sha256sum /data/compare/ou/tensors.safetensors 2>/dev/null; tail -2 /root/compare/logs/dl.log; du -sh /data/compare/models/* /data/base/* /data/orig 2>/dev/null; for f in /data/logs/*.log; do echo == \$f; tail -c 300 \$f; echo; done; ls /data/release /data/llama.cpp/build/bin 2>/dev/null | head; nvidia-smi --query-gpu=index,memory.used,utilization.gpu --format=csv,noheader; ls /root/compare/logs"

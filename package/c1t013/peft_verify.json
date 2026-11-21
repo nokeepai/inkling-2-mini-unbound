@@ -1,0 +1,52 @@
+{
+ "dora": {
+  "peft_version": "0.22.0",
+  "lora_params_loaded": 51,
+  "n_diff_total": 148,
+  "elements": 120324096,
+  "n_diff_per_module": {
+   "model.language_model.layers.10.self_attn.o_proj.linear": 12,
+   "model.language_model.layers.11.self_attn.o_proj.linear": 10,
+   "model.language_model.layers.12.self_attn.o_proj.linear": 11,
+   "model.language_model.layers.13.self_attn.o_proj.linear": 11,
+   "model.language_model.layers.14.self_attn.o_proj.linear": 9,
+   "model.language_model.layers.15.self_attn.o_proj.linear": 12,
+   "model.language_model.layers.16.self_attn.o_proj.linear": 11,
+   "model.language_model.layers.17.self_attn.o_proj.linear": 12,
+   "model.language_model.layers.18.self_attn.o_proj.linear": 4,
+   "model.language_model.layers.19.self_attn.o_proj.linear": 6,
+   "model.language_model.layers.20.self_attn.o_proj.linear": 10,
+   "model.language_model.layers.21.self_attn.o_proj.linear": 5,
+   "model.language_model.layers.22.self_attn.o_proj.linear": 4,
+   "model.language_model.layers.23.self_attn.o_proj.linear": 3,
+   "model.language_model.layers.7.self_attn.o_proj.linear": 10,
+   "model.language_model.layers.8.self_attn.o_proj.linear": 11,
+   "model.language_model.layers.9.self_attn.o_proj.linear": 7
+  }
+ },
+ "lora": {
+  "peft_version": "0.22.0",
+  "lora_params_loaded": 34,
+  "n_diff_total": 362,
+  "elements": 120324096,
+  "n_diff_per_module": {
+   "model.language_model.layers.10.self_attn.o_proj.linear": 26,
+   "model.language_model.layers.11.self_attn.o_proj.linear": 26,
+   "model.language_model.layers.12.self_attn.o_proj.linear": 28,
+   "model.language_model.layers.13.self_attn.o_proj.linear": 30,
+   "model.language_model.layers.14.self_attn.o_proj.linear": 32,
+   "model.language_model.layers.15.self_attn.o_proj.linear": 20,
+   "model.language_model.layers.16.self_attn.o_proj.linear": 22,
+   "model.language_model.layers.17.self_attn.o_proj.linear": 20,
+   "model.language_model.layers.18.self_attn.o_proj.linear": 18,
+   "model.language_model.layers.19.self_attn.o_proj.linear": 17,
+   "model.language_model.layers.20.self_attn.o_proj.linear": 19,
+   "model.language_model.layers.21.self_attn.o_proj.linear": 13,
+   "model.language_model.layers.22.self_attn.o_proj.linear": 11,
+   "model.language_model.layers.23.self_attn.o_proj.linear": 11,
+   "model.language_model.layers.7.self_attn.o_proj.linear": 15,
+   "model.language_model.layers.8.self_attn.o_proj.linear": 20,
+   "model.language_model.layers.9.self_attn.o_proj.linear": 34
+  }
+ }
+}

@@ -1,0 +1,1 @@
+19:40Z compare: DONE (all rows, paired tests, build check). GPUs 0-4 free; never touched 5-7 after reallocation msg.

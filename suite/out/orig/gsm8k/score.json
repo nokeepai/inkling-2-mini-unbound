@@ -1,0 +1,55 @@
+{
+ "bench": "gsm8k",
+ "model": "orig",
+ "main": "gsm8k",
+ "metrics": {
+  "gsm8k": {
+   "value": 96.6,
+   "CI": [
+    95.0,
+    98.0
+   ],
+   "n": 500
+  },
+  "gsm8k_think_len": {
+   "value": 395.6,
+   "CI": [
+    343.538,
+    455.258
+   ],
+   "n": 500
+  },
+  "gsm8k_finish_rate": {
+   "value": 98.2,
+   "CI": [
+    97.0,
+    99.2
+   ],
+   "n": 500
+  },
+  "gsm8k_cap_hit_rate": {
+   "value": 1.7999999999999998,
+   "CI": [
+    0.8,
+    3.0
+   ],
+   "n": 500
+  },
+  "gsm8k_repetition_rate": {
+   "value": 18.2,
+   "CI": [
+    15.0,
+    21.6
+   ],
+   "n": 500
+  },
+  "gsm8k_loop_rate": {
+   "value": 0.0,
+   "CI": [
+    0.0,
+    0.0
+   ],
+   "n": 500
+  }
+ }
+}

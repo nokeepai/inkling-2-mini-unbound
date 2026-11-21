@@ -1,0 +1,13 @@
+[
+ {
+  "name": "ink-gguf-1",
+  "huid": "brave-raven-d2",
+  "gpu_type": "RTX5090",
+  "price_per_hour": 4.4,
+  "spent_usd": 8.33,
+  "status": "RUNNING",
+  "removal_scheduled_at": "2026-11-21T21:27:36.850079",
+  "ip": "45.86.98.149",
+  "ssh_port": 20278
+ }
+]

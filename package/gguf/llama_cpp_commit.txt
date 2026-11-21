@@ -1,0 +1,3 @@
+19bc41dbb41e858eebc269b49ccdec1f0d28880c
+origin/master (after b12608; includes #32704 690b87d88 and #32669)
+19bc41dbb41e858eebc269b49ccdec1f0d28880c 2026-11-21T16:30:01+01:00 model: apply .scale tensors automatically + fix correctness (#32669)

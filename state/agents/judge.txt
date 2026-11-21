@@ -1,0 +1,1 @@
+10:53 judge: DONE. judge.py works on ink-eval-2 CPU, smoke 6/6 sensible, ~6 s/item at batch 4; 100%

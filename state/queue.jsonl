@@ -1,0 +1,178 @@
+{"cand_id": "ou", "family": "baselines", "path": "methods/baselines/cands/ou", "priority": 0, "time": "2026-11-21T11:42:48+00:00", "by": "fidelity", "note": "kl_worker e2e test"}
+{"cand_id": "c0", "family": "baselines", "path": "methods/baselines/cands/c0", "priority": 0, "time": "2026-11-21T11:42:48+00:00", "by": "fidelity", "note": "kl_worker e2e test"}
+{"cand_id": "c0", "family": "baselines", "path": "methods/baselines/cands/c0", "priority": 10.0, "stage": "screen", "time": "2026-11-21T11:48:34+00:00", "by": "fleet", "note": "fleet e2e test"}
+{"cand_id": "c0_lr", "family": "baselines", "path": "methods/baselines/cands/c0_lr", "priority": 0, "time": "2026-11-21T11:50:09+00:00", "by": "fidelity", "note": "compact-form e2e test"}
+{"cand_id": "c0", "family": "baselines", "path": "methods/baselines/cands/c0", "priority": 10.0, "stage": "full", "time": "2026-11-21T11:51:48+00:00", "by": "fleet", "note": "fleet e2e timing (eval-2)"}
+{"cand_id": "c1s01_x4_r2_s1", "family": "c1", "path": "methods/mpoa/cands/c1s01_x4_r2_s1", "priority": 5.0, "stage": "screen", "time": "2026-11-21T11:52:17+00:00", "by": "mpoa"}
+{"cand_id": "c1s05_plain_r2_s1_mp", "family": "c1", "path": "methods/mpoa/cands/c1s05_plain_r2_s1_mp", "priority": 5.0, "stage": "screen", "time": "2026-11-21T11:52:17+00:00", "by": "mpoa"}
+{"cand_id": "c1s06_x4_r2_s1_nomp", "family": "c1", "path": "methods/mpoa/cands/c1s06_x4_r2_s1_nomp", "priority": 5.0, "stage": "screen", "time": "2026-11-21T11:52:17+00:00", "by": "mpoa"}
+{"cand_id": "c1s02_x4_r2_s1_L11", "family": "c1", "path": "methods/mpoa/cands/c1s02_x4_r2_s1_L11", "priority": 5.0, "stage": "screen", "time": "2026-11-21T11:52:17+00:00", "by": "mpoa"}
+{"cand_id": "c1s03_x4_r3_s1", "family": "c1", "path": "methods/mpoa/cands/c1s03_x4_r3_s1", "priority": 5.0, "stage": "screen", "time": "2026-11-21T11:52:17+00:00", "by": "mpoa"}
+{"cand_id": "c1s04_x4_r2_s07", "family": "c1", "path": "methods/mpoa/cands/c1s04_x4_r2_s07", "priority": 5.0, "stage": "screen", "time": "2026-11-21T11:52:17+00:00", "by": "mpoa"}
+{"cand_id": "c1s07_x5_r2_s1", "family": "c1", "path": "methods/mpoa/cands/c1s07_x5_r2_s1", "priority": 5.0, "stage": "screen", "time": "2026-11-21T11:52:17+00:00", "by": "mpoa"}
+{"cand_id": "c1s08_x4_r2_s1_postmp", "family": "c1", "path": "methods/mpoa/cands/c1s08_x4_r2_s1_postmp", "priority": 5.0, "stage": "screen", "time": "2026-11-21T11:52:17+00:00", "by": "mpoa"}
+{"cand_id": "c1t000", "family": "c1", "path": "methods/mpoa/cands/c1t000", "priority": 5.0, "stage": "screen", "node": "fleet", "time": "2026-11-21T11:56:50+00:00", "by": "mpoa"}
+{"cand_id": "c1t001", "family": "c1", "path": "methods/mpoa/cands/c1t001", "priority": 5.0, "stage": "screen", "node": "fleet", "time": "2026-11-21T11:57:10+00:00", "by": "mpoa"}
+{"cand_id": "c2t000", "family": "c2", "path": "methods/mpoa/cands/c2t000", "priority": 5.0, "stage": "screen", "node": "fleet", "time": "2026-11-21T11:57:17+00:00", "by": "mpoa"}
+{"cand_id": "c1t002", "family": "c1", "path": "methods/mpoa/cands/c1t002", "priority": 5.0, "stage": "screen", "node": "fleet", "time": "2026-11-21T11:57:31+00:00", "by": "mpoa"}
+{"cand_id": "c2t001", "family": "c2", "path": "methods/mpoa/cands/c2t001", "priority": 5.0, "stage": "screen", "node": "fleet", "time": "2026-11-21T11:57:38+00:00", "by": "mpoa"}
+{"cand_id": "c1t003", "family": "c1", "path": "methods/mpoa/cands/c1t003", "priority": 5.0, "stage": "screen", "node": "fleet", "time": "2026-11-21T11:57:52+00:00", "by": "mpoa"}
+{"cand_id": "c2t002", "family": "c2", "path": "methods/mpoa/cands/c2t002", "priority": 5.0, "stage": "screen", "node": "fleet", "time": "2026-11-21T11:57:59+00:00", "by": "mpoa"}
+{"cand_id": "c1t004", "family": "c1", "path": "methods/mpoa/cands/c1t004", "priority": 5.0, "stage": "screen", "node": "fleet", "time": "2026-11-21T11:58:12+00:00", "by": "mpoa"}
+{"cand_id": "c1t005", "family": "c1", "path": "methods/mpoa/cands/c1t005", "priority": 5.0, "stage": "screen", "node": "fleet", "time": "2026-11-21T11:58:13+00:00", "by": "mpoa"}
+{"cand_id": "c2t003", "family": "c2", "path": "methods/mpoa/cands/c2t003", "priority": 5.0, "stage": "screen", "node": "fleet", "time": "2026-11-21T11:58:20+00:00", "by": "mpoa"}
+{"cand_id": "c1t006", "family": "c1", "path": "methods/mpoa/cands/c1t006", "priority": 5.0, "stage": "screen", "node": "fleet", "time": "2026-11-21T11:58:27+00:00", "by": "mpoa"}
+{"cand_id": "c2t004", "family": "c2", "path": "methods/mpoa/cands/c2t004", "priority": 5.0, "stage": "screen", "node": "fleet", "time": "2026-11-21T11:58:47+00:00", "by": "mpoa"}
+{"cand_id": "c1t007", "family": "c1", "path": "methods/mpoa/cands/c1t007", "priority": 5.0, "stage": "screen", "node": "fleet", "time": "2026-11-21T11:59:12+00:00", "by": "mpoa"}
+{"cand_id": "c2t005", "family": "c2", "path": "methods/mpoa/cands/c2t005", "priority": 5.0, "stage": "screen", "node": "fleet", "time": "2026-11-21T11:59:29+00:00", "by": "mpoa"}
+{"cand_id": "c3t000", "family": "c3", "path": "methods/ara/cands/c3t000", "priority": 5.0, "stage": "screen", "node": "fleet", "time": "2026-11-21T12:27:25+00:00", "by": "ara"}
+{"cand_id": "c3t001", "family": "c3", "path": "methods/ara/cands/c3t001", "priority": 5.0, "stage": "screen", "node": "fleet", "time": "2026-11-21T12:30:01+00:00", "by": "ara"}
+{"cand_id": "c3t003", "family": "c3", "path": "methods/ara/cands/c3t003", "priority": 5.0, "stage": "screen", "node": "fleet", "time": "2026-11-21T12:34:33+00:00", "by": "ara"}
+{"cand_id": "c3t004", "family": "c3", "path": "methods/ara/cands/c3t004", "priority": 5.0, "stage": "screen", "node": "fleet", "time": "2026-11-21T12:37:02+00:00", "by": "ara"}
+{"cand_id": "c3t003", "family": "c3", "path": "methods/ara/cands/c3t003", "priority": 5.0, "stage": "screen", "node": "fleet", "time": "2026-11-21T12:37:17+00:00", "by": "ara"}
+{"cand_id": "c3t005", "family": "c3", "path": "methods/ara/cands/c3t005", "priority": 5.0, "stage": "screen", "node": "fleet", "time": "2026-11-21T12:39:03+00:00", "by": "ara"}
+{"cand_id": "c3t004", "family": "c3", "path": "methods/ara/cands/c3t004", "priority": 5.0, "stage": "screen", "node": "fleet", "time": "2026-11-21T12:39:18+00:00", "by": "ara"}
+{"cand_id": "c3t005", "family": "c3", "path": "methods/ara/cands/c3t005", "priority": 5.0, "stage": "screen", "node": "fleet", "time": "2026-11-21T12:39:18+00:00", "by": "ara"}
+{"cand_id": "c3t007", "family": "c3", "path": "methods/ara/cands/c3t007", "priority": 5.0, "stage": "screen", "node": "fleet", "time": "2026-11-21T12:43:55+00:00", "by": "ara"}
+{"cand_id": "c3t008", "family": "c3", "path": "methods/ara/cands/c3t008", "priority": 5.0, "stage": "screen", "node": "fleet", "time": "2026-11-21T12:48:35+00:00", "by": "ara"}
+{"cand_id": "orig", "priority": 10.0, "stage": "full", "time": "2026-11-21T12:55:39+00:00", "by": "fleet", "family": "baselines", "note": "fleet-2 baseline (same node as all Phase 3)"}
+{"cand_id": "ou", "priority": 10.0, "stage": "full", "time": "2026-11-21T12:55:39+00:00", "by": "fleet", "family": "baselines", "path": "methods/baselines/cands/ou", "note": "fleet-2 baseline"}
+{"cand_id": "c0_lr", "priority": 9.0, "stage": "screen", "time": "2026-11-21T12:55:39+00:00", "by": "fleet", "family": "baselines", "path": "methods/baselines/cands/c0_lr", "note": "fleet-2 compact-build test"}
+{"cand_id": "c1t008", "family": "c1", "path": "methods/mpoa/cands/c1t008", "priority": 5.0, "stage": "screen", "node": "fleet", "time": "2026-11-21T13:01:03+00:00", "by": "mpoa"}
+{"cand_id": "c1t009", "family": "c1", "path": "methods/mpoa/cands/c1t009", "priority": 5.0, "stage": "screen", "node": "fleet", "time": "2026-11-21T13:01:04+00:00", "by": "mpoa"}
+{"cand_id": "c1t010", "family": "c1", "path": "methods/mpoa/cands/c1t010", "priority": 5.0, "stage": "screen", "node": "fleet", "time": "2026-11-21T13:01:18+00:00", "by": "mpoa"}
+{"cand_id": "c1t011", "family": "c1", "path": "methods/mpoa/cands/c1t011", "priority": 5.0, "stage": "screen", "node": "fleet", "time": "2026-11-21T13:01:18+00:00", "by": "mpoa"}
+{"cand_id": "c2t006", "family": "c2", "path": "methods/mpoa/cands/c2t006", "priority": 5.0, "stage": "screen", "node": "fleet", "time": "2026-11-21T13:01:36+00:00", "by": "mpoa"}
+{"cand_id": "c1t012", "family": "c1", "path": "methods/mpoa/cands/c1t012", "priority": 5.0, "stage": "screen", "node": "fleet", "time": "2026-11-21T13:01:42+00:00", "by": "mpoa"}
+{"cand_id": "c2t007", "family": "c2", "path": "methods/mpoa/cands/c2t007", "priority": 5.0, "stage": "screen", "node": "fleet", "time": "2026-11-21T13:02:11+00:00", "by": "mpoa"}
+{"cand_id": "c1t013", "family": "c1", "path": "methods/mpoa/cands/c1t013", "priority": 5.0, "stage": "screen", "node": "fleet", "time": "2026-11-21T13:02:12+00:00", "by": "mpoa"}
+{"cand_id": "c1t014", "family": "c1", "path": "methods/mpoa/cands/c1t014", "priority": 5.0, "stage": "screen", "node": "fleet", "time": "2026-11-21T13:02:13+00:00", "by": "mpoa"}
+{"cand_id": "c1t015", "family": "c1", "path": "methods/mpoa/cands/c1t015", "priority": 5.0, "stage": "screen", "node": "fleet", "time": "2026-11-21T13:03:18+00:00", "by": "mpoa"}
+{"cand_id": "c2t008", "family": "c2", "path": "methods/mpoa/cands/c2t008", "priority": 5.0, "stage": "screen", "node": "fleet", "time": "2026-11-21T13:03:24+00:00", "by": "mpoa"}
+{"cand_id": "c2t009", "family": "c2", "path": "methods/mpoa/cands/c2t009", "priority": 5.0, "stage": "screen", "node": "fleet", "time": "2026-11-21T13:03:35+00:00", "by": "mpoa"}
+{"cand_id": "c2t010", "family": "c2", "path": "methods/mpoa/cands/c2t010", "priority": 5.0, "stage": "screen", "node": "fleet", "time": "2026-11-21T13:03:46+00:00", "by": "mpoa"}
+{"cand_id": "c2t011", "family": "c2", "path": "methods/mpoa/cands/c2t011", "priority": 5.0, "stage": "screen", "node": "fleet", "time": "2026-11-21T13:03:47+00:00", "by": "mpoa"}
+{"cand_id": "c3t009", "family": "c3", "path": "methods/ara/cands/c3t009", "priority": 5.0, "stage": "screen", "node": "fleet", "time": "2026-11-21T13:16:04+00:00", "by": "ara"}
+{"cand_id": "c3t010", "family": "c3", "path": "methods/ara/cands/c3t010", "priority": 5.0, "stage": "screen", "node": "fleet", "time": "2026-11-21T13:20:30+00:00", "by": "ara"}
+{"cand_id": "c3t011", "family": "c3", "path": "methods/ara/cands/c3t011", "priority": 5.0, "stage": "screen", "node": "fleet", "time": "2026-11-21T13:24:22+00:00", "by": "ara"}
+{"cand_id": "c3t012", "family": "c3", "path": "methods/ara/cands/c3t012", "priority": 5.0, "stage": "screen", "node": "fleet", "time": "2026-11-21T13:29:39+00:00", "by": "ara"}
+{"cand_id": "c3t013", "family": "c3", "path": "methods/ara/cands/c3t013", "priority": 5.0, "stage": "screen", "node": "fleet", "time": "2026-11-21T13:44:30+00:00", "by": "ara"}
+{"cand_id": "c3t014", "family": "c3", "path": "methods/ara/cands/c3t014", "priority": 5.0, "stage": "screen", "node": "fleet", "time": "2026-11-21T13:47:08+00:00", "by": "ara"}
+{"cand_id": "c1t016", "family": "c1", "path": "methods/mpoa/cands/c1t016", "priority": 5.0, "stage": "screen", "node": "fleet", "time": "2026-11-21T13:51:28+00:00", "by": "mpoa"}
+{"cand_id": "c1t017", "family": "c1", "path": "methods/mpoa/cands/c1t017", "priority": 5.0, "stage": "screen", "node": "fleet", "time": "2026-11-21T13:51:40+00:00", "by": "mpoa"}
+{"cand_id": "c1t018", "family": "c1", "path": "methods/mpoa/cands/c1t018", "priority": 5.0, "stage": "screen", "node": "fleet", "time": "2026-11-21T13:51:48+00:00", "by": "mpoa"}
+{"cand_id": "c2t012", "family": "c2", "path": "methods/mpoa/cands/c2t012", "priority": 5.0, "stage": "screen", "node": "fleet", "time": "2026-11-21T13:52:05+00:00", "by": "mpoa"}
+{"cand_id": "c1t019", "family": "c1", "path": "methods/mpoa/cands/c1t019", "priority": 5.0, "stage": "screen", "node": "fleet", "time": "2026-11-21T13:52:08+00:00", "by": "mpoa"}
+{"cand_id": "c2t013", "family": "c2", "path": "methods/mpoa/cands/c2t013", "priority": 5.0, "stage": "screen", "node": "fleet", "time": "2026-11-21T13:52:43+00:00", "by": "mpoa"}
+{"cand_id": "c1t020", "family": "c1", "path": "methods/mpoa/cands/c1t020", "priority": 5.0, "stage": "screen", "node": "fleet", "time": "2026-11-21T13:52:44+00:00", "by": "mpoa"}
+{"cand_id": "c1t021", "family": "c1", "path": "methods/mpoa/cands/c1t021", "priority": 5.0, "stage": "screen", "node": "fleet", "time": "2026-11-21T13:52:53+00:00", "by": "mpoa"}
+{"cand_id": "c1t022", "family": "c1", "path": "methods/mpoa/cands/c1t022", "priority": 5.0, "stage": "screen", "node": "fleet", "time": "2026-11-21T13:53:06+00:00", "by": "mpoa"}
+{"cand_id": "c1t023", "family": "c1", "path": "methods/mpoa/cands/c1t023", "priority": 5.0, "stage": "screen", "node": "fleet", "time": "2026-11-21T13:53:26+00:00", "by": "mpoa"}
+{"cand_id": "c2t014", "family": "c2", "path": "methods/mpoa/cands/c2t014", "priority": 5.0, "stage": "screen", "node": "fleet", "time": "2026-11-21T13:53:59+00:00", "by": "mpoa"}
+{"cand_id": "c2t015", "family": "c2", "path": "methods/mpoa/cands/c2t015", "priority": 5.0, "stage": "screen", "node": "fleet", "time": "2026-11-21T13:53:59+00:00", "by": "mpoa"}
+{"cand_id": "c2t016", "family": "c2", "path": "methods/mpoa/cands/c2t016", "priority": 5.0, "stage": "screen", "node": "fleet", "time": "2026-11-21T13:54:20+00:00", "by": "mpoa"}
+{"cand_id": "c2t017", "family": "c2", "path": "methods/mpoa/cands/c2t017", "priority": 5.0, "stage": "screen", "node": "fleet", "time": "2026-11-21T13:54:29+00:00", "by": "mpoa"}
+{"cand_id": "c3t010", "family": "c3", "path": "methods/ara/cands/c3t010", "priority": 7.0, "stage": "screen", "node": "fleet", "time": "2026-11-21T13:58:38+00:00", "by": "ara"}
+{"cand_id": "c3t014", "family": "c3", "path": "methods/ara/cands/c3t014", "priority": 7.0, "stage": "screen", "node": "fleet", "time": "2026-11-21T13:58:38+00:00", "by": "ara"}
+{"cand_id": "c3t013", "family": "c3", "path": "methods/ara/cands/c3t013", "priority": 7.0, "stage": "screen", "node": "fleet", "time": "2026-11-21T13:58:38+00:00", "by": "ara"}
+{"cand_id": "c3t015", "family": "c3", "path": "methods/ara/cands/c3t015", "priority": 5.0, "stage": "screen", "node": "fleet", "time": "2026-11-21T14:02:02+00:00", "by": "ara"}
+{"cand_id": "c3t016", "family": "c3", "path": "methods/ara/cands/c3t016", "priority": 5.0, "stage": "screen", "node": "fleet", "time": "2026-11-21T14:04:25+00:00", "by": "ara"}
+{"cand_id": "c3t017", "family": "c3", "path": "methods/ara/cands/c3t017", "priority": 5.0, "stage": "screen", "node": "fleet", "time": "2026-11-21T14:07:17+00:00", "by": "ara"}
+{"cand_id": "c3t018", "family": "c3", "path": "methods/ara/cands/c3t018", "priority": 5.0, "stage": "screen", "node": "fleet", "time": "2026-11-21T14:09:27+00:00", "by": "ara"}
+{"cand_id": "c3t019", "family": "c3", "path": "methods/ara/cands/c3t019", "priority": 5.0, "stage": "screen", "node": "fleet", "time": "2026-11-21T14:11:55+00:00", "by": "ara"}
+{"cand_id": "c3t020", "family": "c3", "path": "methods/ara/cands/c3t020", "priority": 5.0, "stage": "screen", "node": "fleet", "time": "2026-11-21T14:15:13+00:00", "by": "ara"}
+{"cand_id": "c3t021", "family": "c3", "path": "methods/ara/cands/c3t021", "priority": 5.0, "stage": "screen", "node": "fleet", "time": "2026-11-21T14:18:34+00:00", "by": "ara"}
+{"cand_id": "c1h_x4_ouprofile", "family": "c1", "path": "methods/mpoa/cands/c1h_x4_ouprofile", "priority": 6.0, "stage": "screen", "node": "fleet", "time": "2026-11-21T14:19:27+00:00", "by": "mpoa", "note": "strong hand seed"}
+{"cand_id": "c3x001", "family": "c3", "path": "methods/ara/cands/c3x001", "priority": 7.0, "stage": "screen", "node": "fleet", "time": "2026-11-21T14:19:42+00:00", "by": "ara"}
+{"cand_id": "c1h_svd1_s3", "family": "c1", "path": "methods/mpoa/cands/c1h_svd1_s3", "priority": 6.0, "stage": "screen", "node": "fleet", "time": "2026-11-21T14:19:44+00:00", "by": "mpoa", "note": "strong hand seed"}
+{"cand_id": "c1h_plain_s3", "family": "c1", "path": "methods/mpoa/cands/c1h_plain_s3", "priority": 6.0, "stage": "screen", "node": "fleet", "time": "2026-11-21T14:20:00+00:00", "by": "mpoa", "note": "strong hand seed"}
+{"cand_id": "c1h_svd1_s2", "family": "c1", "path": "methods/mpoa/cands/c1h_svd1_s2", "priority": 6.0, "stage": "screen", "node": "fleet", "time": "2026-11-21T14:20:16+00:00", "by": "mpoa", "note": "strong hand seed"}
+{"cand_id": "c3x002", "family": "c3", "path": "methods/ara/cands/c3x002", "priority": 7.0, "stage": "screen", "node": "fleet", "time": "2026-11-21T14:20:22+00:00", "by": "ara"}
+{"cand_id": "c1h_plain_s2", "family": "c1", "path": "methods/mpoa/cands/c1h_plain_s2", "priority": 6.0, "stage": "screen", "node": "fleet", "time": "2026-11-21T14:21:40+00:00", "by": "mpoa", "note": "strong hand seed"}
+{"cand_id": "c1h_svd1_s4", "family": "c1", "path": "methods/mpoa/cands/c1h_svd1_s4", "priority": 6.0, "stage": "screen", "node": "fleet", "time": "2026-11-21T14:22:28+00:00", "by": "mpoa", "note": "strong hand seed"}
+{"cand_id": "c1h_plain_s4", "family": "c1", "path": "methods/mpoa/cands/c1h_plain_s4", "priority": 6.0, "stage": "screen", "node": "fleet", "time": "2026-11-21T14:23:06+00:00", "by": "mpoa", "note": "strong hand seed"}
+{"cand_id": "c4rp8_c1t002", "priority": 7.0, "stage": "screen", "time": "2026-11-21T14:23:18+00:00", "by": "experts", "family": "experts", "path": "methods/experts/cands/c4rp8_c1t002", "node": "fleet", "note": "C4 router edit (gate.weight BF16) stacked on parent; see spec"}
+{"cand_id": "c4cd6_c1t002", "priority": 7.0, "stage": "screen", "time": "2026-11-21T14:23:18+00:00", "by": "experts", "family": "experts", "path": "methods/experts/cands/c4cd6_c1t002", "node": "fleet", "note": "C4 router edit (gate.weight BF16) stacked on parent; see spec"}
+{"cand_id": "c4cd3_c1t002", "priority": 7.0, "stage": "screen", "time": "2026-11-21T14:23:18+00:00", "by": "experts", "family": "experts", "path": "methods/experts/cands/c4cd3_c1t002", "node": "fleet", "note": "C4 router edit (gate.weight BF16) stacked on parent; see spec"}
+{"cand_id": "c4rp8_c0lr", "priority": 7.0, "stage": "screen", "time": "2026-11-21T14:23:18+00:00", "by": "experts", "family": "experts", "path": "methods/experts/cands/c4rp8_c0lr", "node": "fleet", "note": "C4 router edit (gate.weight BF16) stacked on parent; see spec"}
+{"cand_id": "c4cd6_c0lr", "priority": 7.0, "stage": "screen", "time": "2026-11-21T14:23:18+00:00", "by": "experts", "family": "experts", "path": "methods/experts/cands/c4cd6_c0lr", "node": "fleet", "note": "C4 router edit (gate.weight BF16) stacked on parent; see spec"}
+{"cand_id": "c1bt000", "family": "c1", "path": "methods/mpoa/cands/c1bt000", "priority": 5.5, "stage": "screen", "node": "fleet", "time": "2026-11-21T14:24:59+00:00", "by": "mpoa"}
+{"cand_id": "c2bt000", "family": "c2", "path": "methods/mpoa/cands/c2bt000", "priority": 5.5, "stage": "screen", "node": "fleet", "time": "2026-11-21T14:25:28+00:00", "by": "mpoa"}
+{"cand_id": "c1h_r1_plain_s3_L11", "family": "c1", "path": "methods/mpoa/cands/c1h_r1_plain_s3_L11", "priority": 6.0, "stage": "screen", "node": "fleet", "time": "2026-11-21T14:25:48+00:00", "by": "mpoa", "note": "rank-1 reflection seed"}
+{"cand_id": "c1h_r1_svd1_s3_L11", "family": "c1", "path": "methods/mpoa/cands/c1h_r1_svd1_s3_L11", "priority": 6.0, "stage": "screen", "node": "fleet", "time": "2026-11-21T14:26:27+00:00", "by": "mpoa", "note": "rank-1 reflection seed"}
+{"cand_id": "c1bt001", "family": "c1", "path": "methods/mpoa/cands/c1bt001", "priority": 5.5, "stage": "screen", "node": "fleet", "time": "2026-11-21T14:26:40+00:00", "by": "mpoa"}
+{"cand_id": "c2bt001", "family": "c2", "path": "methods/mpoa/cands/c2bt001", "priority": 5.5, "stage": "screen", "node": "fleet", "time": "2026-11-21T14:27:10+00:00", "by": "mpoa"}
+{"cand_id": "c1h_r1_svd1_s3_L4", "family": "c1", "path": "methods/mpoa/cands/c1h_r1_svd1_s3_L4", "priority": 6.0, "stage": "screen", "node": "fleet", "time": "2026-11-21T14:27:31+00:00", "by": "mpoa", "note": "rank-1 reflection seed"}
+{"cand_id": "c1h_r1_svd1_s4_L11", "family": "c1", "path": "methods/mpoa/cands/c1h_r1_svd1_s4_L11", "priority": 6.0, "stage": "screen", "node": "fleet", "time": "2026-11-21T14:28:19+00:00", "by": "mpoa", "note": "rank-1 reflection seed"}
+{"cand_id": "c1bt002", "family": "c1", "path": "methods/mpoa/cands/c1bt002", "priority": 5.5, "stage": "screen", "node": "fleet", "time": "2026-11-21T14:28:22+00:00", "by": "mpoa"}
+{"cand_id": "c1h_r1_plain_s4_L11", "family": "c1", "path": "methods/mpoa/cands/c1h_r1_plain_s4_L11", "priority": 6.0, "stage": "screen", "node": "fleet", "time": "2026-11-21T14:29:06+00:00", "by": "mpoa", "note": "rank-1 reflection seed"}
+{"cand_id": "c2bt002", "family": "c2", "path": "methods/mpoa/cands/c2bt002", "priority": 5.5, "stage": "screen", "node": "fleet", "time": "2026-11-21T14:29:07+00:00", "by": "mpoa"}
+{"cand_id": "c1t013", "family": "c1", "path": "methods/mpoa/cands/c1t013", "priority": 7.0, "stage": "full", "node": "fleet", "time": "2026-11-21T14:29:29+00:00", "by": "mpoa", "note": "promoted"}
+{"cand_id": "c1bt004", "family": "c1", "path": "methods/mpoa/cands/c1bt004", "priority": 5.5, "stage": "screen", "node": "fleet", "time": "2026-11-21T14:29:38+00:00", "by": "mpoa"}
+{"cand_id": "c1bt005", "family": "c1", "path": "methods/mpoa/cands/c1bt005", "priority": 5.5, "stage": "screen", "node": "fleet", "time": "2026-11-21T14:30:04+00:00", "by": "mpoa"}
+{"cand_id": "c1bt006", "family": "c1", "path": "methods/mpoa/cands/c1bt006", "priority": 5.5, "stage": "screen", "node": "fleet", "time": "2026-11-21T14:30:33+00:00", "by": "mpoa"}
+{"cand_id": "c3x001", "family": "c3", "path": "methods/ara/cands/c3x001", "priority": 7.0, "stage": "full", "node": "fleet", "time": "2026-11-21T14:31:14+00:00", "by": "ara"}
+{"cand_id": "c3t009", "family": "c3", "path": "methods/ara/cands/c3t009", "priority": 6.0, "stage": "full", "node": "fleet", "time": "2026-11-21T14:31:26+00:00", "by": "ara"}
+{"cand_id": "c1h_svd1_s2", "family": "c1", "path": "methods/mpoa/cands/c1h_svd1_s2", "priority": 7.0, "stage": "full", "node": "fleet", "time": "2026-11-21T14:31:59+00:00", "by": "mpoa", "note": "promoted"}
+{"cand_id": "c1t017", "family": "c1", "path": "methods/mpoa/cands/c1t017", "priority": 7.0, "stage": "full", "node": "fleet", "time": "2026-11-21T14:32:29+00:00", "by": "mpoa", "note": "promoted"}
+{"cand_id": "c1h_plain_s2", "family": "c1", "path": "methods/mpoa/cands/c1h_plain_s2", "priority": 7.0, "stage": "full", "node": "fleet", "time": "2026-11-21T14:33:29+00:00", "by": "mpoa", "note": "promoted"}
+{"cand_id": "c1h_r1_plain_s3_L11", "family": "c1", "path": "methods/mpoa/cands/c1h_r1_plain_s3_L11", "priority": 7.0, "stage": "full", "node": "fleet", "time": "2026-11-21T14:33:59+00:00", "by": "mpoa", "note": "promoted"}
+{"cand_id": "c1h_r1_svd1_s3_L11", "family": "c1", "path": "methods/mpoa/cands/c1h_r1_svd1_s3_L11", "priority": 7.0, "stage": "full", "node": "fleet", "time": "2026-11-21T14:36:29+00:00", "by": "mpoa", "note": "promoted"}
+{"cand_id": "c1h_r1_svd1_s3_L4", "family": "c1", "path": "methods/mpoa/cands/c1h_r1_svd1_s3_L4", "priority": 7.0, "stage": "full", "node": "fleet", "time": "2026-11-21T14:39:29+00:00", "by": "mpoa", "note": "promoted"}
+{"cand_id": "c1h_x4_ouprofile", "priority": 9.5, "stage": "full", "time": "2026-11-21T14:45:36+00:00", "by": "orchestrator", "family": "mpoa", "path": "methods/mpoa/cands/c1h_x4_ouprofile", "note": "owner priority: OU done right"}
+{"cand_id": "c4cd6_c1t002", "priority": 9.4, "stage": "full", "time": "2026-11-21T14:45:36+00:00", "by": "orchestrator", "family": "experts", "path": "methods/experts/cands/c4cd6_c1t002", "note": "owner priority: attn+router stack"}
+{"cand_id": "c4cd3_c1t002", "priority": 9.4, "stage": "full", "time": "2026-11-21T14:45:36+00:00", "by": "orchestrator", "family": "experts", "path": "methods/experts/cands/c4cd3_c1t002", "note": "owner priority: attn+router stack"}
+{"cand_id": "c4rp8_c1t002", "priority": 9.4, "stage": "full", "time": "2026-11-21T14:45:36+00:00", "by": "orchestrator", "family": "experts", "path": "methods/experts/cands/c4rp8_c1t002", "note": "owner priority: attn+router stack"}
+{"cand_id": "c3x001", "priority": 9.0, "stage": "full", "time": "2026-11-21T14:45:36+00:00", "by": "orchestrator", "family": "ara", "path": "methods/ara/cands/c3x001", "note": "near-zero screen refusal"}
+{"cand_id": "c3t009", "priority": 9.0, "stage": "full", "time": "2026-11-21T14:45:36+00:00", "by": "orchestrator", "family": "ara", "path": "methods/ara/cands/c3t009", "note": "near-zero screen refusal"}
+{"cand_id": "c3x002", "priority": 9.0, "stage": "full", "time": "2026-11-21T14:45:36+00:00", "by": "orchestrator", "family": "ara", "path": "methods/ara/cands/c3x002", "note": "near-zero screen refusal"}
+{"cand_id": "c1h_svd1_s2", "priority": 9.0, "stage": "full", "time": "2026-11-21T14:45:36+00:00", "by": "orchestrator", "family": "mpoa", "path": "methods/mpoa/cands/c1h_svd1_s2", "note": "near-zero screen refusal"}
+{"cand_id": "c1h_r1_svd1_s3_L11", "priority": 9.0, "stage": "full", "time": "2026-11-21T14:45:36+00:00", "by": "orchestrator", "family": "mpoa", "path": "methods/mpoa/cands/c1h_r1_svd1_s3_L11", "note": "near-zero screen refusal"}
+{"cand_id": "c1h_r1_svd1_s3_L4", "priority": 9.0, "stage": "full", "time": "2026-11-21T14:45:36+00:00", "by": "orchestrator", "family": "mpoa", "path": "methods/mpoa/cands/c1h_r1_svd1_s3_L4", "note": "near-zero screen refusal"}
+{"cand_id": "c1h_r1_svd1_s4_L11", "priority": 9.0, "stage": "full", "time": "2026-11-21T14:45:36+00:00", "by": "orchestrator", "family": "mpoa", "path": "methods/mpoa/cands/c1h_r1_svd1_s4_L11", "note": "near-zero screen refusal"}
+{"cand_id": "c1h_r1_plain_s3_L11", "priority": 9.0, "stage": "full", "time": "2026-11-21T14:45:36+00:00", "by": "orchestrator", "family": "mpoa", "path": "methods/mpoa/cands/c1h_r1_plain_s3_L11", "note": "near-zero screen refusal"}
+{"cand_id": "c1h_r1_plain_s4_L11", "priority": 9.0, "stage": "full", "time": "2026-11-21T14:45:36+00:00", "by": "orchestrator", "family": "mpoa", "path": "methods/mpoa/cands/c1h_r1_plain_s4_L11", "note": "near-zero screen refusal"}
+{"cand_id": "c4cd6_oupx4", "priority": 7.0, "stage": "screen", "time": "2026-11-21T14:45:49+00:00", "by": "experts", "family": "experts", "path": "methods/experts/cands/c4cd6_oupx4", "node": "fleet", "note": "C4 router edit (gate.weight BF16) on parent; see spec"}
+{"cand_id": "c4cd3_oupx4", "priority": 7.0, "stage": "screen", "time": "2026-11-21T14:45:51+00:00", "by": "experts", "family": "experts", "path": "methods/experts/cands/c4cd3_oupx4", "node": "fleet", "note": "C4 router edit (gate.weight BF16) on parent; see spec"}
+{"cand_id": "c4rp8_oupx4", "priority": 7.0, "stage": "screen", "time": "2026-11-21T14:45:52+00:00", "by": "experts", "family": "experts", "path": "methods/experts/cands/c4rp8_oupx4", "node": "fleet", "note": "C4 router edit (gate.weight BF16) on parent; see spec"}
+{"cand_id": "c4cd6k8_c1t002", "priority": 7.0, "stage": "screen", "time": "2026-11-21T14:45:54+00:00", "by": "experts", "family": "experts", "path": "methods/experts/cands/c4cd6k8_c1t002", "node": "fleet", "note": "C4 router edit (gate.weight BF16) on parent; see spec"}
+{"cand_id": "c4cd6k16_c1t002", "priority": 7.0, "stage": "screen", "time": "2026-11-21T14:45:56+00:00", "by": "experts", "family": "experts", "path": "methods/experts/cands/c4cd6k16_c1t002", "node": "fleet", "note": "C4 router edit (gate.weight BF16) on parent; see spec"}
+{"cand_id": "c1ct000", "family": "c1", "path": "methods/mpoa/cands/c1ct000", "priority": 8.0, "stage": "screen", "node": "fleet", "time": "2026-11-21T14:46:47+00:00", "by": "mpoa"}
+{"cand_id": "c1ct001", "family": "c1", "path": "methods/mpoa/cands/c1ct001", "priority": 8.0, "stage": "screen", "node": "fleet", "time": "2026-11-21T14:46:57+00:00", "by": "mpoa"}
+{"cand_id": "c1ct002", "family": "c1", "path": "methods/mpoa/cands/c1ct002", "priority": 8.0, "stage": "screen", "node": "fleet", "time": "2026-11-21T14:47:01+00:00", "by": "mpoa"}
+{"cand_id": "c1ct003", "family": "c1", "path": "methods/mpoa/cands/c1ct003", "priority": 8.0, "stage": "screen", "node": "fleet", "time": "2026-11-21T14:47:13+00:00", "by": "mpoa"}
+{"cand_id": "c1ct004", "family": "c1", "path": "methods/mpoa/cands/c1ct004", "priority": 8.0, "stage": "screen", "node": "fleet", "time": "2026-11-21T14:47:23+00:00", "by": "mpoa"}
+{"cand_id": "c1ct005", "family": "c1", "path": "methods/mpoa/cands/c1ct005", "priority": 8.0, "stage": "screen", "node": "fleet", "time": "2026-11-21T14:47:35+00:00", "by": "mpoa"}
+{"cand_id": "c1ct006", "family": "c1", "path": "methods/mpoa/cands/c1ct006", "priority": 8.0, "stage": "screen", "node": "fleet", "time": "2026-11-21T14:47:48+00:00", "by": "mpoa"}
+{"cand_id": "c1ct007", "family": "c1", "path": "methods/mpoa/cands/c1ct007", "priority": 8.0, "stage": "screen", "node": "fleet", "time": "2026-11-21T14:47:58+00:00", "by": "mpoa"}
+{"cand_id": "c1ct008", "family": "c1", "path": "methods/mpoa/cands/c1ct008", "priority": 8.0, "stage": "screen", "node": "fleet", "time": "2026-11-21T15:03:19+00:00", "by": "mpoa"}
+{"cand_id": "c1t013_cr03", "family": "c1", "path": "methods/mpoa/cands/c1t013_cr03", "priority": 9.6, "stage": "full", "node": "fleet", "think_cap": 4096, "time": "2026-11-21T15:04:37+00:00", "by": "mpoa", "note": "crisis-protected variant (lead 15:1xZ)"}
+{"cand_id": "c1t013_cr1", "family": "c1", "path": "methods/mpoa/cands/c1t013_cr1", "priority": 9.6, "stage": "full", "node": "fleet", "think_cap": 4096, "time": "2026-11-21T15:04:47+00:00", "by": "mpoa", "note": "crisis-protected variant (lead 15:1xZ)"}
+{"cand_id": "c1h_svd1_s2_cr03", "family": "c1", "path": "methods/mpoa/cands/c1h_svd1_s2_cr03", "priority": 9.6, "stage": "full", "node": "fleet", "think_cap": 4096, "time": "2026-11-21T15:05:02+00:00", "by": "mpoa", "note": "crisis-protected variant (lead 15:1xZ)"}
+{"cand_id": "c1h_svd1_s2_cr1", "family": "c1", "path": "methods/mpoa/cands/c1h_svd1_s2_cr1", "priority": 9.6, "stage": "full", "node": "fleet", "think_cap": 4096, "time": "2026-11-21T15:05:18+00:00", "by": "mpoa", "note": "crisis-protected variant (lead 15:1xZ)"}
+{"cand_id": "c1ct009", "family": "c1", "path": "methods/mpoa/cands/c1ct009", "priority": 8.0, "stage": "screen", "node": "fleet", "time": "2026-11-21T15:05:44+00:00", "by": "mpoa"}
+{"cand_id": "c1ct010", "family": "c1", "path": "methods/mpoa/cands/c1ct010", "priority": 8.0, "stage": "screen", "node": "fleet", "time": "2026-11-21T15:06:15+00:00", "by": "mpoa"}
+{"cand_id": "c1ct011", "family": "c1", "path": "methods/mpoa/cands/c1ct011", "priority": 8.0, "stage": "screen", "node": "fleet", "time": "2026-11-21T15:06:40+00:00", "by": "mpoa"}
+{"cand_id": "c1ct012", "family": "c1", "path": "methods/mpoa/cands/c1ct012", "priority": 8.0, "stage": "screen", "node": "fleet", "time": "2026-11-21T15:07:16+00:00", "by": "mpoa"}
+{"cand_id": "c1dt000", "family": "c1", "path": "methods/mpoa/cands/c1dt000", "priority": 9.0, "stage": "screen", "node": "fleet", "time": "2026-11-21T15:09:30+00:00", "by": "mpoa"}
+{"cand_id": "c1dt001", "family": "c1", "path": "methods/mpoa/cands/c1dt001", "priority": 9.0, "stage": "screen", "node": "fleet", "time": "2026-11-21T15:09:44+00:00", "by": "mpoa"}
+{"cand_id": "c1dt002", "family": "c1", "path": "methods/mpoa/cands/c1dt002", "priority": 9.0, "stage": "screen", "node": "fleet", "time": "2026-11-21T15:10:01+00:00", "by": "mpoa"}
+{"cand_id": "c1dt003", "family": "c1", "path": "methods/mpoa/cands/c1dt003", "priority": 9.0, "stage": "screen", "node": "fleet", "time": "2026-11-21T15:10:23+00:00", "by": "mpoa"}
+{"cand_id": "c1dt004", "family": "c1", "path": "methods/mpoa/cands/c1dt004", "priority": 9.0, "stage": "screen", "node": "fleet", "time": "2026-11-21T15:10:54+00:00", "by": "mpoa"}
+{"cand_id": "c1dt005", "family": "c1", "path": "methods/mpoa/cands/c1dt005", "priority": 9.0, "stage": "screen", "node": "fleet", "time": "2026-11-21T15:11:12+00:00", "by": "mpoa"}
+{"cand_id": "c1dt006", "family": "c1", "path": "methods/mpoa/cands/c1dt006", "priority": 9.0, "stage": "screen", "node": "fleet", "time": "2026-11-21T15:11:27+00:00", "by": "mpoa"}
+{"cand_id": "c1dt007", "family": "c1", "path": "methods/mpoa/cands/c1dt007", "priority": 9.0, "stage": "screen", "node": "fleet", "time": "2026-11-21T15:11:45+00:00", "by": "mpoa"}
+{"cand_id": "c1dt000", "family": "c1", "path": "methods/mpoa/cands/c1dt000", "priority": 9.7, "stage": "full", "node": "fleet", "time": "2026-11-21T15:14:05+00:00", "by": "mpoa"}
+{"cand_id": "c1dt001", "family": "c1", "path": "methods/mpoa/cands/c1dt001", "priority": 9.7, "stage": "full", "node": "fleet", "time": "2026-11-21T15:14:25+00:00", "by": "mpoa"}
+{"cand_id": "c1dt002", "family": "c1", "path": "methods/mpoa/cands/c1dt002", "priority": 9.7, "stage": "full", "node": "fleet", "time": "2026-11-21T15:15:05+00:00", "by": "mpoa"}
+{"cand_id": "c1dt008", "family": "c1", "path": "methods/mpoa/cands/c1dt008", "priority": 9.0, "stage": "screen", "node": "fleet", "time": "2026-11-21T15:15:57+00:00", "by": "mpoa"}
+{"cand_id": "c1dt009", "family": "c1", "path": "methods/mpoa/cands/c1dt009", "priority": 9.0, "stage": "screen", "node": "fleet", "time": "2026-11-21T15:16:46+00:00", "by": "mpoa"}
+{"cand_id": "c1dt010", "family": "c1", "path": "methods/mpoa/cands/c1dt010", "priority": 9.0, "stage": "screen", "node": "fleet", "time": "2026-11-21T15:17:18+00:00", "by": "mpoa"}
+{"cand_id": "c1dt006", "family": "c1", "path": "methods/mpoa/cands/c1dt006", "priority": 9.7, "stage": "full", "node": "fleet", "time": "2026-11-21T15:19:18+00:00", "by": "mpoa"}
+{"cand_id": "c1dt007", "family": "c1", "path": "methods/mpoa/cands/c1dt007", "priority": 9.7, "stage": "full", "node": "fleet", "time": "2026-11-21T15:21:38+00:00", "by": "mpoa"}
+{"cand_id": "c1dt011", "family": "c1", "path": "methods/mpoa/cands/c1dt011", "priority": 9.0, "stage": "screen", "node": "fleet", "time": "2026-11-21T15:30:10+00:00", "by": "mpoa"}
+{"cand_id": "c1dt012", "family": "c1", "path": "methods/mpoa/cands/c1dt012", "priority": 9.0, "stage": "screen", "node": "fleet", "time": "2026-11-21T15:31:20+00:00", "by": "mpoa"}
+{"cand_id": "c1dt013", "family": "c1", "path": "methods/mpoa/cands/c1dt013", "priority": 9.0, "stage": "screen", "node": "fleet", "time": "2026-11-21T15:31:50+00:00", "by": "mpoa"}
+{"cand_id": "c1dt014", "family": "c1", "path": "methods/mpoa/cands/c1dt014", "priority": 9.0, "stage": "screen", "node": "fleet", "time": "2026-11-21T15:34:21+00:00", "by": "mpoa"}
+{"cand_id": "c1dt015", "family": "c1", "path": "methods/mpoa/cands/c1dt015", "priority": 9.0, "stage": "screen", "node": "fleet", "time": "2026-11-21T15:34:30+00:00", "by": "mpoa"}
+{"cand_id": "c1dt012", "family": "c1", "path": "methods/mpoa/cands/c1dt012", "priority": 9.7, "stage": "full", "node": "fleet", "time": "2026-11-21T15:38:31+00:00", "by": "mpoa"}

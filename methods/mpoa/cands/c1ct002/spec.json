@@ -1,0 +1,98 @@
+{
+ "cand_id": "c1ct002",
+ "family": "c1",
+ "parent": null,
+ "created": "2026-11-21T14:47:01+00:00",
+ "agent": "mpoa",
+ "params": {
+  "r": 1,
+  "conv": "svd1",
+  "conv_scope": "all",
+  "mp": "pre",
+  "s_pre": 4.0,
+  "s_loop": 0.0,
+  "s_post": 4.0,
+  "s_list": [
+   4.0,
+   4.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   4.0,
+   4.0,
+   4.0,
+   4.0,
+   4.0,
+   4.0
+  ],
+  "harmless_proj": true
+ },
+ "kind": "weights",
+ "diag": {
+  "basis": {
+   "harmless_cos": [
+    0.0026
+   ]
+  },
+  "rank_r": 1,
+  "s": {
+   "4": 4.0,
+   "5": 4.0,
+   "18": 4.0,
+   "19": 4.0,
+   "20": 4.0,
+   "21": 4.0,
+   "22": 4.0,
+   "23": 4.0
+  },
+  "k": {
+   "4": 1,
+   "5": 1,
+   "18": 1,
+   "19": 1,
+   "20": 1,
+   "21": 1,
+   "22": 1,
+   "23": 1
+  },
+  "leak": {
+   "4": 2.8295,
+   "5": 2.9675,
+   "18": 2.9484,
+   "19": 2.9546,
+   "20": 2.8962,
+   "21": 2.9565,
+   "22": 2.9586,
+   "23": 3.0042
+  },
+  "rownorm_ratio_min": {
+   "4": 1.0,
+   "5": 1.0,
+   "18": 1.0,
+   "19": 0.999,
+   "20": 1.0,
+   "21": 1.0,
+   "22": 1.0,
+   "23": 1.0
+  },
+  "tensor_sha256": {
+   "model.llm.layers.4.attn.wo_ud.weight": "a78786ec2689609cca7ec949cd412554ec5ac43db059b67112e8b7f0daa9baa3",
+   "model.llm.layers.5.attn.wo_ud.weight": "b98239a54c96110c9b87a57e24db830bd1091521ce37e360de1b361e69eb283f",
+   "model.llm.layers.18.attn.wo_ud.weight": "5ed0e01c1e073c695728da059e00d1ec42a3af14e16f1f30ea8746b03c15451a",
+   "model.llm.layers.19.attn.wo_ud.weight": "682f0a39e799e453b9beb0e8822f82e5c245f370245abd1df2a82242cfba7cbe",
+   "model.llm.layers.20.attn.wo_ud.weight": "f90583397c1cf9e905fcb333389a0c432df63e1ab17245f0dc11df4a41d68e3a",
+   "model.llm.layers.21.attn.wo_ud.weight": "ee46650d74d5948b5a630875832cc9ba20259a97a4a37c1867cf70e29bca579c",
+   "model.llm.layers.22.attn.wo_ud.weight": "114bb9ef5c9000e1cfe53724f3279cb1e093a3ad86fd971bd03b69566c36c7b0",
+   "model.llm.layers.23.attn.wo_ud.weight": "ed0d2b18f9cdc71201945f06fc17940cc67379c55197e79026ca26878807951d"
+  }
+ }
+}

@@ -1,0 +1,1 @@
+19:10:21Z gguf: DONE incl. LoRA r16/r64 (r16 KLD 0.0029 vs full edit, 0/10 refusals); playground live on GPU7:8080; GPU6 free 100%

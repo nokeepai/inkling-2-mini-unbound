@@ -1,0 +1,3 @@
+# gpu cand blocks tag limit   (dry run on ink-research-1, single server, val, limit 20 per set)
+- orig core,cap,robust dry 20
+- ou core,cap,robust dry 20

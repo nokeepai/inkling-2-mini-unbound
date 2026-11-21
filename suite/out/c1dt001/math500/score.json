@@ -1,0 +1,55 @@
+{
+ "bench": "math500",
+ "model": "c1dt001",
+ "main": "math500",
+ "metrics": {
+  "math500": {
+   "value": 95.5,
+   "CI": [
+    92.5,
+    98.0
+   ],
+   "n": 200
+  },
+  "math500_think_len": {
+   "value": 1045.58,
+   "CI": [
+    876.15,
+    1226.505
+   ],
+   "n": 200
+  },
+  "math500_finish_rate": {
+   "value": 90.5,
+   "CI": [
+    86.5,
+    94.5
+   ],
+   "n": 200
+  },
+  "math500_cap_hit_rate": {
+   "value": 9.5,
+   "CI": [
+    5.5,
+    13.5
+   ],
+   "n": 200
+  },
+  "math500_repetition_rate": {
+   "value": 33.0,
+   "CI": [
+    26.5,
+    39.5
+   ],
+   "n": 200
+  },
+  "math500_loop_rate": {
+   "value": 1.0,
+   "CI": [
+    0.0,
+    2.5
+   ],
+   "n": 200
+  }
+ }
+}

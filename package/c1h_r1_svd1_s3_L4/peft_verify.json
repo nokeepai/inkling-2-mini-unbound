@@ -1,0 +1,91 @@
+{
+ "dora": {
+  "peft_version": "0.22.0",
+  "lora_params_loaded": 60,
+  "n_diff_total": 219,
+  "max_diff_ulp": 1.0,
+  "elements": 141557760,
+  "n_diff_per_module": {
+   "model.language_model.layers.10.self_attn.o_proj.linear": {
+    "n_diff": 9,
+    "max_diff_ulp": 1.0
+   },
+   "model.language_model.layers.11.self_attn.o_proj.linear": {
+    "n_diff": 16,
+    "max_diff_ulp": 1.0
+   },
+   "model.language_model.layers.12.self_attn.o_proj.linear": {
+    "n_diff": 8,
+    "max_diff_ulp": 1.0
+   },
+   "model.language_model.layers.13.self_attn.o_proj.linear": {
+    "n_diff": 14,
+    "max_diff_ulp": 1.0
+   },
+   "model.language_model.layers.14.self_attn.o_proj.linear": {
+    "n_diff": 8,
+    "max_diff_ulp": 1.0
+   },
+   "model.language_model.layers.15.self_attn.o_proj.linear": {
+    "n_diff": 13,
+    "max_diff_ulp": 1.0
+   },
+   "model.language_model.layers.16.self_attn.o_proj.linear": {
+    "n_diff": 9,
+    "max_diff_ulp": 1.0
+   },
+   "model.language_model.layers.17.self_attn.o_proj.linear": {
+    "n_diff": 13,
+    "max_diff_ulp": 1.0
+   },
+   "model.language_model.layers.18.self_attn.o_proj.linear": {
+    "n_diff": 11,
+    "max_diff_ulp": 1.0
+   },
+   "model.language_model.layers.19.self_attn.o_proj.linear": {
+    "n_diff": 8,
+    "max_diff_ulp": 1.0
+   },
+   "model.language_model.layers.20.self_attn.o_proj.linear": {
+    "n_diff": 9,
+    "max_diff_ulp": 1.0
+   },
+   "model.language_model.layers.21.self_attn.o_proj.linear": {
+    "n_diff": 14,
+    "max_diff_ulp": 1.0
+   },
+   "model.language_model.layers.22.self_attn.o_proj.linear": {
+    "n_diff": 15,
+    "max_diff_ulp": 1.0
+   },
+   "model.language_model.layers.23.self_attn.o_proj.linear": {
+    "n_diff": 12,
+    "max_diff_ulp": 1.0
+   },
+   "model.language_model.layers.4.self_attn.o_proj.linear": {
+    "n_diff": 11,
+    "max_diff_ulp": 1.0
+   },
+   "model.language_model.layers.5.self_attn.o_proj.linear": {
+    "n_diff": 10,
+    "max_diff_ulp": 1.0
+   },
+   "model.language_model.layers.6.self_attn.o_proj.linear": {
+    "n_diff": 8,
+    "max_diff_ulp": 1.0
+   },
+   "model.language_model.layers.7.self_attn.o_proj.linear": {
+    "n_diff": 14,
+    "max_diff_ulp": 1.0
+   },
+   "model.language_model.layers.8.self_attn.o_proj.linear": {
+    "n_diff": 7,
+    "max_diff_ulp": 1.0
+   },
+   "model.language_model.layers.9.self_attn.o_proj.linear": {
+    "n_diff": 10,
+    "max_diff_ulp": 1.0
+   }
+  }
+ }
+}

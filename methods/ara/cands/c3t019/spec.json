@@ -1,0 +1,51 @@
+{
+ "cand_id": "c3t019",
+ "family": "c3",
+ "parent": null,
+ "created": "2026-11-21T14:11:55+00:00",
+ "agent": "ara",
+ "params": {
+  "l_min": 11,
+  "l_max": 23,
+  "rank": 8,
+  "preserve_w": 10.0,
+  "pres2_w": 300.0,
+  "overcorrect": 0.0,
+  "knn_k": 5,
+  "steps": 200,
+  "lr": 0.0003,
+  "think_w": 1.0,
+  "mean_w": 1.0,
+  "gamma": 0.5,
+  "mp": true,
+  "seed": 0
+ },
+ "kind": "weights",
+ "diag": {
+  "rel_dW_mean": 0.0611,
+  "rel_dW_max": 0.0771,
+  "mean_gap_ratio": 0.4916,
+  "preserve_mean": 0.00511,
+  "rownorm_ratio": [
+   0.9995,
+   1.0008
+  ],
+  "build_exact": "13/13",
+  "gpu_vs_build_diff_elems": 0,
+  "tensor_sha256": {
+   "model.llm.layers.11.attn.wo_ud.weight": "353a1a0ea87e025572bd87f66c189e98b18d1a0a550343cd47307c6ce1b048a8",
+   "model.llm.layers.12.attn.wo_ud.weight": "e9c599e55a13f5fce4fb5a2b40c590dd8b478896e9a882b7bce1219414a848ce",
+   "model.llm.layers.13.attn.wo_ud.weight": "ff1094d13b59d4ff8322f4ea345763bbc3ea3bd0ce67b72a16aaa0fa6ae40343",
+   "model.llm.layers.14.attn.wo_ud.weight": "69ad9290b4fbca9a16bdd7435d1ee769dfc733682270255c6bd79b63e67b8a53",
+   "model.llm.layers.15.attn.wo_ud.weight": "b1877d23f55043940455b48c6662258a3ad91c3849443d6413169effed0879ed",
+   "model.llm.layers.16.attn.wo_ud.weight": "fd1d2a57ed1d89fc5a3d8e0daebb6bf6765ee8d65ecfdd3905a3bcc9729f9e1e",
+   "model.llm.layers.17.attn.wo_ud.weight": "3d7bac0f17202d2eb63e93e07dc9485ef9c7c8f072001713a4a0a66c955ca3e7",
+   "model.llm.layers.18.attn.wo_ud.weight": "edce27d06e4efb34cadfe321693b6b64dcefbe9937d79627d083bdae12636458",
+   "model.llm.layers.19.attn.wo_ud.weight": "3f64828e2bac3c3c55beaeac8f5ccd4dfd41e8e36a7cfdcd7a864769d415aef5",
+   "model.llm.layers.20.attn.wo_ud.weight": "c2267a13fbd9495bdae0474fe19e205cdfe560e53c5469c537874f9b93414dcd",
+   "model.llm.layers.21.attn.wo_ud.weight": "4710dbe9192dfe31450e68e4c037a3801a088f7847bd2ff40a5272f735462efa",
+   "model.llm.layers.22.attn.wo_ud.weight": "baf79090bd0811925531d0e5f38206ae3429eb7e7b6f958a62d41a1507755371",
+   "model.llm.layers.23.attn.wo_ud.weight": "464975b6791183a22f60a71926eac292aac0a1ce6338e758736b8b0e27787a76"
+  }
+ }
+}

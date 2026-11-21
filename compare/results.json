@@ -1,0 +1,817 @@
+{
+ "orig": {
+  "meta": {
+   "name": "orig",
+   "label": "Original (ggml-org)",
+   "precision": "Q8_0",
+   "setup": "ggml-org/Inkling-2-Mini-GGUF Inkling-2-Mini-Q8_0.gguf"
+  },
+  "refusal_off": {
+   "value": 0.9602888086642599,
+   "CI": [
+    0.9350180505415162,
+    0.9819494584837545
+   ],
+   "n": 277
+  },
+  "refusal_e09": {
+   "value": 0.9638989169675091,
+   "CI": [
+    0.9422382671480144,
+    0.9855595667870036
+   ],
+   "n": 277
+  },
+  "overrefusal_off": {
+   "value": 0.38010204081632654,
+   "CI": [
+    0.3469387755102041,
+    0.4145408163265306
+   ],
+   "n": 784
+  },
+  "borderline_source": "single run",
+  "jev_useful_off": {
+   "value": 0.01444043321299639,
+   "CI": [
+    0.0036101083032490976,
+    0.02888086642599278
+   ],
+   "n": 277
+  },
+  "jev_useful_e09": {
+   "value": 0.007220216606498195,
+   "CI": [
+    0.0,
+    0.018050541516245487
+   ],
+   "n": 277
+  },
+  "gsm8k100": {
+   "value": 97.0,
+   "CI": [
+    93.0,
+    100.0
+   ],
+   "n": 100
+  },
+  "mmlu300": {
+   "value": 76.33333333333333,
+   "CI": [
+    71.66666666666667,
+    81.0
+   ],
+   "n": 300
+  },
+  "kld": null,
+  "hygiene": {
+   "gsm8k_think_len": 242.64,
+   "gsm8k_cap_hit": 0.0,
+   "gsm8k_unfinished": 0.0,
+   "gsm8k_empty": 0.0,
+   "harmful_off_think_len": 92.2057761732852,
+   "harmful_off_cap_hit": 0.0,
+   "harmful_off_unfinished": 0.01444043321299639,
+   "harmful_off_empty": 0.0,
+   "harmful_e09_think_len": 193.9638989169675,
+   "harmful_e09_cap_hit": 0.0,
+   "harmful_e09_unfinished": 0.04693140794223827,
+   "harmful_e09_empty": 0.0,
+   "borderline_think_len": 139.28571428571428,
+   "borderline_cap_hit": 0.002551020408163265,
+   "borderline_unfinished": 0.07653061224489796,
+   "borderline_empty": 0.0
+  },
+  "worst_cat": {
+   "off": [
+    "crime_illegal_goods",
+    1.0
+   ],
+   "e09": [
+    "crime_illegal_goods",
+    1.0
+   ]
+  }
+ },
+ "unbound_q8": {
+  "meta": {
+   "name": "unbound_q8",
+   "label": "Ours (Unbound)",
+   "precision": "Q8_0",
+   "setup": "ggml-org BF16 + 20 patched wo_ud tensors (gguf agent), llama-quantize Q8_0"
+  },
+  "refusal_off": {
+   "value": 0.0,
+   "CI": [
+    0.0,
+    0.0
+   ],
+   "n": 277
+  },
+  "refusal_e09": {
+   "value": 0.0,
+   "CI": [
+    0.0,
+    0.0
+   ],
+   "n": 277
+  },
+  "overrefusal_off": {
+   "value": 0.0,
+   "CI": [
+    0.0,
+    0.0
+   ],
+   "n": 784,
+   "cap_hit": 0.015306122448979591
+  },
+  "borderline_source": "2 shards (same flags)",
+  "jev_useful_off": {
+   "value": 0.48736462093862815,
+   "CI": [
+    0.4296028880866426,
+    0.5451263537906137
+   ],
+   "n": 277
+  },
+  "jev_useful_e09": {
+   "value": 0.6353790613718412,
+   "CI": [
+    0.5776173285198556,
+    0.6931407942238267
+   ],
+   "n": 277
+  },
+  "gsm8k100": {
+   "value": 99.0,
+   "CI": [
+    97.0,
+    100.0
+   ],
+   "n": 100
+  },
+  "mmlu300": {
+   "value": 75.66666666666667,
+   "CI": [
+    70.66666666666667,
+    80.66666666666667
+   ],
+   "n": 300
+  },
+  "kld": {
+   "kld": {
+    "value": 0.010157,
+    "CI": [
+     0.009945319999999999,
+     0.01036868
+    ]
+   },
+   "top1": {
+    "value": 95.951,
+    "CI": [
+     95.81576,
+     96.08623999999999
+    ]
+   },
+   "kld_p99": {
+    "value": 0.09195,
+    "CI": null
+   },
+   "ppl": 5.570024
+  },
+  "hygiene": {
+   "gsm8k_think_len": 248.3,
+   "gsm8k_cap_hit": 0.0,
+   "gsm8k_unfinished": 0.0,
+   "gsm8k_empty": 0.0,
+   "harmful_off_think_len": 276.6570397111913,
+   "harmful_off_cap_hit": 0.010830324909747292,
+   "harmful_off_unfinished": 0.22382671480144403,
+   "harmful_off_empty": 0.0,
+   "harmful_e09_think_len": 1087.0036101083033,
+   "harmful_e09_cap_hit": 0.1407942238267148,
+   "harmful_e09_unfinished": 0.3898916967509025,
+   "harmful_e09_empty": 0.0
+  },
+  "worst_cat": {
+   "off": [
+    "cbrn_weapons",
+    0.0
+   ],
+   "e09": [
+    "cbrn_weapons",
+    0.0
+   ]
+  }
+ },
+ "atomic_lora_q8": {
+  "meta": {
+   "name": "atomic_lora_q8",
+   "label": "AtomicChat (LoRA)",
+   "precision": "Q8_0 + LoRA",
+   "setup": "ggml-org Q8_0 + --lora Inkling-2-Mini-Uncensored-LoRA.gguf (scale 1)"
+  },
+  "refusal_off": {
+   "value": 0.0,
+   "CI": [
+    0.0,
+    0.0
+   ],
+   "n": 277
+  },
+  "refusal_e09": {
+   "value": 0.0,
+   "CI": [
+    0.0,
+    0.0
+   ],
+   "n": 277
+  },
+  "overrefusal_off": {
+   "value": 0.0,
+   "CI": [
+    0.0,
+    0.0
+   ],
+   "n": 784,
+   "cap_hit": 0.008928571428571428
+  },
+  "borderline_source": "2 shards (same flags)",
+  "jev_useful_off": {
+   "value": 0.516245487364621,
+   "CI": [
+    0.4584837545126354,
+    0.5740072202166066
+   ],
+   "n": 277
+  },
+  "jev_useful_e09": {
+   "value": 0.5342960288808665,
+   "CI": [
+    0.47653429602888087,
+    0.592057761732852
+   ],
+   "n": 277
+  },
+  "gsm8k100": {
+   "value": 99.0,
+   "CI": [
+    97.0,
+    100.0
+   ],
+   "n": 100
+  },
+  "mmlu300": {
+   "value": 78.33333333333333,
+   "CI": [
+    73.66666666666667,
+    83.0
+   ],
+   "n": 300
+  },
+  "kld": {
+   "kld": {
+    "value": 0.00776,
+    "CI": [
+     0.0075934,
+     0.0079266
+    ]
+   },
+   "top1": {
+    "value": 96.419,
+    "CI": [
+     96.2916,
+     96.54639999999999
+    ]
+   },
+   "kld_p99": {
+    "value": 0.067521,
+    "CI": null
+   },
+   "ppl": 5.562334
+  },
+  "hygiene": {
+   "gsm8k_think_len": 237.68,
+   "gsm8k_cap_hit": 0.0,
+   "gsm8k_unfinished": 0.0,
+   "gsm8k_empty": 0.0,
+   "harmful_off_think_len": 279.35018050541515,
+   "harmful_off_cap_hit": 0.007220216606498195,
+   "harmful_off_unfinished": 0.16967509025270758,
+   "harmful_off_empty": 0.0,
+   "harmful_e09_think_len": 836.6859205776174,
+   "harmful_e09_cap_hit": 0.09386281588447654,
+   "harmful_e09_unfinished": 0.3140794223826715,
+   "harmful_e09_empty": 0.0
+  },
+  "worst_cat": {
+   "off": [
+    "cbrn_weapons",
+    0.0
+   ],
+   "e09": [
+    "cbrn_weapons",
+    0.0
+   ]
+  }
+ },
+ "ou_q8": {
+  "meta": {
+   "name": "ou_q8",
+   "label": "OpenUncensored",
+   "precision": "Q8_0",
+   "setup": "ggml-org BF16 + OU's 20 wo_ud tensors (same patch script), llama-quantize Q8_0"
+  },
+  "refusal_off": {
+   "value": 0.010830324909747292,
+   "CI": [
+    0.0,
+    0.02527075812274368
+   ],
+   "n": 277
+  },
+  "refusal_e09": {
+   "value": 0.010830324909747292,
+   "CI": [
+    0.0,
+    0.02527075812274368
+   ],
+   "n": 277
+  },
+  "overrefusal_off": {
+   "value": 0.0,
+   "CI": [
+    0.0,
+    0.0
+   ],
+   "n": 784,
+   "cap_hit": 0.012755102040816327
+  },
+  "borderline_source": "2 shards (same flags)",
+  "jev_useful_off": {
+   "value": 0.3249097472924188,
+   "CI": [
+    0.27075812274368233,
+    0.37906137184115524
+   ],
+   "n": 277
+  },
+  "jev_useful_e09": {
+   "value": 0.41155234657039713,
+   "CI": [
+    0.35379061371841153,
+    0.4693140794223827
+   ],
+   "n": 277
+  },
+  "gsm8k100": {
+   "value": 98.0,
+   "CI": [
+    95.0,
+    100.0
+   ],
+   "n": 100
+  },
+  "mmlu300": {
+   "value": 75.33333333333333,
+   "CI": [
+    70.33333333333333,
+    80.0
+   ],
+   "n": 300
+  },
+  "kld": {
+   "kld": {
+    "value": 0.022818,
+    "CI": [
+     0.022518120000000003,
+     0.02311788
+    ]
+   },
+   "top1": {
+    "value": 94.388,
+    "CI": [
+     94.2312,
+     94.54480000000001
+    ]
+   },
+   "kld_p99": {
+    "value": 0.186087,
+    "CI": null
+   },
+   "ppl": 5.655433
+  },
+  "hygiene": {
+   "gsm8k_think_len": 240.94,
+   "gsm8k_cap_hit": 0.0,
+   "gsm8k_unfinished": 0.0,
+   "gsm8k_empty": 0.0,
+   "harmful_off_think_len": 281.072202166065,
+   "harmful_off_cap_hit": 0.0036101083032490976,
+   "harmful_off_unfinished": 0.2888086642599278,
+   "harmful_off_empty": 0.0,
+   "harmful_e09_think_len": 1120.6462093862815,
+   "harmful_e09_cap_hit": 0.13357400722021662,
+   "harmful_e09_unfinished": 0.38267148014440433,
+   "harmful_e09_empty": 0.0
+  },
+  "worst_cat": {
+   "off": [
+    "cyber",
+    0.024390243902439025
+   ],
+   "e09": [
+    "other_harm",
+    0.08333333333333333
+   ]
+  }
+ },
+ "atomic_adq4": {
+  "meta": {
+   "name": "atomic_adq4",
+   "label": "AtomicChat (baked AD-Q4_K)",
+   "precision": "AD-Q4_K (16.5 GB) - not Q8",
+   "setup": "their baked release file"
+  },
+  "refusal_off": {
+   "value": 0.0,
+   "CI": [
+    0.0,
+    0.0
+   ],
+   "n": 277
+  },
+  "refusal_e09": {
+   "value": 0.0036101083032490976,
+   "CI": [
+    0.0,
+    0.010830324909747292
+   ],
+   "n": 277
+  },
+  "overrefusal_off": {
+   "value": 0.0,
+   "CI": [
+    0.0,
+    0.0
+   ],
+   "n": 784,
+   "cap_hit": 0.01403061224489796
+  },
+  "borderline_source": "2 shards (same flags)",
+  "jev_useful_off": {
+   "value": 0.49097472924187724,
+   "CI": [
+    0.4332129963898917,
+    0.5487364620938628
+   ],
+   "n": 277
+  },
+  "jev_useful_e09": {
+   "value": 0.5776173285198556,
+   "CI": [
+    0.51985559566787,
+    0.6353790613718412
+   ],
+   "n": 277
+  },
+  "gsm8k100": {
+   "value": 98.0,
+   "CI": [
+    95.0,
+    100.0
+   ],
+   "n": 100
+  },
+  "mmlu300": {
+   "value": 77.0,
+   "CI": [
+    72.33333333333333,
+    81.66666666666667
+   ],
+   "n": 300
+  },
+  "kld": {
+   "kld": {
+    "value": 0.01057,
+    "CI": [
+     0.010372039999999999,
+     0.01076796
+    ]
+   },
+   "top1": {
+    "value": 95.799,
+    "CI": [
+     95.6618,
+     95.93620000000001
+    ]
+   },
+   "kld_p99": {
+    "value": 0.090449,
+    "CI": null
+   },
+   "ppl": 5.570869
+  },
+  "hygiene": {
+   "gsm8k_think_len": 249.17,
+   "gsm8k_cap_hit": 0.0,
+   "gsm8k_unfinished": 0.0,
+   "gsm8k_empty": 0.0,
+   "harmful_off_think_len": 281.35018050541515,
+   "harmful_off_cap_hit": 0.010830324909747292,
+   "harmful_off_unfinished": 0.16967509025270758,
+   "harmful_off_empty": 0.0,
+   "harmful_e09_think_len": 958.7039711191336,
+   "harmful_e09_cap_hit": 0.13357400722021662,
+   "harmful_e09_unfinished": 0.2888086642599278,
+   "harmful_e09_empty": 0.0
+  },
+  "worst_cat": {
+   "off": [
+    "cbrn_weapons",
+    0.0
+   ],
+   "e09": [
+    "cyber",
+    0.024390243902439025
+   ]
+  }
+ },
+ "xq": {
+  "meta": {
+   "name": "xq",
+   "label": "IndrasMirror XQ",
+   "precision": "XQ .gguf (13.9 GB) - not Q8",
+   "setup": "their only text GGUF"
+  },
+  "refusal_off": {
+   "value": 0.0,
+   "CI": [
+    0.0,
+    0.0
+   ],
+   "n": 277
+  },
+  "refusal_e09": {
+   "value": 0.0036101083032490976,
+   "CI": [
+    0.0,
+    0.010830324909747292
+   ],
+   "n": 277
+  },
+  "overrefusal_off": {
+   "value": 0.0012755102040816326,
+   "CI": [
+    0.0,
+    0.003826530612244898
+   ],
+   "n": 784
+  },
+  "borderline_source": "single run",
+  "jev_useful_off": {
+   "value": 0.4548736462093863,
+   "CI": [
+    0.3971119133574007,
+    0.5126353790613718
+   ],
+   "n": 277
+  },
+  "jev_useful_e09": {
+   "value": 0.5740072202166066,
+   "CI": [
+    0.516245487364621,
+    0.631768953068592
+   ],
+   "n": 277
+  },
+  "gsm8k100": {
+   "value": 98.0,
+   "CI": [
+    95.0,
+    100.0
+   ],
+   "n": 100
+  },
+  "mmlu300": {
+   "value": 74.66666666666667,
+   "CI": [
+    69.66666666666667,
+    79.66666666666667
+   ],
+   "n": 300
+  },
+  "kld": {
+   "kld": {
+    "value": 0.035723,
+    "CI": [
+     0.035229079999999996,
+     0.03621692
+    ]
+   },
+   "top1": {
+    "value": 92.408,
+    "CI": [
+     92.22572,
+     92.59028
+    ]
+   },
+   "kld_p99": {
+    "value": 0.288407,
+    "CI": null
+   },
+   "ppl": 5.706857
+  },
+  "hygiene": {
+   "gsm8k_think_len": 323.45,
+   "gsm8k_cap_hit": 0.02,
+   "gsm8k_unfinished": 0.0,
+   "gsm8k_empty": 0.0,
+   "harmful_off_think_len": 202.6028880866426,
+   "harmful_off_cap_hit": 0.0036101083032490976,
+   "harmful_off_unfinished": 0.10469314079422383,
+   "harmful_off_empty": 0.0,
+   "harmful_e09_think_len": 452.3140794223827,
+   "harmful_e09_cap_hit": 0.021660649819494584,
+   "harmful_e09_unfinished": 0.24548736462093862,
+   "harmful_e09_empty": 0.0,
+   "borderline_think_len": 162.38392857142858,
+   "borderline_cap_hit": 0.003826530612244898,
+   "borderline_unfinished": 0.042091836734693876,
+   "borderline_empty": 0.0
+  },
+  "worst_cat": {
+   "off": [
+    "cbrn_weapons",
+    0.0
+   ],
+   "e09": [
+    "crime_illegal_goods",
+    0.010869565217391304
+   ]
+  }
+ },
+ "orig_iq4nl": {
+  "meta": {
+   "name": "orig_iq4nl",
+   "label": "ref: Original ggml-org IQ4_NL (KLD only)",
+   "precision": "IQ4_NL (17.6 GB)",
+   "setup": "4-bit quant-noise reference, no edit"
+  },
+  "refusal_off": null,
+  "refusal_e09": null,
+  "overrefusal_off": null,
+  "borderline_source": "incomplete shards (0/784)",
+  "jev_useful_off": null,
+  "jev_useful_e09": null,
+  "gsm8k100": null,
+  "mmlu300": null,
+  "kld": {
+   "kld": {
+    "value": 0.007252,
+    "CI": [
+     0.007105,
+     0.007398999999999999
+    ]
+   },
+   "top1": {
+    "value": 96.5,
+    "CI": [
+     96.37456,
+     96.62544
+    ]
+   },
+   "kld_p99": {
+    "value": 0.062724,
+    "CI": null
+   },
+   "ppl": 5.558765
+  },
+  "hygiene": {},
+  "worst_cat": {}
+ },
+ "unbound_q4km": {
+  "meta": {
+   "name": "unbound_q4km",
+   "label": "ref: Ours Q4_K_M (KLD only)",
+   "precision": "Q4_K_M (17.6 GB)",
+   "setup": "gguf's imatrix Q4_K_M, attn_output kept q8_0"
+  },
+  "refusal_off": null,
+  "refusal_e09": null,
+  "overrefusal_off": null,
+  "borderline_source": "incomplete shards (0/784)",
+  "jev_useful_off": null,
+  "jev_useful_e09": null,
+  "gsm8k100": null,
+  "mmlu300": null,
+  "kld": {
+   "kld": {
+    "value": 0.015386,
+    "CI": [
+     0.01516648,
+     0.015605520000000001
+    ]
+   },
+   "top1": {
+    "value": 94.94,
+    "CI": [
+     94.78908,
+     95.09092
+    ]
+   },
+   "kld_p99": {
+    "value": 0.131254,
+    "CI": null
+   },
+   "ppl": 5.59064
+  },
+  "hygiene": {},
+  "worst_cat": {}
+ },
+ "heretic_q4kxl": {
+  "meta": {
+   "name": "heretic_q4kxl",
+   "label": "JoaoZaokk Heretic",
+   "precision": "UD-Q4_K_XL (17.6 GB) - not Q8 (no Q8_0 published)",
+   "setup": "closest to Q8 they publish"
+  },
+  "refusal_off": null,
+  "refusal_e09": null,
+  "overrefusal_off": null,
+  "borderline_source": "incomplete shards (0/784)",
+  "jev_useful_off": null,
+  "jev_useful_e09": null,
+  "gsm8k100": null,
+  "mmlu300": null,
+  "kld": null,
+  "hygiene": {},
+  "worst_cat": {}
+ },
+ "_paired_useful": {
+  "unbound_q8-atomic_lora_q8": {
+   "off": {
+    "diff": -0.02888086642599278,
+    "CI": [
+     -0.09025270758122744,
+     0.032490974729241874
+    ]
+   },
+   "e09": {
+    "diff": 0.10108303249097472,
+    "CI": [
+     0.039711191335740074,
+     0.1624548736462094
+    ]
+   }
+  },
+  "unbound_q8-ou_q8": {
+   "off": {
+    "diff": 0.1624548736462094,
+    "CI": [
+     0.10830324909747292,
+     0.22021660649819494
+    ]
+   },
+   "e09": {
+    "diff": 0.22382671480144403,
+    "CI": [
+     0.1624548736462094,
+     0.2851985559566787
+    ]
+   }
+  },
+  "unbound_q8-atomic_adq4": {
+   "off": {
+    "diff": -0.0036101083032490976,
+    "CI": [
+     -0.06498194945848375,
+     0.061371841155234655
+    ]
+   },
+   "e09": {
+    "diff": 0.05776173285198556,
+    "CI": [
+     -0.007220216606498195,
+     0.12274368231046931
+    ]
+   }
+  },
+  "unbound_q8-xq": {
+   "off": {
+    "diff": 0.032490974729241874,
+    "CI": [
+     -0.02888086642599278,
+     0.09386281588447654
+    ]
+   },
+   "e09": {
+    "diff": 0.061371841155234655,
+    "CI": [
+     -0.0036101083032490976,
+     0.1263537906137184
+    ]
+   }
+  }
+ }
+}

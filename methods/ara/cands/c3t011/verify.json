@@ -1,0 +1,22 @@
+{
+ "n": 13,
+ "exact_cpu": 13,
+ "gpu_diff_elems": 0,
+ "rownorm_ratio_min": 0.9991998672485352,
+ "rownorm_ratio_max": 1.000611424446106,
+ "tensor_sha256": {
+  "model.llm.layers.11.attn.wo_ud.weight": "eaacca5220d57b4299df491da1c4925ff5aadf01b4ba4e8b1bf66f2dd3a9c10b",
+  "model.llm.layers.12.attn.wo_ud.weight": "e5901191ee97c6c08e525aabab9042123daf593146acfd50411d9b096eb18da9",
+  "model.llm.layers.13.attn.wo_ud.weight": "5140d3a9a72e6894b68738f7c6a9a78578aa413b6f36d20cdbd7fa1ef9acfd07",
+  "model.llm.layers.14.attn.wo_ud.weight": "0322b45d91d2b7a8e7081a974f764de46bbcb5f86f96c5113ff2617260f27236",
+  "model.llm.layers.15.attn.wo_ud.weight": "73dcd31869820f4629088afb08a6e5f45dd1e5c216931526c2fbd961ea53f330",
+  "model.llm.layers.16.attn.wo_ud.weight": "9a3ee8cef9634823961954a2f4d0d1ecaa9c15497672df3a4eea381f050c413b",
+  "model.llm.layers.17.attn.wo_ud.weight": "575359ee5f991e0f47a86bdb8726260512939b206666b6217fd7df3ce8ba3826",
+  "model.llm.layers.18.attn.wo_ud.weight": "8926df4b49a46fffb37dba6a335e1b726be59408761422e98ba891fbc804ac96",
+  "model.llm.layers.19.attn.wo_ud.weight": "367a2a121f541bd2e21f1f7734e0cb361e2542fe557b966029e21d0d632aefa9",
+  "model.llm.layers.20.attn.wo_ud.weight": "18e91f2d2ba84481f56628a4232e57ddbbd9355e8cbcc72ee74fffc36e605617",
+  "model.llm.layers.21.attn.wo_ud.weight": "bb889e73e6b9e6233762d70945f2903f8ad9cf8028480fa441e49062b6cc8900",
+  "model.llm.layers.22.attn.wo_ud.weight": "3a03e3a52ab6219c6c658bf92d91af9989f4d9d562bb0bb0fd5476c6ccec133b",
+  "model.llm.layers.23.attn.wo_ud.weight": "bfb241cceaa9b5e5334940e54ea4b71f8e09dffb3300ae4612f7d42b62dd39ea"
+ }
+}

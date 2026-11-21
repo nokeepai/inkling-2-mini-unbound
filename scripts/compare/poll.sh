@@ -1,0 +1,2 @@
+#!/bin/bash
+bash /Users/nikshepsvn/Code/inkling-abl/scripts/ink_lium.sh exec ink-gguf-1 'for s in /root/compare/logs/*.status; do n=$(basename $s .status); echo "== $n: $(tail -n 1 $s | cut -c1-90) | $(grep -h done /root/compare/logs/$n.eval.log 2>/dev/null | tr "\n" " ") $(grep -h -E "Error|Traceback" /root/compare/logs/$n.eval.log 2>/dev/null | head -2 | tr "\n" " ")"; done; nvidia-smi --query-gpu=index,memory.used,utilization.gpu --format=csv,noheader | tr "\n" ";"; echo; ls /data/compare/kld /data/release 2>/dev/null | tr "\n" " "'

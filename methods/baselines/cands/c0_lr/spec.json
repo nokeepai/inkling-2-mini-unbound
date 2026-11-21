@@ -1,0 +1,12 @@
+{
+ "cand_id": "c0_lr",
+ "family": "baselines",
+ "parent": "c0",
+ "created": "2026-11-21T11:50:05+00:00",
+ "agent": "fidelity",
+ "params": {
+  "source": "compact form of c0: A=-s*Q, B=W32.T@Q, no r",
+  "note": "345 elements differ from OU by 1 bf16 ULP on L6-17 (op order)"
+ },
+ "kind": "weights"
+}
