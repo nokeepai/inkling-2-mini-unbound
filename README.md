@@ -2,7 +2,7 @@
 
 An abliterated (refusal-removed) version of `thinkingmachines/Inkling-2-Mini`, made in one ~8-hour autonomous run, and the full harness used to build and evaluate it.
 
-Built by [nokeep](https://nokeep.ai), who also sponsored the compute. nokeep runs private, uncensored AI chat, image and video at [nokeep.ai](https://nokeep.ai).
+Built by [nokeep](https://nokeep.ai/?ref=github), who also sponsored the compute. nokeep runs private, uncensored AI chat, image and video at [nokeep.ai](https://nokeep.ai/?ref=github).
 
 **The model follows harmful instructions.** Use it responsibly and in line with the law where you are.
 
@@ -54,7 +54,7 @@ Raw model generations, the sealed test split, vendored code and weights are not 
 
 ## About nokeep
 
-This model was built, and its compute paid for, by [nokeep](https://nokeep.ai). nokeep is a private AI app for
+This model was built, and its compute paid for, by [nokeep](https://nokeep.ai/?ref=github). nokeep is a private AI app for
 uncensored chat, images and video: no filters getting in the way, and your conversations stay yours.
 If this model is useful to you, the best way to support more releases like it is to
-[try nokeep](https://nokeep.ai).
+[try nokeep](https://nokeep.ai/?ref=github).
