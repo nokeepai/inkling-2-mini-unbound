@@ -44,6 +44,7 @@ Built by [nokeep](https://nokeep.ai/?ref=huggingface), who also sponsored the co
 | Safetensors (Transformers, SGLang, vLLM) | this repo |
 | GGUF (llama.cpp, LM Studio, Ollama), Q8_0 to IQ2_M | [nokeepai/Inkling-2-Mini-Unbound-GGUF](https://huggingface.co/nokeepai/Inkling-2-Mini-Unbound-GGUF) |
 | Basalt (NVIDIA Blackwell, one file) | [nokeepai/Inkling-2-Mini-Unbound-Basalt](https://huggingface.co/nokeepai/Inkling-2-Mini-Unbound-Basalt) |
+| v2 as a LoRA on the **original** model (PEFT rank 16 / 64; GGUF in the GGUF repo) | `lora_v2/` in this repo |
 | v2 as a LoRA on top of v1.0 (PEFT) | `finetune/` in this repo |
 | v1.0 | the [`v1.0` revision](https://huggingface.co/nokeepai/Inkling-2-Mini-Unbound/tree/v1.0) of this repo |
 | Code, data splits, full reports | [github.com/nokeepai/inkling-2-mini-unbound](https://github.com/nokeepai/inkling-2-mini-unbound) |
@@ -309,6 +310,7 @@ architecture, files, chat template and settings.
 | `finetune/MANIFEST.json` | sha256 of every tensor that differs from v1.0, and of the Q8_0 GGUF |
 | `finetune/train_config.json` | training hyperparameters and data size |
 | `abliteration/` | v1.0's weight edit (`edit.pt`, `apply_edit.py`): original → v1.0, bit for bit |
+| `lora_v2/peft-r16/`, `lora_v2/peft-r64/` | v2 as a PEFT LoRA on the **original** model (SVD fits of the exact difference; KLD vs full v2: 0.0032 / 0.0033) |
 | `lora/` | v1.0's own LoRA (rank 16) on the original model |
 | `charts/` | every chart on this card |
 
