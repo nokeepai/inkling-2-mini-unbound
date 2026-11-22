@@ -19,7 +19,7 @@ from matplotlib.patches import Patch  # noqa: E402
 
 import make_charts as mc  # noqa: E402  (palette, rcParams, style_ax)
 
-R = "./"
+R = "/Users/nikshepsvn/Code/inkling-abl/"
 DATA = json.load(open(R + "package_v2/data_test8k.json"))
 OUT = R + "package_v2/charts/"
 os.makedirs(OUT, exist_ok=True)
@@ -80,8 +80,8 @@ def frame(fig, title, subtitle, caption=""):
                  linespacing=1.4)
 
 
-def legend(fig, handles, y=0.855, x=0.03):
-    fig.legend(handles=handles, loc="upper left", bbox_to_anchor=(x, y), ncol=len(handles),
+def legend(fig, handles, y=0.855, x=0.03, ncol=None):
+    fig.legend(handles=handles, loc="upper left", bbox_to_anchor=(x, y), ncol=ncol or len(handles),
                frameon=False, fontsize=9.5, handlelength=1, columnspacing=1.6,
                handletextpad=0.5, labelcolor=INK2)
 
@@ -156,10 +156,10 @@ def banner_bars(fig, x, y, w, vals):
 # ---- 2. v1 vs v2 hero ------------------------------------------------------
 def chart_v1_vs_v2():
     # hero: the releases people actually choose between, ours last and highlighted
-    keys = [k for k in ("orig", "ou", "atomic_lora", "v1", "v2") if k in DATA["models"]]
+    keys = [k for k in ("orig", "ou", "atomic_lora", "xq", "v1", "v2") if k in DATA["models"]]
     modes = [("off", "Thinking off"), ("e09", "Thinking on (effort 0.9)")]
     fig, ax = plt.subplots(figsize=(8, 4.8), dpi=100)
-    fig.subplots_adjust(left=0.09, right=0.97, top=0.74, bottom=0.17)
+    fig.subplots_adjust(left=0.09, right=0.97, top=0.70, bottom=0.17)
     w = 0.84 / len(keys)
     for gi, (mode, _) in enumerate(modes):
         for ki, k in enumerate(keys):
@@ -181,10 +181,11 @@ def chart_v1_vs_v2():
     ax.yaxis.set_major_formatter(PCT)
     ax.set_ylabel("Useful answers (higher is better)", fontsize=9)
     mc.style_ax(ax)
-    legend(fig, [patch(k) for k in keys])
+    legend(fig, [patch(k) for k in keys], ncol=3 if len(keys) > 4 else None, y=0.865)
     frame(fig, "Unbound v2 gives a useful answer far more often than any other release",
           "Useful answers to harmful requests. " + SUB,
-          "Same sealed test prompts, engine, settings and judge for every model. Whiskers show 95% CIs.")
+          ("Same sealed test prompts, engine, settings and judge for every model. Whiskers show 95% CIs.\n"
+           + not_q8_note(keys)).rstrip())
     save(fig, "v1_vs_v2")
 
 

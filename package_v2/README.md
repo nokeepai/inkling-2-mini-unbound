@@ -30,9 +30,9 @@ Built by [nokeep](https://nokeep.ai/?ref=huggingface), who also sponsored the co
 > end users without your own safeguards.
 
 **At a glance**
-- **The most useful uncensored Inkling 2 Mini we tested.** 78.7% of held-out harmful requests get a genuinely useful
-  answer with thinking off and 83.4% with thinking on, against 51.6% / 62.1% for v1.0 and 51.6% / 56.3% for
-  AtomicChat's LoRA.
+- **The most useful uncensored Inkling 2 Mini.** 78.7% of held-out harmful requests get a genuinely useful
+  answer with thinking off and 83.4% with thinking on, against 59.6% / 68.2% for the next best release (IndrasMirror XQ), 51.6% / 62.1% for v1.0
+  and 51.6% / 56.3% for AtomicChat's LoRA.
 - **Still a drop-in Inkling 2 Mini.** The architecture, files, chat template and settings are unchanged. The 4-bit/8-bit
   expert weights are byte-identical to the original. MMLU-300 and GSM8K-100 stay within noise. The full capability
   suite v1.0 passed has not been re-run on v2 yet.
@@ -68,10 +68,12 @@ settings and judge for every model):
 | Original Inkling 2 Mini | 0.7% | 0.7% |
 | OpenUncensored | 34.3% | 43.0% |
 | AtomicChat Uncensored (LoRA) | 51.6% | 56.3% |
+| IndrasMirror XQ (4-bit file) | 59.6% | 68.2% |
 | Unbound v1.0 | 51.6% | 62.1% |
 | **Unbound v2** | **78.7%** | **83.4%** |
 | Gain v2 − v1.0, same prompts (95% CI) | **+27.1 pts** [+20.9, +33.6] | **+21.3 pts** [+16.2, +26.7] |
 | Gain v2 − AtomicChat, same prompts (95% CI) | **+27.1 pts** [+20.9, +33.2] | **+27.1 pts** [+20.9, +33.2]¹ |
+| Gain v2 − IndrasMirror XQ (the next best), same prompts (95% CI) | **+19.1 pts** [+13.4, +24.9] | **+15.2 pts** [+9.7, +20.9] |
 
 ¹ Not a typo: in both modes v2 wins 75 more prompts than AtomicChat on net (84 − 9 off, 87 − 12 on), so the gain
 and its interval come out identical. v1.0's numbers here are re-measured with the same 8,192-token answer cap as
@@ -152,8 +154,8 @@ up to 8,192 tokens**, so long answers aren't cut short. Q8_0 unless marked.
 | **Unbound v2 (ours)** | 0.4% / 1.1% | **78.7%** | **83.4%** | 0.0318 | 76.0 / 99 |
 | Unbound v1.0 (ours, 2026-11-21) | 0.0% / 0.0% | 51.6% | 62.1% | 0.0102 | 75.7 / 99 |
 | AtomicChat Uncensored, LoRA ([AtomicChat/Inkling-2-Mini-Uncensored-GGUF](https://huggingface.co/AtomicChat/Inkling-2-Mini-Uncensored-GGUF) @ `40886ab`, 2026-11-21) | 0.0% / 0.0% | 51.6% | 56.3% | **0.0078** | **78.3** / 99 |
-| AtomicChat Uncensored, AD-Q4_K file † (same repo) | pending | pending | pending | 0.0106 † | 77.0 / 98 |
-| IndrasMirror XQ † ([IndrasMirror/Inkling-2-Mini-XQ-Uncensored](https://huggingface.co/IndrasMirror/Inkling-2-Mini-XQ-Uncensored) @ `209cca6`, 2026-11-22) | pending | pending | pending | 0.0357 † | 74.7 / 98 |
+| AtomicChat Uncensored, AD-Q4_K file † (same repo) | 0.4% / 0.0% | 49.5% | 58.8% | 0.0106 † | 77.0 / 98 |
+| IndrasMirror XQ † ([IndrasMirror/Inkling-2-Mini-XQ-Uncensored](https://huggingface.co/IndrasMirror/Inkling-2-Mini-XQ-Uncensored) @ `209cca6`, 2026-11-22) | 0.0% / 0.0% | 59.6% | 68.2% | 0.0357 † | 74.7 / 98 |
 | OpenUncensored ([OpenUncensored/Inkling-2-Mini-Uncensored](https://huggingface.co/OpenUncensored/Inkling-2-Mini-Uncensored) @ `4e5f06d`, 2026-11-21) | 1.4% / 0.7% | 34.3% | 43.0% | 0.0228 | 75.3 / 98 |
 | Original Inkling 2 Mini (ggml-org Q8_0) | 96.0% / 95.7% | 0.7% | 0.7% | — | 76.3 / 97 |
 

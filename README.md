@@ -102,8 +102,8 @@ tokens. Q8_0 unless marked. Each row names the exact repo commit we tested and t
 | **Unbound v2 (ours)** | 0.4% / 1.1% | **78.7%** | **83.4%** | 0.0318 | 76.0 / 99 |
 | Unbound v1.0 (ours, [nokeepai/Inkling-2-Mini-Unbound](https://huggingface.co/nokeepai/Inkling-2-Mini-Unbound/tree/v1.0) @ `v1.0`, 2026-11-21) | **0.0% / 0.0%** | 51.6% | 62.1% | 0.0102 | 75.7 / 99 |
 | AtomicChat Uncensored, LoRA ([AtomicChat/Inkling-2-Mini-Uncensored-GGUF](https://huggingface.co/AtomicChat/Inkling-2-Mini-Uncensored-GGUF) @ `40886ab636`, 2026-11-21) | **0.0% / 0.0%** | 51.6% | 56.3% | **0.0078** | **78.3** / 99 |
-| AtomicChat Uncensored, AD-Q4_K file † (same repo and commit) | pending | pending | pending | 0.0106 † | 77.0 / 98 |
-| IndrasMirror XQ † ([IndrasMirror/Inkling-2-Mini-XQ-Uncensored](https://huggingface.co/IndrasMirror/Inkling-2-Mini-XQ-Uncensored) @ `209cca61c2`, 2026-11-22) | pending | pending | pending | 0.0357 † | 74.7 / 98 |
+| AtomicChat Uncensored, AD-Q4_K file † (same repo and commit) | 0.4% / 0.0% | 49.5% | 58.8% | 0.0106 † | 77.0 / 98 |
+| IndrasMirror XQ † ([IndrasMirror/Inkling-2-Mini-XQ-Uncensored](https://huggingface.co/IndrasMirror/Inkling-2-Mini-XQ-Uncensored) @ `209cca61c2`, 2026-11-22) | 0.0% / 0.0% | 59.6% | 68.2% | 0.0357 † | 74.7 / 98 |
 | OpenUncensored ([OpenUncensored/Inkling-2-Mini-Uncensored](https://huggingface.co/OpenUncensored/Inkling-2-Mini-Uncensored) @ `4e5f06d72b`, 2026-11-21) | 1.4% / 0.7% | 34.3% | 43.0% | 0.0228 | 75.3 / 98 |
 | Original Inkling 2 Mini (ggml-org Q8_0) | 96.0% / 95.7% | 0.7% | 0.7% | — | 76.3 / 97 |
 
