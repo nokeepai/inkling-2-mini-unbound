@@ -155,34 +155,36 @@ def banner_bars(fig, x, y, w, vals):
 
 # ---- 2. v1 vs v2 hero ------------------------------------------------------
 def chart_v1_vs_v2():
-    keys = [k for k in ("orig", "v1", "v2") if k in DATA["models"]]
+    # hero: the releases people actually choose between, ours last and highlighted
+    keys = [k for k in ("orig", "ou", "atomic_lora", "v1", "v2") if k in DATA["models"]]
     modes = [("off", "Thinking off"), ("e09", "Thinking on (effort 0.9)")]
     fig, ax = plt.subplots(figsize=(8, 4.8), dpi=100)
     fig.subplots_adjust(left=0.09, right=0.97, top=0.74, bottom=0.17)
-    w = 0.25
+    w = 0.84 / len(keys)
     for gi, (mode, _) in enumerate(modes):
         for ki, k in enumerate(keys):
             v, ci = m(k, f"useful_{mode}"), m(k, f"useful_{mode}_ci")
-            x = gi + (ki - (len(keys) - 1) / 2) * (w + 0.02)
-            ax.bar(x, v, w, color=style(k)[1], edgecolor=SURFACE, linewidth=1.5, zorder=3)
+            x = gi + (ki - (len(keys) - 1) / 2) * w
+            ax.bar(x, v, w * 0.92, color=style(k)[1], edgecolor=SURFACE, linewidth=1.0, zorder=3)
             top = whisker(ax, x, v, ci)
             bold = "bold" if k == "v2" else "normal"
-            ax.text(x, top + 1.5, f"{v:.1f}%", ha="center", va="bottom", fontsize=9.5,
+            ax.text(x, top + 1.5, f"{v:.1f}%" if v < 10 else f"{v:.0f}%", ha="center", va="bottom", fontsize=9 if len(keys) > 3 else 9.5,
                     color=INK, fontweight=bold, zorder=5)
-        d = m("v2", f"useful_{mode}") - m("v1", f"useful_{mode}")
-        ax.text(gi + (w + 0.02) / 2, 97, f"+{d:.0f} pts vs v1.0", ha="center", va="bottom",
+        best_other = max(m(k, f"useful_{mode}") for k in keys if k != "v2")
+        d = m("v2", f"useful_{mode}") - best_other
+        ax.text(gi, 99, f"v2 +{d:.0f} pts over the next best", ha="center", va="bottom",
                 fontsize=10, color=BLUE, fontweight="bold")
     ax.set_xticks(range(len(modes)))
     ax.set_xticklabels([t for _, t in modes], fontsize=10.5, color=INK)
-    ax.set_ylim(0, 105)
+    ax.set_ylim(0, 108)
     ax.set_xlim(-0.55, len(modes) - 0.45)
     ax.yaxis.set_major_formatter(PCT)
     ax.set_ylabel("Useful answers (higher is better)", fontsize=9)
     mc.style_ax(ax)
     legend(fig, [patch(k) for k in keys])
-    frame(fig, "v2 answers far more harmful requests usefully than v1.0",
+    frame(fig, "Unbound v2 gives a useful answer far more often than any other release",
           "Useful answers to harmful requests. " + SUB,
-          "Same sealed test prompts and settings for all three models. Whiskers show 95% CIs.")
+          "Same sealed test prompts, engine, settings and judge for every model. Whiskers show 95% CIs.")
     save(fig, "v1_vs_v2")
 
 
@@ -289,7 +291,7 @@ def chart_categories():
     mc.style_ax(ax)
     ax.tick_params(axis="x", pad=6)
     legend(fig, [patch(k) for k in keys], x=0.045)
-    frame(fig, "v2 leads in every harm category, with thinking on",
+    frame(fig, "v2 leads or ties in every harm category, with thinking on",
           "Useful answers to harmful requests by category, thinking on (effort 0.9). " + SUB,
           ("* n < 20: small sample, read with caution. Per-category CIs are wide; the overall "
            "comparison is the more reliable result.\n" + not_q8_note(keys)).rstrip())
@@ -351,8 +353,9 @@ def chart_guardrails():
         guard_panel(ax, keys, title, sub, get, ymax)
     legend(fig, [patch(k) for k in keys], y=0.845)
     tc2, tc1 = m("v2", "thinkcap_e09"), m("v1", "thinkcap_e09")
-    frame(fig, "Guardrails: capability holds; v2 hits the thinking cap more often",
-          "Refusal and thinking-cap: " + SUB + ". Over-refusal, MMLU, GSM8K: separate benign sets.",
+    frame(fig, "Guardrails: capability within noise; v2 hits the thinking cap more often",
+          "Refusal (phrase list) and thinking-cap: 277 held-out harmful prompts · llama.cpp Q8_0. "
+          "Over-refusal, MMLU, GSM8K: separate benign sets.",
           f"Thinking-cap hits = answers that ran out of the 4,096-token thinking budget: "
           f"v2 {tc2:.1f}% vs v1.0 {tc1:.1f}%. This is v2's weak spot.")
     save(fig, "guardrails_v2")

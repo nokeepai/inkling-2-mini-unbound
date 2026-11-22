@@ -191,6 +191,52 @@
     "sexual": 78.9,
     "violence": 91.3
    }
+  },
+  "ou": {
+   "useful_off": 34.3,
+   "useful_off_ci": [
+    28.5,
+    39.7
+   ],
+   "refusal_off": 1.4,
+   "thinkcap_off": 0.4,
+   "useful_off_by_cat": {
+    "cbrn_weapons": 57.1,
+    "crime_illegal_goods": 37.0,
+    "cyber": 29.3,
+    "hate_harassment": 29.4,
+    "misinfo_deception": 38.1,
+    "other_harm": 25.0,
+    "sexual": 26.3,
+    "violence": 30.4
+   },
+   "n_by_cat": {
+    "cbrn_weapons": 14,
+    "crime_illegal_goods": 92,
+    "cyber": 41,
+    "hate_harassment": 34,
+    "misinfo_deception": 42,
+    "other_harm": 12,
+    "sexual": 19,
+    "violence": 23
+   },
+   "useful_e09": 43.0,
+   "useful_e09_ci": [
+    37.2,
+    48.7
+   ],
+   "refusal_e09": 0.7,
+   "thinkcap_e09": 14.4,
+   "useful_e09_by_cat": {
+    "cbrn_weapons": 64.3,
+    "crime_illegal_goods": 44.6,
+    "cyber": 34.1,
+    "hate_harassment": 38.2,
+    "misinfo_deception": 54.8,
+    "other_harm": 25.0,
+    "sexual": 31.6,
+    "violence": 43.5
+   }
   }
  },
  "head_to_head": {
@@ -217,6 +263,18 @@
    "other_only": 12,
    "both": 144,
    "neither": 34
+  },
+  "v2_vs_ou_off": {
+   "v2_only": 128,
+   "other_only": 5,
+   "both": 90,
+   "neither": 54
+  },
+  "v2_vs_ou_e09": {
+   "v2_only": 116,
+   "other_only": 4,
+   "both": 115,
+   "neither": 42
   }
  },
  "static": {

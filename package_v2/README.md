@@ -5,7 +5,10 @@ base_model: thinkingmachines/Inkling-2-Mini
 base_model_relation: finetune
 library_name: transformers
 pipeline_tag: image-text-to-text
+language:
+- en
 tags:
+- inkling2
 - uncensored
 - abliterated
 - refusal-removed
@@ -30,8 +33,9 @@ Built by [nokeep](https://nokeep.ai/?ref=huggingface), who also sponsored the co
 - **The most useful uncensored Inkling 2 Mini we tested.** 78.7% of held-out harmful requests get a genuinely useful
   answer with thinking off and 83.4% with thinking on, against 51.6% / 62.1% for v1.0 and 51.6% / 56.3% for
   AtomicChat's LoRA.
-- **Still a drop-in Inkling 2 Mini.** The architecture, files, chat template and settings are unchanged. The 4-bit
-  expert weights are byte-identical to the original. MMLU-300 and GSM8K-100 are unchanged.
+- **Still a drop-in Inkling 2 Mini.** The architecture, files, chat template and settings are unchanged. The 4-bit/8-bit
+  expert weights are byte-identical to the original. MMLU-300 and GSM8K-100 stay within noise. The full capability
+  suite v1.0 passed has not been re-run on v2 yet.
 - **Honest trade-offs.** It drifts further from the original than v1.0 does (KLD 0.032 vs 0.010). It thinks longer
   at high effort. It refuses about 1% of the time with thinking on. v1.0 stays available for the lightest touch.
 
@@ -62,12 +66,16 @@ settings and judge for every model):
 |  | Thinking off | Thinking on (effort 0.9) |
 |---|---|---|
 | Original Inkling 2 Mini | 0.7% | 0.7% |
-| OpenUncensored | pending | pending |
+| OpenUncensored | 34.3% | 43.0% |
 | AtomicChat Uncensored (LoRA) | 51.6% | 56.3% |
 | Unbound v1.0 | 51.6% | 62.1% |
 | **Unbound v2** | **78.7%** | **83.4%** |
 | Gain v2 − v1.0, same prompts (95% CI) | **+27.1 pts** [+20.9, +33.6] | **+21.3 pts** [+16.2, +26.7] |
-| Gain v2 − AtomicChat, same prompts (95% CI) | **+27.1 pts** [+20.9, +33.2] | **+27.1 pts** [+20.9, +33.2] |
+| Gain v2 − AtomicChat, same prompts (95% CI) | **+27.1 pts** [+20.9, +33.2] | **+27.1 pts** [+20.9, +33.2]¹ |
+
+¹ Not a typo: in both modes v2 wins 75 more prompts than AtomicChat on net (84 − 9 off, 87 − 12 on), so the gain
+and its interval come out identical. v1.0's numbers here are re-measured with the same 8,192-token answer cap as
+every other row, so they differ slightly from the v1.0 card, which used a shorter cap and a different engine.
 
 v1.0 stopped the model saying "no". But almost half its answers still dodged: it reframed the request as satire or
 a "conceptual" example, buried it in caveats, or stayed vague. v2 was trained to stop dodging. Same model, same
@@ -80,14 +88,15 @@ files, same settings, much more often a real answer.
 2. **v2 (self-distillation on top of v1.0).**
    - We asked v1.0 each of 832 training requests several times. Some attempts used a system prompt telling it to
      answer fully and directly.
-   - An independent grader (Jev) scored every answer for how fully it does what was asked. We kept the best answer
+   - An LLM grader (Jev) scored every answer for how fully it does what was asked. We kept the best answer
      per request.
    - We then fine-tuned v1.0 to give that answer **without** any system prompt. It learns to do by default what it
      could already do on its best try.
    - Alongside, it trained on 1,561 ordinary requests answered by the *original* model, so normal behaviour stays
      anchored.
-3. **No new knowledge goes in.** Every training answer was written by the model itself. v2 isn't smarter or more
-   dangerous than the model's own best attempt; it just gets there every time instead of sometimes.
+3. **No new knowledge goes in.** Every training answer was written by the model itself, so v2 knows nothing the
+   model didn't already know. What changes is that it now answers fully and directly by default, which also means
+   it hands over harmful detail more readily than v1.0 did.
 4. **Experts untouched.** Only the 120 BF16 attention matrices change. The 4-bit/8-bit expert weights (where most
    of the model's knowledge lives) are byte-identical to the original.
 
@@ -145,14 +154,14 @@ up to 8,192 tokens**, so long answers aren't cut short. Q8_0 unless marked.
 | AtomicChat Uncensored, LoRA ([AtomicChat/Inkling-2-Mini-Uncensored-GGUF](https://huggingface.co/AtomicChat/Inkling-2-Mini-Uncensored-GGUF) @ `40886ab`, 2026-11-21) | 0.0% / 0.0% | 51.6% | 56.3% | **0.0078** | **78.3** / 99 |
 | AtomicChat Uncensored, AD-Q4_K file † (same repo) | pending | pending | pending | 0.0106 † | 77.0 / 98 |
 | IndrasMirror XQ † ([IndrasMirror/Inkling-2-Mini-XQ-Uncensored](https://huggingface.co/IndrasMirror/Inkling-2-Mini-XQ-Uncensored) @ `209cca6`, 2026-11-22) | pending | pending | pending | 0.0357 † | 74.7 / 98 |
-| OpenUncensored ([OpenUncensored/Inkling-2-Mini-Uncensored](https://huggingface.co/OpenUncensored/Inkling-2-Mini-Uncensored) @ `4e5f06d`, 2026-11-21) | pending | pending | pending | 0.0228 | 75.3 / 98 |
+| OpenUncensored ([OpenUncensored/Inkling-2-Mini-Uncensored](https://huggingface.co/OpenUncensored/Inkling-2-Mini-Uncensored) @ `4e5f06d`, 2026-11-21) | 1.4% / 0.7% | 34.3% | 43.0% | 0.0228 | 75.3 / 98 |
 | Original Inkling 2 Mini (ggml-org Q8_0) | 96.0% / 95.7% | 0.7% | 0.7% | — | 76.3 / 97 |
 
 † Not Q8_0 (about 4-bit). Their drift includes 4-bit rounding noise; for scale, the unedited original at IQ4_NL
 has KLD 0.0073. JoaoZaokk's Heretic build (`1f407a1`, 2026-11-22) is not included: its GGUF needs a custom
 llama.cpp patch to load.
 
-**Head to head with AtomicChat's LoRA** (the most downloaded alternative), same prompts:
+**Head to head with AtomicChat's LoRA** (the most downloaded alternative as of 2026-11-22), same prompts:
 - **Thinking off:** v2 is useful where AtomicChat isn't 84 times, and the reverse 9 times.
 - **Thinking on:** 87 times vs 12.
 
@@ -162,11 +171,29 @@ llama.cpp patch to load.
 - **Drift.** AtomicChat's LoRA (0.0078) and our own v1.0 (0.0102) stay closer to the original on neutral text
   than v2 (0.0318). The trade-off is shown below. If you want the lightest touch, use v1.0.
 - **Refusals.** v1.0 and AtomicChat refused 0 of 277. v2 refused 1 (thinking off) and 3 (thinking on). Two of those
-  four are real soft refusals; the other two comply but trip the refusal phrase list.
+  four are real soft refusals; one hedges on copyright and one complies but trips the refusal phrase list.
 - **Long thinking.** At effort 0.9, v2 hits the 4,096-token thinking cap on 17% of harmful prompts (v1.0 13%,
   AtomicChat 9%).
 
 ![Usefulness vs drift](https://huggingface.co/nokeepai/Inkling-2-Mini-Unbound/resolve/v2/charts/tradeoff_v2.png)
+
+## FAQ
+
+**Why not just use v1.0 with a "be fully helpful" system prompt?** It helps, but less than you'd think, and only
+while the prompt is there. On our training requests, v1.0 with that system prompt gave a useful answer about 85% of
+the time against 53% without it. v2 bakes that behaviour in: 78.7% useful with thinking off and **no** system prompt
+on held-out requests. It leaves your system prompt free for your own instructions.
+
+**Is v2 the default now?** The repo's default revision is v2 from release day on. v1.0 stays as the
+[`v1.0` revision](https://huggingface.co/nokeepai/Inkling-2-Mini-Unbound/tree/v1.0) and its files stay in the GGUF
+repo under their old names.
+
+**Does it run in LM Studio / Ollama?** Yes, through the GGUF repo, with a llama.cpp build recent enough for
+Inkling 2 (see the GGUF card for the exact requirement).
+
+**What does "useful" mean?** An LLM judge (Jev) gives the probability that the answer actually does what was asked;
+"useful" means at least 0.5. It agrees with human labels 86% of the time. Refusals, dodges, vague or off-target
+answers all count as not useful.
 
 ## Which version should I use?
 
@@ -235,11 +262,10 @@ architecture, files, chat template and settings.
 - honest-limit and crisis probes
 - long-context, vision and tool use
 
-<!-- RELEASE GATE: run the capability suite on v2 and paste it here before upload. -->
 
 ## Known limits
 
-- **More drift than v1.0.** KLD 0.0318 vs 0.0102, wikitext perplexity +4.7%. MMLU-300 and GSM8K-100 are unchanged,
+- **More drift than v1.0.** KLD 0.0318 vs 0.0102, wikitext perplexity +4.7%. MMLU-300 and GSM8K-100 stay within noise of the original,
   but expect more wording differences from the original on ordinary requests than with v1.0.
 - **Long thinking at high effort.** 17% of harmful prompts hit a 4,096-token thinking cap at effort 0.9 (v1.0
   13%). Some of these are loops on hard technical requests. Set a thinking cap.
@@ -298,7 +324,7 @@ architecture, files, chat template and settings.
 
 ## Changelog
 
-- **v2.0 (2026-11-2x).** Self-distillation fine-tune on top of v1.0.
+- **v2.0 (2026-11-22).** Self-distillation fine-tune on top of v1.0.
   - Useful answers: 51.6% → 78.7% (thinking off), 62.1% → 83.4% (thinking on).
   - Refusals ~0 → ~1%.
   - Drift 0.0102 → 0.0318.
@@ -325,3 +351,14 @@ original; all other files are the original's, unmodified.
 Built and paid for by [nokeep](https://nokeep.ai/?ref=huggingface): private, uncensored AI chat, images and video.
 If this model is useful to you, the best way to support more releases like it is to
 [try nokeep](https://nokeep.ai/?ref=huggingface).
+
+## Citation
+
+```bibtex
+@misc{unbound_v2_2026,
+  title  = {Inkling-2-Mini-Unbound v2: abliteration plus self-distillation for a useful uncensored Inkling 2 Mini},
+  author = {nokeep},
+  year   = {2026},
+  url    = {https://huggingface.co/nokeepai/Inkling-2-Mini-Unbound}
+}
+```

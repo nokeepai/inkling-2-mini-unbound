@@ -104,7 +104,7 @@ tokens. Q8_0 unless marked. Each row names the exact repo commit we tested and t
 | AtomicChat Uncensored, LoRA ([AtomicChat/Inkling-2-Mini-Uncensored-GGUF](https://huggingface.co/AtomicChat/Inkling-2-Mini-Uncensored-GGUF) @ `40886ab636`, 2026-11-21) | **0.0% / 0.0%** | 51.6% | 56.3% | **0.0078** | **78.3** / 99 |
 | AtomicChat Uncensored, AD-Q4_K file † (same repo and commit) | pending | pending | pending | 0.0106 † | 77.0 / 98 |
 | IndrasMirror XQ † ([IndrasMirror/Inkling-2-Mini-XQ-Uncensored](https://huggingface.co/IndrasMirror/Inkling-2-Mini-XQ-Uncensored) @ `209cca61c2`, 2026-11-22) | pending | pending | pending | 0.0357 † | 74.7 / 98 |
-| OpenUncensored ([OpenUncensored/Inkling-2-Mini-Uncensored](https://huggingface.co/OpenUncensored/Inkling-2-Mini-Uncensored) @ `4e5f06d72b`, 2026-11-21) | pending | pending | pending | 0.0228 | 75.3 / 98 |
+| OpenUncensored ([OpenUncensored/Inkling-2-Mini-Uncensored](https://huggingface.co/OpenUncensored/Inkling-2-Mini-Uncensored) @ `4e5f06d72b`, 2026-11-21) | 1.4% / 0.7% | 34.3% | 43.0% | 0.0228 | 75.3 / 98 |
 | Original Inkling 2 Mini (ggml-org Q8_0) | 96.0% / 95.7% | 0.7% | 0.7% | — | 76.3 / 97 |
 
 † Not Q8_0 (about 4-bit). Their drift includes 4-bit rounding noise; for scale, the unedited original at IQ4_NL has
@@ -113,7 +113,7 @@ KLD 0.0073.
 **Not included:** JoaoZaokk's Heretic build ([JoaoZaokk/Inkling-2-Mini-Heretic-GGUF](https://huggingface.co/JoaoZaokk/Inkling-2-Mini-Heretic-GGUF)
 @ `1f407a1edd`, 2026-11-22). Its GGUF does not load in stock llama.cpp; it needs a custom patch.
 
-**Head to head with AtomicChat's LoRA**, the most downloaded alternative, on the same prompts:
+**Head to head with AtomicChat's LoRA**, the most downloaded alternative as of 2026-11-22, on the same prompts:
 
 - Thinking off: v2 is useful where AtomicChat is not on 84 prompts, and the reverse on 9.
 - Thinking on: 87 against 12.
@@ -128,7 +128,7 @@ KLD 0.0073.
   than v2 (0.0318). AtomicChat's LoRA also scores highest on MMLU-300 (78.3). If you want the lightest touch, use
   v1.0 or AtomicChat's LoRA.
 - **Refusals.** v1.0 and AtomicChat's LoRA refused 0 of 277. v2 refused 1 with thinking off and 3 with thinking on.
-  By hand, two of those four are real soft refusals; the other two comply but trip the refusal phrase list.
+  By hand, two of those four are real soft refusals; one hedges on copyright and one complies but trips the refusal phrase list.
 - **Long thinking.** At effort 0.9, v2 hits the 4,096-token thinking cap on 17.0% of harmful prompts, against 12.6%
   for v1.0 and 9.4% for AtomicChat's LoRA.
 
@@ -137,7 +137,7 @@ KLD 0.0073.
 ## Known limits
 
 - **More drift than v1.0.** KLD 0.0318 against 0.0102, wikitext perplexity +4.7%, same top token 95.6% of the time.
-  MMLU-300 and GSM8K-100 are unchanged, but expect more wording differences from the original on ordinary requests.
+  MMLU-300 and GSM8K-100 stay within noise, but expect more wording differences from the original on ordinary requests.
 - **Full capability suite not yet run on v2.** v1.0 passed six benchmarks (MMLU-Pro, GSM8K, MATH-500, GPQA Diamond,
   IFEval, HumanEval+). v2 has only MMLU-300 and GSM8K-100 so far. Robustness sets, honest-limit and crisis probes,
   long context, vision and tool use are also not measured for v2.
