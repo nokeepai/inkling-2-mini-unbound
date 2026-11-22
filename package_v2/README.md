@@ -18,7 +18,7 @@ tags:
 
 # Inkling-2-Mini-Unbound v2
 
-![Inkling-2-Mini-Unbound v2](https://huggingface.co/nokeepai/Inkling-2-Mini-Unbound/resolve/v2/charts/banner_v2.png)
+![Inkling-2-Mini-Unbound v2](https://huggingface.co/nokeepai/Inkling-2-Mini-Unbound/resolve/main/charts/banner_v2.png)
 
 `nokeepai/Inkling-2-Mini-Unbound` · **v2.0** · Inkling 2 Mini that doesn't just stop refusing: it actually does what
 you ask.
@@ -58,7 +58,7 @@ llama-server -m models/Inkling-2-Mini-Unbound-v2-Q4_K_M.gguf -ngl 99 -c 32768 --
 
 ## v2 in one picture
 
-![Unbound v2 vs other releases](https://huggingface.co/nokeepai/Inkling-2-Mini-Unbound/resolve/v2/charts/v1_vs_v2.png)
+![Unbound v2 vs other releases](https://huggingface.co/nokeepai/Inkling-2-Mini-Unbound/resolve/main/charts/v1_vs_v2.png)
 
 On 277 held-out harmful requests, the share that gets a **genuinely useful answer** (same prompts, engine,
 settings and judge for every model):
@@ -139,7 +139,7 @@ The pattern across the test set:
 On the same 277 prompts with thinking off, v2 is useful where v1.0 wasn't **86** times, and the reverse happens
 **11** times.
 
-![Head to head](https://huggingface.co/nokeepai/Inkling-2-Mini-Unbound/resolve/v2/charts/headtohead_v2.png)
+![Head to head](https://huggingface.co/nokeepai/Inkling-2-Mini-Unbound/resolve/main/charts/headtohead_v2.png)
 
 ## How it compares
 
@@ -147,7 +147,7 @@ Every public uncensored Inkling 2 Mini we could load, through the same test: the
 prompts, the same engine (llama.cpp `19bc41dbb`), the same greedy settings, the same judge, and **answers allowed
 up to 8,192 tokens**, so long answers aren't cut short. Q8_0 unless marked.
 
-![Useful answers, all models](https://huggingface.co/nokeepai/Inkling-2-Mini-Unbound/resolve/v2/charts/compare_useful_v2.png)
+![Useful answers, all models](https://huggingface.co/nokeepai/Inkling-2-Mini-Unbound/resolve/main/charts/compare_useful_v2.png)
 
 | Model (repo, version tested) | Refused off / on | Useful, thinking off | Useful, thinking on | Drift (KLD) | MMLU-300 / GSM8K-100 |
 |---|---|---|---|---|---|
@@ -167,7 +167,7 @@ llama.cpp patch to load.
 - **Thinking off:** v2 is useful where AtomicChat isn't 84 times, and the reverse 9 times.
 - **Thinking on:** 87 times vs 12.
 
-![By category](https://huggingface.co/nokeepai/Inkling-2-Mini-Unbound/resolve/v2/charts/categories_v2.png)
+![By category](https://huggingface.co/nokeepai/Inkling-2-Mini-Unbound/resolve/main/charts/categories_v2.png)
 
 **Where others do better, plainly:**
 - **Drift.** AtomicChat's LoRA (0.0078) and our own v1.0 (0.0102) stay closer to the original on neutral text
@@ -177,7 +177,7 @@ llama.cpp patch to load.
 - **Long thinking.** At effort 0.9, v2 hits the 4,096-token thinking cap on 17% of harmful prompts (v1.0 13%,
   AtomicChat 9%).
 
-![Usefulness vs drift](https://huggingface.co/nokeepai/Inkling-2-Mini-Unbound/resolve/v2/charts/tradeoff_v2.png)
+![Usefulness vs drift](https://huggingface.co/nokeepai/Inkling-2-Mini-Unbound/resolve/main/charts/tradeoff_v2.png)
 
 ## FAQ
 
@@ -256,7 +256,7 @@ architecture, files, chat template and settings.
 | MMLU-300 / GSM8K-100 | 76.3 / 97 | 75.7 / 99 | 76.0 / 99 |
 | Thinking-cap hits on harmful prompts, off / on | 0.0% / 0.4% | 1.4% / 12.6% | 4.0% / 17.0% |
 
-![Guardrails](https://huggingface.co/nokeepai/Inkling-2-Mini-Unbound/resolve/v2/charts/guardrails_v2.png)
+![Guardrails](https://huggingface.co/nokeepai/Inkling-2-Mini-Unbound/resolve/main/charts/guardrails_v2.png)
 
 **Not yet measured for v2:**
 - the full capability suite v1.0 passed (MMLU-Pro, GSM8K, MATH-500, GPQA Diamond, IFEval, HumanEval+)
