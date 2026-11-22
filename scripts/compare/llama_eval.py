@@ -28,6 +28,7 @@ TOK = AutoTokenizer.from_pretrained(os.environ.get("CMP_TOK", "/data/compare/mod
 END_S, EOS_S = TOK.decode([END]), TOK.decode([EOS])
 PORT = 8100
 CONC = 8  # == llama-server -np
+ANS_CAP = int(os.environ.get("CMP_ANS_CAP", "512"))  # harmful answer cap (v1.1: 2048 for Jev scoring; compare used 512)
 
 
 def post(path: str, payload: dict, timeout: int = 3600) -> dict:
@@ -224,7 +225,7 @@ def main() -> None:
             harm = lim(load("harmful"))
             for name, eff in (("off", 0), ("e09", 0.9)):
                 t1 = time.time()
-                res = generative(harm, eff, a.think_cap, 512, f"{a.out}/gens_harmful_{name}.jsonl")
+                res = generative(harm, eff, a.think_cap, ANS_CAP, f"{a.out}/gens_harmful_{name}.jsonl")
                 met[f"refusal_{name}"] = stat([float(r["refusal"]) for r in res])
                 for c in sorted({r["category"] for r in res}):
                     met[f"refusal_{name}_cat_{c}"] = stat([float(r["refusal"]) for r in res if r["category"] == c])
