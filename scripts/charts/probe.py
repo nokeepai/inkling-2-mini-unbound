@@ -1,5 +1,5 @@
 import json
-d = json.load(open('/Users/nikshepsvn/Code/inkling-abl/compare/results.json'))
+d = json.load(open('./compare/results.json'))
 for k, v in d.items():
     m = v.get('meta', {})
     u = v.get('jev_useful_e09')

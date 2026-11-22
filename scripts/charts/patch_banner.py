@@ -1,4 +1,4 @@
-p = '/Users/nikshepsvn/Code/inkling-abl/scripts/charts/make_banner.py'
+p = './scripts/charts/make_banner.py'
 s = open(p).read()
 a = s.index('    callout(fig, xs[2], "CAPABILITY"')
 b = s.index('    for x in xs[1:]:')

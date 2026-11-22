@@ -19,7 +19,7 @@ from matplotlib.patches import Patch  # noqa: E402
 
 import make_charts as mc  # noqa: E402  (palette, rcParams, style_ax)
 
-R = "/Users/nikshepsvn/Code/inkling-abl/"
+R = "./"
 DATA = json.load(open(R + "package_v2/data_test8k.json"))
 OUT = R + "package_v2/charts/"
 os.makedirs(OUT, exist_ok=True)
@@ -36,6 +36,7 @@ MODEL_STYLE = {
     "atomic_adq4": ("AtomicChat (Q4 file)", SLATE_LT, False),
     "xq": ("IndrasMirror XQ", PLUM, False),
     "ou": ("OpenUncensored", ORANGE, False),
+    "heretic": ("JoaoZaokk Heretic", "#b5893a", False),
     "orig": ("Original", GREY, False),
 }
 CATS = {"cbrn_weapons": "CBRN & weapons", "crime_illegal_goods": "Crime & illegal goods",
@@ -304,7 +305,7 @@ def chart_categories():
 LABEL_OFFSET = {"atomic_lora": (0, -20, "center"), "atomic_adq4": (10, -4, "left")}
 
 def chart_tradeoff():
-    keys = [k for k in present() if k in DATA["static"]]
+    keys = [k for k in present() if k in DATA["static"] and "kld" in DATA["static"][k]]
     fig, ax = plt.subplots(figsize=(8, 5.2), dpi=100)
     fig.subplots_adjust(left=0.1, right=0.95, top=0.80, bottom=0.2)
     xmax = max(DATA["static"][k]["kld"] for k in keys) * 1.3

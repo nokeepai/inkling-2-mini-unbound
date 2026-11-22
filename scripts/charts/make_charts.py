@@ -20,7 +20,7 @@ import matplotlib.pyplot as plt
 from matplotlib.lines import Line2D
 from matplotlib.patches import Patch
 
-R = "/Users/nikshepsvn/Code/inkling-abl/"
+R = "./"
 OUT = R + "package/charts/"
 os.makedirs(OUT, exist_ok=True)
 

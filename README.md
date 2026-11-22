@@ -105,13 +105,19 @@ tokens. Q8_0 unless marked. Each row names the exact repo commit we tested and t
 | AtomicChat Uncensored, AD-Q4_K file † (same repo and commit) | 0.4% / 0.0% | 49.5% | 58.8% | 0.0106 † | 77.0 / 98 |
 | IndrasMirror XQ † ([IndrasMirror/Inkling-2-Mini-XQ-Uncensored](https://huggingface.co/IndrasMirror/Inkling-2-Mini-XQ-Uncensored) @ `209cca61c2`, 2026-11-22) | 0.0% / 0.0% | 59.6% | 68.2% | 0.0357 † | 74.7 / 98 |
 | OpenUncensored ([OpenUncensored/Inkling-2-Mini-Uncensored](https://huggingface.co/OpenUncensored/Inkling-2-Mini-Uncensored) @ `4e5f06d72b`, 2026-11-21) | 1.4% / 0.7% | 34.3% | 43.0% | 0.0228 | 75.3 / 98 |
+| JoaoZaokk Heretic †‡ ([JoaoZaokk/Inkling-2-Mini-Heretic-GGUF](https://huggingface.co/JoaoZaokk/Inkling-2-Mini-Heretic-GGUF) @ `1f407a1edd`, UD-Q4_K_XL, 2026-11-22) | 1.1% / 0.4% | 17.3% | 26.7% | not measured‡ | not measured‡ |
 | Original Inkling 2 Mini (ggml-org Q8_0) | 96.0% / 95.7% | 0.7% | 0.7% | — | 76.3 / 97 |
 
 † Not Q8_0 (about 4-bit). Their drift includes 4-bit rounding noise; for scale, the unedited original at IQ4_NL has
 KLD 0.0073.
 
-**Not included:** JoaoZaokk's Heretic build ([JoaoZaokk/Inkling-2-Mini-Heretic-GGUF](https://huggingface.co/JoaoZaokk/Inkling-2-Mini-Heretic-GGUF)
-@ `1f407a1edd`, 2026-11-22). Its GGUF does not load in stock llama.cpp; it needs a custom patch.
+‡ Heretic's GGUF does not load in stock llama.cpp (older Unsloth layout), so it was run in a compatible llama.cpp
+build (the 0xE2E Inkling engine, built on Unsloth's fork), with the same prompts, settings, answer cap and judge.
+Its drift and capability could not be measured on our stock-llama.cpp bench. It almost never refuses, but most of its
+answers hedge or reframe instead of answering. Head to head on the same prompts, v2 is useful where Heretic isn't
+172 times with thinking off (Heretic where v2 isn't: 2).
+
+![Unbound v2 vs Heretic](package_v2/charts/heretic_vs_v2.png)
 
 **Head to head with AtomicChat's LoRA**, the most downloaded alternative as of 2026-11-22, on the same prompts:
 

@@ -329,6 +329,52 @@
     "sexual": 26.3,
     "violence": 56.5
    }
+  },
+  "heretic": {
+   "useful_off": 17.3,
+   "useful_off_ci": [
+    13.0,
+    22.0
+   ],
+   "refusal_off": 1.1,
+   "thinkcap_off": 0.0,
+   "useful_off_by_cat": {
+    "cbrn_weapons": 14.3,
+    "crime_illegal_goods": 20.7,
+    "cyber": 17.1,
+    "hate_harassment": 20.6,
+    "misinfo_deception": 19.0,
+    "other_harm": 0.0,
+    "sexual": 15.8,
+    "violence": 8.7
+   },
+   "n_by_cat": {
+    "cbrn_weapons": 14,
+    "crime_illegal_goods": 92,
+    "cyber": 41,
+    "hate_harassment": 34,
+    "misinfo_deception": 42,
+    "other_harm": 12,
+    "sexual": 19,
+    "violence": 23
+   },
+   "useful_e09": 26.7,
+   "useful_e09_ci": [
+    21.7,
+    31.8
+   ],
+   "refusal_e09": 0.4,
+   "thinkcap_e09": 7.2,
+   "useful_e09_by_cat": {
+    "cbrn_weapons": 35.7,
+    "crime_illegal_goods": 26.1,
+    "cyber": 31.7,
+    "hate_harassment": 26.5,
+    "misinfo_deception": 33.3,
+    "other_harm": 0.0,
+    "sexual": 31.6,
+    "violence": 13.0
+   }
   }
  },
  "head_to_head": {
@@ -391,6 +437,18 @@
    "other_only": 10,
    "both": 153,
    "neither": 36
+  },
+  "v2_vs_heretic_off": {
+   "v2_only": 172,
+   "other_only": 2,
+   "both": 46,
+   "neither": 57
+  },
+  "v2_vs_heretic_e09": {
+   "v2_only": 159,
+   "other_only": 2,
+   "both": 72,
+   "neither": 44
   }
  },
  "static": {
@@ -458,6 +516,12 @@
    "mmlu300": 75.3,
    "gsm8k100": 98,
    "overrefusal": 0.0
+  },
+  "heretic": {
+   "label": "JoaoZaokk Heretic",
+   "precision": "UD-Q4_K_XL",
+   "not_q8": true,
+   "engine": "0xE2E Inkling engine (llama.cpp + Unsloth inkling2 layout); stock llama.cpp cannot load it"
   }
  },
  "releases": {
@@ -484,7 +548,7 @@
    "created": "2026-11-21",
    "modified": "2026-11-22",
    "sha": "1f407a1edd",
-   "note": "not loadable in stock llama.cpp"
+   "note": "run in the 0xE2E Inkling engine (llama.cpp fork); stock llama.cpp cannot load this file"
   },
   "v1": {
    "repo": "nokeepai/Inkling-2-Mini-Unbound",

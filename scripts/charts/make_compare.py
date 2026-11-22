@@ -18,7 +18,7 @@ INK, INK2, GRID, SURFACE = mc.INK, mc.INK2, mc.GRID, mc.SURFACE
 BLUE, ORANGE, GREY = "#2a78d6", "#eb6834", "#8c8b86"
 SLATE, SLATE_LT, PLUM = "#4f8a8b", "#8fb8b5", "#8e7fa8"
 ORANGE_LT = "#f4a07f"
-C = "/Users/nikshepsvn/Code/inkling-abl/compare/"
+C = "./compare/"
 RES = json.load(open(C + "results.json"))
 PAIR = json.load(open(C + "paired.json"))
 

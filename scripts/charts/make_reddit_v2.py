@@ -40,10 +40,11 @@ MODEL_STYLE = {
     "atomic_adq4": ("AtomicChat Q4", SLATE_LT),
     "xq": ("IndrasMirror XQ", PLUM),
     "ou": ("OpenUncensored", ORANGE),
+    "heretic": ("JoaoZaokk Heretic", "#b5893a"),
     "orig": ("Original", GREY),
 }
 CAPTION = ("277 held-out harmful prompts · same engine (llama.cpp Q8_0), settings & judge (Jev)\n"
-           "answers up to 8,192 tokens · † 4-bit file")
+           "answers up to 8,192 tokens · † 4-bit file (Heretic needs a patched llama.cpp build; run in one)")
 
 
 def m(key, metric):
@@ -83,7 +84,8 @@ def hline(fig, y, x0=0.06, x1=0.94):
 # ---- claims ----------------------------------------------------------------
 OURS = ("v2", "v1")
 RELEASE_OF = {"atomic_lora": ("atomic", "AtomicChat"), "atomic_adq4": ("atomic", "AtomicChat"),
-              "xq": ("xq", "IndrasMirror XQ"), "ou": ("ou", "OpenUncensored")}
+              "xq": ("xq", "IndrasMirror XQ"), "ou": ("ou", "OpenUncensored"),
+              "heretic": ("heretic", "Heretic")}
 BOLD = FontProperties(fname="/System/Library/Fonts/Supplemental/Arial Bold.ttf") \
     if os.path.exists("/System/Library/Fonts/Supplemental/Arial Bold.ttf") else \
     FontProperties(weight="bold")  # house font has no bold face matplotlib can load
