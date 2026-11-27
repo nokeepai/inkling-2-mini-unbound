@@ -1,0 +1,23 @@
+{
+ "client": {
+  "effort": 0.9,
+  "temperature": 0.6,
+  "top_p": 1.0,
+  "think_cap": 4096,
+  "answer_cap": 8192,
+  "concurrency": 31,
+  "force_mode": "completions"
+ },
+ "args": {
+  "seed": 1234,
+  "repeats": 1,
+  "limit": 0,
+  "suites": "hardmath",
+  "ubench_conditions": "command",
+  "judges": "",
+  "effort": 0.9,
+  "temperature": 0.6,
+  "top_p": 1.0
+ },
+ "started": "2026-11-26T14:04:26Z"
+}

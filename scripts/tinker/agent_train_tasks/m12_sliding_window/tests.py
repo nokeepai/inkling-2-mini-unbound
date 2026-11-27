@@ -1,0 +1,21 @@
+import os, sys; sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from solution import *
+v = [1, 3, -1, -3, 5, 3, 6, 7]
+assert window_sums(v, 3) == [3, -1, 1, 5, 14, 16], "window sums"
+assert window_sums(v, 0) == [], "zero window"
+assert window_sums(v, 9) == [], "window larger than data"
+assert window_sums([4], 1) == [4], "single element"
+assert window_max(v, 3) == [3, 3, 5, 5, 6, 7], "window max"
+assert window_min(v, 3) == [-1, -3, -3, -3, 3, 3], "window min"
+assert window_means([2, 4, 6], 2) == [3.0, 5.0], "window means"
+assert best_window(v, 3) == 5, "best window"
+assert best_window([5, 1, 5], 1) == 0, "best window tie earliest"
+assert best_window([], 2) == -1, "best window empty"
+assert longest_under([1, 2, 3, 4], 5) == 2, "longest under limit"
+assert longest_under([1, 1, 1], 3) == 3, "whole list at limit"
+assert longest_under([], 3) == 0, "longest under empty"
+assert longest_under([9, 9], 3) == 0, "nothing fits"
+assert count_above(v, 3, 2) == 2, "count above threshold"
+assert window_ranges(v, 3) == [4, 6, 8, 8, 3, 4], "window ranges"
+assert distinct_counts([1, 2, 1, 3, 3], 3) == [2, 3, 2], "distinct counts"
+assert distinct_counts([1, 1], 1) == [1, 1], "distinct window of one"

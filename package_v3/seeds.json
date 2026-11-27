@@ -1,0 +1,31 @@
+{
+ "_schema": "One entry per (benchmark, model, stack, seed). model: stock | prime | v21 | v3 (render.py prints the display name; prime follows names.prime_name). stack: 'gpu' (merged weights, SGLang, the cards' main setup) or 'tinker' (Thinking Machines' Tinker service, adapter applied unmerged). seed: 1, 2, 3 (seed 1 is the cards' main run). score: percent, one decimal. n: items. Add entries as runs land; render.py builds the seed-spread table from whatever is here and leaves missing seeds blank.",
+ "runs": [
+  {"benchmark": "HumanEvalFix", "model": "prime", "stack": "gpu", "seed": 1, "score": 94.5, "n": 164},
+  {"benchmark": "HumanEvalFix", "model": "prime", "stack": "gpu", "seed": 2, "score": 97.0, "n": 164},
+  {"benchmark": "HumanEvalFix", "model": "prime", "stack": "gpu", "seed": 3, "score": 96.3, "n": 164},
+  {"benchmark": "HumanEvalFix", "model": "stock", "stack": "gpu", "seed": 1, "score": 96.3, "n": 164},
+  {"benchmark": "HumanEvalFix", "model": "stock", "stack": "gpu", "seed": 2, "score": 95.7, "n": 164},
+  {"benchmark": "HumanEvalFix", "model": "stock", "stack": "gpu", "seed": 3, "score": 94.5, "n": 164},
+  {"benchmark": "MBPP", "model": "stock", "stack": "gpu", "seed": 2, "score": 97.7, "n": 257},
+  {"benchmark": "MBPP", "model": "stock", "stack": "gpu", "seed": 3, "score": 96.5, "n": 257},
+  {"benchmark": "MBPP", "model": "prime", "stack": "gpu", "seed": 1, "score": 96.5, "n": 257},
+  {"benchmark": "MBPP", "model": "prime", "stack": "gpu", "seed": 2, "score": 94.9, "n": 257},
+  {"benchmark": "MBPP", "model": "prime", "stack": "gpu", "seed": 3, "score": 96.1, "n": 257},
+  {"benchmark": "MBPP", "model": "stock", "stack": "gpu", "seed": 1, "score": 96.9, "n": 257},
+  {"benchmark": "HumanEvalFix", "model": "v3", "stack": "gpu", "seed": 1, "score": 96.3, "n": 164},
+  {"benchmark": "HumanEvalFix", "model": "v3", "stack": "gpu", "seed": 2, "score": 93.3, "n": 164},
+  {"benchmark": "HumanEvalFix", "model": "v3", "stack": "gpu", "seed": 3, "score": 95.1, "n": 164},
+  {"benchmark": "HumanEvalFix", "model": "v21", "stack": "gpu", "seed": 1, "score": 95.7, "n": 164},
+  {"benchmark": "HumanEvalFix", "model": "v21", "stack": "gpu", "seed": 2, "score": 97.6, "n": 164},
+  {"benchmark": "HumanEvalFix", "model": "v21", "stack": "gpu", "seed": 3, "score": 95.7, "n": 164},
+  {"benchmark": "MBPP", "model": "v21", "stack": "gpu", "seed": 2, "score": 95.3, "n": 257},
+  {"benchmark": "MBPP", "model": "v21", "stack": "gpu", "seed": 3, "score": 96.5, "n": 257},
+  {"benchmark": "MBPP", "model": "v3", "stack": "gpu", "seed": 1, "score": 96.1, "n": 257},
+  {"benchmark": "MBPP", "model": "v3", "stack": "gpu", "seed": 2, "score": 96.5, "n": 257},
+  {"benchmark": "MBPP", "model": "v3", "stack": "gpu", "seed": 3, "score": 96.5, "n": 257},
+  {"benchmark": "MBPP", "model": "v21", "stack": "gpu", "seed": 1, "score": 97.7, "n": 257},
+  {"benchmark": "HumanEvalFix", "model": "stock", "stack": "tinker", "seed": 1, "score": 98.2, "n": 164},
+  {"benchmark": "HumanEvalFix", "model": "stock", "stack": "tinker", "seed": 2, "score": 96.3, "n": 164}
+ ]
+}

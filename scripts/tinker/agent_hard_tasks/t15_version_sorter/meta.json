@@ -1,0 +1,9 @@
+{
+  "name": "version_sorter",
+  "description": "Semantic-version parsing, precedence comparison (including pre-releases), sorting and caret/tilde/comparison range matching.",
+  "bugs": [
+    "parse() keeps numeric pre-release identifiers as strings, so beta.11 sorts before beta.2",
+    "compare() compares release tuples without zero-padding, so 1.2 sorts before 1.2.0",
+    "satisfies() uses <= against the exclusive upper bound of caret/tilde ranges"
+  ]
+}

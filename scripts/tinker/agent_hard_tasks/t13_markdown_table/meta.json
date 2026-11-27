@@ -1,0 +1,9 @@
+{
+  "name": "markdown_table",
+  "description": "Renders rows as an aligned GitHub-style markdown table (escaping, padding, alignment rules) and parses such tables back.",
+  "bugs": [
+    "column_widths() measures body cells before escaping (str(cell)), so cells containing | or None get the wrong width",
+    "_pad() puts the odd leftover space of centred cells on the left instead of the right",
+    "_normalize_rows() pads the caller's row lists in place instead of copying them"
+  ]
+}

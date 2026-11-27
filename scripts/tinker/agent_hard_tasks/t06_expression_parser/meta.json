@@ -1,0 +1,9 @@
+{
+  "name": "expression_parser",
+  "description": "A tokenizer, recursive-descent parser and evaluator for arithmetic expressions with variables, functions and chained assignments.",
+  "bugs": [
+    "expr() recurses on the right-hand side instead of looping, making + and - right-associative",
+    "power() loops over ^ with atom() operands, making ^ left-associative and rejecting signed exponents",
+    "unary minus is handled inside atom() instead of unary(), so it binds tighter than ^ (-2^2 == 4)"
+  ]
+}

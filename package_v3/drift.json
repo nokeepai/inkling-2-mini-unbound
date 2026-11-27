@@ -1,0 +1,43 @@
+{
+ "_schema": "Drift from stock, one entry per model, all measured by the same method (see 'method'). models.<key>: null while the run is pending; {\"reference\": true} for stock; otherwise {\"kld\": mean KL divergence, \"kld_pm\": its \u00b1 from llama-perplexity, \"top1\": same-top-token %, \"ppl\": mean perplexity on the slice (optional), \"q8_sha256\": first 16 hex of the Q8_0 file measured (optional, to catch picking the wrong file)}. Keys: stock, prime, v1, v2, v21, v3. collect_v3.py turns these into drift.kld_<key> / drift.ppl_<key>; a null entry renders as 'run in progress' while drift.kld_<key> is listed in values.json meta.in_progress.",
+ "method": "llama-perplexity --kl-divergence on a fixed wikitext-2 test slice (context 512, 40 chunks), each model's Q8_0 GGUF against the official stock Q8_0",
+ "models": {
+  "stock": {
+   "reference": true,
+   "ppl": 6.734
+  },
+  "prime": {
+   "kld": 0.004928,
+   "kld_pm": 0.000146,
+   "top1": 96.84,
+   "ppl": 6.745
+  },
+  "v1": {
+   "kld": 0.01157,
+   "kld_pm": 0.000304,
+   "top1": 95.39,
+   "q8_sha256": "d85d74cd",
+   "ppl": 6.771
+  },
+  "v2": {
+   "kld": 0.037977,
+   "kld_pm": 0.00071,
+   "top1": 94.549,
+   "ppl": 7.123,
+   "q8_sha256": "60c43f25b64930d7"
+  },
+  "v21": {
+   "kld": 0.048836,
+   "kld_pm": 0.000479,
+   "top1": 94.324,
+   "ppl": 7.246,
+   "q8_sha256": "f720cb1645ef6304"
+  },
+  "v3": {
+   "kld": 0.051909,
+   "kld_pm": 0.000505,
+   "top1": 94.167,
+   "ppl": 7.248
+  }
+ }
+}

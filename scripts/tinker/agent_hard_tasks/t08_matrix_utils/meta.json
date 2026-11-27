@@ -1,0 +1,9 @@
+{
+  "name": "matrix_utils",
+  "description": "Dense matrix helpers with exact Fraction arithmetic: construction, transpose, product, power, determinant, inverse and linear solve.",
+  "bugs": [
+    "zeros() repeats one row object ([[0] * cols] * rows), so every row aliases the same list",
+    "matmul() runs the inner sum over the row count of a instead of its column count",
+    "determinant() does not flip the sign when it swaps rows to find a pivot"
+  ]
+}

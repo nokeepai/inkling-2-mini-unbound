@@ -1,0 +1,385 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="864pt" height="403.2pt" viewBox="0 0 864 403.2" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-11-27T13:24:25.940009</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.10.9, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 403.2 
+L 864 403.2 
+L 864 0 
+L 0 0 
+z
+" style="fill: #fcfcfb"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 30.24 302.4 
+L 280.906667 302.4 
+L 280.906667 120.96 
+L 30.24 120.96 
+z
+" style="fill: #fcfcfb"/>
+   </g>
+   <g id="matplotlib.axis_1">
+    <g id="xtick_1">
+     <g id="line2d_1"/>
+     <g id="text_1">
+      <text style="font-size: 9px; font-family: 'Helvetica Neue', 'Helvetica', 'Arial', 'DejaVu Sans', sans-serif; fill: #0b0b0b" transform="translate(50.462255 312.326563)">Unbound</text>
+      <text style="font-size: 9px; font-family: 'Helvetica Neue', 'Helvetica', 'Arial', 'DejaVu Sans', sans-serif; fill: #0b0b0b" transform="translate(64.384833 321.811719)">v2</text>
+     </g>
+    </g>
+    <g id="xtick_2">
+     <g id="line2d_2"/>
+     <g id="text_2">
+      <text style="font-size: 9px; font-family: 'Helvetica Neue', 'Helvetica', 'Arial', 'DejaVu Sans', sans-serif; fill: #0b0b0b" transform="translate(136.899036 312.326563)">Unbound</text>
+      <text style="font-size: 9px; font-family: 'Helvetica Neue', 'Helvetica', 'Arial', 'DejaVu Sans', sans-serif; fill: #0b0b0b" transform="translate(147.069036 321.811719)">v2.1</text>
+     </g>
+    </g>
+    <g id="xtick_3">
+     <g id="line2d_3"/>
+     <g id="text_3">
+      <text style="font-size: 9px; font-family: 'Helvetica Neue', 'Helvetica', 'Arial', 'DejaVu Sans', sans-serif; fill: #0b0b0b" transform="translate(223.335818 312.326563)">Unbound</text>
+      <text style="font-size: 9px; font-family: 'Helvetica Neue', 'Helvetica', 'Arial', 'DejaVu Sans', sans-serif; fill: #0b0b0b" transform="translate(237.258396 321.811719)">v3</text>
+     </g>
+    </g>
+   </g>
+   <g id="matplotlib.axis_2"/>
+   <g id="patch_3">
+    <path d="M 30.24 302.4 
+L 280.906667 302.4 
+" style="fill: none; stroke: #e6e5e1; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 43.205517 302.4 
+L 95.067586 302.4 
+L 95.067586 220.752 
+L 43.205517 220.752 
+z
+" clip-path="url(#p896684e1c3)" style="fill: url(#h439cbaaa51); stroke-dasharray: 2.4,1.6; stroke-dashoffset: 0; stroke: #8c8b86; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 129.642299 302.4 
+L 181.504368 302.4 
+L 181.504368 161.424659 
+L 129.642299 161.424659 
+z
+" clip-path="url(#p896684e1c3)" style="fill: #6fa3e6; stroke: #fcfcfb; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 216.07908 302.4 
+L 267.941149 302.4 
+L 267.941149 160.65 
+L 216.07908 160.65 
+z
+" clip-path="url(#p896684e1c3)" style="fill: #2a78d6; stroke: #fcfcfb; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_4">
+    <text style="font-size: 8.5px; font-family: 'Helvetica Neue', 'Helvetica', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #52514e" x="30.24" y="119.182969" transform="rotate(-0 30.24 119.182969)">higher is better</text>
+   </g>
+   <g id="text_5">
+    <text style="font-size: 10px; font-family: 'Helvetica Neue', 'Helvetica', 'Arial', 'DejaVu Sans', sans-serif; fill: #0b0b0b" transform="translate(30.24 108.265938)">Willing to answer</text>
+    <text style="font-size: 10px; font-family: 'Helvetica Neue', 'Helvetica', 'Arial', 'DejaVu Sans', sans-serif; fill: #0b0b0b" transform="translate(30.24 118.96)"/>
+   </g>
+   <g id="text_6">
+    <g id="patch_7">
+     <path d="M 74.498708 284.951344 
+L 74.498708 238.200656 
+Q 74.498708 236.300656 72.598708 236.300656 
+L 65.674395 236.300656 
+Q 63.774395 236.300656 63.774395 238.200656 
+L 63.774395 284.951344 
+Q 63.774395 286.851344 65.674395 286.851344 
+L 72.598708 286.851344 
+Q 74.498708 286.851344 74.498708 284.951344 
+z
+" style="fill: #fcfcfb"/>
+    </g>
+    <text style="font-size: 7.6px; font-family: 'Helvetica Neue', 'Helvetica', 'Arial', 'DejaVu Sans', sans-serif; fill: #52514e" transform="translate(71.10127 284.951344) rotate(-90)">not measured</text>
+   </g>
+   <g id="text_7">
+    <text style="font-size: 8.8px; font-family: 'Helvetica Neue', 'Helvetica', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #0b0b0b" x="155.573333" y="156.061984" transform="rotate(-0 155.573333 156.061984)">99.4%</text>
+   </g>
+   <g id="text_8">
+    <text style="font-size: 8.8px; font-family: 'Helvetica Neue', 'Helvetica', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #0b0b0b" x="242.010115" y="155.284575" transform="rotate(-0 242.010115 155.284575)">99.9%</text>
+   </g>
+  </g>
+  <g id="axes_2">
+   <g id="patch_8">
+    <path d="M 310.986667 302.4 
+L 561.653333 302.4 
+L 561.653333 120.96 
+L 310.986667 120.96 
+z
+" style="fill: #fcfcfb"/>
+   </g>
+   <g id="matplotlib.axis_3">
+    <g id="xtick_4">
+     <g id="line2d_4"/>
+     <g id="text_9">
+      <text style="font-size: 9px; font-family: 'Helvetica Neue', 'Helvetica', 'Arial', 'DejaVu Sans', sans-serif; fill: #0b0b0b" transform="translate(331.208922 312.326563)">Unbound</text>
+      <text style="font-size: 9px; font-family: 'Helvetica Neue', 'Helvetica', 'Arial', 'DejaVu Sans', sans-serif; fill: #0b0b0b" transform="translate(345.1315 321.811719)">v2</text>
+     </g>
+    </g>
+    <g id="xtick_5">
+     <g id="line2d_5"/>
+     <g id="text_10">
+      <text style="font-size: 9px; font-family: 'Helvetica Neue', 'Helvetica', 'Arial', 'DejaVu Sans', sans-serif; fill: #0b0b0b" transform="translate(417.645703 312.326563)">Unbound</text>
+      <text style="font-size: 9px; font-family: 'Helvetica Neue', 'Helvetica', 'Arial', 'DejaVu Sans', sans-serif; fill: #0b0b0b" transform="translate(427.815703 321.811719)">v2.1</text>
+     </g>
+    </g>
+    <g id="xtick_6">
+     <g id="line2d_6"/>
+     <g id="text_11">
+      <text style="font-size: 9px; font-family: 'Helvetica Neue', 'Helvetica', 'Arial', 'DejaVu Sans', sans-serif; fill: #0b0b0b" transform="translate(504.082485 312.326563)">Unbound</text>
+      <text style="font-size: 9px; font-family: 'Helvetica Neue', 'Helvetica', 'Arial', 'DejaVu Sans', sans-serif; fill: #0b0b0b" transform="translate(518.005063 321.811719)">v3</text>
+     </g>
+    </g>
+   </g>
+   <g id="matplotlib.axis_4"/>
+   <g id="patch_9">
+    <path d="M 310.986667 302.4 
+L 561.653333 302.4 
+" style="fill: none; stroke: #e6e5e1; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="patch_10">
+    <path d="M 323.952184 302.4 
+L 375.814253 302.4 
+L 375.814253 220.752 
+L 323.952184 220.752 
+z
+" clip-path="url(#p5536b60918)" style="fill: url(#h439cbaaa51); stroke-dasharray: 2.4,1.6; stroke-dashoffset: 0; stroke: #8c8b86; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_11">
+    <path d="M 410.388966 302.4 
+L 462.251034 302.4 
+L 462.251034 162.100929 
+L 410.388966 162.100929 
+z
+" clip-path="url(#p5536b60918)" style="fill: #6fa3e6; stroke: #fcfcfb; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_12">
+    <path d="M 496.825747 302.4 
+L 548.687816 302.4 
+L 548.687816 160.65 
+L 496.825747 160.65 
+z
+" clip-path="url(#p5536b60918)" style="fill: #2a78d6; stroke: #fcfcfb; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_12">
+    <text style="font-size: 8.5px; font-family: 'Helvetica Neue', 'Helvetica', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #52514e" x="310.986667" y="119.182969" transform="rotate(-0 310.986667 119.182969)">higher is better</text>
+   </g>
+   <g id="text_13">
+    <text style="font-size: 10px; font-family: 'Helvetica Neue', 'Helvetica', 'Arial', 'DejaVu Sans', sans-serif; fill: #0b0b0b" transform="translate(310.986667 108.397188)">Delivered a usable answer</text>
+    <text style="font-size: 10px; font-family: 'Helvetica Neue', 'Helvetica', 'Arial', 'DejaVu Sans', sans-serif; fill: #0b0b0b" transform="translate(310.986667 118.96)"/>
+   </g>
+   <g id="text_14">
+    <g id="patch_13">
+     <path d="M 355.245375 284.951344 
+L 355.245375 238.200656 
+Q 355.245375 236.300656 353.345375 236.300656 
+L 346.421062 236.300656 
+Q 344.521062 236.300656 344.521062 238.200656 
+L 344.521062 284.951344 
+Q 344.521062 286.851344 346.421062 286.851344 
+L 353.345375 286.851344 
+Q 355.245375 286.851344 355.245375 284.951344 
+z
+" style="fill: #fcfcfb"/>
+    </g>
+    <text style="font-size: 7.6px; font-family: 'Helvetica Neue', 'Helvetica', 'Arial', 'DejaVu Sans', sans-serif; fill: #52514e" transform="translate(351.847937 284.951344) rotate(-90)">not measured</text>
+   </g>
+   <g id="text_15">
+    <text style="font-size: 8.8px; font-family: 'Helvetica Neue', 'Helvetica', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #0b0b0b" x="436.32" y="156.738254" transform="rotate(-0 436.32 156.738254)">57.5%</text>
+   </g>
+   <g id="text_16">
+    <text style="font-size: 8.8px; font-family: 'Helvetica Neue', 'Helvetica', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #0b0b0b" x="522.756782" y="155.284575" transform="rotate(-0 522.756782 155.284575)">58.1%</text>
+   </g>
+  </g>
+  <g id="axes_3">
+   <g id="patch_14">
+    <path d="M 591.733333 302.4 
+L 842.4 302.4 
+L 842.4 120.96 
+L 591.733333 120.96 
+z
+" style="fill: #fcfcfb"/>
+   </g>
+   <g id="matplotlib.axis_5">
+    <g id="xtick_7">
+     <g id="line2d_7"/>
+     <g id="text_17">
+      <text style="font-size: 9px; font-family: 'Helvetica Neue', 'Helvetica', 'Arial', 'DejaVu Sans', sans-serif; fill: #0b0b0b" transform="translate(611.955588 312.326563)">Unbound</text>
+      <text style="font-size: 9px; font-family: 'Helvetica Neue', 'Helvetica', 'Arial', 'DejaVu Sans', sans-serif; fill: #0b0b0b" transform="translate(625.878166 321.811719)">v2</text>
+     </g>
+    </g>
+    <g id="xtick_8">
+     <g id="line2d_8"/>
+     <g id="text_18">
+      <text style="font-size: 9px; font-family: 'Helvetica Neue', 'Helvetica', 'Arial', 'DejaVu Sans', sans-serif; fill: #0b0b0b" transform="translate(698.39237 312.326563)">Unbound</text>
+      <text style="font-size: 9px; font-family: 'Helvetica Neue', 'Helvetica', 'Arial', 'DejaVu Sans', sans-serif; fill: #0b0b0b" transform="translate(708.56237 321.811719)">v2.1</text>
+     </g>
+    </g>
+    <g id="xtick_9">
+     <g id="line2d_9"/>
+     <g id="text_19">
+      <text style="font-size: 9px; font-family: 'Helvetica Neue', 'Helvetica', 'Arial', 'DejaVu Sans', sans-serif; fill: #0b0b0b" transform="translate(784.829151 312.326563)">Unbound</text>
+      <text style="font-size: 9px; font-family: 'Helvetica Neue', 'Helvetica', 'Arial', 'DejaVu Sans', sans-serif; fill: #0b0b0b" transform="translate(798.75173 321.811719)">v3</text>
+     </g>
+    </g>
+   </g>
+   <g id="matplotlib.axis_6"/>
+   <g id="patch_15">
+    <path d="M 591.733333 302.4 
+L 842.4 302.4 
+" style="fill: none; stroke: #e6e5e1; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="patch_16">
+    <path d="M 604.698851 302.4 
+L 656.56092 302.4 
+L 656.56092 220.752 
+L 604.698851 220.752 
+z
+" clip-path="url(#pc987707b00)" style="fill: url(#h439cbaaa51); stroke-dasharray: 2.4,1.6; stroke-dashoffset: 0; stroke: #8c8b86; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_17">
+    <path d="M 691.135632 302.4 
+L 742.997701 302.4 
+L 742.997701 160.65 
+L 691.135632 160.65 
+z
+" clip-path="url(#pc987707b00)" style="fill: #6fa3e6; stroke: #fcfcfb; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_18">
+    <path d="M 777.572414 302.4 
+L 829.434483 302.4 
+L 829.434483 286.014157 
+L 777.572414 286.014157 
+z
+" clip-path="url(#pc987707b00)" style="fill: #2a78d6; stroke: #fcfcfb; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_20">
+    <text style="font-size: 8.5px; font-family: 'Helvetica Neue', 'Helvetica', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #52514e" x="591.733333" y="119.285234" transform="rotate(-0 591.733333 119.285234)">lower is better</text>
+   </g>
+   <g id="text_21">
+    <text style="font-size: 10px; font-family: 'Helvetica Neue', 'Helvetica', 'Arial', 'DejaVu Sans', sans-serif; fill: #0b0b0b" transform="translate(591.733333 108.265938)">Thinking-cap hits</text>
+    <text style="font-size: 10px; font-family: 'Helvetica Neue', 'Helvetica', 'Arial', 'DejaVu Sans', sans-serif; fill: #0b0b0b" transform="translate(591.733333 118.96)"/>
+   </g>
+   <g id="text_22">
+    <g id="patch_19">
+     <path d="M 635.992041 284.951344 
+L 635.992041 238.200656 
+Q 635.992041 236.300656 634.092041 236.300656 
+L 627.167729 236.300656 
+Q 625.267729 236.300656 625.267729 238.200656 
+L 625.267729 284.951344 
+Q 625.267729 286.851344 627.167729 286.851344 
+L 634.092041 286.851344 
+Q 635.992041 286.851344 635.992041 284.951344 
+z
+" style="fill: #fcfcfb"/>
+    </g>
+    <text style="font-size: 7.6px; font-family: 'Helvetica Neue', 'Helvetica', 'Arial', 'DejaVu Sans', sans-serif; fill: #52514e" transform="translate(632.594604 284.951344) rotate(-90)">not measured</text>
+   </g>
+   <g id="text_23">
+    <text style="font-size: 8.8px; font-family: 'Helvetica Neue', 'Helvetica', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #0b0b0b" x="717.066667" y="155.287325" transform="rotate(-0 717.066667 155.287325)">49.5%</text>
+   </g>
+   <g id="text_24">
+    <text style="font-size: 8.8px; font-family: 'Helvetica Neue', 'Helvetica', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #0b0b0b" x="803.503448" y="280.648732" transform="rotate(-0 803.503448 280.648732)">5.7%</text>
+   </g>
+  </g>
+  <g id="text_25">
+   <text style="font-size: 15px; font-family: 'Helvetica Neue', 'Helvetica', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #0b0b0b" x="30.24" y="28.880719" transform="rotate(-0 30.24 28.880719)">Unbound, version by version</text>
+  </g>
+  <g id="text_26">
+   <text style="font-size: 10px; font-family: 'Helvetica Neue', 'Helvetica', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #52514e" x="30.24" y="49.645375" transform="rotate(-0 30.24 49.645375)">Unbound v2, v2.1 and v3 on the uncensored benchmark, the same questions for v2.1 and v3 (n=1,099 graded).</text>
+  </g>
+  <g id="text_27">
+   <text style="font-size: 7.6px; font-family: 'Helvetica Neue', 'Helvetica', 'Arial', 'DejaVu Sans', sans-serif; fill: #52514e" transform="translate(30.24 384.196512)">Source: our own test set, one pass per model, same prompts and settings for every model.</text>
+   <text style="font-size: 7.6px; font-family: 'Helvetica Neue', 'Helvetica', 'Arial', 'DejaVu Sans', sans-serif; fill: #52514e" transform="translate(30.24 393.562563)">Unbound v2 was never run on this benchmark, so its bars say 'not measured' (not zero).</text>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p896684e1c3">
+   <rect x="30.24" y="120.96" width="250.666667" height="181.44"/>
+  </clipPath>
+  <clipPath id="p5536b60918">
+   <rect x="310.986667" y="120.96" width="250.666667" height="181.44"/>
+  </clipPath>
+  <clipPath id="pc987707b00">
+   <rect x="591.733333" y="120.96" width="250.666667" height="181.44"/>
+  </clipPath>
+ </defs>
+ <defs>
+  <pattern id="h439cbaaa51" patternUnits="userSpaceOnUse" x="0" y="0" width="72" height="72">
+   <rect x="0" y="0" width="73" height="73" fill="#f1f0ec"/>
+   <path d="M -36 36 
+L 36 -36 
+M -33 39 
+L 39 -33 
+M -30 42 
+L 42 -30 
+M -27 45 
+L 45 -27 
+M -24 48 
+L 48 -24 
+M -21 51 
+L 51 -21 
+M -18 54 
+L 54 -18 
+M -15 57 
+L 57 -15 
+M -12 60 
+L 60 -12 
+M -9 63 
+L 63 -9 
+M -6 66 
+L 66 -6 
+M -3 69 
+L 69 -3 
+M 0 72 
+L 72 0 
+M 3 75 
+L 75 3 
+M 6 78 
+L 78 6 
+M 9 81 
+L 81 9 
+M 12 84 
+L 84 12 
+M 15 87 
+L 87 15 
+M 18 90 
+L 90 18 
+M 21 93 
+L 93 21 
+M 24 96 
+L 96 24 
+M 27 99 
+L 99 27 
+M 30 102 
+L 102 30 
+M 33 105 
+L 105 33 
+M 36 108 
+L 108 36 
+" style="fill: #8c8b86; stroke: #8c8b86; stroke-width: 0.6; stroke-linecap: butt; stroke-linejoin: miter"/>
+  </pattern>
+ </defs>
+</svg>

@@ -1,0 +1,9 @@
+{
+  "name": "csv_quoting",
+  "description": "A minimal CSV reader and writer supporting quoted fields, escaped quotes, embedded newlines, header dictionaries and round-tripping.",
+  "bugs": [
+    "parse_line() only emits the final field when it is non-empty, dropping trailing empty fields",
+    "parse_line() advances one character instead of two after an escaped quote, so the second quote closes the field",
+    "_needs_quotes() does not treat a quote character as needing quoting, so fields like 5\" are written raw"
+  ]
+}

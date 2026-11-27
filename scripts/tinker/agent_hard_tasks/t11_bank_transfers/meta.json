@@ -1,0 +1,9 @@
+{
+  "name": "bank_transfers",
+  "description": "A small bank ledger with accounts, overdraft limits, transfers, per-account history, statements, audits and fee runs.",
+  "bugs": [
+    "transfer() credits the target before debiting the source, so a failed withdrawal still leaves the deposit in place",
+    "Account uses a mutable default history=[], so all accounts share one history list",
+    "can_withdraw() uses > instead of >=, so an account cannot be drawn down exactly to its limit"
+  ]
+}

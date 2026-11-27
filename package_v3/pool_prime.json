@@ -1,0 +1,52 @@
+{
+ "base": "stock",
+ "fixed": "prime",
+ "suites": {
+  "pub_humanevalfix": {
+   "n_items": 164,
+   "base_seeds": [
+    96.3,
+    95.7,
+    94.5
+   ],
+   "fixed_seeds": [
+    94.5,
+    97.0,
+    96.3
+   ],
+   "base_pooled": 95.5,
+   "fixed_pooled": 95.9,
+   "base_pass": 470,
+   "base_runs": 492,
+   "fixed_pass": 472,
+   "fixed_runs": 492,
+   "diff": 0.41,
+   "lo": -0.61,
+   "hi": 1.63,
+   "verdict_margin2": "non-inferior"
+  },
+  "pub_mbpp": {
+   "n_items": 257,
+   "base_seeds": [
+    96.9,
+    97.7,
+    96.5
+   ],
+   "fixed_seeds": [
+    96.5,
+    94.9,
+    96.1
+   ],
+   "base_pooled": 97.0,
+   "fixed_pooled": 95.8,
+   "base_pass": 748,
+   "base_runs": 771,
+   "fixed_pass": 739,
+   "fixed_runs": 771,
+   "diff": -1.17,
+   "lo": -2.46,
+   "hi": 0.13,
+   "verdict_margin2": "inconclusive"
+  }
+ }
+}

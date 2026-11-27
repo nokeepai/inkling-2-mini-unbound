@@ -1,0 +1,6109 @@
+{
+ "_readme": "Every number the v3 cards and charts use. A leaf is the string \"TBD\" or {value, unit, ...}. provisional=true marks a figure measured on a candidate before the final adapter; collect_v3.py overwrites it from graded results, and render.py --final refuses to run while any TBD or provisional leaf is still used. 'display' (optional) is the text shown in cards instead of the formatted value. Units: % pts x tokens s n text bool. Groups filled by collect_v3.py: the pair groups, speed, think_dist, ubench, public_benchmarks, indep (from compare.py --ci --json), settings (from the runs' meta files), low_effort (--root-e03) and gguf (--gguf-table).",
+ "names": {
+  "prime_name": {
+   "value": "Prime",
+   "unit": "text",
+   "source": "--prime-name"
+  },
+  "version": {
+   "value": "v3",
+   "unit": "text"
+  },
+  "release_date": {
+   "value": "2026-11-27",
+   "unit": "text",
+   "note": "Go-live value: month only, true on whichever day it goes public. Replace with the exact date if wanted."
+  },
+  "unbound_repo": {
+   "value": "nokeepai/Inkling-2-Mini-Unbound",
+   "unit": "text"
+  },
+  "stock_repo": {
+   "value": "thinkingmachines/Inkling-2-Mini",
+   "unit": "text"
+  },
+  "github_repo": {
+   "value": "nokeepai/inkling-2-mini-unbound",
+   "unit": "text"
+  },
+  "merge_method": {
+   "value": "stochastic (dithered) rounding into the quantised weights, attention and experts",
+   "unit": "text"
+  },
+  "adapter_checkpoint": {
+   "value": "step 60 of the final training run",
+   "unit": "text"
+  },
+  "adapter_rank": {
+   "value": "32",
+   "unit": "text"
+  },
+  "adapter_steps": {
+   "value": "60",
+   "unit": "text"
+  },
+  "train_prompts": {
+   "value": "1,185 harmless prompts (by step: debugging 31%, maths 19%, creative 16%, questions 16%, roleplay 9%, chat 9%)",
+   "unit": "text"
+  },
+  "anchor_answers": {
+   "value": "619",
+   "unit": "text"
+  },
+  "prime_name_decision": {
+   "value": "Prime (owner decision, 2026-11-27 ~10:00 IST, relayed in session: \"Prime and rewrite docs\"). History: the stock-based model first went public as Honed at 07:35 IST under the owner's earlier rule, because uncensoredbench delivery is below stock beyond noise (-1.3 [-2.1, -0.4]) and MBPP shows an unconfirmed -1.2 over 3 seeds. The owner then chose the name Prime, with the dip stated openly on the card.",
+   "unit": "text"
+  }
+ },
+ "flags": {
+  "explicit_topup": {
+   "value": false,
+   "unit": "bool",
+   "note": "Optional Unbound-only adult fiction/roleplay top-up branch. Undecided until the morning of release; leave false unless the owner approves."
+  },
+  "per_item_published": {
+   "value": true,
+   "unit": "bool",
+   "note": "true once per-item results (scores, no model text for the uncensored benchmark) are published at reproduce.per_item_url"
+  },
+  "capnote": {
+   "value": true,
+   "unit": "bool"
+  },
+  "useful263_done": {
+   "value": true,
+   "unit": "bool",
+   "note": "true once v3 has been run through the v2.1 release's 263-request usefulness comparison (useful263.*)"
+  }
+ },
+ "headline": {
+  "debug_token_ratio": {
+   "value": 9.7036,
+   "unit": "x",
+   "source": "debug_tokens",
+   "display": "about 9× to 11×"
+  },
+  "think_reduction": {
+   "value": 0.5407,
+   "unit": "x",
+   "source": "think_main",
+   "display": "about half"
+  },
+  "speedup": {
+   "value": 2.7635,
+   "unit": "x",
+   "source": "sec_main",
+   "display": "2.4× to 3.1×"
+  },
+  "maths_strict_gain": {
+   "value": 15.5,
+   "unit": "pts",
+   "source": "maths_strict",
+   "display": "+13 to +18 points"
+  },
+  "maths_lenient_gain": {
+   "value": 1.5,
+   "unit": "pts",
+   "source": "maths_lenient",
+   "display": "+0 to +3 points"
+  }
+ },
+ "prime_vs_stock": {
+  "debug_n_tasks": {
+   "value": 15,
+   "unit": "n",
+   "source": "agent_hard_noforce"
+  },
+  "debug_solved_stock": {
+   "value": 80.0,
+   "unit": "%",
+   "source": "agent_hard_noforce:stock",
+   "ci": [
+    54.81,
+    92.95
+   ]
+  },
+  "debug_solved_prime": {
+   "value": 100.0,
+   "unit": "%",
+   "source": "agent_hard_noforce:prime",
+   "ci": [
+    79.61,
+    100.0
+   ]
+  },
+  "debug_nocode_stock": {
+   "value": 86.2069,
+   "unit": "%",
+   "source": "agent_hard_noforce:stock"
+  },
+  "debug_nocode_prime": {
+   "value": 0.0,
+   "unit": "%",
+   "source": "agent_hard_noforce:prime"
+  },
+  "debug_turns_stock": {
+   "value": 87.0,
+   "unit": "n",
+   "source": "stock"
+  },
+  "debug_turns_prime": {
+   "value": 18.0,
+   "unit": "n",
+   "source": "prime"
+  },
+  "debug_tokens_stock": {
+   "value": 23920.3,
+   "unit": "tokens",
+   "source": "agent_hard_noforce:stock"
+  },
+  "debug_tokens_prime": {
+   "value": 2765.9,
+   "unit": "tokens",
+   "source": "agent_hard_noforce:prime"
+  },
+  "quality_n": {
+   "value": 62,
+   "unit": "n",
+   "source": "main",
+   "display": "63 / 62"
+  },
+  "quality_good_stock": {
+   "value": 96.8254,
+   "unit": "%",
+   "source": "main:stock",
+   "ci": [
+    89.14,
+    99.13
+   ]
+  },
+  "quality_good_prime": {
+   "value": 96.7742,
+   "unit": "%",
+   "source": "main:prime",
+   "ci": [
+    88.98,
+    99.11
+   ]
+  },
+  "creative_n": {
+   "value": 28,
+   "unit": "n",
+   "source": "main",
+   "display": "30 / 28"
+  },
+  "creative_good_stock": {
+   "value": 93.3333,
+   "unit": "%",
+   "source": "main:stock",
+   "ci": [
+    78.68,
+    98.15
+   ]
+  },
+  "creative_good_prime": {
+   "value": 92.8571,
+   "unit": "%",
+   "source": "main:prime",
+   "ci": [
+    77.35,
+    98.02
+   ]
+  },
+  "answer_tokens_stock": {
+   "value": 284.5,
+   "unit": "tokens",
+   "source": "main:stock"
+  },
+  "answer_tokens_prime": {
+   "value": 293.0,
+   "unit": "tokens",
+   "source": "main:prime"
+  },
+  "rp_n": {
+   "value": 100,
+   "unit": "n",
+   "source": "rp"
+  },
+  "rp_good_stock": {
+   "value": 94.0,
+   "unit": "%",
+   "source": "rp:stock"
+  },
+  "rp_good_prime": {
+   "value": 93.0,
+   "unit": "%",
+   "source": "rp:prime"
+  },
+  "code_n": {
+   "value": 40,
+   "unit": "n",
+   "source": "code"
+  },
+  "code_pass_stock": {
+   "value": 95.0,
+   "unit": "%",
+   "source": "code pass@1 per item",
+   "ci": [
+    83.5,
+    98.62
+   ]
+  },
+  "code_pass_prime": {
+   "value": 92.5,
+   "unit": "%",
+   "source": "code pass@1 per item",
+   "ci": [
+    80.14,
+    97.42
+   ]
+  },
+  "maths_n": {
+   "value": 100,
+   "unit": "n",
+   "source": "hardmath"
+  },
+  "maths_strict_stock": {
+   "value": 73.0,
+   "unit": "%",
+   "source": "hardmath strict per item",
+   "ci": [
+    63.57,
+    80.73
+   ]
+  },
+  "maths_strict_prime": {
+   "value": 91.0,
+   "unit": "%",
+   "source": "hardmath strict per item",
+   "ci": [
+    83.77,
+    95.19
+   ]
+  },
+  "maths_lenient_stock": {
+   "value": 94.0,
+   "unit": "%",
+   "source": "hardmath number per item",
+   "ci": [
+    87.52,
+    97.22
+   ]
+  },
+  "maths_lenient_prime": {
+   "value": 97.0,
+   "unit": "%",
+   "source": "hardmath number per item",
+   "ci": [
+    91.55,
+    98.97
+   ]
+  },
+  "code_pass_diff": {
+   "value": -2.5,
+   "unit": "pts",
+   "source": "code pass@1 per item",
+   "ci": [
+    -10.0,
+    5.0
+   ]
+  },
+  "code_pass_verdict": {
+   "value": "inconclusive",
+   "unit": "text",
+   "source": "code pass@1 per item",
+   "display": "inconclusive (interval reaches past the margin)"
+  },
+  "maths_lenient_diff": {
+   "value": 3.0,
+   "unit": "pts",
+   "source": "hardmath number per item",
+   "ci": [
+    -1.0,
+    8.0
+   ]
+  },
+  "maths_lenient_verdict": {
+   "value": "non-inferior",
+   "unit": "text",
+   "source": "hardmath number per item",
+   "display": "non-inferior"
+  },
+  "maths_strict_diff": {
+   "value": 18.0,
+   "unit": "pts",
+   "source": "hardmath strict per item",
+   "ci": [
+    10.0,
+    26.0
+   ]
+  },
+  "maths_strict_verdict": {
+   "value": "non-inferior, better",
+   "unit": "text",
+   "source": "hardmath strict per item",
+   "display": "non-inferior (interval above zero; no gain claimed)"
+  }
+ },
+ "v3_vs_v21": {
+  "debug_n_tasks": {
+   "value": 15,
+   "unit": "n",
+   "source": "agent_hard_noforce"
+  },
+  "debug_solved_v21": {
+   "value": 73.3333,
+   "unit": "%",
+   "source": "agent_hard_noforce:v21",
+   "ci": [
+    48.05,
+    89.1
+   ]
+  },
+  "debug_solved_v3": {
+   "value": 100.0,
+   "unit": "%",
+   "source": "agent_hard_noforce:v3",
+   "ci": [
+    79.61,
+    100.0
+   ]
+  },
+  "debug_nocode_v21": {
+   "value": 88.6598,
+   "unit": "%",
+   "source": "agent_hard_noforce:v21"
+  },
+  "debug_nocode_v3": {
+   "value": 0.0,
+   "unit": "%",
+   "source": "agent_hard_noforce:v3"
+  },
+  "debug_turns_v21": {
+   "value": 97.0,
+   "unit": "n",
+   "source": "v21"
+  },
+  "debug_turns_v3": {
+   "value": 17.0,
+   "unit": "n",
+   "source": "v3"
+  },
+  "debug_tokens_v21": {
+   "value": 26130.1,
+   "unit": "tokens",
+   "source": "agent_hard_noforce:v21"
+  },
+  "debug_tokens_v3": {
+   "value": 2428.7,
+   "unit": "tokens",
+   "source": "agent_hard_noforce:v3"
+  },
+  "quality_n": {
+   "value": 63,
+   "unit": "n",
+   "source": "main"
+  },
+  "quality_good_v21": {
+   "value": 88.8889,
+   "unit": "%",
+   "source": "main:v21",
+   "ci": [
+    78.8,
+    94.51
+   ]
+  },
+  "quality_good_v3": {
+   "value": 96.8254,
+   "unit": "%",
+   "source": "main:v3",
+   "ci": [
+    89.14,
+    99.13
+   ]
+  },
+  "creative_n": {
+   "value": 29,
+   "unit": "n",
+   "source": "main"
+  },
+  "creative_good_v21": {
+   "value": 75.8621,
+   "unit": "%",
+   "source": "main:v21",
+   "ci": [
+    57.89,
+    87.78
+   ]
+  },
+  "creative_good_v3": {
+   "value": 93.1034,
+   "unit": "%",
+   "source": "main:v3",
+   "ci": [
+    78.04,
+    98.09
+   ]
+  },
+  "answer_tokens_v21": {
+   "value": 307.5,
+   "unit": "tokens",
+   "source": "main:v21"
+  },
+  "answer_tokens_v3": {
+   "value": 338.0,
+   "unit": "tokens",
+   "source": "main:v3"
+  },
+  "rp_n": {
+   "value": 100,
+   "unit": "n",
+   "source": "rp"
+  },
+  "rp_good_v21": {
+   "value": 96.0,
+   "unit": "%",
+   "source": "rp:v21"
+  },
+  "rp_good_v3": {
+   "value": 96.0,
+   "unit": "%",
+   "source": "rp:v3"
+  },
+  "code_n": {
+   "value": 40,
+   "unit": "n",
+   "source": "code"
+  },
+  "code_pass_v21": {
+   "value": 90.0,
+   "unit": "%",
+   "source": "code pass@1 per item",
+   "ci": [
+    76.95,
+    96.04
+   ]
+  },
+  "code_pass_v3": {
+   "value": 90.0,
+   "unit": "%",
+   "source": "code pass@1 per item",
+   "ci": [
+    76.95,
+    96.04
+   ]
+  },
+  "maths_n": {
+   "value": 100,
+   "unit": "n",
+   "source": "hardmath"
+  },
+  "maths_strict_v21": {
+   "value": 76.0,
+   "unit": "%",
+   "source": "hardmath strict per item",
+   "ci": [
+    66.77,
+    83.31
+   ]
+  },
+  "maths_strict_v3": {
+   "value": 89.0,
+   "unit": "%",
+   "source": "hardmath strict per item",
+   "ci": [
+    81.37,
+    93.75
+   ]
+  },
+  "maths_lenient_v21": {
+   "value": 97.0,
+   "unit": "%",
+   "source": "hardmath number per item",
+   "ci": [
+    91.55,
+    98.97
+   ]
+  },
+  "maths_lenient_v3": {
+   "value": 97.0,
+   "unit": "%",
+   "source": "hardmath number per item",
+   "ci": [
+    91.55,
+    98.97
+   ]
+  },
+  "code_pass_diff": {
+   "value": 0.0,
+   "unit": "pts",
+   "source": "code pass@1 per item",
+   "ci": [
+    -7.5,
+    7.5
+   ]
+  },
+  "code_pass_verdict": {
+   "value": "inconclusive",
+   "unit": "text",
+   "source": "code pass@1 per item",
+   "display": "inconclusive (interval reaches past the margin)"
+  },
+  "maths_lenient_diff": {
+   "value": 0.0,
+   "unit": "pts",
+   "source": "hardmath number per item",
+   "ci": [
+    -3.0,
+    3.0
+   ]
+  },
+  "maths_lenient_verdict": {
+   "value": "inconclusive",
+   "unit": "text",
+   "source": "hardmath number per item",
+   "display": "inconclusive (interval reaches past the margin)"
+  },
+  "maths_strict_diff": {
+   "value": 13.0,
+   "unit": "pts",
+   "source": "hardmath strict per item",
+   "ci": [
+    6.0,
+    20.0
+   ]
+  },
+  "maths_strict_verdict": {
+   "value": "non-inferior, better",
+   "unit": "text",
+   "source": "hardmath strict per item",
+   "display": "non-inferior (interval above zero; no gain claimed)"
+  }
+ },
+ "speed": {
+  "main_n": {
+   "value": 100,
+   "unit": "n",
+   "source": "main"
+  },
+  "think_main_stock": {
+   "value": 318.5,
+   "unit": "tokens",
+   "source": "stock"
+  },
+  "think_main_prime": {
+   "value": 174.5,
+   "unit": "tokens",
+   "source": "prime"
+  },
+  "think_main_v21": {
+   "value": 344.0,
+   "unit": "tokens",
+   "source": "v21"
+  },
+  "think_main_v3": {
+   "value": 183.5,
+   "unit": "tokens",
+   "source": "v3"
+  },
+  "think_ubench_stock": {
+   "value": 668.5,
+   "unit": "tokens",
+   "source": "stock"
+  },
+  "think_ubench_prime": {
+   "value": 291.5,
+   "unit": "tokens",
+   "source": "prime"
+  },
+  "think_ubench_v21": {
+   "value": 3849.0,
+   "unit": "tokens",
+   "source": "v21"
+  },
+  "think_ubench_v3": {
+   "value": 500.0,
+   "unit": "tokens",
+   "source": "v3"
+  },
+  "sec_main_stock": {
+   "value": 119.9,
+   "unit": "s",
+   "source": "stock"
+  },
+  "sec_main_prime": {
+   "value": 49.0,
+   "unit": "s",
+   "source": "prime"
+  },
+  "sec_main_v21": {
+   "value": 161.7,
+   "unit": "s",
+   "source": "v21"
+  },
+  "sec_main_v3": {
+   "value": 52.5,
+   "unit": "s",
+   "source": "v3"
+  },
+  "sec_ubench_stock": {
+   "value": 242.0,
+   "unit": "s",
+   "source": "stock"
+  },
+  "sec_ubench_prime": {
+   "value": 95.3,
+   "unit": "s",
+   "source": "prime"
+  },
+  "sec_ubench_v21": {
+   "value": 634.0,
+   "unit": "s",
+   "source": "v21"
+  },
+  "sec_ubench_v3": {
+   "value": 285.1,
+   "unit": "s",
+   "source": "v3"
+  },
+  "cap_ubench_stock": {
+   "value": 13.4545,
+   "unit": "%",
+   "source": "stock"
+  },
+  "cap_ubench_prime": {
+   "value": 0.4545,
+   "unit": "%",
+   "source": "prime"
+  },
+  "cap_ubench_v21": {
+   "value": 49.5455,
+   "unit": "%",
+   "source": "v21"
+  },
+  "cap_ubench_v3": {
+   "value": 5.7273,
+   "unit": "%",
+   "source": "v3"
+  },
+  "cap_main_stock": {
+   "value": 8.0,
+   "unit": "%",
+   "source": "stock"
+  },
+  "cap_main_prime": {
+   "value": 0.0,
+   "unit": "%",
+   "source": "prime"
+  },
+  "cap_main_v21": {
+   "value": 17.0,
+   "unit": "%",
+   "source": "v21"
+  },
+  "cap_main_v3": {
+   "value": 2.0,
+   "unit": "%",
+   "source": "v3"
+  },
+  "runaway_ubench_v21": {
+   "value": 10.8182,
+   "unit": "%",
+   "source": "v21"
+  },
+  "runaway_ubench_v3": {
+   "value": 8.4545,
+   "unit": "%",
+   "source": "v3"
+  },
+  "hardware": {
+   "value": "one RTX 5090 (32 GB)",
+   "unit": "text"
+  },
+  "quant": {
+   "value": "NVFP4 checkpoint as released",
+   "unit": "text"
+  },
+  "serving": {
+   "value": "SGLang, 31 concurrent requests",
+   "unit": "text"
+  },
+  "tokens_answer_stock": {
+   "value": 1396.0,
+   "unit": "tokens",
+   "source": "stock"
+  },
+  "tokens_answer_prime": {
+   "value": 760.9,
+   "unit": "tokens",
+   "source": "prime"
+  },
+  "tokens_answer_v21": {
+   "value": 1691.0,
+   "unit": "tokens",
+   "source": "v21"
+  },
+  "tokens_answer_v3": {
+   "value": 868.7,
+   "unit": "tokens",
+   "source": "v3"
+  },
+  "think_mean_ubench_prime": {
+   "value": 428.5,
+   "unit": "tokens",
+   "source": "prime"
+  },
+  "think_mean_ubench_stock": {
+   "value": 1257.7,
+   "unit": "tokens",
+   "source": "stock"
+  },
+  "think_mean_ubench_v21": {
+   "value": 2579.2,
+   "unit": "tokens",
+   "source": "v21"
+  },
+  "think_mean_ubench_v3": {
+   "value": 831.4,
+   "unit": "tokens",
+   "source": "v3"
+  },
+  "answer_mean_ubench_prime": {
+   "value": 612.4,
+   "unit": "tokens",
+   "source": "prime"
+  },
+  "answer_mean_ubench_stock": {
+   "value": 649.3,
+   "unit": "tokens",
+   "source": "stock"
+  },
+  "answer_mean_ubench_v21": {
+   "value": 1535.1,
+   "unit": "tokens",
+   "source": "v21"
+  },
+  "answer_mean_ubench_v3": {
+   "value": 1350.5,
+   "unit": "tokens",
+   "source": "v3"
+  }
+ },
+ "ubench": {
+  "n": {
+   "value": 1099,
+   "unit": "n",
+   "source": "ubench",
+   "display": "1,100 (stock and stock + fix); 1,099 / 1,100 graded (v2.1, v3)"
+  },
+  "n_total": {
+   "value": 1100,
+   "unit": "n"
+  },
+  "willing_stock": {
+   "value": 64.4545,
+   "unit": "%",
+   "source": "stock",
+   "ci": [
+    61.58,
+    67.23
+   ]
+  },
+  "willing_prime": {
+   "value": 65.2727,
+   "unit": "%",
+   "source": "prime",
+   "ci": [
+    62.41,
+    68.03
+   ]
+  },
+  "willing_v21": {
+   "value": 99.3631,
+   "unit": "%",
+   "source": "v21",
+   "ci": [
+    98.69,
+    99.69
+   ]
+  },
+  "willing_v3": {
+   "value": 99.9091,
+   "unit": "%",
+   "source": "v3",
+   "ci": [
+    99.49,
+    99.98
+   ]
+  },
+  "delivery_stock": {
+   "value": 35.8772,
+   "unit": "%",
+   "source": "stock",
+   "ci": [
+    34.05,
+    37.7
+   ]
+  },
+  "delivery_prime": {
+   "value": 34.6122,
+   "unit": "%",
+   "source": "prime",
+   "ci": [
+    32.84,
+    36.38
+   ]
+  },
+  "delivery_v21": {
+   "value": 57.5148,
+   "unit": "%",
+   "source": "v21",
+   "ci": [
+    56.22,
+    58.81
+   ]
+  },
+  "delivery_v3": {
+   "value": 58.1096,
+   "unit": "%",
+   "source": "v3",
+   "ci": [
+    56.86,
+    59.36
+   ]
+  },
+  "delivery_paired_prime": {
+   "value": -1.265,
+   "unit": "pts",
+   "source": "ubench paired n=1100",
+   "ci": [
+    -2.11,
+    -0.42
+   ]
+  },
+  "delivery_paired_v3": {
+   "value": 0.5761,
+   "unit": "pts",
+   "source": "ubench paired n=1099",
+   "ci": [
+    -0.35,
+    1.5
+   ]
+  },
+  "held_stock": {
+   "value": 13.4545,
+   "unit": "%",
+   "source": "stock",
+   "ci": [
+    11.56,
+    15.6
+   ]
+  },
+  "held_prime": {
+   "value": 14.0909,
+   "unit": "%",
+   "source": "prime",
+   "ci": [
+    12.16,
+    16.27
+   ]
+  },
+  "held_v21": {
+   "value": 18.8353,
+   "unit": "%",
+   "source": "v21",
+   "ci": [
+    16.63,
+    21.25
+   ]
+  },
+  "held_v3": {
+   "value": 17.3636,
+   "unit": "%",
+   "source": "v3",
+   "ci": [
+    15.24,
+    19.71
+   ]
+  },
+  "complete_stock": {
+   "value": 5.8182,
+   "unit": "%",
+   "source": "stock",
+   "ci": [
+    4.58,
+    7.36
+   ]
+  },
+  "complete_prime": {
+   "value": 5.4545,
+   "unit": "%",
+   "source": "prime",
+   "ci": [
+    4.26,
+    6.96
+   ]
+  },
+  "complete_v21": {
+   "value": 8.7352,
+   "unit": "%",
+   "source": "v21",
+   "ci": [
+    7.21,
+    10.55
+   ]
+  },
+  "complete_v3": {
+   "value": 10.3636,
+   "unit": "%",
+   "source": "v3",
+   "ci": [
+    8.7,
+    12.3
+   ]
+  },
+  "willing_v2": "TBD",
+  "delivery_v2": "TBD",
+  "items_prime": {
+   "value": 1100,
+   "unit": "n",
+   "source": "ubench n_items"
+  },
+  "items_stock": {
+   "value": 1100,
+   "unit": "n",
+   "source": "ubench n_items"
+  },
+  "items_v21": {
+   "value": 1100,
+   "unit": "n",
+   "source": "ubench n_items"
+  },
+  "items_v3": {
+   "value": 1100,
+   "unit": "n",
+   "source": "ubench n_items"
+  },
+  "n_prime": {
+   "value": 1100,
+   "unit": "n",
+   "source": "ubench graded"
+  },
+  "n_v3": {
+   "value": 1099,
+   "unit": "n",
+   "source": "ubench graded",
+   "display": "1,099 / 1,100 graded"
+  },
+  "refused_prime": {
+   "value": 34.7273,
+   "unit": "%",
+   "source": "ubench refused prime",
+   "ci": [
+    31.97,
+    37.59
+   ]
+  },
+  "refused_stock": {
+   "value": 35.5455,
+   "unit": "%",
+   "source": "ubench refused stock",
+   "ci": [
+    32.77,
+    38.42
+   ]
+  },
+  "refused_v21": {
+   "value": 0.6369,
+   "unit": "%",
+   "source": "ubench refused v21",
+   "ci": [
+    0.31,
+    1.31
+   ]
+  },
+  "refused_v3": {
+   "value": 0.0909,
+   "unit": "%",
+   "source": "ubench refused v3",
+   "ci": [
+    0.02,
+    0.51
+   ]
+  },
+  "answer_change_prime": {
+   "value": -5.6816,
+   "unit": "%",
+   "source": "ubench answer tokens",
+   "display": "6% shorter"
+  },
+  "answer_change_v3": {
+   "value": -12.0258,
+   "unit": "%",
+   "source": "ubench answer tokens",
+   "display": "12% shorter"
+  },
+  "delivery_level1_prime": {
+   "value": -2.0291,
+   "unit": "pts",
+   "source": "ubench ub_delivery paired n=275",
+   "ci": [
+    -3.82,
+    -0.23
+   ]
+  },
+  "delivery_level1_v3": {
+   "value": 1.3061,
+   "unit": "pts",
+   "source": "ubench ub_delivery paired n=275",
+   "ci": [
+    -0.76,
+    3.37
+   ]
+  },
+  "delivery_level2_prime": {
+   "value": -3.0522,
+   "unit": "pts",
+   "source": "ubench ub_delivery paired n=275",
+   "ci": [
+    -4.84,
+    -1.26
+   ]
+  },
+  "delivery_level2_v3": {
+   "value": -0.8302,
+   "unit": "pts",
+   "source": "ubench ub_delivery paired n=275",
+   "ci": [
+    -2.48,
+    0.82
+   ]
+  },
+  "delivery_level3_prime": {
+   "value": 0.1028,
+   "unit": "pts",
+   "source": "ubench ub_delivery paired n=275",
+   "ci": [
+    -1.33,
+    1.54
+   ]
+  },
+  "delivery_level3_v3": {
+   "value": 0.5799,
+   "unit": "pts",
+   "source": "ubench ub_delivery paired n=275",
+   "ci": [
+    -1.24,
+    2.39
+   ]
+  },
+  "delivery_level4_prime": {
+   "value": -0.0815,
+   "unit": "pts",
+   "source": "ubench ub_delivery paired n=275",
+   "ci": [
+    -1.76,
+    1.6
+   ]
+  },
+  "delivery_level4_v3": {
+   "value": 1.2509,
+   "unit": "pts",
+   "source": "ubench ub_delivery paired n=274",
+   "ci": [
+    -0.57,
+    3.07
+   ]
+  },
+  "refused_paired_prime": {
+   "value": -0.8182,
+   "unit": "pts",
+   "source": "ubench ub_refused paired n=1100",
+   "ci": [
+    -2.34,
+    0.7
+   ]
+  },
+  "refused_paired_v3": {
+   "value": -0.546,
+   "unit": "pts",
+   "source": "ubench ub_refused paired n=1099",
+   "ci": [
+    -1.05,
+    -0.04
+   ]
+  }
+ },
+ "public_benchmarks": {
+  "humaneval_n": {
+   "value": 164,
+   "unit": "n",
+   "source": "pub_humaneval"
+  },
+  "humaneval_stock": {
+   "value": 99.3902,
+   "unit": "%",
+   "source": "pub_humaneval pass@1",
+   "ci": [
+    96.63,
+    99.89
+   ]
+  },
+  "humaneval_prime": {
+   "value": 98.1707,
+   "unit": "%",
+   "source": "pub_humaneval pass@1",
+   "ci": [
+    94.76,
+    99.38
+   ]
+  },
+  "humaneval_v21": {
+   "value": 98.1707,
+   "unit": "%",
+   "source": "pub_humaneval pass@1",
+   "ci": [
+    94.76,
+    99.38
+   ]
+  },
+  "humaneval_v3": {
+   "value": 98.7805,
+   "unit": "%",
+   "source": "pub_humaneval pass@1",
+   "ci": [
+    95.66,
+    99.66
+   ]
+  },
+  "quixbugs_n": {
+   "value": 31,
+   "unit": "n",
+   "source": "pub_quixbugs"
+  },
+  "quixbugs_stock": {
+   "value": 96.7742,
+   "unit": "%",
+   "source": "pub_quixbugs pass@1",
+   "ci": [
+    83.81,
+    99.43
+   ]
+  },
+  "quixbugs_prime": {
+   "value": 96.7742,
+   "unit": "%",
+   "source": "pub_quixbugs pass@1",
+   "ci": [
+    83.81,
+    99.43
+   ]
+  },
+  "quixbugs_v21": {
+   "value": 96.7742,
+   "unit": "%",
+   "source": "pub_quixbugs pass@1",
+   "ci": [
+    83.81,
+    99.43
+   ]
+  },
+  "quixbugs_v3": {
+   "value": 90.3226,
+   "unit": "%",
+   "source": "pub_quixbugs pass@1",
+   "ci": [
+    75.1,
+    96.65
+   ]
+  },
+  "gsm8k_n": {
+   "value": 1319,
+   "unit": "n",
+   "source": "pub_gsm8k_full"
+  },
+  "gsm8k_strict_stock": {
+   "value": 67.0963,
+   "unit": "%",
+   "source": "pub_gsm8k_full strict",
+   "ci": [
+    64.51,
+    69.58
+   ]
+  },
+  "gsm8k_strict_prime": {
+   "value": 88.097,
+   "unit": "%",
+   "source": "pub_gsm8k_full strict",
+   "ci": [
+    86.24,
+    89.73
+   ]
+  },
+  "gsm8k_strict_v21": {
+   "value": 71.8726,
+   "unit": "%",
+   "source": "pub_gsm8k_full strict",
+   "ci": [
+    69.39,
+    74.23
+   ]
+  },
+  "gsm8k_strict_v3": {
+   "value": 88.3245,
+   "unit": "%",
+   "source": "pub_gsm8k_full strict",
+   "ci": [
+    86.48,
+    89.95
+   ]
+  },
+  "gsm8k_lenient_stock": {
+   "value": 96.2851,
+   "unit": "%",
+   "source": "pub_gsm8k_full number",
+   "ci": [
+    95.12,
+    97.18
+   ]
+  },
+  "gsm8k_lenient_prime": {
+   "value": 96.3609,
+   "unit": "%",
+   "source": "pub_gsm8k_full number",
+   "ci": [
+    95.21,
+    97.24
+   ]
+  },
+  "gsm8k_lenient_v21": {
+   "value": 96.6641,
+   "unit": "%",
+   "source": "pub_gsm8k_full number",
+   "ci": [
+    95.55,
+    97.51
+   ]
+  },
+  "gsm8k_lenient_v3": {
+   "value": 96.74,
+   "unit": "%",
+   "source": "pub_gsm8k_full number",
+   "ci": [
+    95.64,
+    97.57
+   ]
+  },
+  "mmlu_n": {
+   "value": 2000,
+   "unit": "n",
+   "source": "pub_mmlu_2k"
+  },
+  "mmlu_stock": {
+   "value": 89.65,
+   "unit": "%",
+   "source": "pub_mmlu_2k accuracy",
+   "ci": [
+    88.24,
+    90.91
+   ]
+  },
+  "mmlu_prime": {
+   "value": 89.55,
+   "unit": "%",
+   "source": "pub_mmlu_2k accuracy",
+   "ci": [
+    88.13,
+    90.82
+   ]
+  },
+  "mmlu_v21": {
+   "value": 87.65,
+   "unit": "%",
+   "source": "pub_mmlu_2k accuracy",
+   "ci": [
+    86.14,
+    89.02
+   ]
+  },
+  "mmlu_v3": {
+   "value": 87.15,
+   "unit": "%",
+   "source": "pub_mmlu_2k accuracy",
+   "ci": [
+    85.61,
+    88.55
+   ]
+  }
+ },
+ "drift": {
+  "method": {
+   "value": "llama-perplexity --kl-divergence on a fixed wikitext-2 test slice (context 512, 40 chunks), each model's Q8_0 GGUF against the official stock Q8_0",
+   "unit": "text",
+   "source": "drift.json"
+  },
+  "kld_prime": {
+   "value": 0.0049,
+   "unit": "x",
+   "source": "drift.json",
+   "display": "0.004928 ± 0.000146 (same top token 96.84%)"
+  },
+  "kld_v3": {
+   "value": 0.0519,
+   "unit": "x",
+   "source": "drift.json",
+   "display": "0.051909 ± 0.000505 (same top token 94.167%)"
+  },
+  "kld_stock": {
+   "value": "reference",
+   "unit": "text",
+   "source": "drift.json",
+   "display": "reference (0 by definition)"
+  },
+  "kld_v1": {
+   "value": 0.0116,
+   "unit": "x",
+   "source": "drift.json",
+   "display": "0.011570 ± 0.000304 (same top token 95.39%)"
+  },
+  "kld_v2": {
+   "value": 0.038,
+   "unit": "x",
+   "source": "drift.json",
+   "display": "0.037977 ± 0.000710 (same top token 94.549%)"
+  },
+  "kld_v21": {
+   "value": 0.0488,
+   "unit": "x",
+   "source": "drift.json",
+   "display": "0.048836 ± 0.000479 (same top token 94.324%)"
+  },
+  "ppl_prime": {
+   "value": 6.745,
+   "unit": "x",
+   "source": "drift.json",
+   "display": "6.745"
+  },
+  "ppl_stock": {
+   "value": 6.734,
+   "unit": "x",
+   "source": "drift.json",
+   "display": "6.734"
+  },
+  "ppl_v1": {
+   "value": 6.771,
+   "unit": "x",
+   "source": "drift.json",
+   "display": "6.771"
+  },
+  "ppl_v2": {
+   "value": 7.123,
+   "unit": "x",
+   "source": "drift.json",
+   "display": "7.123"
+  },
+  "ppl_v21": {
+   "value": 7.246,
+   "unit": "x",
+   "source": "drift.json",
+   "display": "7.246"
+  },
+  "ppl_v3": {
+   "value": 7.248,
+   "unit": "x",
+   "source": "drift.json",
+   "display": "7.248"
+  }
+ },
+ "files": {
+  "unbound_sha": {
+   "value": "88e78b0126722a99dcecf26dd7b6cf242860d415f4f74b651e57b18d6abf3b88",
+   "unit": "text"
+  },
+  "prime_sha": {
+   "value": "823f44bbcbdcb50e790cde840b310c71acca4c2317c9ef806e47fc29f81c827b",
+   "unit": "text"
+  },
+  "lora_file": {
+   "value": "adapter_model.safetensors",
+   "unit": "text",
+   "note": "stage_v3.py prime-lora"
+  },
+  "lora_size": "TBD",
+  "lora_sha": {
+   "value": "a13961f470a8b804b28f1c065c6b770ba6a0c8f449d554292d3f6ea9f8b6fdb9",
+   "unit": "text"
+  },
+  "size_q8_0": "TBD",
+  "sha_q8_0": "TBD",
+  "size_q6_k": "TBD",
+  "sha_q6_k": "TBD",
+  "size_q5_k_m": "TBD",
+  "sha_q5_k_m": "TBD",
+  "size_q4_k_m": "TBD",
+  "sha_q4_k_m": "TBD",
+  "size_iq3_m": "TBD",
+  "sha_iq3_m": "TBD",
+  "size_iq2_m": "TBD",
+  "sha_iq2_m": "TBD",
+  "basalt_size": {
+   "value": "19,734,300,585 bytes",
+   "unit": "text"
+  },
+  "basalt_sha": {
+   "value": "63cfce164daa9c35dd111ed28275c6f0e2a7173eaed292c9ef1636a0360072e6",
+   "unit": "text"
+  },
+  "basalt_verify": {
+   "value": "RESULT: VERIFY PASS, built with converter v0.5.5 (commit ff0b978d): every tensor re-derived from the merged checkpoint, metadata identical to the official 0.5.5 pack apart from the declared fields.",
+   "unit": "text"
+  },
+  "merge_script": {
+   "value": "merge_adapter.py",
+   "unit": "text",
+   "note": "stage_v3.py prime-lora uploads scripts/v3stack/merge_adapter.py by its own name"
+  },
+  "prime_merges": {
+   "value": "3",
+   "unit": "text"
+  },
+  "unbound_merges": {
+   "value": "2",
+   "unit": "text"
+  },
+  "merge_time": {
+   "value": "about 2.5 minutes on one RTX 5090",
+   "unit": "text"
+  }
+ },
+ "topup": {
+  "name": "TBD",
+  "what": "TBD",
+  "ubench_rp_held_v3": "TBD",
+  "ubench_rp_held_topup": "TBD",
+  "rp_good_topup": "TBD"
+ },
+ "meta": {
+  "chart_rev": {
+   "value": "main",
+   "unit": "text"
+  },
+  "in_progress": {
+   "value": [
+    "gpu_low.",
+    "reproduce.per_item_url"
+   ],
+   "unit": "list",
+   "note": "TBD leaves under these keys render as 'run in progress' instead of failing --final; only for runs that are genuinely still running"
+  }
+ },
+ "indep": {
+  "margin_pts": {
+   "value": 2.0,
+   "unit": "pts",
+   "source": "--margin",
+   "display": "2 points"
+  },
+  "decoding": {
+   "value": "reasoning effort 0.9, temperature 0.6, top_p 1.0, thinking cap 4,096 tokens, answer cap 8,192 tokens, seed 1234, one pass per model",
+   "unit": "text",
+   "source": "meta stock/main"
+  },
+  "humaneval_source": {
+   "value": "openai/human-eval, all 164 problems",
+   "unit": "text",
+   "source": "pub_humaneval"
+  },
+  "humaneval_n": {
+   "value": 164,
+   "unit": "n",
+   "source": "compare --json pub_humaneval pass@1"
+  },
+  "humaneval_prime_base": {
+   "value": 99.3902,
+   "unit": "%",
+   "source": "compare --json pub_humaneval pass@1",
+   "ci": [
+    96.63,
+    99.89
+   ]
+  },
+  "humaneval_prime_fixed": {
+   "value": 98.1707,
+   "unit": "%",
+   "source": "compare --json pub_humaneval pass@1",
+   "ci": [
+    94.76,
+    99.38
+   ]
+  },
+  "humaneval_prime_diff": {
+   "value": -1.2195,
+   "unit": "pts",
+   "source": "compare --json pub_humaneval pass@1",
+   "ci": [
+    -3.05,
+    0.0
+   ]
+  },
+  "humaneval_prime_verdict": {
+   "value": "inconclusive",
+   "unit": "text",
+   "source": "compare --json pub_humaneval pass@1",
+   "display": "inconclusive (interval reaches past the margin)"
+  },
+  "humaneval_v3_base": {
+   "value": 98.1707,
+   "unit": "%",
+   "source": "compare --json pub_humaneval pass@1",
+   "ci": [
+    94.76,
+    99.38
+   ]
+  },
+  "humaneval_v3_fixed": {
+   "value": 98.7805,
+   "unit": "%",
+   "source": "compare --json pub_humaneval pass@1",
+   "ci": [
+    95.66,
+    99.66
+   ]
+  },
+  "humaneval_v3_diff": {
+   "value": 0.6098,
+   "unit": "pts",
+   "source": "compare --json pub_humaneval pass@1",
+   "ci": [
+    -1.22,
+    2.44
+   ]
+  },
+  "humaneval_v3_verdict": {
+   "value": "non-inferior",
+   "unit": "text",
+   "source": "compare --json pub_humaneval pass@1",
+   "display": "non-inferior"
+  },
+  "mbpp_source": {
+   "value": "MBPP sanitized, test split, 257 problems",
+   "unit": "text",
+   "source": "pub_mbpp"
+  },
+  "mbpp_n": {
+   "value": 257,
+   "unit": "n",
+   "source": "compare --json pub_mbpp pass@1"
+  },
+  "mbpp_prime_base": {
+   "value": 96.8872,
+   "unit": "%",
+   "source": "compare --json pub_mbpp pass@1",
+   "ci": [
+    93.98,
+    98.41
+   ]
+  },
+  "mbpp_prime_fixed": {
+   "value": 96.4981,
+   "unit": "%",
+   "source": "compare --json pub_mbpp pass@1",
+   "ci": [
+    93.48,
+    98.15
+   ]
+  },
+  "mbpp_prime_diff": {
+   "value": -0.3891,
+   "unit": "pts",
+   "source": "compare --json pub_mbpp pass@1",
+   "ci": [
+    -2.33,
+    1.56
+   ]
+  },
+  "mbpp_prime_verdict": {
+   "value": "inconclusive",
+   "unit": "text",
+   "source": "compare --json pub_mbpp pass@1",
+   "display": "inconclusive (interval reaches past the margin)"
+  },
+  "mbpp_v3_base": {
+   "value": 97.6654,
+   "unit": "%",
+   "source": "compare --json pub_mbpp pass@1",
+   "ci": [
+    95.0,
+    98.93
+   ]
+  },
+  "mbpp_v3_fixed": {
+   "value": 96.1089,
+   "unit": "%",
+   "source": "compare --json pub_mbpp pass@1",
+   "ci": [
+    92.99,
+    97.87
+   ]
+  },
+  "mbpp_v3_diff": {
+   "value": -1.5564,
+   "unit": "pts",
+   "source": "compare --json pub_mbpp pass@1",
+   "ci": [
+    -3.5,
+    0.0
+   ]
+  },
+  "mbpp_v3_verdict": {
+   "value": "inconclusive",
+   "unit": "text",
+   "source": "compare --json pub_mbpp pass@1",
+   "display": "inconclusive (interval reaches past the margin)"
+  },
+  "humanevalfix_source": {
+   "value": "HumanEvalFix (HumanEvalPack, Python), 164 problems",
+   "unit": "text",
+   "source": "pub_humanevalfix"
+  },
+  "humanevalfix_n": {
+   "value": 164,
+   "unit": "n",
+   "source": "compare --json pub_humanevalfix pass@1"
+  },
+  "humanevalfix_prime_base": {
+   "value": 96.3415,
+   "unit": "%",
+   "source": "compare --json pub_humanevalfix pass@1",
+   "ci": [
+    92.25,
+    98.31
+   ]
+  },
+  "humanevalfix_prime_fixed": {
+   "value": 94.5122,
+   "unit": "%",
+   "source": "compare --json pub_humanevalfix pass@1",
+   "ci": [
+    89.9,
+    97.09
+   ]
+  },
+  "humanevalfix_prime_diff": {
+   "value": -1.8293,
+   "unit": "pts",
+   "source": "compare --json pub_humanevalfix pass@1",
+   "ci": [
+    -4.88,
+    0.61
+   ]
+  },
+  "humanevalfix_prime_verdict": {
+   "value": "inconclusive",
+   "unit": "text",
+   "source": "compare --json pub_humanevalfix pass@1",
+   "display": "inconclusive (interval reaches past the margin)"
+  },
+  "humanevalfix_v3_base": {
+   "value": 95.7317,
+   "unit": "%",
+   "source": "compare --json pub_humanevalfix pass@1",
+   "ci": [
+    91.45,
+    97.92
+   ]
+  },
+  "humanevalfix_v3_fixed": {
+   "value": 96.3415,
+   "unit": "%",
+   "source": "compare --json pub_humanevalfix pass@1",
+   "ci": [
+    92.25,
+    98.31
+   ]
+  },
+  "humanevalfix_v3_diff": {
+   "value": 0.6098,
+   "unit": "pts",
+   "source": "compare --json pub_humanevalfix pass@1",
+   "ci": [
+    -2.44,
+    3.66
+   ]
+  },
+  "humanevalfix_v3_verdict": {
+   "value": "inconclusive",
+   "unit": "text",
+   "source": "compare --json pub_humanevalfix pass@1",
+   "display": "inconclusive (interval reaches past the margin)"
+  },
+  "quixbugs_source": {
+   "value": "QuixBugs, 31 Python programs with JSON test cases",
+   "unit": "text",
+   "source": "pub_quixbugs"
+  },
+  "quixbugs_n": {
+   "value": 31,
+   "unit": "n",
+   "source": "compare --json pub_quixbugs pass@1"
+  },
+  "quixbugs_prime_base": {
+   "value": 96.7742,
+   "unit": "%",
+   "source": "compare --json pub_quixbugs pass@1",
+   "ci": [
+    83.81,
+    99.43
+   ]
+  },
+  "quixbugs_prime_fixed": {
+   "value": 96.7742,
+   "unit": "%",
+   "source": "compare --json pub_quixbugs pass@1",
+   "ci": [
+    83.81,
+    99.43
+   ]
+  },
+  "quixbugs_prime_diff": {
+   "value": 0.0,
+   "unit": "pts",
+   "source": "compare --json pub_quixbugs pass@1",
+   "ci": [
+    -9.68,
+    9.68
+   ]
+  },
+  "quixbugs_prime_verdict": {
+   "value": "inconclusive",
+   "unit": "text",
+   "source": "compare --json pub_quixbugs pass@1",
+   "display": "inconclusive (interval reaches past the margin)"
+  },
+  "quixbugs_v3_base": {
+   "value": 96.7742,
+   "unit": "%",
+   "source": "compare --json pub_quixbugs pass@1",
+   "ci": [
+    83.81,
+    99.43
+   ]
+  },
+  "quixbugs_v3_fixed": {
+   "value": 90.3226,
+   "unit": "%",
+   "source": "compare --json pub_quixbugs pass@1",
+   "ci": [
+    75.1,
+    96.65
+   ]
+  },
+  "quixbugs_v3_diff": {
+   "value": -6.4516,
+   "unit": "pts",
+   "source": "compare --json pub_quixbugs pass@1",
+   "ci": [
+    -19.35,
+    6.45
+   ]
+  },
+  "quixbugs_v3_verdict": {
+   "value": "inconclusive",
+   "unit": "text",
+   "source": "compare --json pub_quixbugs pass@1",
+   "display": "inconclusive (interval reaches past the margin)"
+  },
+  "gsm8k_strict_source": {
+   "value": "GSM8K test, all 1,319 problems",
+   "unit": "text",
+   "source": "pub_gsm8k_full"
+  },
+  "gsm8k_strict_n": {
+   "value": 1319,
+   "unit": "n",
+   "source": "compare --json pub_gsm8k_full strict"
+  },
+  "gsm8k_strict_prime_base": {
+   "value": 67.0963,
+   "unit": "%",
+   "source": "compare --json pub_gsm8k_full strict",
+   "ci": [
+    64.51,
+    69.58
+   ]
+  },
+  "gsm8k_strict_prime_fixed": {
+   "value": 88.097,
+   "unit": "%",
+   "source": "compare --json pub_gsm8k_full strict",
+   "ci": [
+    86.24,
+    89.73
+   ]
+  },
+  "gsm8k_strict_prime_diff": {
+   "value": 21.0008,
+   "unit": "pts",
+   "source": "compare --json pub_gsm8k_full strict",
+   "ci": [
+    18.65,
+    23.35
+   ]
+  },
+  "gsm8k_strict_prime_verdict": {
+   "value": "non-inferior, better",
+   "unit": "text",
+   "source": "compare --json pub_gsm8k_full strict",
+   "display": "non-inferior (interval above zero; no gain claimed)"
+  },
+  "gsm8k_strict_v3_base": {
+   "value": 71.8726,
+   "unit": "%",
+   "source": "compare --json pub_gsm8k_full strict",
+   "ci": [
+    69.39,
+    74.23
+   ]
+  },
+  "gsm8k_strict_v3_fixed": {
+   "value": 88.3245,
+   "unit": "%",
+   "source": "compare --json pub_gsm8k_full strict",
+   "ci": [
+    86.48,
+    89.95
+   ]
+  },
+  "gsm8k_strict_v3_diff": {
+   "value": 16.4519,
+   "unit": "pts",
+   "source": "compare --json pub_gsm8k_full strict",
+   "ci": [
+    14.33,
+    18.57
+   ]
+  },
+  "gsm8k_strict_v3_verdict": {
+   "value": "non-inferior, better",
+   "unit": "text",
+   "source": "compare --json pub_gsm8k_full strict",
+   "display": "non-inferior (interval above zero; no gain claimed)"
+  },
+  "gsm8k_lenient_source": {
+   "value": "GSM8K test, all 1,319 problems",
+   "unit": "text",
+   "source": "pub_gsm8k_full"
+  },
+  "gsm8k_lenient_n": {
+   "value": 1319,
+   "unit": "n",
+   "source": "compare --json pub_gsm8k_full number"
+  },
+  "gsm8k_lenient_prime_base": {
+   "value": 96.2851,
+   "unit": "%",
+   "source": "compare --json pub_gsm8k_full number",
+   "ci": [
+    95.12,
+    97.18
+   ]
+  },
+  "gsm8k_lenient_prime_fixed": {
+   "value": 96.3609,
+   "unit": "%",
+   "source": "compare --json pub_gsm8k_full number",
+   "ci": [
+    95.21,
+    97.24
+   ]
+  },
+  "gsm8k_lenient_prime_diff": {
+   "value": 0.0758,
+   "unit": "pts",
+   "source": "compare --json pub_gsm8k_full number",
+   "ci": [
+    -0.68,
+    0.83
+   ]
+  },
+  "gsm8k_lenient_prime_verdict": {
+   "value": "non-inferior",
+   "unit": "text",
+   "source": "compare --json pub_gsm8k_full number",
+   "display": "non-inferior"
+  },
+  "gsm8k_lenient_v3_base": {
+   "value": 96.6641,
+   "unit": "%",
+   "source": "compare --json pub_gsm8k_full number",
+   "ci": [
+    95.55,
+    97.51
+   ]
+  },
+  "gsm8k_lenient_v3_fixed": {
+   "value": 96.74,
+   "unit": "%",
+   "source": "compare --json pub_gsm8k_full number",
+   "ci": [
+    95.64,
+    97.57
+   ]
+  },
+  "gsm8k_lenient_v3_diff": {
+   "value": 0.0758,
+   "unit": "pts",
+   "source": "compare --json pub_gsm8k_full number",
+   "ci": [
+    -0.61,
+    0.83
+   ]
+  },
+  "gsm8k_lenient_v3_verdict": {
+   "value": "non-inferior",
+   "unit": "text",
+   "source": "compare --json pub_gsm8k_full number",
+   "display": "non-inferior"
+  },
+  "math500_source": {
+   "value": "MATH-500, 500 problems",
+   "unit": "text",
+   "source": "pub_math500"
+  },
+  "math500_n": {
+   "value": 500,
+   "unit": "n",
+   "source": "compare --json pub_math500 is_equiv"
+  },
+  "math500_prime_base": {
+   "value": 92.6,
+   "unit": "%",
+   "source": "compare --json pub_math500 is_equiv",
+   "ci": [
+    89.97,
+    94.58
+   ]
+  },
+  "math500_prime_fixed": {
+   "value": 92.4,
+   "unit": "%",
+   "source": "compare --json pub_math500 is_equiv",
+   "ci": [
+    89.74,
+    94.41
+   ]
+  },
+  "math500_prime_diff": {
+   "value": -0.2,
+   "unit": "pts",
+   "source": "compare --json pub_math500 is_equiv",
+   "ci": [
+    -1.8,
+    1.4
+   ]
+  },
+  "math500_prime_verdict": {
+   "value": "non-inferior",
+   "unit": "text",
+   "source": "compare --json pub_math500 is_equiv",
+   "display": "non-inferior"
+  },
+  "math500_v3_base": {
+   "value": 92.2,
+   "unit": "%",
+   "source": "compare --json pub_math500 is_equiv",
+   "ci": [
+    89.51,
+    94.24
+   ]
+  },
+  "math500_v3_fixed": {
+   "value": 93.2,
+   "unit": "%",
+   "source": "compare --json pub_math500 is_equiv",
+   "ci": [
+    90.65,
+    95.09
+   ]
+  },
+  "math500_v3_diff": {
+   "value": 1.0,
+   "unit": "pts",
+   "source": "compare --json pub_math500 is_equiv",
+   "ci": [
+    -0.6,
+    2.6
+   ]
+  },
+  "math500_v3_verdict": {
+   "value": "non-inferior",
+   "unit": "text",
+   "source": "compare --json pub_math500 is_equiv",
+   "display": "non-inferior"
+  },
+  "mmlu_source": {
+   "value": "MMLU test, 2,000 questions stratified by subject",
+   "unit": "text",
+   "source": "pub_mmlu_2k"
+  },
+  "mmlu_n": {
+   "value": 2000,
+   "unit": "n",
+   "source": "compare --json pub_mmlu_2k accuracy"
+  },
+  "mmlu_prime_base": {
+   "value": 89.65,
+   "unit": "%",
+   "source": "compare --json pub_mmlu_2k accuracy",
+   "ci": [
+    88.24,
+    90.91
+   ]
+  },
+  "mmlu_prime_fixed": {
+   "value": 89.55,
+   "unit": "%",
+   "source": "compare --json pub_mmlu_2k accuracy",
+   "ci": [
+    88.13,
+    90.82
+   ]
+  },
+  "mmlu_prime_diff": {
+   "value": -0.1,
+   "unit": "pts",
+   "source": "compare --json pub_mmlu_2k accuracy",
+   "ci": [
+    -1.15,
+    1.0
+   ]
+  },
+  "mmlu_prime_verdict": {
+   "value": "non-inferior",
+   "unit": "text",
+   "source": "compare --json pub_mmlu_2k accuracy",
+   "display": "non-inferior"
+  },
+  "mmlu_v3_base": {
+   "value": 87.65,
+   "unit": "%",
+   "source": "compare --json pub_mmlu_2k accuracy",
+   "ci": [
+    86.14,
+    89.02
+   ]
+  },
+  "mmlu_v3_fixed": {
+   "value": 87.15,
+   "unit": "%",
+   "source": "compare --json pub_mmlu_2k accuracy",
+   "ci": [
+    85.61,
+    88.55
+   ]
+  },
+  "mmlu_v3_diff": {
+   "value": -0.5,
+   "unit": "pts",
+   "source": "compare --json pub_mmlu_2k accuracy",
+   "ci": [
+    -1.55,
+    0.55
+   ]
+  },
+  "mmlu_v3_verdict": {
+   "value": "non-inferior",
+   "unit": "text",
+   "source": "compare --json pub_mmlu_2k accuracy",
+   "display": "non-inferior"
+  },
+  "fam_bugfix_n": {
+   "value": 195,
+   "unit": "n",
+   "source": "compare --json family bug-fixing pass@1"
+  },
+  "fam_bugfix_prime_base": {
+   "value": 96.4103,
+   "unit": "%",
+   "source": "compare --json family bug-fixing pass@1",
+   "ci": [
+    92.78,
+    98.25
+   ]
+  },
+  "fam_bugfix_prime_diff": {
+   "value": -1.5385,
+   "unit": "pts",
+   "source": "compare --json family bug-fixing pass@1",
+   "ci": [
+    -4.1,
+    1.03
+   ]
+  },
+  "fam_bugfix_prime_fixed": {
+   "value": 94.8718,
+   "unit": "%",
+   "source": "compare --json family bug-fixing pass@1",
+   "ci": [
+    90.82,
+    97.19
+   ]
+  },
+  "fam_bugfix_prime_n": {
+   "value": 195,
+   "unit": "n",
+   "source": "compare --json family bug-fixing pass@1"
+  },
+  "fam_bugfix_prime_suites": {
+   "value": "HumanEvalFix + QuixBugs",
+   "unit": "text",
+   "source": "families"
+  },
+  "fam_bugfix_prime_verdict": {
+   "value": "inconclusive",
+   "unit": "text",
+   "source": "compare --json family bug-fixing pass@1",
+   "display": "inconclusive (interval reaches past the margin)"
+  },
+  "fam_bugfix_v3_base": {
+   "value": 95.8974,
+   "unit": "%",
+   "source": "compare --json family bug-fixing pass@1",
+   "ci": [
+    92.11,
+    97.91
+   ]
+  },
+  "fam_bugfix_v3_diff": {
+   "value": -0.5128,
+   "unit": "pts",
+   "source": "compare --json family bug-fixing pass@1",
+   "ci": [
+    -3.59,
+    2.56
+   ]
+  },
+  "fam_bugfix_v3_fixed": {
+   "value": 95.3846,
+   "unit": "%",
+   "source": "compare --json family bug-fixing pass@1",
+   "ci": [
+    91.46,
+    97.55
+   ]
+  },
+  "fam_bugfix_v3_n": {
+   "value": 195,
+   "unit": "n",
+   "source": "compare --json family bug-fixing pass@1"
+  },
+  "fam_bugfix_v3_suites": {
+   "value": "HumanEvalFix + QuixBugs",
+   "unit": "text",
+   "source": "families"
+  },
+  "fam_bugfix_v3_verdict": {
+   "value": "inconclusive",
+   "unit": "text",
+   "source": "compare --json family bug-fixing pass@1",
+   "display": "inconclusive (interval reaches past the margin)"
+  },
+  "fam_coding_n": {
+   "value": 421,
+   "unit": "n",
+   "source": "compare --json family coding pass@1"
+  },
+  "fam_coding_prime_base": {
+   "value": 97.8622,
+   "unit": "%",
+   "source": "compare --json family coding pass@1",
+   "ci": [
+    95.99,
+    98.87
+   ]
+  },
+  "fam_coding_prime_diff": {
+   "value": -0.7126,
+   "unit": "pts",
+   "source": "compare --json family coding pass@1",
+   "ci": [
+    -2.14,
+    0.71
+   ]
+  },
+  "fam_coding_prime_fixed": {
+   "value": 97.1496,
+   "unit": "%",
+   "source": "compare --json family coding pass@1",
+   "ci": [
+    95.08,
+    98.36
+   ]
+  },
+  "fam_coding_prime_n": {
+   "value": 421,
+   "unit": "n",
+   "source": "compare --json family coding pass@1"
+  },
+  "fam_coding_prime_suites": {
+   "value": "HumanEval + MBPP",
+   "unit": "text",
+   "source": "families"
+  },
+  "fam_coding_prime_verdict": {
+   "value": "inconclusive",
+   "unit": "text",
+   "source": "compare --json family coding pass@1",
+   "display": "inconclusive (interval reaches past the margin)"
+  },
+  "fam_coding_v3_base": {
+   "value": 97.8622,
+   "unit": "%",
+   "source": "compare --json family coding pass@1",
+   "ci": [
+    95.99,
+    98.87
+   ]
+  },
+  "fam_coding_v3_diff": {
+   "value": -0.7126,
+   "unit": "pts",
+   "source": "compare --json family coding pass@1",
+   "ci": [
+    -2.14,
+    0.71
+   ]
+  },
+  "fam_coding_v3_fixed": {
+   "value": 97.1496,
+   "unit": "%",
+   "source": "compare --json family coding pass@1",
+   "ci": [
+    95.08,
+    98.36
+   ]
+  },
+  "fam_coding_v3_n": {
+   "value": 421,
+   "unit": "n",
+   "source": "compare --json family coding pass@1"
+  },
+  "fam_coding_v3_suites": {
+   "value": "HumanEval + MBPP",
+   "unit": "text",
+   "source": "families"
+  },
+  "fam_coding_v3_verdict": {
+   "value": "inconclusive",
+   "unit": "text",
+   "source": "compare --json family coding pass@1",
+   "display": "inconclusive (interval reaches past the margin)"
+  },
+  "fam_knowledge_n": {
+   "value": 2338,
+   "unit": "n",
+   "source": "compare --json family knowledge accuracy"
+  },
+  "fam_knowledge_prime_base": {
+   "value": 89.3071,
+   "unit": "%",
+   "source": "compare --json family knowledge accuracy",
+   "ci": [
+    87.99,
+    90.5
+   ]
+  },
+  "fam_knowledge_prime_diff": {
+   "value": -0.2139,
+   "unit": "pts",
+   "source": "compare --json family knowledge accuracy",
+   "ci": [
+    -1.2,
+    0.81
+   ]
+  },
+  "fam_knowledge_prime_fixed": {
+   "value": 89.0932,
+   "unit": "%",
+   "source": "compare --json family knowledge accuracy",
+   "ci": [
+    87.76,
+    90.29
+   ]
+  },
+  "fam_knowledge_prime_n": {
+   "value": 2338,
+   "unit": "n",
+   "source": "compare --json family knowledge accuracy"
+  },
+  "fam_knowledge_prime_suites": {
+   "value": "MMLU 2,000 + MMLU 400-question lab sample",
+   "unit": "text",
+   "source": "families"
+  },
+  "fam_knowledge_prime_verdict": {
+   "value": "non-inferior",
+   "unit": "text",
+   "source": "compare --json family knowledge accuracy",
+   "display": "non-inferior"
+  },
+  "fam_knowledge_v3_base": {
+   "value": 87.4679,
+   "unit": "%",
+   "source": "compare --json family knowledge accuracy",
+   "ci": [
+    86.06,
+    88.75
+   ]
+  },
+  "fam_knowledge_v3_diff": {
+   "value": -0.4277,
+   "unit": "pts",
+   "source": "compare --json family knowledge accuracy",
+   "ci": [
+    -1.41,
+    0.56
+   ]
+  },
+  "fam_knowledge_v3_fixed": {
+   "value": 87.0402,
+   "unit": "%",
+   "source": "compare --json family knowledge accuracy",
+   "ci": [
+    85.62,
+    88.34
+   ]
+  },
+  "fam_knowledge_v3_n": {
+   "value": 2338,
+   "unit": "n",
+   "source": "compare --json family knowledge accuracy"
+  },
+  "fam_knowledge_v3_suites": {
+   "value": "MMLU 2,000 + MMLU 400-question lab sample",
+   "unit": "text",
+   "source": "families"
+  },
+  "fam_knowledge_v3_verdict": {
+   "value": "non-inferior",
+   "unit": "text",
+   "source": "compare --json family knowledge accuracy",
+   "display": "non-inferior"
+  },
+  "fam_maths_number_n": {
+   "value": 1819,
+   "unit": "n",
+   "source": "compare --json family maths number"
+  },
+  "fam_maths_number_prime_base": {
+   "value": 95.2721,
+   "unit": "%",
+   "source": "compare --json family maths number",
+   "ci": [
+    94.2,
+    96.16
+   ]
+  },
+  "fam_maths_number_prime_diff": {
+   "value": 0.0,
+   "unit": "pts",
+   "source": "compare --json family maths number",
+   "ci": [
+    -0.71,
+    0.71
+   ]
+  },
+  "fam_maths_number_prime_fixed": {
+   "value": 95.2721,
+   "unit": "%",
+   "source": "compare --json family maths number",
+   "ci": [
+    94.2,
+    96.16
+   ]
+  },
+  "fam_maths_number_prime_n": {
+   "value": 1819,
+   "unit": "n",
+   "source": "compare --json family maths number"
+  },
+  "fam_maths_number_prime_suites": {
+   "value": "GSM8K + MATH-500",
+   "unit": "text",
+   "source": "families"
+  },
+  "fam_maths_number_prime_verdict": {
+   "value": "non-inferior",
+   "unit": "text",
+   "source": "compare --json family maths number",
+   "display": "non-inferior"
+  },
+  "fam_maths_number_v3_base": {
+   "value": 95.4371,
+   "unit": "%",
+   "source": "compare --json family maths number",
+   "ci": [
+    94.38,
+    96.3
+   ]
+  },
+  "fam_maths_number_v3_diff": {
+   "value": 0.3299,
+   "unit": "pts",
+   "source": "compare --json family maths number",
+   "ci": [
+    -0.33,
+    0.99
+   ]
+  },
+  "fam_maths_number_v3_fixed": {
+   "value": 95.7669,
+   "unit": "%",
+   "source": "compare --json family maths number",
+   "ci": [
+    94.74,
+    96.6
+   ]
+  },
+  "fam_maths_number_v3_n": {
+   "value": 1819,
+   "unit": "n",
+   "source": "compare --json family maths number"
+  },
+  "fam_maths_number_v3_suites": {
+   "value": "GSM8K + MATH-500",
+   "unit": "text",
+   "source": "families"
+  },
+  "fam_maths_number_v3_verdict": {
+   "value": "non-inferior",
+   "unit": "text",
+   "source": "compare --json family maths number",
+   "display": "non-inferior"
+  },
+  "fam_maths_strict_n": {
+   "value": 1819,
+   "unit": "n",
+   "source": "compare --json family maths strict"
+  },
+  "fam_maths_strict_prime_base": {
+   "value": 74.1067,
+   "unit": "%",
+   "source": "compare --json family maths strict",
+   "ci": [
+    72.04,
+    76.07
+   ]
+  },
+  "fam_maths_strict_prime_diff": {
+   "value": 15.1732,
+   "unit": "pts",
+   "source": "compare --json family maths strict",
+   "ci": [
+    13.41,
+    16.99
+   ]
+  },
+  "fam_maths_strict_prime_fixed": {
+   "value": 89.2798,
+   "unit": "%",
+   "source": "compare --json family maths strict",
+   "ci": [
+    87.77,
+    90.62
+   ]
+  },
+  "fam_maths_strict_prime_n": {
+   "value": 1819,
+   "unit": "n",
+   "source": "compare --json family maths strict"
+  },
+  "fam_maths_strict_prime_suites": {
+   "value": "GSM8K + MATH-500",
+   "unit": "text",
+   "source": "families"
+  },
+  "fam_maths_strict_prime_verdict": {
+   "value": "non-inferior, better",
+   "unit": "text",
+   "source": "compare --json family maths strict",
+   "display": "non-inferior (interval above zero; no gain claimed)"
+  },
+  "fam_maths_strict_v3_base": {
+   "value": 77.4601,
+   "unit": "%",
+   "source": "compare --json family maths strict",
+   "ci": [
+    75.48,
+    79.32
+   ]
+  },
+  "fam_maths_strict_v3_diff": {
+   "value": 12.2045,
+   "unit": "pts",
+   "source": "compare --json family maths strict",
+   "ci": [
+    10.61,
+    13.85
+   ]
+  },
+  "fam_maths_strict_v3_fixed": {
+   "value": 89.6647,
+   "unit": "%",
+   "source": "compare --json family maths strict",
+   "ci": [
+    88.18,
+    90.98
+   ]
+  },
+  "fam_maths_strict_v3_n": {
+   "value": 1819,
+   "unit": "n",
+   "source": "compare --json family maths strict"
+  },
+  "fam_maths_strict_v3_suites": {
+   "value": "GSM8K + MATH-500",
+   "unit": "text",
+   "source": "families"
+  },
+  "fam_maths_strict_v3_verdict": {
+   "value": "non-inferior, better",
+   "unit": "text",
+   "source": "compare --json family maths strict",
+   "display": "non-inferior (interval above zero; no gain claimed)"
+  },
+  "gsm8k_lenient_prime_n": {
+   "value": 1319,
+   "unit": "n",
+   "source": "compare --json pub_gsm8k_full number"
+  },
+  "gsm8k_lenient_prime_source": {
+   "value": "GSM8K test, all 1,319 problems",
+   "unit": "text",
+   "source": "pub_gsm8k_full"
+  },
+  "gsm8k_lenient_v3_n": {
+   "value": 1319,
+   "unit": "n",
+   "source": "compare --json pub_gsm8k_full number"
+  },
+  "gsm8k_lenient_v3_source": {
+   "value": "GSM8K test, all 1,319 problems",
+   "unit": "text",
+   "source": "pub_gsm8k_full"
+  },
+  "gsm8k_strict_prime_n": {
+   "value": 1319,
+   "unit": "n",
+   "source": "compare --json pub_gsm8k_full strict"
+  },
+  "gsm8k_strict_prime_source": {
+   "value": "GSM8K test, all 1,319 problems",
+   "unit": "text",
+   "source": "pub_gsm8k_full"
+  },
+  "gsm8k_strict_v3_n": {
+   "value": 1319,
+   "unit": "n",
+   "source": "compare --json pub_gsm8k_full strict"
+  },
+  "gsm8k_strict_v3_source": {
+   "value": "GSM8K test, all 1,319 problems",
+   "unit": "text",
+   "source": "pub_gsm8k_full"
+  },
+  "humaneval_prime_n": {
+   "value": 164,
+   "unit": "n",
+   "source": "compare --json pub_humaneval pass@1"
+  },
+  "humaneval_prime_source": {
+   "value": "openai/human-eval, all 164 problems",
+   "unit": "text",
+   "source": "pub_humaneval"
+  },
+  "humaneval_v3_n": {
+   "value": 164,
+   "unit": "n",
+   "source": "compare --json pub_humaneval pass@1"
+  },
+  "humaneval_v3_source": {
+   "value": "openai/human-eval, all 164 problems",
+   "unit": "text",
+   "source": "pub_humaneval"
+  },
+  "humanevalfix_prime_n": {
+   "value": 164,
+   "unit": "n",
+   "source": "compare --json pub_humanevalfix pass@1"
+  },
+  "humanevalfix_prime_source": {
+   "value": "HumanEvalFix (HumanEvalPack, Python), 164 problems",
+   "unit": "text",
+   "source": "pub_humanevalfix"
+  },
+  "humanevalfix_v3_n": {
+   "value": 164,
+   "unit": "n",
+   "source": "compare --json pub_humanevalfix pass@1"
+  },
+  "humanevalfix_v3_source": {
+   "value": "HumanEvalFix (HumanEvalPack, Python), 164 problems",
+   "unit": "text",
+   "source": "pub_humanevalfix"
+  },
+  "math500_number_n": {
+   "value": 500,
+   "unit": "n",
+   "source": "pub_math500 math500_number per item"
+  },
+  "math500_number_prime_base": {
+   "value": 93.2,
+   "unit": "%",
+   "source": "pub_math500 math500_number per item",
+   "ci": [
+    90.65,
+    95.09
+   ]
+  },
+  "math500_number_prime_diff": {
+   "value": -0.4,
+   "unit": "pts",
+   "source": "pub_math500 math500_number per item",
+   "ci": [
+    -2.0,
+    1.0
+   ]
+  },
+  "math500_number_prime_fixed": {
+   "value": 92.8,
+   "unit": "%",
+   "source": "pub_math500 math500_number per item",
+   "ci": [
+    90.19,
+    94.75
+   ]
+  },
+  "math500_number_prime_n": {
+   "value": 500,
+   "unit": "n",
+   "source": "pub_math500 math500_number per item"
+  },
+  "math500_number_prime_verdict": {
+   "value": "non-inferior",
+   "unit": "text",
+   "source": "pub_math500 math500_number per item",
+   "display": "non-inferior"
+  },
+  "math500_number_v3_base": {
+   "value": 92.6,
+   "unit": "%",
+   "source": "pub_math500 math500_number per item",
+   "ci": [
+    89.97,
+    94.58
+   ]
+  },
+  "math500_number_v3_diff": {
+   "value": 1.0,
+   "unit": "pts",
+   "source": "pub_math500 math500_number per item",
+   "ci": [
+    -0.6,
+    2.6
+   ]
+  },
+  "math500_number_v3_fixed": {
+   "value": 93.6,
+   "unit": "%",
+   "source": "pub_math500 math500_number per item",
+   "ci": [
+    91.1,
+    95.43
+   ]
+  },
+  "math500_number_v3_n": {
+   "value": 500,
+   "unit": "n",
+   "source": "pub_math500 math500_number per item"
+  },
+  "math500_number_v3_verdict": {
+   "value": "non-inferior",
+   "unit": "text",
+   "source": "pub_math500 math500_number per item",
+   "display": "non-inferior"
+  },
+  "math500_prime_n": {
+   "value": 500,
+   "unit": "n",
+   "source": "compare --json pub_math500 is_equiv"
+  },
+  "math500_prime_source": {
+   "value": "MATH-500, 500 problems",
+   "unit": "text",
+   "source": "pub_math500"
+  },
+  "math500_v3_n": {
+   "value": 500,
+   "unit": "n",
+   "source": "compare --json pub_math500 is_equiv"
+  },
+  "math500_v3_source": {
+   "value": "MATH-500, 500 problems",
+   "unit": "text",
+   "source": "pub_math500"
+  },
+  "mbpp_prime_n": {
+   "value": 257,
+   "unit": "n",
+   "source": "compare --json pub_mbpp pass@1"
+  },
+  "mbpp_prime_source": {
+   "value": "MBPP sanitized, test split, 257 problems",
+   "unit": "text",
+   "source": "pub_mbpp"
+  },
+  "mbpp_v3_n": {
+   "value": 257,
+   "unit": "n",
+   "source": "compare --json pub_mbpp pass@1"
+  },
+  "mbpp_v3_source": {
+   "value": "MBPP sanitized, test split, 257 problems",
+   "unit": "text",
+   "source": "pub_mbpp"
+  },
+  "mmlu_prime_n": {
+   "value": 2000,
+   "unit": "n",
+   "source": "compare --json pub_mmlu_2k accuracy"
+  },
+  "mmlu_prime_source": {
+   "value": "MMLU test, 2,000 questions stratified by subject",
+   "unit": "text",
+   "source": "pub_mmlu_2k"
+  },
+  "mmlu_v3_n": {
+   "value": 2000,
+   "unit": "n",
+   "source": "compare --json pub_mmlu_2k accuracy"
+  },
+  "mmlu_v3_source": {
+   "value": "MMLU test, 2,000 questions stratified by subject",
+   "unit": "text",
+   "source": "pub_mmlu_2k"
+  },
+  "quixbugs_prime_n": {
+   "value": 31,
+   "unit": "n",
+   "source": "compare --json pub_quixbugs pass@1"
+  },
+  "quixbugs_prime_source": {
+   "value": "QuixBugs, 31 Python programs with JSON test cases",
+   "unit": "text",
+   "source": "pub_quixbugs"
+  },
+  "quixbugs_v3_n": {
+   "value": 31,
+   "unit": "n",
+   "source": "compare --json pub_quixbugs pass@1"
+  },
+  "quixbugs_v3_source": {
+   "value": "QuixBugs, 31 Python programs with JSON test cases",
+   "unit": "text",
+   "source": "pub_quixbugs"
+  }
+ },
+ "think_dist": {
+  "suite": {
+   "value": "the lab's main set of mixed everyday prompts",
+   "unit": "text",
+   "source": "main"
+  },
+  "settings": {
+   "value": "reasoning effort 0.9, temperature 0.6, top_p 1.0, thinking cap 4,096 tokens, answer cap 8,192 tokens, seed 1234, one pass per model",
+   "unit": "text",
+   "source": "meta stock/main"
+  },
+  "n": {
+   "value": 100,
+   "unit": "n",
+   "source": "main"
+  },
+  "mean_stock": {
+   "value": 810.0,
+   "unit": "tokens",
+   "source": "stock"
+  },
+  "median_stock": {
+   "value": 318.5,
+   "unit": "tokens",
+   "source": "stock"
+  },
+  "p90_stock": {
+   "value": 2576.0,
+   "unit": "tokens",
+   "source": "stock"
+  },
+  "p99_stock": {
+   "value": 4096.0,
+   "unit": "tokens",
+   "source": "stock"
+  },
+  "nonterm_stock": {
+   "value": 7.0,
+   "unit": "%",
+   "source": "stock"
+  },
+  "mean_prime": {
+   "value": 281.0,
+   "unit": "tokens",
+   "source": "prime"
+  },
+  "median_prime": {
+   "value": 174.5,
+   "unit": "tokens",
+   "source": "prime"
+  },
+  "p90_prime": {
+   "value": 552.0,
+   "unit": "tokens",
+   "source": "prime"
+  },
+  "p99_prime": {
+   "value": 1340.0,
+   "unit": "tokens",
+   "source": "prime"
+  },
+  "nonterm_prime": {
+   "value": 0.0,
+   "unit": "%",
+   "source": "prime"
+  },
+  "mean_v21": {
+   "value": 1061.0,
+   "unit": "tokens",
+   "source": "v21"
+  },
+  "median_v21": {
+   "value": 344.0,
+   "unit": "tokens",
+   "source": "v21"
+  },
+  "p90_v21": {
+   "value": 4048.0,
+   "unit": "tokens",
+   "source": "v21"
+  },
+  "p99_v21": {
+   "value": 4096.0,
+   "unit": "tokens",
+   "source": "v21"
+  },
+  "nonterm_v21": {
+   "value": 11.0,
+   "unit": "%",
+   "source": "v21"
+  },
+  "mean_v3": {
+   "value": 266.0,
+   "unit": "tokens",
+   "source": "v3"
+  },
+  "median_v3": {
+   "value": 183.5,
+   "unit": "tokens",
+   "source": "v3"
+  },
+  "p90_v3": {
+   "value": 533.0,
+   "unit": "tokens",
+   "source": "v3"
+  },
+  "p99_v3": {
+   "value": 1356.0,
+   "unit": "tokens",
+   "source": "v3"
+  },
+  "nonterm_v3": {
+   "value": 2.0,
+   "unit": "%",
+   "source": "v3"
+  }
+ },
+ "reproduce": {
+  "hardware": {
+   "value": "one RTX 5090 (32 GB)",
+   "unit": "text"
+  },
+  "serving": {
+   "value": "SGLang (image lmsysorg/sglang:inkling-2-mini, pinned by digest in scripts/v3stack/stack_test.sh), NVFP4 checkpoint as released, 31 concurrent requests",
+   "unit": "text"
+  },
+  "per_item_url": {
+   "value": "https://github.com/nokeepai/inkling-2-mini-unbound/tree/main/package_v3/results/data",
+   "unit": "text",
+   "source": "set by hand: GitHub path of the per-item export"
+  },
+  "decoding": {
+   "value": "reasoning effort 0.9, temperature 0.6, top_p 1.0, thinking cap 4,096 tokens, answer cap 8,192 tokens, seed 1234, one pass per model",
+   "unit": "text",
+   "source": "meta stock/main"
+  }
+ },
+ "training": {
+  "n_prompts": {
+   "value": "1,185",
+   "unit": "text"
+  },
+  "mix": {
+   "value": "by step: debugging 31%, maths 19%, creative writing 16%, questions 16%, roleplay 9%, chat 9%",
+   "unit": "text"
+  },
+  "n_anchor": {
+   "value": "619",
+   "unit": "text"
+  },
+  "recipe": {
+   "value": "LoRA rank 32 on the attention and expert layers, 60 steps, 32 prompts × 8 samples per step, learning rate 5e-5, thinking turned off on 25% of samples, reasoning effort 0.5 to 0.9, trained from the original model on harmless prompts only; 619 anchor answers (the original model's own best-of-8 answers, answer part only) hold the answer style",
+   "unit": "text"
+  },
+  "leak_check": {
+   "value": "every item's prompt (first 120 normalised characters) was searched for in all training prompts and anchor answers: 0 hits across all nine benchmark files (4,435 unique independent items plus the two lab samples).",
+   "unit": "text"
+  }
+ },
+ "regressions": {
+  "prime_note": {
+   "value": "",
+   "unit": "text"
+  },
+  "v3_note": {
+   "value": "",
+   "unit": "text"
+  }
+ },
+ "gguf": {
+  "gsm8k_number_prime_iq2m": {
+   "value": 95.0,
+   "unit": "%",
+   "source": "gguf prime_iq2m"
+  },
+  "gsm8k_number_prime_q4km": {
+   "value": 98.0,
+   "unit": "%",
+   "source": "gguf prime_q4km"
+  },
+  "gsm8k_number_prime_q8": {
+   "value": 94.0,
+   "unit": "%",
+   "source": "gguf prime_q8"
+  },
+  "gsm8k_number_stock_q4km": {
+   "value": 97.0,
+   "unit": "%",
+   "source": "gguf stock_q4km"
+  },
+  "humaneval_prime_iq2m": {
+   "value": 100.0,
+   "unit": "%",
+   "source": "gguf prime_iq2m"
+  },
+  "humaneval_prime_q4km": {
+   "value": 98.0,
+   "unit": "%",
+   "source": "gguf prime_q4km"
+  },
+  "humaneval_prime_q8": {
+   "value": 100.0,
+   "unit": "%",
+   "source": "gguf prime_q8"
+  },
+  "humaneval_stock_q4km": {
+   "value": 100.0,
+   "unit": "%",
+   "source": "gguf stock_q4km"
+  },
+  "n_tasks": {
+   "value": 15,
+   "unit": "n",
+   "source": "agent_hard_noforce tasks (same set)"
+  },
+  "nocode_prime_iq2m": {
+   "value": 5.56,
+   "unit": "%",
+   "source": "gguf prime_iq2m"
+  },
+  "nocode_prime_q4km": {
+   "value": 0.0,
+   "unit": "%",
+   "source": "gguf prime_q4km"
+  },
+  "nocode_prime_q8": {
+   "value": 0.0,
+   "unit": "%",
+   "source": "gguf prime_q8"
+  },
+  "nocode_stock_q4km": {
+   "value": 87.9,
+   "unit": "%",
+   "source": "gguf stock_q4km"
+  },
+  "solve_prime_iq2m": {
+   "value": 100.0,
+   "unit": "%",
+   "source": "gguf prime_iq2m"
+  },
+  "solve_prime_q4km": {
+   "value": 100.0,
+   "unit": "%",
+   "source": "gguf prime_q4km"
+  },
+  "solve_prime_q8": {
+   "value": 100.0,
+   "unit": "%",
+   "source": "gguf prime_q8"
+  },
+  "solve_stock_q4km": {
+   "value": 80.0,
+   "unit": "%",
+   "source": "gguf stock_q4km"
+  },
+  "tokens_prime_iq2m": {
+   "value": 3261.0,
+   "unit": "tokens",
+   "source": "gguf table prime_iq2m"
+  },
+  "tokens_prime_q4km": {
+   "value": 2367.0,
+   "unit": "tokens",
+   "source": "gguf table prime_q4km"
+  },
+  "tokens_prime_q8": {
+   "value": 2606.0,
+   "unit": "tokens",
+   "source": "gguf table prime_q8"
+  },
+  "tokens_stock_q4km": {
+   "value": 26939.0,
+   "unit": "tokens",
+   "source": "gguf table stock_q4km"
+  },
+  "turns_prime_iq2m": {
+   "value": 18.0,
+   "unit": "n",
+   "source": "gguf table prime_iq2m"
+  },
+  "turns_prime_q4km": {
+   "value": 16.0,
+   "unit": "n",
+   "source": "gguf table prime_q4km"
+  },
+  "turns_prime_q8": {
+   "value": 16.0,
+   "unit": "n",
+   "source": "gguf table prime_q8"
+  },
+  "turns_stock_q4km": {
+   "value": 99.0,
+   "unit": "n",
+   "source": "gguf table stock_q4km"
+  },
+  "gsm8k_number_unbound_iq2m": {
+   "value": 94.0,
+   "unit": "%",
+   "source": "gguf unbound_iq2m"
+  },
+  "gsm8k_number_unbound_q4km": {
+   "value": 96.0,
+   "unit": "%",
+   "source": "gguf unbound_q4km"
+  },
+  "humaneval_unbound_iq2m": {
+   "value": 100.0,
+   "unit": "%",
+   "source": "gguf unbound_iq2m"
+  },
+  "humaneval_unbound_q4km": {
+   "value": 100.0,
+   "unit": "%",
+   "source": "gguf unbound_q4km"
+  },
+  "nocode_unbound_iq2m": {
+   "value": 0.0,
+   "unit": "%",
+   "source": "gguf unbound_iq2m"
+  },
+  "nocode_unbound_q4km": {
+   "value": 0.0,
+   "unit": "%",
+   "source": "gguf unbound_q4km"
+  },
+  "solve_unbound_iq2m": {
+   "value": 100.0,
+   "unit": "%",
+   "source": "gguf unbound_iq2m"
+  },
+  "solve_unbound_q4km": {
+   "value": 100.0,
+   "unit": "%",
+   "source": "gguf unbound_q4km"
+  },
+  "tokens_unbound_iq2m": {
+   "value": 2690.0,
+   "unit": "tokens",
+   "source": "gguf table unbound_iq2m"
+  },
+  "tokens_unbound_q4km": {
+   "value": 2422.0,
+   "unit": "tokens",
+   "source": "gguf table unbound_q4km"
+  },
+  "turns_unbound_iq2m": {
+   "value": 16.0,
+   "unit": "n",
+   "source": "gguf table unbound_iq2m"
+  },
+  "turns_unbound_q4km": {
+   "value": 16.0,
+   "unit": "n",
+   "source": "gguf table unbound_q4km"
+  }
+ },
+ "low_effort": {
+  "debug_n_prime": "TBD",
+  "debug_n_v3": "TBD",
+  "debug_nocode_prime_base_hi": "TBD",
+  "debug_nocode_prime_base_lo": "TBD",
+  "debug_nocode_prime_fixed_hi": "TBD",
+  "debug_nocode_v3_base_hi": {
+   "value": 88.6598,
+   "unit": "%",
+   "source": "agent_hard_noforce base_hi"
+  },
+  "debug_nocode_v3_base_lo": "TBD",
+  "debug_nocode_v3_fixed_hi": {
+   "value": 0.0,
+   "unit": "%",
+   "source": "agent_hard_noforce fixed_hi"
+  },
+  "debug_solved_prime_base_hi": "TBD",
+  "debug_solved_prime_base_lo": "TBD",
+  "debug_solved_prime_fixed_hi": "TBD",
+  "debug_solved_v3_base_hi": {
+   "value": 73.3333,
+   "unit": "%",
+   "source": "agent_hard_noforce base_hi",
+   "ci": [
+    48.05,
+    89.1
+   ]
+  },
+  "debug_solved_v3_base_lo": "TBD",
+  "debug_solved_v3_fixed_hi": {
+   "value": 100.0,
+   "unit": "%",
+   "source": "agent_hard_noforce fixed_hi",
+   "ci": [
+    79.61,
+    100.0
+   ]
+  },
+  "debug_tokens_prime_base_hi": "TBD",
+  "debug_tokens_prime_base_lo": "TBD",
+  "debug_tokens_prime_fixed_hi": "TBD",
+  "debug_tokens_v3_base_hi": {
+   "value": 26130.1,
+   "unit": "tokens",
+   "source": "agent_hard_noforce base_hi"
+  },
+  "debug_tokens_v3_base_lo": "TBD",
+  "debug_tokens_v3_fixed_hi": {
+   "value": 2428.7,
+   "unit": "tokens",
+   "source": "agent_hard_noforce fixed_hi"
+  },
+  "effort_hi": {
+   "value": "0.9",
+   "unit": "text",
+   "source": "meta"
+  },
+  "effort_lo": {
+   "value": "0.3",
+   "unit": "text",
+   "source": "meta low"
+  },
+  "gsm8k_lenient_prime_base_hi": {
+   "value": 96.5125,
+   "unit": "%",
+   "source": "pub_gsm8k_full base_hi",
+   "ci": [
+    95.38,
+    97.38
+   ]
+  },
+  "gsm8k_lenient_prime_base_lo": {
+   "value": 96.5125,
+   "unit": "%",
+   "source": "pub_gsm8k_full base_lo",
+   "ci": [
+    95.38,
+    97.38
+   ]
+  },
+  "gsm8k_lenient_prime_fixed_hi": {
+   "value": 96.5125,
+   "unit": "%",
+   "source": "pub_gsm8k_full fixed_hi",
+   "ci": [
+    95.38,
+    97.38
+   ]
+  },
+  "gsm8k_lenient_prime_n": {
+   "value": 1319,
+   "unit": "n",
+   "source": "pub_gsm8k_full"
+  },
+  "gsm8k_lenient_think_prime_base_hi": {
+   "value": 206.0,
+   "unit": "tokens",
+   "source": "pub_gsm8k_full base_hi"
+  },
+  "gsm8k_lenient_think_prime_base_lo": {
+   "value": 133.0,
+   "unit": "tokens",
+   "source": "pub_gsm8k_full base_lo"
+  },
+  "gsm8k_lenient_think_prime_fixed_hi": {
+   "value": 125.0,
+   "unit": "tokens",
+   "source": "pub_gsm8k_full fixed_hi"
+  },
+  "gsm8k_lenient_think_v3_base_hi": {
+   "value": 198.0,
+   "unit": "tokens",
+   "source": "pub_gsm8k_full base_hi"
+  },
+  "gsm8k_lenient_think_v3_base_lo": "TBD",
+  "gsm8k_lenient_think_v3_fixed_hi": {
+   "value": 131.0,
+   "unit": "tokens",
+   "source": "pub_gsm8k_full fixed_hi"
+  },
+  "gsm8k_lenient_v3_base_hi": {
+   "value": 96.6641,
+   "unit": "%",
+   "source": "pub_gsm8k_full base_hi",
+   "ci": [
+    95.55,
+    97.51
+   ]
+  },
+  "gsm8k_lenient_v3_base_lo": "TBD",
+  "gsm8k_lenient_v3_fixed_hi": {
+   "value": 96.74,
+   "unit": "%",
+   "source": "pub_gsm8k_full fixed_hi",
+   "ci": [
+    95.64,
+    97.57
+   ]
+  },
+  "gsm8k_lenient_v3_n": "TBD",
+  "gsm8k_strict_prime_base_hi": {
+   "value": 69.7498,
+   "unit": "%",
+   "source": "pub_gsm8k_full base_hi",
+   "ci": [
+    67.22,
+    72.17
+   ]
+  },
+  "gsm8k_strict_prime_base_lo": {
+   "value": 78.4685,
+   "unit": "%",
+   "source": "pub_gsm8k_full base_lo",
+   "ci": [
+    76.17,
+    80.6
+   ]
+  },
+  "gsm8k_strict_prime_fixed_hi": {
+   "value": 89.4617,
+   "unit": "%",
+   "source": "pub_gsm8k_full fixed_hi",
+   "ci": [
+    87.69,
+    91.01
+   ]
+  },
+  "gsm8k_strict_prime_n": {
+   "value": 1319,
+   "unit": "n",
+   "source": "pub_gsm8k_full"
+  },
+  "gsm8k_strict_think_prime_base_hi": {
+   "value": 206.0,
+   "unit": "tokens",
+   "source": "pub_gsm8k_full base_hi"
+  },
+  "gsm8k_strict_think_prime_base_lo": {
+   "value": 133.0,
+   "unit": "tokens",
+   "source": "pub_gsm8k_full base_lo"
+  },
+  "gsm8k_strict_think_prime_fixed_hi": {
+   "value": 125.0,
+   "unit": "tokens",
+   "source": "pub_gsm8k_full fixed_hi"
+  },
+  "gsm8k_strict_think_v3_base_hi": {
+   "value": 198.0,
+   "unit": "tokens",
+   "source": "pub_gsm8k_full base_hi"
+  },
+  "gsm8k_strict_think_v3_base_lo": "TBD",
+  "gsm8k_strict_think_v3_fixed_hi": {
+   "value": 131.0,
+   "unit": "tokens",
+   "source": "pub_gsm8k_full fixed_hi"
+  },
+  "gsm8k_strict_v3_base_hi": {
+   "value": 71.8726,
+   "unit": "%",
+   "source": "pub_gsm8k_full base_hi",
+   "ci": [
+    69.39,
+    74.23
+   ]
+  },
+  "gsm8k_strict_v3_base_lo": "TBD",
+  "gsm8k_strict_v3_fixed_hi": {
+   "value": 88.3245,
+   "unit": "%",
+   "source": "pub_gsm8k_full fixed_hi",
+   "ci": [
+    86.48,
+    89.95
+   ]
+  },
+  "gsm8k_strict_v3_n": "TBD",
+  "humaneval_prime_base_hi": {
+   "value": 98.1707,
+   "unit": "%",
+   "source": "pub_humaneval base_hi",
+   "ci": [
+    94.76,
+    99.38
+   ]
+  },
+  "humaneval_prime_base_lo": {
+   "value": 98.7805,
+   "unit": "%",
+   "source": "pub_humaneval base_lo",
+   "ci": [
+    95.66,
+    99.66
+   ]
+  },
+  "humaneval_prime_fixed_hi": {
+   "value": 98.7805,
+   "unit": "%",
+   "source": "pub_humaneval fixed_hi",
+   "ci": [
+    95.66,
+    99.66
+   ]
+  },
+  "humaneval_prime_n": {
+   "value": 164,
+   "unit": "n",
+   "source": "pub_humaneval"
+  },
+  "humaneval_think_prime_base_hi": {
+   "value": 769.5,
+   "unit": "tokens",
+   "source": "pub_humaneval base_hi"
+  },
+  "humaneval_think_prime_base_lo": {
+   "value": 281.0,
+   "unit": "tokens",
+   "source": "pub_humaneval base_lo"
+  },
+  "humaneval_think_prime_fixed_hi": {
+   "value": 303.5,
+   "unit": "tokens",
+   "source": "pub_humaneval fixed_hi"
+  },
+  "humaneval_think_v3_base_hi": {
+   "value": 569.0,
+   "unit": "tokens",
+   "source": "pub_humaneval base_hi"
+  },
+  "humaneval_think_v3_base_lo": "TBD",
+  "humaneval_think_v3_fixed_hi": {
+   "value": 279.0,
+   "unit": "tokens",
+   "source": "pub_humaneval fixed_hi"
+  },
+  "humaneval_v3_base_hi": {
+   "value": 98.1707,
+   "unit": "%",
+   "source": "pub_humaneval base_hi",
+   "ci": [
+    94.76,
+    99.38
+   ]
+  },
+  "humaneval_v3_base_lo": "TBD",
+  "humaneval_v3_fixed_hi": {
+   "value": 98.7805,
+   "unit": "%",
+   "source": "pub_humaneval fixed_hi",
+   "ci": [
+    95.66,
+    99.66
+   ]
+  },
+  "humaneval_v3_n": "TBD",
+  "humanevalfix_prime_base_hi": {
+   "value": 98.1707,
+   "unit": "%",
+   "source": "pub_humanevalfix base_hi",
+   "ci": [
+    94.76,
+    99.38
+   ]
+  },
+  "humanevalfix_prime_base_lo": {
+   "value": 95.7317,
+   "unit": "%",
+   "source": "pub_humanevalfix base_lo",
+   "ci": [
+    91.45,
+    97.92
+   ]
+  },
+  "humanevalfix_prime_fixed_hi": {
+   "value": 96.9512,
+   "unit": "%",
+   "source": "pub_humanevalfix fixed_hi",
+   "ci": [
+    93.06,
+    98.69
+   ]
+  },
+  "humanevalfix_prime_n": {
+   "value": 164,
+   "unit": "n",
+   "source": "pub_humanevalfix"
+  },
+  "humanevalfix_think_prime_base_hi": {
+   "value": 1400.0,
+   "unit": "tokens",
+   "source": "pub_humanevalfix base_hi"
+  },
+  "humanevalfix_think_prime_base_lo": {
+   "value": 649.5,
+   "unit": "tokens",
+   "source": "pub_humanevalfix base_lo"
+  },
+  "humanevalfix_think_prime_fixed_hi": {
+   "value": 557.5,
+   "unit": "tokens",
+   "source": "pub_humanevalfix fixed_hi"
+  },
+  "humanevalfix_think_v3_base_hi": {
+   "value": 1443.5,
+   "unit": "tokens",
+   "source": "pub_humanevalfix base_hi"
+  },
+  "humanevalfix_think_v3_base_lo": "TBD",
+  "humanevalfix_think_v3_fixed_hi": {
+   "value": 546.5,
+   "unit": "tokens",
+   "source": "pub_humanevalfix fixed_hi"
+  },
+  "humanevalfix_v3_base_hi": {
+   "value": 95.7317,
+   "unit": "%",
+   "source": "pub_humanevalfix base_hi",
+   "ci": [
+    91.45,
+    97.92
+   ]
+  },
+  "humanevalfix_v3_base_lo": "TBD",
+  "humanevalfix_v3_fixed_hi": {
+   "value": 96.3415,
+   "unit": "%",
+   "source": "pub_humanevalfix fixed_hi",
+   "ci": [
+    92.25,
+    98.31
+   ]
+  },
+  "humanevalfix_v3_n": "TBD",
+  "math500_prime_base_hi": {
+   "value": 92.4,
+   "unit": "%",
+   "source": "pub_math500 base_hi",
+   "ci": [
+    89.74,
+    94.41
+   ]
+  },
+  "math500_prime_base_lo": {
+   "value": 92.8,
+   "unit": "%",
+   "source": "pub_math500 base_lo",
+   "ci": [
+    90.19,
+    94.75
+   ]
+  },
+  "math500_prime_fixed_hi": {
+   "value": 93.2,
+   "unit": "%",
+   "source": "pub_math500 fixed_hi",
+   "ci": [
+    90.65,
+    95.09
+   ]
+  },
+  "math500_prime_n": {
+   "value": 500,
+   "unit": "n",
+   "source": "pub_math500"
+  },
+  "math500_think_prime_base_hi": {
+   "value": 390.5,
+   "unit": "tokens",
+   "source": "pub_math500 base_hi"
+  },
+  "math500_think_prime_base_lo": {
+   "value": 262.5,
+   "unit": "tokens",
+   "source": "pub_math500 base_lo"
+  },
+  "math500_think_prime_fixed_hi": {
+   "value": 278.0,
+   "unit": "tokens",
+   "source": "pub_math500 fixed_hi"
+  },
+  "math500_think_v3_base_hi": {
+   "value": 393.0,
+   "unit": "tokens",
+   "source": "pub_math500 base_hi"
+  },
+  "math500_think_v3_base_lo": "TBD",
+  "math500_think_v3_fixed_hi": {
+   "value": 283.0,
+   "unit": "tokens",
+   "source": "pub_math500 fixed_hi"
+  },
+  "math500_v3_base_hi": {
+   "value": 92.2,
+   "unit": "%",
+   "source": "pub_math500 base_hi",
+   "ci": [
+    89.51,
+    94.24
+   ]
+  },
+  "math500_v3_base_lo": "TBD",
+  "math500_v3_fixed_hi": {
+   "value": 93.2,
+   "unit": "%",
+   "source": "pub_math500 fixed_hi",
+   "ci": [
+    90.65,
+    95.09
+   ]
+  },
+  "math500_v3_n": "TBD",
+  "mbpp_prime_base_hi": {
+   "value": 95.3307,
+   "unit": "%",
+   "source": "pub_mbpp base_hi",
+   "ci": [
+    92.02,
+    97.31
+   ]
+  },
+  "mbpp_prime_base_lo": {
+   "value": 96.8872,
+   "unit": "%",
+   "source": "pub_mbpp base_lo",
+   "ci": [
+    93.98,
+    98.41
+   ]
+  },
+  "mbpp_prime_fixed_hi": {
+   "value": 96.8872,
+   "unit": "%",
+   "source": "pub_mbpp fixed_hi",
+   "ci": [
+    93.98,
+    98.41
+   ]
+  },
+  "mbpp_prime_n": {
+   "value": 257,
+   "unit": "n",
+   "source": "pub_mbpp"
+  },
+  "mbpp_think_prime_base_hi": {
+   "value": 427.0,
+   "unit": "tokens",
+   "source": "pub_mbpp base_hi"
+  },
+  "mbpp_think_prime_base_lo": {
+   "value": 228.0,
+   "unit": "tokens",
+   "source": "pub_mbpp base_lo"
+  },
+  "mbpp_think_prime_fixed_hi": {
+   "value": 206.0,
+   "unit": "tokens",
+   "source": "pub_mbpp fixed_hi"
+  },
+  "mbpp_think_v3_base_hi": {
+   "value": 398.0,
+   "unit": "tokens",
+   "source": "pub_mbpp base_hi"
+  },
+  "mbpp_think_v3_base_lo": "TBD",
+  "mbpp_think_v3_fixed_hi": {
+   "value": 211.0,
+   "unit": "tokens",
+   "source": "pub_mbpp fixed_hi"
+  },
+  "mbpp_v3_base_hi": {
+   "value": 97.6654,
+   "unit": "%",
+   "source": "pub_mbpp base_hi",
+   "ci": [
+    95.0,
+    98.93
+   ]
+  },
+  "mbpp_v3_base_lo": "TBD",
+  "mbpp_v3_fixed_hi": {
+   "value": 96.1089,
+   "unit": "%",
+   "source": "pub_mbpp fixed_hi",
+   "ci": [
+    92.99,
+    97.87
+   ]
+  },
+  "mbpp_v3_n": "TBD",
+  "mmlu_prime_base_hi": {
+   "value": 89.1,
+   "unit": "%",
+   "source": "pub_mmlu_2k base_hi",
+   "ci": [
+    87.66,
+    90.39
+   ]
+  },
+  "mmlu_prime_base_lo": {
+   "value": 88.85,
+   "unit": "%",
+   "source": "pub_mmlu_2k base_lo",
+   "ci": [
+    87.4,
+    90.16
+   ]
+  },
+  "mmlu_prime_fixed_hi": {
+   "value": 89.9,
+   "unit": "%",
+   "source": "pub_mmlu_2k fixed_hi",
+   "ci": [
+    88.5,
+    91.15
+   ]
+  },
+  "mmlu_prime_n": {
+   "value": 2000,
+   "unit": "n",
+   "source": "pub_mmlu_2k"
+  },
+  "mmlu_think_prime_base_hi": {
+   "value": 540.0,
+   "unit": "tokens",
+   "source": "pub_mmlu_2k base_hi"
+  },
+  "mmlu_think_prime_base_lo": {
+   "value": 201.0,
+   "unit": "tokens",
+   "source": "pub_mmlu_2k base_lo"
+  },
+  "mmlu_think_prime_fixed_hi": {
+   "value": 253.0,
+   "unit": "tokens",
+   "source": "pub_mmlu_2k fixed_hi"
+  },
+  "mmlu_think_v3_base_hi": {
+   "value": 502.0,
+   "unit": "tokens",
+   "source": "pub_mmlu_2k base_hi"
+  },
+  "mmlu_think_v3_base_lo": "TBD",
+  "mmlu_think_v3_fixed_hi": {
+   "value": 256.5,
+   "unit": "tokens",
+   "source": "pub_mmlu_2k fixed_hi"
+  },
+  "mmlu_v3_base_hi": {
+   "value": 87.65,
+   "unit": "%",
+   "source": "pub_mmlu_2k base_hi",
+   "ci": [
+    86.14,
+    89.02
+   ]
+  },
+  "mmlu_v3_base_lo": "TBD",
+  "mmlu_v3_fixed_hi": {
+   "value": 87.15,
+   "unit": "%",
+   "source": "pub_mmlu_2k fixed_hi",
+   "ci": [
+    85.61,
+    88.55
+   ]
+  },
+  "mmlu_v3_n": "TBD",
+  "quixbugs_prime_base_hi": {
+   "value": 96.7742,
+   "unit": "%",
+   "source": "pub_quixbugs base_hi",
+   "ci": [
+    83.81,
+    99.43
+   ]
+  },
+  "quixbugs_prime_base_lo": {
+   "value": 96.7742,
+   "unit": "%",
+   "source": "pub_quixbugs base_lo",
+   "ci": [
+    83.81,
+    99.43
+   ]
+  },
+  "quixbugs_prime_fixed_hi": {
+   "value": 93.5484,
+   "unit": "%",
+   "source": "pub_quixbugs fixed_hi",
+   "ci": [
+    79.28,
+    98.21
+   ]
+  },
+  "quixbugs_prime_n": {
+   "value": 31,
+   "unit": "n",
+   "source": "pub_quixbugs"
+  },
+  "quixbugs_think_prime_base_hi": {
+   "value": 1237.0,
+   "unit": "tokens",
+   "source": "pub_quixbugs base_hi"
+  },
+  "quixbugs_think_prime_base_lo": {
+   "value": 512.0,
+   "unit": "tokens",
+   "source": "pub_quixbugs base_lo"
+  },
+  "quixbugs_think_prime_fixed_hi": {
+   "value": 463.0,
+   "unit": "tokens",
+   "source": "pub_quixbugs fixed_hi"
+  },
+  "quixbugs_think_v3_base_hi": {
+   "value": 1136.0,
+   "unit": "tokens",
+   "source": "pub_quixbugs base_hi"
+  },
+  "quixbugs_think_v3_base_lo": "TBD",
+  "quixbugs_think_v3_fixed_hi": {
+   "value": 506.0,
+   "unit": "tokens",
+   "source": "pub_quixbugs fixed_hi"
+  },
+  "quixbugs_v3_base_hi": {
+   "value": 96.7742,
+   "unit": "%",
+   "source": "pub_quixbugs base_hi",
+   "ci": [
+    83.81,
+    99.43
+   ]
+  },
+  "quixbugs_v3_base_lo": "TBD",
+  "quixbugs_v3_fixed_hi": {
+   "value": 90.3226,
+   "unit": "%",
+   "source": "pub_quixbugs fixed_hi",
+   "ci": [
+    75.1,
+    96.65
+   ]
+  },
+  "quixbugs_v3_n": "TBD",
+  "stack_prime": {
+   "value": "Tinker service, adapter unmerged",
+   "unit": "text",
+   "source": "collector"
+  }
+ },
+ "settings": {
+  "answer_cap": {
+   "value": 8192,
+   "unit": "text",
+   "source": "meta stock/main",
+   "display": "8192"
+  },
+  "effort": {
+   "value": 0.9,
+   "unit": "text",
+   "source": "meta stock/main",
+   "display": "0.9"
+  },
+  "seed": {
+   "value": 1234,
+   "unit": "text",
+   "source": "meta stock/main",
+   "display": "1234"
+  },
+  "temperature": {
+   "value": 0.6,
+   "unit": "text",
+   "source": "meta stock/main",
+   "display": "0.6"
+  },
+  "text": {
+   "value": "reasoning effort 0.9, temperature 0.6, top_p 1.0, thinking cap 4,096 tokens, answer cap 8,192 tokens, seed 1234, one pass per model",
+   "unit": "text",
+   "source": "meta stock/main"
+  },
+  "think_cap": {
+   "value": 4096,
+   "unit": "text",
+   "source": "meta stock/main",
+   "display": "4096"
+  },
+  "top_p": {
+   "value": 1.0,
+   "unit": "text",
+   "source": "meta stock/main",
+   "display": "1.0"
+  }
+ },
+ "sysprompt": {
+  "n": {
+   "value": 160,
+   "unit": "n",
+   "display": "160 = 4 passes × 40 tasks",
+   "note": "owner-supplied lab result 2026-11-27: long-system-prompt adherence, all rules kept, effort 0.9, on Tinker with the adapter unmerged (not the merged release weights)"
+  },
+  "kept_stock": {
+   "value": 70.0,
+   "unit": "%",
+   "display": "112/160 (70.0%)"
+  },
+  "kept_fix": {
+   "value": 92.5,
+   "unit": "%",
+   "display": "148/160 (92.5%)"
+  },
+  "kept_stock_lo": {
+   "value": 62.5,
+   "unit": "%",
+   "display": "25/40 (62.5%)"
+  },
+  "kept_fix_lo": {
+   "value": 87.5,
+   "unit": "%",
+   "display": "35/40 (87.5%)"
+  }
+ },
+ "checkpoint": {
+  "choice": {
+   "value": "a 25-step continuation with extra roleplay, system-prompt and long-answer data measured level with step 60 on every check, so step 60 shipped",
+   "unit": "text"
+  }
+ },
+ "capnote": {
+  "scope": {
+   "value": "HumanEvalFix, one pass (after the 4,096-token cap the model is made to answer)",
+   "unit": "text"
+  },
+  "hits_prime": {
+   "value": 7,
+   "unit": "n",
+   "source": "pub_humanevalfix think_cap_hit"
+  },
+  "hits_stock": {
+   "value": 32,
+   "unit": "n",
+   "source": "pub_humanevalfix think_cap_hit"
+  },
+  "hits_v21": {
+   "value": 32,
+   "unit": "n",
+   "source": "pub_humanevalfix think_cap_hit"
+  },
+  "hits_v3": {
+   "value": 9,
+   "unit": "n",
+   "source": "pub_humanevalfix think_cap_hit"
+  },
+  "n": {
+   "value": 164,
+   "unit": "n",
+   "source": "pub_humanevalfix"
+  },
+  "right_prime": {
+   "value": 1,
+   "unit": "n",
+   "source": "pub_humanevalfix passed"
+  },
+  "right_stock": {
+   "value": 26,
+   "unit": "n",
+   "source": "pub_humanevalfix passed"
+  },
+  "right_v21": {
+   "value": 25,
+   "unit": "n",
+   "source": "pub_humanevalfix passed"
+  },
+  "right_v3": {
+   "value": 3,
+   "unit": "n",
+   "source": "pub_humanevalfix passed"
+  }
+ },
+ "effort_debug": {
+  "n": {
+   "value": 15,
+   "unit": "n"
+  },
+  "stack": {
+   "value": "lab run on the Tinker service (adapter unmerged)",
+   "unit": "text"
+  },
+  "stock_09": {
+   "value": "80% solved, 88% of turns with no code, 26,784 tokens per task",
+   "unit": "text"
+  },
+  "stock_06": {
+   "value": "100% solved, 52% of turns with no code, 8,090 tokens per task",
+   "unit": "text"
+  },
+  "stock_03": {
+   "value": "100% solved, 19% of turns with no code, 4,553 tokens per task",
+   "unit": "text"
+  },
+  "fix_03": {
+   "value": "100% solved, 0% of turns with no code, 1,825 tokens per task",
+   "unit": "text"
+  },
+  "fix_06": {
+   "value": "100% solved, 0% of turns with no code, 2,478 tokens per task",
+   "unit": "text"
+  },
+  "fix_09": {
+   "value": "100% solved, 0% of turns with no code, 2,491 tokens per task",
+   "unit": "text"
+  },
+  "prime_gpu_03": {
+   "value": "100% solved, 0% of turns with no code",
+   "unit": "text"
+  }
+ },
+ "capnote_tinker": {
+  "stock": {
+   "value": "30 cap hits, 27 passed (second seed: 28, 22)",
+   "unit": "text"
+  },
+  "fix": {
+   "value": "7 cap hits, 2 passed (second seed: 10, 4)",
+   "unit": "text"
+  }
+ },
+ "tinker": {
+  "cap_fix": {
+   "value": 1.3303,
+   "unit": "%",
+   "source": "tinker pooled",
+   "ci": [
+    1.03,
+    1.71
+   ]
+  },
+  "cap_stock": {
+   "value": 10.2142,
+   "unit": "%",
+   "source": "tinker pooled",
+   "ci": [
+    9.36,
+    11.14
+   ]
+  },
+  "cap_stock_lo": {
+   "value": 1.0147,
+   "unit": "%",
+   "source": "tinker pooled",
+   "ci": [
+    0.76,
+    1.35
+   ]
+  },
+  "effort_hi": {
+   "value": "0.9",
+   "unit": "text",
+   "source": "tinker meta"
+  },
+  "effort_lo": {
+   "value": "0.3",
+   "unit": "text",
+   "source": "tinker meta"
+  },
+  "fam_bugfix_fix_base": {
+   "value": 97.9487,
+   "unit": "%",
+   "source": "tinker ci family",
+   "ci": [
+    94.85,
+    99.2
+   ]
+  },
+  "fam_bugfix_fix_diff": {
+   "value": -1.5385,
+   "unit": "pts",
+   "source": "tinker ci family",
+   "ci": [
+    -4.1,
+    0.51
+   ]
+  },
+  "fam_bugfix_fix_fixed": {
+   "value": 96.4103,
+   "unit": "%",
+   "source": "tinker ci family",
+   "ci": [
+    92.78,
+    98.25
+   ]
+  },
+  "fam_bugfix_fix_n": {
+   "value": 195,
+   "unit": "n",
+   "source": "tinker ci family"
+  },
+  "fam_bugfix_fix_verdict": {
+   "value": "inconclusive",
+   "unit": "text",
+   "source": "tinker ci family",
+   "display": "inconclusive (interval reaches past the margin)"
+  },
+  "fam_bugfix_lo_base": {
+   "value": 97.9487,
+   "unit": "%",
+   "source": "tinker ci family",
+   "ci": [
+    94.85,
+    99.2
+   ]
+  },
+  "fam_bugfix_lo_diff": {
+   "value": -2.0513,
+   "unit": "pts",
+   "source": "tinker ci family",
+   "ci": [
+    -4.62,
+    0.0
+   ]
+  },
+  "fam_bugfix_lo_fixed": {
+   "value": 95.8974,
+   "unit": "%",
+   "source": "tinker ci family",
+   "ci": [
+    92.11,
+    97.91
+   ]
+  },
+  "fam_bugfix_lo_n": {
+   "value": 195,
+   "unit": "n",
+   "source": "tinker ci family"
+  },
+  "fam_bugfix_lo_verdict": {
+   "value": "inconclusive",
+   "unit": "text",
+   "source": "tinker ci family",
+   "display": "inconclusive (interval reaches past the margin)"
+  },
+  "fam_coding_fix_base": {
+   "value": 96.4371,
+   "unit": "%",
+   "source": "tinker ci family",
+   "ci": [
+    94.21,
+    97.83
+   ]
+  },
+  "fam_coding_fix_diff": {
+   "value": 1.1876,
+   "unit": "pts",
+   "source": "tinker ci family",
+   "ci": [
+    0.0,
+    2.38
+   ]
+  },
+  "fam_coding_fix_fixed": {
+   "value": 97.6247,
+   "unit": "%",
+   "source": "tinker ci family",
+   "ci": [
+    95.68,
+    98.7
+   ]
+  },
+  "fam_coding_fix_n": {
+   "value": 421,
+   "unit": "n",
+   "source": "tinker ci family"
+  },
+  "fam_coding_fix_verdict": {
+   "value": "non-inferior",
+   "unit": "text",
+   "source": "tinker ci family",
+   "display": "non-inferior"
+  },
+  "fam_coding_lo_base": {
+   "value": 96.4371,
+   "unit": "%",
+   "source": "tinker ci family",
+   "ci": [
+    94.21,
+    97.83
+   ]
+  },
+  "fam_coding_lo_diff": {
+   "value": 1.1876,
+   "unit": "pts",
+   "source": "tinker ci family",
+   "ci": [
+    -0.24,
+    2.85
+   ]
+  },
+  "fam_coding_lo_fixed": {
+   "value": 97.6247,
+   "unit": "%",
+   "source": "tinker ci family",
+   "ci": [
+    95.68,
+    98.7
+   ]
+  },
+  "fam_coding_lo_n": {
+   "value": 421,
+   "unit": "n",
+   "source": "tinker ci family"
+  },
+  "fam_coding_lo_verdict": {
+   "value": "non-inferior",
+   "unit": "text",
+   "source": "tinker ci family",
+   "display": "non-inferior"
+  },
+  "fam_knowledge_fix_base": {
+   "value": 89.1,
+   "unit": "%",
+   "source": "tinker ci family",
+   "ci": [
+    87.66,
+    90.39
+   ]
+  },
+  "fam_knowledge_fix_diff": {
+   "value": 0.8,
+   "unit": "pts",
+   "source": "tinker ci family",
+   "ci": [
+    -0.2,
+    1.8
+   ]
+  },
+  "fam_knowledge_fix_fixed": {
+   "value": 89.9,
+   "unit": "%",
+   "source": "tinker ci family",
+   "ci": [
+    88.5,
+    91.15
+   ]
+  },
+  "fam_knowledge_fix_n": {
+   "value": 2000,
+   "unit": "n",
+   "source": "tinker ci family"
+  },
+  "fam_knowledge_fix_verdict": {
+   "value": "non-inferior",
+   "unit": "text",
+   "source": "tinker ci family",
+   "display": "non-inferior"
+  },
+  "fam_knowledge_lo_base": {
+   "value": 89.1,
+   "unit": "%",
+   "source": "tinker ci family",
+   "ci": [
+    87.66,
+    90.39
+   ]
+  },
+  "fam_knowledge_lo_diff": {
+   "value": -0.25,
+   "unit": "pts",
+   "source": "tinker ci family",
+   "ci": [
+    -1.3,
+    0.8
+   ]
+  },
+  "fam_knowledge_lo_fixed": {
+   "value": 88.85,
+   "unit": "%",
+   "source": "tinker ci family",
+   "ci": [
+    87.4,
+    90.16
+   ]
+  },
+  "fam_knowledge_lo_n": {
+   "value": 2000,
+   "unit": "n",
+   "source": "tinker ci family"
+  },
+  "fam_knowledge_lo_verdict": {
+   "value": "non-inferior",
+   "unit": "text",
+   "source": "tinker ci family",
+   "display": "non-inferior"
+  },
+  "fam_maths_number_fix_base": {
+   "value": 95.3821,
+   "unit": "%",
+   "source": "tinker ci family",
+   "ci": [
+    94.32,
+    96.25
+   ]
+  },
+  "fam_maths_number_fix_diff": {
+   "value": 0.2199,
+   "unit": "pts",
+   "source": "tinker ci family",
+   "ci": [
+    -0.44,
+    0.88
+   ]
+  },
+  "fam_maths_number_fix_fixed": {
+   "value": 95.602,
+   "unit": "%",
+   "source": "tinker ci family",
+   "ci": [
+    94.56,
+    96.45
+   ]
+  },
+  "fam_maths_number_fix_n": {
+   "value": 1819,
+   "unit": "n",
+   "source": "tinker ci family"
+  },
+  "fam_maths_number_fix_verdict": {
+   "value": "non-inferior",
+   "unit": "text",
+   "source": "tinker ci family",
+   "display": "non-inferior"
+  },
+  "fam_maths_number_lo_base": {
+   "value": 95.3821,
+   "unit": "%",
+   "source": "tinker ci family",
+   "ci": [
+    94.32,
+    96.25
+   ]
+  },
+  "fam_maths_number_lo_diff": {
+   "value": 0.11,
+   "unit": "pts",
+   "source": "tinker ci family",
+   "ci": [
+    -0.49,
+    0.71
+   ]
+  },
+  "fam_maths_number_lo_fixed": {
+   "value": 95.492,
+   "unit": "%",
+   "source": "tinker ci family",
+   "ci": [
+    94.44,
+    96.35
+   ]
+  },
+  "fam_maths_number_lo_n": {
+   "value": 1819,
+   "unit": "n",
+   "source": "tinker ci family"
+  },
+  "fam_maths_number_lo_verdict": {
+   "value": "non-inferior",
+   "unit": "text",
+   "source": "tinker ci family",
+   "display": "non-inferior"
+  },
+  "fam_maths_strict_fix_base": {
+   "value": 75.9758,
+   "unit": "%",
+   "source": "tinker ci family",
+   "ci": [
+    73.96,
+    77.88
+   ]
+  },
+  "fam_maths_strict_fix_diff": {
+   "value": 14.5135,
+   "unit": "pts",
+   "source": "tinker ci family",
+   "ci": [
+    12.81,
+    16.27
+   ]
+  },
+  "fam_maths_strict_fix_fixed": {
+   "value": 90.4893,
+   "unit": "%",
+   "source": "tinker ci family",
+   "ci": [
+    89.05,
+    91.75
+   ]
+  },
+  "fam_maths_strict_fix_n": {
+   "value": 1819,
+   "unit": "n",
+   "source": "tinker ci family"
+  },
+  "fam_maths_strict_fix_verdict": {
+   "value": "non-inferior, better",
+   "unit": "text",
+   "source": "tinker ci family",
+   "display": "non-inferior (interval above zero; no gain claimed)"
+  },
+  "fam_maths_strict_lo_base": {
+   "value": 75.9758,
+   "unit": "%",
+   "source": "tinker ci family",
+   "ci": [
+    73.96,
+    77.88
+   ]
+  },
+  "fam_maths_strict_lo_diff": {
+   "value": 6.4321,
+   "unit": "pts",
+   "source": "tinker ci family",
+   "ci": [
+    4.95,
+    7.92
+   ]
+  },
+  "fam_maths_strict_lo_fixed": {
+   "value": 82.4079,
+   "unit": "%",
+   "source": "tinker ci family",
+   "ci": [
+    80.59,
+    84.09
+   ]
+  },
+  "fam_maths_strict_lo_n": {
+   "value": 1819,
+   "unit": "n",
+   "source": "tinker ci family"
+  },
+  "fam_maths_strict_lo_verdict": {
+   "value": "non-inferior, better",
+   "unit": "text",
+   "source": "tinker ci family",
+   "display": "non-inferior (interval above zero; no gain claimed)"
+  },
+  "gsm8k_lenient_fix_base": {
+   "value": 96.5125,
+   "unit": "%",
+   "source": "tinker ci",
+   "ci": [
+    95.38,
+    97.38
+   ]
+  },
+  "gsm8k_lenient_fix_diff": {
+   "value": 0.0,
+   "unit": "pts",
+   "source": "tinker ci",
+   "ci": [
+    -0.76,
+    0.76
+   ]
+  },
+  "gsm8k_lenient_fix_fixed": {
+   "value": 96.5125,
+   "unit": "%",
+   "source": "tinker ci",
+   "ci": [
+    95.38,
+    97.38
+   ]
+  },
+  "gsm8k_lenient_fix_n": {
+   "value": 1319,
+   "unit": "n",
+   "source": "tinker ci"
+  },
+  "gsm8k_lenient_fix_verdict": {
+   "value": "non-inferior",
+   "unit": "text",
+   "source": "tinker ci",
+   "display": "non-inferior"
+  },
+  "gsm8k_lenient_lo_base": {
+   "value": 96.5125,
+   "unit": "%",
+   "source": "tinker ci",
+   "ci": [
+    95.38,
+    97.38
+   ]
+  },
+  "gsm8k_lenient_lo_diff": {
+   "value": 0.0,
+   "unit": "pts",
+   "source": "tinker ci",
+   "ci": [
+    -0.61,
+    0.68
+   ]
+  },
+  "gsm8k_lenient_lo_fixed": {
+   "value": 96.5125,
+   "unit": "%",
+   "source": "tinker ci",
+   "ci": [
+    95.38,
+    97.38
+   ]
+  },
+  "gsm8k_lenient_lo_n": {
+   "value": 1319,
+   "unit": "n",
+   "source": "tinker ci"
+  },
+  "gsm8k_lenient_lo_verdict": {
+   "value": "non-inferior",
+   "unit": "text",
+   "source": "tinker ci",
+   "display": "non-inferior"
+  },
+  "gsm8k_strict_fix_base": {
+   "value": 69.7498,
+   "unit": "%",
+   "source": "tinker ci",
+   "ci": [
+    67.22,
+    72.17
+   ]
+  },
+  "gsm8k_strict_fix_diff": {
+   "value": 19.7119,
+   "unit": "pts",
+   "source": "tinker ci",
+   "ci": [
+    17.44,
+    21.99
+   ]
+  },
+  "gsm8k_strict_fix_fixed": {
+   "value": 89.4617,
+   "unit": "%",
+   "source": "tinker ci",
+   "ci": [
+    87.69,
+    91.01
+   ]
+  },
+  "gsm8k_strict_fix_n": {
+   "value": 1319,
+   "unit": "n",
+   "source": "tinker ci"
+  },
+  "gsm8k_strict_fix_verdict": {
+   "value": "non-inferior, better",
+   "unit": "text",
+   "source": "tinker ci",
+   "display": "non-inferior (interval above zero; no gain claimed)"
+  },
+  "gsm8k_strict_lo_base": {
+   "value": 69.7498,
+   "unit": "%",
+   "source": "tinker ci",
+   "ci": [
+    67.22,
+    72.17
+   ]
+  },
+  "gsm8k_strict_lo_diff": {
+   "value": 8.7187,
+   "unit": "pts",
+   "source": "tinker ci",
+   "ci": [
+    6.82,
+    10.69
+   ]
+  },
+  "gsm8k_strict_lo_fixed": {
+   "value": 78.4685,
+   "unit": "%",
+   "source": "tinker ci",
+   "ci": [
+    76.17,
+    80.6
+   ]
+  },
+  "gsm8k_strict_lo_n": {
+   "value": 1319,
+   "unit": "n",
+   "source": "tinker ci"
+  },
+  "gsm8k_strict_lo_verdict": {
+   "value": "non-inferior, better",
+   "unit": "text",
+   "source": "tinker ci",
+   "display": "non-inferior (interval above zero; no gain claimed)"
+  },
+  "humaneval_fix_base": {
+   "value": 98.1707,
+   "unit": "%",
+   "source": "tinker ci",
+   "ci": [
+    94.76,
+    99.38
+   ]
+  },
+  "humaneval_fix_diff": {
+   "value": 0.6098,
+   "unit": "pts",
+   "source": "tinker ci",
+   "ci": [
+    -1.22,
+    2.44
+   ]
+  },
+  "humaneval_fix_fixed": {
+   "value": 98.7805,
+   "unit": "%",
+   "source": "tinker ci",
+   "ci": [
+    95.66,
+    99.66
+   ]
+  },
+  "humaneval_fix_n": {
+   "value": 164,
+   "unit": "n",
+   "source": "tinker ci"
+  },
+  "humaneval_fix_verdict": {
+   "value": "non-inferior",
+   "unit": "text",
+   "source": "tinker ci",
+   "display": "non-inferior"
+  },
+  "humaneval_lo_base": {
+   "value": 98.1707,
+   "unit": "%",
+   "source": "tinker ci",
+   "ci": [
+    94.76,
+    99.38
+   ]
+  },
+  "humaneval_lo_diff": {
+   "value": 0.6098,
+   "unit": "pts",
+   "source": "tinker ci",
+   "ci": [
+    -1.22,
+    2.44
+   ]
+  },
+  "humaneval_lo_fixed": {
+   "value": 98.7805,
+   "unit": "%",
+   "source": "tinker ci",
+   "ci": [
+    95.66,
+    99.66
+   ]
+  },
+  "humaneval_lo_n": {
+   "value": 164,
+   "unit": "n",
+   "source": "tinker ci"
+  },
+  "humaneval_lo_verdict": {
+   "value": "non-inferior",
+   "unit": "text",
+   "source": "tinker ci",
+   "display": "non-inferior"
+  },
+  "humanevalfix_fix_base": {
+   "value": 98.1707,
+   "unit": "%",
+   "source": "tinker ci",
+   "ci": [
+    94.76,
+    99.38
+   ]
+  },
+  "humanevalfix_fix_diff": {
+   "value": -1.2195,
+   "unit": "pts",
+   "source": "tinker ci",
+   "ci": [
+    -3.05,
+    0.0
+   ]
+  },
+  "humanevalfix_fix_fixed": {
+   "value": 96.9512,
+   "unit": "%",
+   "source": "tinker ci",
+   "ci": [
+    93.06,
+    98.69
+   ]
+  },
+  "humanevalfix_fix_n": {
+   "value": 164,
+   "unit": "n",
+   "source": "tinker ci"
+  },
+  "humanevalfix_fix_verdict": {
+   "value": "inconclusive",
+   "unit": "text",
+   "source": "tinker ci",
+   "display": "inconclusive (interval reaches past the margin)"
+  },
+  "humanevalfix_lo_base": {
+   "value": 98.1707,
+   "unit": "%",
+   "source": "tinker ci",
+   "ci": [
+    94.76,
+    99.38
+   ]
+  },
+  "humanevalfix_lo_diff": {
+   "value": -2.439,
+   "unit": "pts",
+   "source": "tinker ci",
+   "ci": [
+    -4.88,
+    -0.61
+   ]
+  },
+  "humanevalfix_lo_fixed": {
+   "value": 95.7317,
+   "unit": "%",
+   "source": "tinker ci",
+   "ci": [
+    91.45,
+    97.92
+   ]
+  },
+  "humanevalfix_lo_n": {
+   "value": 164,
+   "unit": "n",
+   "source": "tinker ci"
+  },
+  "humanevalfix_lo_verdict": {
+   "value": "WORSE",
+   "unit": "text",
+   "source": "tinker ci",
+   "display": "worse (whole interval below zero)"
+  },
+  "items_fix": {
+   "value": 4435,
+   "unit": "n",
+   "source": "tinker pooled"
+  },
+  "items_stock": {
+   "value": 4435,
+   "unit": "n",
+   "source": "tinker pooled"
+  },
+  "items_stock_lo": {
+   "value": 4435,
+   "unit": "n",
+   "source": "tinker pooled"
+  },
+  "math500_fix_base": {
+   "value": 92.4,
+   "unit": "%",
+   "source": "tinker ci",
+   "ci": [
+    89.74,
+    94.41
+   ]
+  },
+  "math500_fix_diff": {
+   "value": 0.8,
+   "unit": "pts",
+   "source": "tinker ci",
+   "ci": [
+    -0.2,
+    2.0
+   ]
+  },
+  "math500_fix_fixed": {
+   "value": 93.2,
+   "unit": "%",
+   "source": "tinker ci",
+   "ci": [
+    90.65,
+    95.09
+   ]
+  },
+  "math500_fix_n": {
+   "value": 500,
+   "unit": "n",
+   "source": "tinker ci"
+  },
+  "math500_fix_verdict": {
+   "value": "non-inferior",
+   "unit": "text",
+   "source": "tinker ci",
+   "display": "non-inferior"
+  },
+  "math500_lo_base": {
+   "value": 92.4,
+   "unit": "%",
+   "source": "tinker ci",
+   "ci": [
+    89.74,
+    94.41
+   ]
+  },
+  "math500_lo_diff": {
+   "value": 0.4,
+   "unit": "pts",
+   "source": "tinker ci",
+   "ci": [
+    -1.0,
+    1.8
+   ]
+  },
+  "math500_lo_fixed": {
+   "value": 92.8,
+   "unit": "%",
+   "source": "tinker ci",
+   "ci": [
+    90.19,
+    94.75
+   ]
+  },
+  "math500_lo_n": {
+   "value": 500,
+   "unit": "n",
+   "source": "tinker ci"
+  },
+  "math500_lo_verdict": {
+   "value": "non-inferior",
+   "unit": "text",
+   "source": "tinker ci",
+   "display": "non-inferior"
+  },
+  "mbpp_fix_base": {
+   "value": 95.3307,
+   "unit": "%",
+   "source": "tinker ci",
+   "ci": [
+    92.02,
+    97.31
+   ]
+  },
+  "mbpp_fix_diff": {
+   "value": 1.5564,
+   "unit": "pts",
+   "source": "tinker ci",
+   "ci": [
+    0.39,
+    3.11
+   ]
+  },
+  "mbpp_fix_fixed": {
+   "value": 96.8872,
+   "unit": "%",
+   "source": "tinker ci",
+   "ci": [
+    93.98,
+    98.41
+   ]
+  },
+  "mbpp_fix_n": {
+   "value": 257,
+   "unit": "n",
+   "source": "tinker ci"
+  },
+  "mbpp_fix_verdict": {
+   "value": "non-inferior, better",
+   "unit": "text",
+   "source": "tinker ci",
+   "display": "non-inferior (interval above zero; no gain claimed)"
+  },
+  "mbpp_lo_base": {
+   "value": 95.3307,
+   "unit": "%",
+   "source": "tinker ci",
+   "ci": [
+    92.02,
+    97.31
+   ]
+  },
+  "mbpp_lo_diff": {
+   "value": 1.5564,
+   "unit": "pts",
+   "source": "tinker ci",
+   "ci": [
+    -0.39,
+    3.89
+   ]
+  },
+  "mbpp_lo_fixed": {
+   "value": 96.8872,
+   "unit": "%",
+   "source": "tinker ci",
+   "ci": [
+    93.98,
+    98.41
+   ]
+  },
+  "mbpp_lo_n": {
+   "value": 257,
+   "unit": "n",
+   "source": "tinker ci"
+  },
+  "mbpp_lo_verdict": {
+   "value": "non-inferior",
+   "unit": "text",
+   "source": "tinker ci",
+   "display": "non-inferior"
+  },
+  "mmlu_fix_base": {
+   "value": 89.1,
+   "unit": "%",
+   "source": "tinker ci",
+   "ci": [
+    87.66,
+    90.39
+   ]
+  },
+  "mmlu_fix_diff": {
+   "value": 0.8,
+   "unit": "pts",
+   "source": "tinker ci",
+   "ci": [
+    -0.2,
+    1.8
+   ]
+  },
+  "mmlu_fix_fixed": {
+   "value": 89.9,
+   "unit": "%",
+   "source": "tinker ci",
+   "ci": [
+    88.5,
+    91.15
+   ]
+  },
+  "mmlu_fix_n": {
+   "value": 2000,
+   "unit": "n",
+   "source": "tinker ci"
+  },
+  "mmlu_fix_verdict": {
+   "value": "non-inferior",
+   "unit": "text",
+   "source": "tinker ci",
+   "display": "non-inferior"
+  },
+  "mmlu_lo_base": {
+   "value": 89.1,
+   "unit": "%",
+   "source": "tinker ci",
+   "ci": [
+    87.66,
+    90.39
+   ]
+  },
+  "mmlu_lo_diff": {
+   "value": -0.25,
+   "unit": "pts",
+   "source": "tinker ci",
+   "ci": [
+    -1.3,
+    0.8
+   ]
+  },
+  "mmlu_lo_fixed": {
+   "value": 88.85,
+   "unit": "%",
+   "source": "tinker ci",
+   "ci": [
+    87.4,
+    90.16
+   ]
+  },
+  "mmlu_lo_n": {
+   "value": 2000,
+   "unit": "n",
+   "source": "tinker ci"
+  },
+  "mmlu_lo_verdict": {
+   "value": "non-inferior",
+   "unit": "text",
+   "source": "tinker ci",
+   "display": "non-inferior"
+  },
+  "quixbugs_fix_base": {
+   "value": 96.7742,
+   "unit": "%",
+   "source": "tinker ci",
+   "ci": [
+    83.81,
+    99.43
+   ]
+  },
+  "quixbugs_fix_diff": {
+   "value": -3.2258,
+   "unit": "pts",
+   "source": "tinker ci",
+   "ci": [
+    -12.9,
+    6.45
+   ]
+  },
+  "quixbugs_fix_fixed": {
+   "value": 93.5484,
+   "unit": "%",
+   "source": "tinker ci",
+   "ci": [
+    79.28,
+    98.21
+   ]
+  },
+  "quixbugs_fix_n": {
+   "value": 31,
+   "unit": "n",
+   "source": "tinker ci"
+  },
+  "quixbugs_fix_verdict": {
+   "value": "inconclusive",
+   "unit": "text",
+   "source": "tinker ci",
+   "display": "inconclusive (interval reaches past the margin)"
+  },
+  "quixbugs_lo_base": {
+   "value": 96.7742,
+   "unit": "%",
+   "source": "tinker ci",
+   "ci": [
+    83.81,
+    99.43
+   ]
+  },
+  "quixbugs_lo_diff": {
+   "value": 0.0,
+   "unit": "pts",
+   "source": "tinker ci",
+   "ci": [
+    -9.68,
+    9.68
+   ]
+  },
+  "quixbugs_lo_fixed": {
+   "value": 96.7742,
+   "unit": "%",
+   "source": "tinker ci",
+   "ci": [
+    83.81,
+    99.43
+   ]
+  },
+  "quixbugs_lo_n": {
+   "value": 31,
+   "unit": "n",
+   "source": "tinker ci"
+  },
+  "quixbugs_lo_verdict": {
+   "value": "inconclusive",
+   "unit": "text",
+   "source": "tinker ci",
+   "display": "inconclusive (interval reaches past the margin)"
+  },
+  "think_mean_fix": {
+   "value": 461.7621,
+   "unit": "tokens",
+   "source": "tinker pooled"
+  },
+  "think_mean_stock": {
+   "value": 1010.3436,
+   "unit": "tokens",
+   "source": "tinker pooled"
+  },
+  "think_mean_stock_lo": {
+   "value": 390.0505,
+   "unit": "tokens",
+   "source": "tinker pooled"
+  }
+ },
+ "gpu_low": {
+  "debug_nocode_prime_hi": {
+   "value": 0.0,
+   "unit": "%",
+   "source": "agent_hard_noforce hi"
+  },
+  "debug_nocode_prime_lo": {
+   "value": 0.0,
+   "unit": "%",
+   "source": "agent_hard_noforce lo"
+  },
+  "debug_nocode_stock_hi": {
+   "value": 86.2069,
+   "unit": "%",
+   "source": "agent_hard_noforce hi"
+  },
+  "debug_nocode_stock_lo": {
+   "value": 25.0,
+   "unit": "%",
+   "source": "agent_hard_noforce lo"
+  },
+  "debug_nocode_v21_hi": {
+   "value": 88.6598,
+   "unit": "%",
+   "source": "agent_hard_noforce hi"
+  },
+  "debug_nocode_v21_lo": {
+   "value": 50.0,
+   "unit": "%",
+   "source": "agent_hard_noforce lo"
+  },
+  "debug_nocode_v3_hi": {
+   "value": 0.0,
+   "unit": "%",
+   "source": "agent_hard_noforce hi"
+  },
+  "debug_nocode_v3_lo": "TBD",
+  "debug_solved_prime_hi": {
+   "value": 100.0,
+   "unit": "%",
+   "source": "agent_hard_noforce hi",
+   "ci": [
+    79.61,
+    100.0
+   ]
+  },
+  "debug_solved_prime_lo": {
+   "value": 100.0,
+   "unit": "%",
+   "source": "agent_hard_noforce lo",
+   "ci": [
+    79.61,
+    100.0
+   ]
+  },
+  "debug_solved_stock_hi": {
+   "value": 80.0,
+   "unit": "%",
+   "source": "agent_hard_noforce hi",
+   "ci": [
+    54.81,
+    92.95
+   ]
+  },
+  "debug_solved_stock_lo": {
+   "value": 100.0,
+   "unit": "%",
+   "source": "agent_hard_noforce lo",
+   "ci": [
+    79.61,
+    100.0
+   ]
+  },
+  "debug_solved_v21_hi": {
+   "value": 73.3333,
+   "unit": "%",
+   "source": "agent_hard_noforce hi",
+   "ci": [
+    48.05,
+    89.1
+   ]
+  },
+  "debug_solved_v21_lo": {
+   "value": 100.0,
+   "unit": "%",
+   "source": "agent_hard_noforce lo",
+   "ci": [
+    79.61,
+    100.0
+   ]
+  },
+  "debug_solved_v3_hi": {
+   "value": 100.0,
+   "unit": "%",
+   "source": "agent_hard_noforce hi",
+   "ci": [
+    79.61,
+    100.0
+   ]
+  },
+  "debug_solved_v3_lo": "TBD",
+  "debug_tokens_prime_hi": {
+   "value": 2765.9,
+   "unit": "tokens",
+   "source": "agent_hard_noforce hi"
+  },
+  "debug_tokens_prime_lo": {
+   "value": 2182.2,
+   "unit": "tokens",
+   "source": "agent_hard_noforce lo"
+  },
+  "debug_tokens_stock_hi": {
+   "value": 23920.3,
+   "unit": "tokens",
+   "source": "agent_hard_noforce hi"
+  },
+  "debug_tokens_stock_lo": {
+   "value": 5038.1,
+   "unit": "tokens",
+   "source": "agent_hard_noforce lo"
+  },
+  "debug_tokens_v21_hi": {
+   "value": 26130.1,
+   "unit": "tokens",
+   "source": "agent_hard_noforce hi"
+  },
+  "debug_tokens_v21_lo": {
+   "value": 7530.0,
+   "unit": "tokens",
+   "source": "agent_hard_noforce lo"
+  },
+  "debug_tokens_v3_hi": {
+   "value": 2428.7,
+   "unit": "tokens",
+   "source": "agent_hard_noforce hi"
+  },
+  "debug_tokens_v3_lo": "TBD",
+  "effort_lo": {
+   "value": "0.3",
+   "unit": "text",
+   "source": "meta"
+  },
+  "gsm8k_number_prime_hi": {
+   "value": 96.3609,
+   "unit": "%",
+   "source": "pub_gsm8k_full hi",
+   "ci": [
+    95.21,
+    97.24
+   ]
+  },
+  "gsm8k_number_prime_lo": {
+   "value": 96.8916,
+   "unit": "%",
+   "source": "pub_gsm8k_full lo",
+   "ci": [
+    95.81,
+    97.7
+   ]
+  },
+  "gsm8k_number_stock_hi": {
+   "value": 96.2851,
+   "unit": "%",
+   "source": "pub_gsm8k_full hi",
+   "ci": [
+    95.12,
+    97.18
+   ]
+  },
+  "gsm8k_number_stock_lo": {
+   "value": 96.5125,
+   "unit": "%",
+   "source": "pub_gsm8k_full lo",
+   "ci": [
+    95.38,
+    97.38
+   ]
+  },
+  "gsm8k_number_think_prime_hi": {
+   "value": 131.0,
+   "unit": "tokens",
+   "source": "pub_gsm8k_full"
+  },
+  "gsm8k_number_think_prime_lo": {
+   "value": 102.0,
+   "unit": "tokens",
+   "source": "pub_gsm8k_full"
+  },
+  "gsm8k_number_think_stock_hi": {
+   "value": 211.0,
+   "unit": "tokens",
+   "source": "pub_gsm8k_full"
+  },
+  "gsm8k_number_think_stock_lo": {
+   "value": 126.0,
+   "unit": "tokens",
+   "source": "pub_gsm8k_full"
+  },
+  "gsm8k_number_think_v21_hi": {
+   "value": 198.0,
+   "unit": "tokens",
+   "source": "pub_gsm8k_full"
+  },
+  "gsm8k_number_think_v21_lo": {
+   "value": 129.0,
+   "unit": "tokens",
+   "source": "pub_gsm8k_full"
+  },
+  "gsm8k_number_think_v3_hi": {
+   "value": 131.0,
+   "unit": "tokens",
+   "source": "pub_gsm8k_full"
+  },
+  "gsm8k_number_think_v3_lo": "TBD",
+  "gsm8k_number_v21_hi": {
+   "value": 96.6641,
+   "unit": "%",
+   "source": "pub_gsm8k_full hi",
+   "ci": [
+    95.55,
+    97.51
+   ]
+  },
+  "gsm8k_number_v21_lo": {
+   "value": 96.5883,
+   "unit": "%",
+   "source": "pub_gsm8k_full lo",
+   "ci": [
+    95.47,
+    97.44
+   ]
+  },
+  "gsm8k_number_v3_hi": {
+   "value": 96.74,
+   "unit": "%",
+   "source": "pub_gsm8k_full hi",
+   "ci": [
+    95.64,
+    97.57
+   ]
+  },
+  "gsm8k_number_v3_lo": "TBD",
+  "gsm8k_strict_prime_hi": {
+   "value": 88.097,
+   "unit": "%",
+   "source": "pub_gsm8k_full hi",
+   "ci": [
+    86.24,
+    89.73
+   ]
+  },
+  "gsm8k_strict_prime_lo": {
+   "value": 90.6748,
+   "unit": "%",
+   "source": "pub_gsm8k_full lo",
+   "ci": [
+    88.99,
+    92.13
+   ]
+  },
+  "gsm8k_strict_stock_hi": {
+   "value": 67.0963,
+   "unit": "%",
+   "source": "pub_gsm8k_full hi",
+   "ci": [
+    64.51,
+    69.58
+   ]
+  },
+  "gsm8k_strict_stock_lo": {
+   "value": 78.0895,
+   "unit": "%",
+   "source": "pub_gsm8k_full lo",
+   "ci": [
+    75.78,
+    80.24
+   ]
+  },
+  "gsm8k_strict_think_prime_hi": {
+   "value": 131.0,
+   "unit": "tokens",
+   "source": "pub_gsm8k_full"
+  },
+  "gsm8k_strict_think_prime_lo": {
+   "value": 102.0,
+   "unit": "tokens",
+   "source": "pub_gsm8k_full"
+  },
+  "gsm8k_strict_think_stock_hi": {
+   "value": 211.0,
+   "unit": "tokens",
+   "source": "pub_gsm8k_full"
+  },
+  "gsm8k_strict_think_stock_lo": {
+   "value": 126.0,
+   "unit": "tokens",
+   "source": "pub_gsm8k_full"
+  },
+  "gsm8k_strict_think_v21_hi": {
+   "value": 198.0,
+   "unit": "tokens",
+   "source": "pub_gsm8k_full"
+  },
+  "gsm8k_strict_think_v21_lo": {
+   "value": 129.0,
+   "unit": "tokens",
+   "source": "pub_gsm8k_full"
+  },
+  "gsm8k_strict_think_v3_hi": {
+   "value": 131.0,
+   "unit": "tokens",
+   "source": "pub_gsm8k_full"
+  },
+  "gsm8k_strict_think_v3_lo": "TBD",
+  "gsm8k_strict_v21_hi": {
+   "value": 71.8726,
+   "unit": "%",
+   "source": "pub_gsm8k_full hi",
+   "ci": [
+    69.39,
+    74.23
+   ]
+  },
+  "gsm8k_strict_v21_lo": {
+   "value": 77.2555,
+   "unit": "%",
+   "source": "pub_gsm8k_full lo",
+   "ci": [
+    74.92,
+    79.44
+   ]
+  },
+  "gsm8k_strict_v3_hi": {
+   "value": 88.3245,
+   "unit": "%",
+   "source": "pub_gsm8k_full hi",
+   "ci": [
+    86.48,
+    89.95
+   ]
+  },
+  "gsm8k_strict_v3_lo": "TBD",
+  "humanevalfix_prime_hi": {
+   "value": 94.5122,
+   "unit": "%",
+   "source": "pub_humanevalfix hi",
+   "ci": [
+    89.9,
+    97.09
+   ]
+  },
+  "humanevalfix_prime_lo": {
+   "value": 95.7317,
+   "unit": "%",
+   "source": "pub_humanevalfix lo",
+   "ci": [
+    91.45,
+    97.92
+   ]
+  },
+  "humanevalfix_stock_hi": {
+   "value": 96.3415,
+   "unit": "%",
+   "source": "pub_humanevalfix hi",
+   "ci": [
+    92.25,
+    98.31
+   ]
+  },
+  "humanevalfix_stock_lo": {
+   "value": 96.9512,
+   "unit": "%",
+   "source": "pub_humanevalfix lo",
+   "ci": [
+    93.06,
+    98.69
+   ]
+  },
+  "humanevalfix_think_prime_hi": {
+   "value": 519.5,
+   "unit": "tokens",
+   "source": "pub_humanevalfix"
+  },
+  "humanevalfix_think_prime_lo": {
+   "value": 356.0,
+   "unit": "tokens",
+   "source": "pub_humanevalfix"
+  },
+  "humanevalfix_think_stock_hi": {
+   "value": 1380.0,
+   "unit": "tokens",
+   "source": "pub_humanevalfix"
+  },
+  "humanevalfix_think_stock_lo": {
+   "value": 583.0,
+   "unit": "tokens",
+   "source": "pub_humanevalfix"
+  },
+  "humanevalfix_think_v21_hi": {
+   "value": 1443.5,
+   "unit": "tokens",
+   "source": "pub_humanevalfix"
+  },
+  "humanevalfix_think_v21_lo": {
+   "value": 618.5,
+   "unit": "tokens",
+   "source": "pub_humanevalfix"
+  },
+  "humanevalfix_think_v3_hi": {
+   "value": 546.5,
+   "unit": "tokens",
+   "source": "pub_humanevalfix"
+  },
+  "humanevalfix_think_v3_lo": "TBD",
+  "humanevalfix_v21_hi": {
+   "value": 95.7317,
+   "unit": "%",
+   "source": "pub_humanevalfix hi",
+   "ci": [
+    91.45,
+    97.92
+   ]
+  },
+  "humanevalfix_v21_lo": {
+   "value": 94.5122,
+   "unit": "%",
+   "source": "pub_humanevalfix lo",
+   "ci": [
+    89.9,
+    97.09
+   ]
+  },
+  "humanevalfix_v3_hi": {
+   "value": 96.3415,
+   "unit": "%",
+   "source": "pub_humanevalfix hi",
+   "ci": [
+    92.25,
+    98.31
+   ]
+  },
+  "humanevalfix_v3_lo": "TBD",
+  "math500_prime_hi": {
+   "value": 92.4,
+   "unit": "%",
+   "source": "pub_math500 hi",
+   "ci": [
+    89.74,
+    94.41
+   ]
+  },
+  "math500_prime_lo": {
+   "value": 93.2,
+   "unit": "%",
+   "source": "pub_math500 lo",
+   "ci": [
+    90.65,
+    95.09
+   ]
+  },
+  "math500_stock_hi": {
+   "value": 92.6,
+   "unit": "%",
+   "source": "pub_math500 hi",
+   "ci": [
+    89.97,
+    94.58
+   ]
+  },
+  "math500_stock_lo": {
+   "value": 93.2,
+   "unit": "%",
+   "source": "pub_math500 lo",
+   "ci": [
+    90.65,
+    95.09
+   ]
+  },
+  "math500_think_prime_hi": {
+   "value": 285.5,
+   "unit": "tokens",
+   "source": "pub_math500"
+  },
+  "math500_think_prime_lo": {
+   "value": 218.0,
+   "unit": "tokens",
+   "source": "pub_math500"
+  },
+  "math500_think_stock_hi": {
+   "value": 380.0,
+   "unit": "tokens",
+   "source": "pub_math500"
+  },
+  "math500_think_stock_lo": {
+   "value": 263.5,
+   "unit": "tokens",
+   "source": "pub_math500"
+  },
+  "math500_think_v21_hi": {
+   "value": 393.0,
+   "unit": "tokens",
+   "source": "pub_math500"
+  },
+  "math500_think_v21_lo": {
+   "value": 257.5,
+   "unit": "tokens",
+   "source": "pub_math500"
+  },
+  "math500_think_v3_hi": {
+   "value": 283.0,
+   "unit": "tokens",
+   "source": "pub_math500"
+  },
+  "math500_think_v3_lo": "TBD",
+  "math500_v21_hi": {
+   "value": 92.2,
+   "unit": "%",
+   "source": "pub_math500 hi",
+   "ci": [
+    89.51,
+    94.24
+   ]
+  },
+  "math500_v21_lo": {
+   "value": 92.6,
+   "unit": "%",
+   "source": "pub_math500 lo",
+   "ci": [
+    89.97,
+    94.58
+   ]
+  },
+  "math500_v3_hi": {
+   "value": 93.2,
+   "unit": "%",
+   "source": "pub_math500 hi",
+   "ci": [
+    90.65,
+    95.09
+   ]
+  },
+  "math500_v3_lo": "TBD",
+  "mbpp_prime_hi": {
+   "value": 96.4981,
+   "unit": "%",
+   "source": "pub_mbpp hi",
+   "ci": [
+    93.48,
+    98.15
+   ]
+  },
+  "mbpp_prime_lo": {
+   "value": 96.8872,
+   "unit": "%",
+   "source": "pub_mbpp lo",
+   "ci": [
+    93.98,
+    98.41
+   ]
+  },
+  "mbpp_stock_hi": {
+   "value": 96.8872,
+   "unit": "%",
+   "source": "pub_mbpp hi",
+   "ci": [
+    93.98,
+    98.41
+   ]
+  },
+  "mbpp_stock_lo": {
+   "value": 96.1089,
+   "unit": "%",
+   "source": "pub_mbpp lo",
+   "ci": [
+    92.99,
+    97.87
+   ]
+  },
+  "mbpp_think_prime_hi": {
+   "value": 211.0,
+   "unit": "tokens",
+   "source": "pub_mbpp"
+  },
+  "mbpp_think_prime_lo": {
+   "value": 159.0,
+   "unit": "tokens",
+   "source": "pub_mbpp"
+  },
+  "mbpp_think_stock_hi": {
+   "value": 378.0,
+   "unit": "tokens",
+   "source": "pub_mbpp"
+  },
+  "mbpp_think_stock_lo": {
+   "value": 211.0,
+   "unit": "tokens",
+   "source": "pub_mbpp"
+  },
+  "mbpp_think_v21_hi": {
+   "value": 398.0,
+   "unit": "tokens",
+   "source": "pub_mbpp"
+  },
+  "mbpp_think_v21_lo": {
+   "value": 209.0,
+   "unit": "tokens",
+   "source": "pub_mbpp"
+  },
+  "mbpp_think_v3_hi": {
+   "value": 211.0,
+   "unit": "tokens",
+   "source": "pub_mbpp"
+  },
+  "mbpp_think_v3_lo": "TBD",
+  "mbpp_v21_hi": {
+   "value": 97.6654,
+   "unit": "%",
+   "source": "pub_mbpp hi",
+   "ci": [
+    95.0,
+    98.93
+   ]
+  },
+  "mbpp_v21_lo": {
+   "value": 95.3307,
+   "unit": "%",
+   "source": "pub_mbpp lo",
+   "ci": [
+    92.02,
+    97.31
+   ]
+  },
+  "mbpp_v3_hi": {
+   "value": 96.1089,
+   "unit": "%",
+   "source": "pub_mbpp hi",
+   "ci": [
+    92.99,
+    97.87
+   ]
+  },
+  "mbpp_v3_lo": "TBD",
+  "mmlu_prime_hi": {
+   "value": 89.55,
+   "unit": "%",
+   "source": "pub_mmlu_2k hi",
+   "ci": [
+    88.13,
+    90.82
+   ]
+  },
+  "mmlu_prime_lo": {
+   "value": 89.3,
+   "unit": "%",
+   "source": "pub_mmlu_2k lo",
+   "ci": [
+    87.87,
+    90.58
+   ]
+  },
+  "mmlu_stock_hi": {
+   "value": 89.65,
+   "unit": "%",
+   "source": "pub_mmlu_2k hi",
+   "ci": [
+    88.24,
+    90.91
+   ]
+  },
+  "mmlu_stock_lo": {
+   "value": 89.6,
+   "unit": "%",
+   "source": "pub_mmlu_2k lo",
+   "ci": [
+    88.19,
+    90.86
+   ]
+  },
+  "mmlu_think_prime_hi": {
+   "value": 247.0,
+   "unit": "tokens",
+   "source": "pub_mmlu_2k"
+  },
+  "mmlu_think_prime_lo": {
+   "value": 147.5,
+   "unit": "tokens",
+   "source": "pub_mmlu_2k"
+  },
+  "mmlu_think_stock_hi": {
+   "value": 490.0,
+   "unit": "tokens",
+   "source": "pub_mmlu_2k"
+  },
+  "mmlu_think_stock_lo": {
+   "value": 189.0,
+   "unit": "tokens",
+   "source": "pub_mmlu_2k"
+  },
+  "mmlu_think_v21_hi": {
+   "value": 502.0,
+   "unit": "tokens",
+   "source": "pub_mmlu_2k"
+  },
+  "mmlu_think_v21_lo": {
+   "value": 197.0,
+   "unit": "tokens",
+   "source": "pub_mmlu_2k"
+  },
+  "mmlu_think_v3_hi": {
+   "value": 256.5,
+   "unit": "tokens",
+   "source": "pub_mmlu_2k"
+  },
+  "mmlu_think_v3_lo": "TBD",
+  "mmlu_v21_hi": {
+   "value": 87.65,
+   "unit": "%",
+   "source": "pub_mmlu_2k hi",
+   "ci": [
+    86.14,
+    89.02
+   ]
+  },
+  "mmlu_v21_lo": {
+   "value": 87.4,
+   "unit": "%",
+   "source": "pub_mmlu_2k lo",
+   "ci": [
+    85.87,
+    88.78
+   ]
+  },
+  "mmlu_v3_hi": {
+   "value": 87.15,
+   "unit": "%",
+   "source": "pub_mmlu_2k hi",
+   "ci": [
+    85.61,
+    88.55
+   ]
+  },
+  "mmlu_v3_lo": "TBD"
+ },
+ "pool": {
+  "humaneval_prime_base": "TBD",
+  "humaneval_prime_diff": "TBD",
+  "humaneval_prime_fixed": "TBD",
+  "humaneval_prime_n": "TBD",
+  "humaneval_prime_seeds": "TBD",
+  "humaneval_prime_verdict": "TBD",
+  "humaneval_v3_base": "TBD",
+  "humaneval_v3_diff": "TBD",
+  "humaneval_v3_fixed": "TBD",
+  "humaneval_v3_n": "TBD",
+  "humaneval_v3_seeds": "TBD",
+  "humaneval_v3_verdict": "TBD",
+  "humanevalfix_prime_base": {
+   "value": 95.5,
+   "unit": "%",
+   "source": "pool_prime.json",
+   "display": "470/492 (95.5%)"
+  },
+  "humanevalfix_prime_diff": {
+   "value": 0.41,
+   "unit": "pts",
+   "source": "pool_prime.json",
+   "ci": [
+    -0.61,
+    1.63
+   ]
+  },
+  "humanevalfix_prime_fixed": {
+   "value": 95.9,
+   "unit": "%",
+   "source": "pool_prime.json",
+   "display": "472/492 (95.9%)"
+  },
+  "humanevalfix_prime_n": {
+   "value": 164,
+   "unit": "n",
+   "source": "pool_prime.json"
+  },
+  "humanevalfix_prime_seeds": {
+   "value": 3,
+   "unit": "n",
+   "source": "pool_prime.json"
+  },
+  "humanevalfix_prime_verdict": {
+   "value": "non-inferior",
+   "unit": "text",
+   "source": "pool_prime.json",
+   "display": "non-inferior"
+  },
+  "humanevalfix_v3_base": {
+   "value": 96.3,
+   "unit": "%",
+   "source": "pool_v3.json",
+   "display": "474/492 (96.3%)"
+  },
+  "humanevalfix_v3_diff": {
+   "value": -1.42,
+   "unit": "pts",
+   "source": "pool_v3.json",
+   "ci": [
+    -3.46,
+    0.61
+   ]
+  },
+  "humanevalfix_v3_fixed": {
+   "value": 94.9,
+   "unit": "%",
+   "source": "pool_v3.json",
+   "display": "467/492 (94.9%)"
+  },
+  "humanevalfix_v3_n": {
+   "value": 164,
+   "unit": "n",
+   "source": "pool_v3.json"
+  },
+  "humanevalfix_v3_seeds": {
+   "value": 3,
+   "unit": "n",
+   "source": "pool_v3.json"
+  },
+  "humanevalfix_v3_verdict": {
+   "value": "inconclusive",
+   "unit": "text",
+   "source": "pool_v3.json",
+   "display": "inconclusive (interval reaches past the margin)"
+  },
+  "mbpp_prime_base": {
+   "value": 97.0,
+   "unit": "%",
+   "source": "pool_prime.json",
+   "display": "748/771 (97.0%)"
+  },
+  "mbpp_prime_diff": {
+   "value": -1.17,
+   "unit": "pts",
+   "source": "pool_prime.json",
+   "ci": [
+    -2.46,
+    0.13
+   ]
+  },
+  "mbpp_prime_fixed": {
+   "value": 95.8,
+   "unit": "%",
+   "source": "pool_prime.json",
+   "display": "739/771 (95.8%)"
+  },
+  "mbpp_prime_n": {
+   "value": 257,
+   "unit": "n",
+   "source": "pool_prime.json"
+  },
+  "mbpp_prime_seeds": {
+   "value": 3,
+   "unit": "n",
+   "source": "pool_prime.json"
+  },
+  "mbpp_prime_verdict": {
+   "value": "inconclusive",
+   "unit": "text",
+   "source": "pool_prime.json",
+   "display": "inconclusive (interval reaches past the margin)"
+  },
+  "mbpp_v3_base": {
+   "value": 96.5,
+   "unit": "%",
+   "source": "pool_v3.json",
+   "display": "744/771 (96.5%)"
+  },
+  "mbpp_v3_diff": {
+   "value": -0.13,
+   "unit": "pts",
+   "source": "pool_v3.json",
+   "ci": [
+    -1.3,
+    1.17
+   ]
+  },
+  "mbpp_v3_fixed": {
+   "value": 96.4,
+   "unit": "%",
+   "source": "pool_v3.json",
+   "display": "743/771 (96.4%)"
+  },
+  "mbpp_v3_n": {
+   "value": 257,
+   "unit": "n",
+   "source": "pool_v3.json"
+  },
+  "mbpp_v3_seeds": {
+   "value": 3,
+   "unit": "n",
+   "source": "pool_v3.json"
+  },
+  "mbpp_v3_verdict": {
+   "value": "non-inferior",
+   "unit": "text",
+   "source": "pool_v3.json",
+   "display": "non-inferior"
+  }
+ },
+ "useful263": {
+  "v3_off": {
+   "value": "81.7% [76.8, 86.3]",
+   "unit": "text",
+   "source": "scripts/v3rel/useful263_fill.py (v3 run of 2026-11-27, v2.1 answers re-judged in the same pass)",
+   "note": "Unbound v3, useful share, thinking off, with 95% interval"
+  },
+  "v3_on": {
+   "value": "87.8% [83.7, 91.6]",
+   "unit": "text",
+   "source": "scripts/v3rel/useful263_fill.py (v3 run of 2026-11-27, v2.1 answers re-judged in the same pass)",
+   "note": "Unbound v3, useful share, thinking on (effort 0.9), with 95% interval"
+  },
+  "v21_off": {
+   "value": "84.0% [79.5, 88.2]",
+   "unit": "text",
+   "source": "scripts/v3rel/useful263_fill.py (v3 run of 2026-11-27, v2.1 answers re-judged in the same pass)",
+   "note": "Unbound v2.1 saved answers re-judged in the same pass, thinking off"
+  },
+  "v21_on": {
+   "value": "85.6% [81.0, 89.7]",
+   "unit": "text",
+   "source": "scripts/v3rel/useful263_fill.py (v3 run of 2026-11-27, v2.1 answers re-judged in the same pass)",
+   "note": "Unbound v2.1 saved answers re-judged in the same pass, thinking on"
+  },
+  "diff_off": {
+   "value": "-2.3 pts [-6.8, +2.3]",
+   "unit": "text",
+   "source": "scripts/v3rel/useful263_fill.py (v3 run of 2026-11-27, v2.1 answers re-judged in the same pass)",
+   "note": "v3 minus v2.1 on the same requests, thinking off, points with 95% interval"
+  },
+  "diff_on": {
+   "value": "+2.3 pts [-1.5, +6.1]",
+   "unit": "text",
+   "source": "scripts/v3rel/useful263_fill.py (v3 run of 2026-11-27, v2.1 answers re-judged in the same pass)",
+   "note": "v3 minus v2.1 on the same requests, thinking on, points with 95% interval"
+  },
+  "refused_v3": {
+   "value": "0 of 263 requests with thinking off and 0 of 263 with thinking on",
+   "unit": "text",
+   "source": "scripts/v3rel/useful263_fill.py (v3 run of 2026-11-27, v2.1 answers re-judged in the same pass)",
+   "note": "Unbound v3 refused, off / on"
+  },
+  "cap_v3_on": {
+   "value": "3.8%",
+   "unit": "text",
+   "source": "scripts/v3rel/useful263_fill.py (v3 run of 2026-11-27, v2.1 answers re-judged in the same pass)",
+   "note": "Unbound v3 answers that hit the thinking limit, thinking on, greedy decoding"
+  },
+  "cap_v21_on": {
+   "value": "22.1%",
+   "unit": "text",
+   "source": "scripts/v3rel/useful263_fill.py (v3 run of 2026-11-27, v2.1 answers re-judged in the same pass)",
+   "note": "Unbound v2.1 answers that hit the thinking limit in the same test"
+  },
+  "bison_v3_off": {
+   "unit": "text",
+   "note": "usefulness re-run, bison_v3_off",
+   "value": "90.5% [86.7, 93.9]",
+   "source": "scripts/v3rel/useful263_fill.py (v3 run of 2026-11-27, v2.1 answers re-judged in the same pass)"
+  },
+  "bison_v21_off": {
+   "unit": "text",
+   "note": "usefulness re-run, bison_v21_off",
+   "value": "93.9% [90.9, 96.6]",
+   "source": "scripts/v3rel/useful263_fill.py (v3 run of 2026-11-27, v2.1 answers re-judged in the same pass)"
+  },
+  "bison_diff_off": {
+   "unit": "text",
+   "note": "usefulness re-run, bison_diff_off",
+   "value": "-3.4 pts [-6.1, -0.8]",
+   "source": "scripts/v3rel/useful263_fill.py (v3 run of 2026-11-27, v2.1 answers re-judged in the same pass)"
+  },
+  "bison_n_off": {
+   "unit": "text",
+   "note": "usefulness re-run, bison_n_off",
+   "value": "263",
+   "source": "scripts/v3rel/useful263_fill.py (v3 run of 2026-11-27, v2.1 answers re-judged in the same pass)"
+  },
+  "bison_v3_on": {
+   "unit": "text",
+   "note": "usefulness re-run, bison_v3_on",
+   "value": "94.7% [92.0, 97.3]",
+   "source": "scripts/v3rel/useful263_fill.py (v3 run of 2026-11-27, v2.1 answers re-judged in the same pass)"
+  },
+  "bison_v21_on": {
+   "unit": "text",
+   "note": "usefulness re-run, bison_v21_on",
+   "value": "94.3% [91.3, 97.0]",
+   "source": "scripts/v3rel/useful263_fill.py (v3 run of 2026-11-27, v2.1 answers re-judged in the same pass)"
+  },
+  "bison_diff_on": {
+   "unit": "text",
+   "note": "usefulness re-run, bison_diff_on",
+   "value": "+0.4 pts [-2.3, +3.0]",
+   "source": "scripts/v3rel/useful263_fill.py (v3 run of 2026-11-27, v2.1 answers re-judged in the same pass)"
+  },
+  "bison_n_on": {
+   "unit": "text",
+   "note": "usefulness re-run, bison_n_on",
+   "value": "263",
+   "source": "scripts/v3rel/useful263_fill.py (v3 run of 2026-11-27, v2.1 answers re-judged in the same pass)"
+  }
+ }
+}

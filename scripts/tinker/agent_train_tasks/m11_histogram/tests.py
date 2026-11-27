@@ -1,0 +1,23 @@
+import os, sys; sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from solution import *
+assert bin_edges(0, 10, 5) == [0, 2, 4, 6, 8, 10], "edges"
+assert bin_index(0, 0, 10, 5) == 0, "low edge"
+assert bin_index(1.99, 0, 10, 5) == 0, "just below boundary"
+assert bin_index(2, 0, 10, 5) == 1, "on internal boundary"
+assert bin_index(10, 0, 10, 5) == 4, "top edge in last bin"
+assert bin_index(10.5, 0, 10, 5) == -1, "above range"
+assert bin_index(-1, 0, 10, 5) == -1, "below range"
+data = [1, 2, 2, 3, 9, 10, 11, -4]
+assert histogram(data, 0, 10, 5) == [1, 3, 0, 0, 2], "histogram"
+assert outliers(data, 0, 10) == (1, 1), "outliers"
+assert mode_bin([1, 3, 3, 0]) == 1, "mode tie lowest"
+assert mode_bin([]) == -1, "mode empty"
+assert cumulative([1, 3, 0, 0, 2]) == [1, 4, 4, 4, 6], "cumulative"
+assert percentile_bin([1, 3, 0, 0, 2], 50) == 1, "median bin"
+assert percentile_bin([1, 3, 0, 0, 2], 100) == 4, "max bin"
+assert percentile_bin([0, 0], 50) == -1, "percentile of empty"
+assert render([1, 3, 0], 6) == ["##", "######", ""], "render"
+assert render([]) == [], "render empty"
+assert merge_bins([1, 2, 3, 4, 5], 2) == [3, 7, 5], "merge bins"
+assert empty_runs([1, 0, 0, 2, 0]) == 2, "empty runs"
+assert empty_runs([]) == 0, "empty runs of nothing"

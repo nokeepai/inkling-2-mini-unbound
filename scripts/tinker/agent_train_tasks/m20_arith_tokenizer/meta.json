@@ -1,0 +1,1 @@
+{"name": "arith_tokenizer", "description": "Tokenizer for arithmetic text with numbers, identifiers, multi-char operators, paren balance and unary detection."}

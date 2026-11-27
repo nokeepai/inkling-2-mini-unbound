@@ -1,0 +1,9 @@
+{
+  "name": "unit_converter",
+  "description": "A unit converter that stores linear and affine conversions as a graph, chains them by breadth-first search and caches composed conversions.",
+  "bugs": [
+    "Conversion.inverse() negates the offset without dividing it by the scale",
+    "Conversion.then() composes in the wrong order (applies other first), which only matters when offsets are involved",
+    "conversion() caches the reverse direction with the forward conversion instead of its inverse"
+  ]
+}

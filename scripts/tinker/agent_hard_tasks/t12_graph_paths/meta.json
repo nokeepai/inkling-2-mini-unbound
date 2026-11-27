@@ -1,0 +1,9 @@
+{
+  "name": "graph_paths",
+  "description": "A weighted graph with Dijkstra shortest paths, BFS reachability, connected components and directed cycle detection.",
+  "bugs": [
+    "dijkstra() only sets a distance the first time a node is discovered instead of relaxing to a smaller one",
+    "add_edge() keeps the minimum only for u->v; the reverse direction of an undirected edge is overwritten with the new weight",
+    "has_cycle() treats any already-visited (black) node as a cycle, so DAGs with shared descendants report cycles"
+  ]
+}

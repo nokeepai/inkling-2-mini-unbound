@@ -1,0 +1,9 @@
+{
+  "name": "word_frequency",
+  "description": "A text tokenizer with sentence splitting, word-frequency counting, ranking and a percentage report.",
+  "bugs": [
+    "tokenize() keeps empty strings left over from punctuation-only tokens such as '...'",
+    "top_n() sorts by count only, so ties keep insertion order instead of alphabetical order",
+    "report() divides by the number of all tokens (including stopwords) instead of counted words"
+  ]
+}

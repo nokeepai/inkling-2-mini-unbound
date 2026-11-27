@@ -1,0 +1,9 @@
+{
+  "name": "rle_huffman",
+  "description": "Run-length encoding plus a deterministic Huffman coder, combined into a pack/unpack compression pipeline.",
+  "bugs": [
+    "rle_encode() iterates over the whole text instead of text[1:], so the first run is counted one too many",
+    "rle_decode() overwrites the run length with the latest digit, breaking multi-digit counts",
+    "build_codes() gives the only symbol of a one-symbol text an empty code"
+  ]
+}

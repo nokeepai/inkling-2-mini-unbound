@@ -1,0 +1,9 @@
+{
+  "name": "task_scheduler",
+  "description": "A dependency-aware task scheduler that orders tasks with a priority queue, detects cycles, cancels dependent chains and simulates multi-worker makespan.",
+  "bugs": [
+    "_entry() omits the insertion sequence number, so equal-priority tasks run alphabetically instead of in insertion order",
+    "_dependents() builds the map with dict.fromkeys(..., []), so every task shares one dependents list",
+    "cancel() records children but never pushes them on the stack, so only direct dependents are removed"
+  ]
+}

@@ -58,12 +58,26 @@ BACKENDS = {
 }
 
 
+# JEV_ROUTE=venice sends the same jev-latest request to Venice's decisions endpoint with the benchmark's own Venice
+# login (as uncensoredbench/tools/jev_judge.py does). Used when the TypeSafe key file is not available; when two
+# models are compared, judge both through the same route in one pass.
+if os.environ.get("JEV_ROUTE") == "venice":
+    BACKENDS["jev"] = {"url": "https://api.venice.ai/api/v1/decisions", "model": "jev-latest", "price": 0.042, "interval": 0.45}
+
+
 def get_key(backend: str) -> str:
+    if backend == "jev" and os.environ.get("JEV_ROUTE") == "venice":
+        sys.path.insert(0, f"{UB}/tools")
+        import pilot  # noqa: E402 - uncensoredbench key helper (env, .env, opencode auth)
+        k = pilot.key("venice")
+        if not k:
+            raise SystemExit("venice key not found")
+        return k
     if backend == "jev":
         k = os.environ.get("TYPESAFE_API_KEY")
         if k:
             return k
-        for line in open(os.path.expanduser("~/Code/jev/.env")):
+        for line in open("/Users/nikshepsvn/Code/jev/.env"):
             if line.strip().startswith("TYPESAFE_API_KEY="):
                 return line.split("=", 1)[1].strip().strip('"').strip("'")
         raise SystemExit("TYPESAFE_API_KEY not found")

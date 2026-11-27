@@ -1,0 +1,9 @@
+{
+  "name": "lru_cache",
+  "description": "A least-recently-used cache with hit/miss/eviction statistics, pop, resize and a memoize helper.",
+  "bugs": [
+    "_touch() only appends unseen keys, so get/put never move an existing key to most-recent",
+    "put() evicts whenever the cache is full, even when only updating an existing key",
+    "pop() removes the value but leaves the key in the recency list, corrupting later evictions"
+  ]
+}

@@ -1,0 +1,15 @@
+{"stop": "solved", "name": "t01_inventory_ledger", "solved_at": 4, "total_tokens": 17875, "error": false, "n_turns": 4}
+{"stop": "solved", "name": "t02_word_frequency", "solved_at": 5, "total_tokens": 20746, "error": false, "n_turns": 5}
+{"stop": "solved", "name": "t03_business_calendar", "solved_at": 2, "total_tokens": 6733, "error": false, "n_turns": 2}
+{"stop": "solved", "name": "t04_lru_cache", "solved_at": 4, "total_tokens": 15536, "error": false, "n_turns": 4}
+{"stop": "max_turns", "name": "t05_interval_merger", "total_tokens": 49152, "error": false, "n_turns": 12}
+{"stop": "solved", "name": "t06_expression_parser", "solved_at": 6, "total_tokens": 23745, "error": false, "n_turns": 6}
+{"stop": "max_turns", "name": "t07_csv_quoting", "total_tokens": 49152, "error": false, "n_turns": 12}
+{"stop": "solved", "name": "t08_matrix_utils", "solved_at": 5, "total_tokens": 21206, "error": false, "n_turns": 5}
+{"stop": "solved", "name": "t09_task_scheduler", "solved_at": 6, "total_tokens": 24575, "error": false, "n_turns": 6}
+{"stop": "solved", "name": "t10_rle_huffman", "solved_at": 7, "total_tokens": 28783, "error": false, "n_turns": 7}
+{"stop": "solved", "name": "t11_bank_transfers", "solved_at": 2, "total_tokens": 9158, "error": false, "n_turns": 2}
+{"stop": "solved", "name": "t12_graph_paths", "solved_at": 6, "total_tokens": 24814, "error": false, "n_turns": 6}
+{"stop": "max_turns", "name": "t13_markdown_table", "total_tokens": 49152, "error": false, "n_turns": 12}
+{"stop": "solved", "name": "t14_unit_converter", "solved_at": 1, "total_tokens": 4957, "error": false, "n_turns": 1}
+{"stop": "solved", "name": "t15_version_sorter", "solved_at": 3, "total_tokens": 13220, "error": false, "n_turns": 3}

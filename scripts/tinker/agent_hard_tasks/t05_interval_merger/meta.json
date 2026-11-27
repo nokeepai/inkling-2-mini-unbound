@@ -1,0 +1,9 @@
+{
+  "name": "interval_merger",
+  "description": "Utilities for closed numeric intervals: merging, coverage, gaps, intersection, subtraction and point lookup.",
+  "bugs": [
+    "merge() appends the caller's interval object itself, so reversed pairs stay reversed and later extension mutates the input",
+    "merge() uses < instead of <=, so touching intervals are not merged",
+    "intersect() advances the pointer by comparing start points instead of end points"
+  ]
+}

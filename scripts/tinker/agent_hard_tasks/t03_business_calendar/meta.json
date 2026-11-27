@@ -1,0 +1,9 @@
+{
+  "name": "business_calendar",
+  "description": "Business-day calendar helpers (date ranges, business-day counting and arithmetic, month grids) plus a small booking schedule.",
+  "bugs": [
+    "daterange() excludes the end date (range of (end - start).days without + 1)",
+    "is_weekend() uses > 5, so Saturday counts as a business day",
+    "add_business_days() ignores the holidays argument when stepping"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "name": "inventory_ledger",
+  "description": "An inventory ledger that tracks stock per SKU with weighted-average costing, tags, shipments and a stock report.",
+  "bugs": [
+    "receive() uses a mutable default tags=[] that is shared by every SKU created without tags",
+    "ship() refuses to ship the entire remaining quantity (<= instead of <)",
+    "_weighted_average forgets to multiply the new cost by the new quantity"
+  ]
+}

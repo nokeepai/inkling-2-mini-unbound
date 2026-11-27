@@ -1,0 +1,23 @@
+import os, sys; sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from solution import *
+m = SeatMap(3, 5)
+assert m.free_count() == 15, "all free"
+assert m.parse("A1") == (0, 0), "parse first seat"
+assert m.label(2, 4) == "C5", "label last seat"
+assert m.find_block(5) == ["A1", "A2", "A3", "A4", "A5"], "full row block"
+assert m.find_block(6) is None, "block wider than row"
+assert m.book(["A2", "A3"]) == True, "book two"
+assert m.book(["A3", "A4"]) == False, "overlap rejected"
+assert m.is_free("A4") == True, "all-or-nothing booking"
+assert m.book(["B1", "B1"]) == False, "duplicate seat rejected"
+assert m.row_string(0) == ".XX..", "row string"
+assert m.find_block(2) == ["A4", "A5"], "first block of two"
+assert m.find_block(3) == ["B1", "B2", "B3"], "first block of three"
+assert m.best_block(3) == ["B2", "B3", "B4"], "best block centred"
+assert m.best_block(1) == ["B3"], "best single seat"
+assert m.book(["B2", "B3", "B4"]) == True, "book centre"
+assert m.best_block(3) == ["C2", "C3", "C4"], "best block falls back to back row"
+assert m.occupancy() == 33, "occupancy percent"
+assert m.cancel("A2") == True, "cancel booked"
+assert m.cancel("A2") == False, "cancel free seat"
+assert m.free_count() == 11, "free after cancel"

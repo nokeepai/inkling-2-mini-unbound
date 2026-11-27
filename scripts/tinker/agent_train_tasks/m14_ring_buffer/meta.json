@@ -1,0 +1,1 @@
+{"name": "ring_buffer", "description": "Fixed-capacity ring buffer that overwrites its oldest entry, with rolling-window helpers."}
